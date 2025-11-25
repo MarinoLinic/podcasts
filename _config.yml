@@ -1,5 +1,8 @@
 title: Podcast Notes
 description: Archive of notes and transcripts
 permalink: /:title/
-markdown: kramdown
 theme: null
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
