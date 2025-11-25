@@ -6,46 +6,41 @@
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
 		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
 	<body>
+		<!-- Mobile Menu Button -->
+		<button class="menu-toggle" id="menuToggle"><span>☰</span> Menu</button>
+
+		<!-- Dark Overlay for Mobile -->
+		<div class="overlay" id="overlay"></div>
+
 		<div class="container">
 			<!-- Sidebar -->
-			<aside class="sidebar">
+			<aside class="sidebar" id="sidebar">
 				<header>
 					<h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
 					<p class="subtitle">Archive</p>
 				</header>
 				<nav>
-					<!-- 1. Extract all Authors from Notes -->
 					{% assign all_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign authors =
 					all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
 					<details open class="author-group">
 						<summary>{{ author }}</summary>
 						<ul>
-							<!-- 2. Get notes for this specific author -->
 							{% assign author_notes = all_notes | where: "author", author %}
-
-							<!-- 3. Sorting Logic:
-                                 - Top Notes: Rating == 5 (Sorted by Date Descending)
-                                 - Other Notes: Rating != 5 (Sorted by Date Descending)
-                            -->
+							<!-- Sorting Logic: Rating 5 first, then Date -->
 							{% assign top_notes = author_notes | where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes
-							= author_notes | where_exp: "item", "item.rating != 5" | sort: "date" | reverse %}
-
-							<!-- Output Rating 5 Notes (Must Read) -->
-							{% for note in top_notes %}
+							= author_notes | where_exp: "item", "item.rating != 5" | sort: "date" | reverse %} {% for note in
+							top_notes %}
 							<li class="rating-5">
 								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}">
 									{{ note.title }}
 								</a>
 							</li>
-							{% endfor %}
-
-							<!-- Output Standard Notes (Ratings 1-4) -->
-							{% for note in other_notes %}
+							{% endfor %} {% for note in other_notes %}
 							<li class="rating-{{ note.rating }}">
 								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}">
 									{{ note.title }}
@@ -62,15 +57,13 @@
 			<main class="content">
 				{% if page.path contains 'Notes/' %}
 				<article class="markdown-body" id="note-content">
-					<!-- Header with Metadata (Author, Date, Rating) -->
+					<!-- Clean Header: Author & Date Only. NO RATING. -->
 					<div class="note-header">
-						<h1 style="margin-bottom: 0">{{ page.title }}</h1>
+						<h1>{{ page.title }}</h1>
 						<div class="meta-tags">
-							<span class="meta-author">👤 {{ page.author }}</span>
-							<span class="meta-date">📅 {{ page.date | date: "%d %b %Y" }}</span>
-							<span class="meta-rating rating-tag-{{ page.rating }}">
-								{% if page.rating == 5 %}★ Must Read{% else %}Rating: {{ page.rating }}{% endif %}
-							</span>
+							<span class="meta-author">{{ page.author }}</span>
+							<span class="meta-separator">•</span>
+							<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
 						</div>
 					</div>
 
@@ -88,34 +81,53 @@
 				</section>
 
 				<script>
+					// --- Mobile Menu Logic ---
+					const menuBtn = document.getElementById('menuToggle')
+					const sidebar = document.getElementById('sidebar')
+					const overlay = document.getElementById('overlay')
+					const sidebarLinks = document.querySelectorAll('.sidebar nav a')
+
+					function toggleMenu() {
+						sidebar.classList.toggle('open')
+						overlay.classList.toggle('active')
+						// Change text based on state
+						if (sidebar.classList.contains('open')) {
+							menuBtn.innerHTML = '<span>✕</span> Close'
+						} else {
+							menuBtn.innerHTML = '<span>☰</span> Menu'
+						}
+					}
+
+					menuBtn.addEventListener('click', toggleMenu)
+					overlay.addEventListener('click', toggleMenu)
+
+					// Auto-close menu when clicking a link on mobile
+					sidebarLinks.forEach((link) => {
+						link.addEventListener('click', () => {
+							if (window.innerWidth <= 768) {
+								toggleMenu()
+							}
+						})
+					})
+
+					// --- Transcript & Link Logic ---
 					document.addEventListener('DOMContentLoaded', function () {
-						// --- 1. Transcript Fetcher Logic ---
-						// We calculate the transcript filename based on the markdown filename.
-						// If the Python script skipped downloading it, this fetch will fail gracefully.
-						const currentPath = '{{ page.path }}' // e.g., Notes/Author - Title.md
+						const currentPath = '{{ page.path }}'
 						const filename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + filename
 
 						fetch(transcriptPath)
-							.then((response) => {
-								if (!response.ok) throw new Error('Transcript not found')
-								return response.text()
+							.then((res) => {
+								if (!res.ok) throw new Error('Not found')
+								return res.text()
 							})
-							.then((text) => {
-								document.getElementById('transcript-text').textContent = text
-							})
-							.catch((err) => {
-								// If 404 (missing file), show this message instead of crashing
-								document.getElementById('transcript-text').textContent = 'Transcript not available.'
-							})
+							.then((text) => (document.getElementById('transcript-text').textContent = text))
+							.catch((err) => (document.getElementById('transcript-text').textContent = 'Transcript not available.'))
 
-						// --- 2. Auto-Linkifier Logic ---
-						// Converts plain text URLs in the body into clickable links
 						const contentDiv = document.getElementById('note-content')
 						if (contentDiv) {
 							function linkify(node) {
 								if (node.nodeType === 3) {
-									// Text node
 									const urlRegex = /(https?:\/\/[^\s]+)/g
 									const text = node.nodeValue
 									if (urlRegex.test(text)) {
@@ -129,7 +141,6 @@
 									node.tagName !== 'PRE' &&
 									node.tagName !== 'CODE'
 								) {
-									// Recursive check
 									Array.from(node.childNodes).forEach(linkify)
 								}
 							}
@@ -138,7 +149,6 @@
 					})
 				</script>
 				{% else %}
-				<!-- Fallback for non-note pages (like Index) -->
 				<div class="markdown-body">{{ content }}</div>
 				{% endif %}
 			</main>

@@ -8,8 +8,6 @@ date: 2023-01-29
 
 Here are comprehensive notes from the transcript discussing the role of emotions in driving civilizations and historical cycles.
 
-Rating: 3
-Date: `29 Jan 2023`
 Video URL: https://www.youtube.com/watch?v=Ul2iW3mWl90
 
 ---

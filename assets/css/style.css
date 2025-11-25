@@ -1,17 +1,13 @@
 :root {
-	/* Strict Light Mode Variables */
 	--bg-color: #ffffff;
-	--sidebar-bg: #f8f9fa;
-	--text-color: #24292f;
-	--secondary-text: #57606a;
+	--sidebar-bg: #fbfbfb; /* Very subtle off-white for sidebar */
+	--text-color: #37352f; /* Notion-like dark gray */
+	--secondary-text: #787774;
 	--accent-color: #0969da;
-	--border-color: #d0d7de;
-	--code-bg: #f6f8fa;
-	--hover-bg: #eaeef2;
-
-	/* Fonts */
+	--border-color: #e6e6e6;
+	--active-bg: #edf5fd; /* Light blue pill background */
 	--font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
-	--font-mono: 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
+	--font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, monospace;
 }
 
 html {
@@ -33,26 +29,31 @@ body {
 	overflow-x: hidden;
 }
 
-/* --- LINK STYLING --- */
+/* Links */
 a {
+	color: inherit;
+	text-decoration: none;
+	word-break: break-word;
+}
+/* Content links specifically */
+.markdown-body a {
 	color: var(--accent-color);
 	text-decoration: none;
-	font-weight: 500;
-	word-break: break-all; /* Prevents long links from breaking layout */
 }
-a:hover {
+.markdown-body a:hover {
 	text-decoration: underline;
 }
 
-/* Layout */
+/* Layout Container */
 .container {
 	display: flex;
 	min-height: 100vh;
+	position: relative;
 }
 
-/* Sidebar */
+/* --- SIDEBAR (Archive) --- */
 .sidebar {
-	width: 280px;
+	width: 300px;
 	background-color: var(--sidebar-bg);
 	border-right: 1px solid var(--border-color);
 	display: flex;
@@ -60,314 +61,234 @@ a:hover {
 	position: fixed;
 	height: 100vh;
 	overflow-y: auto;
-	z-index: 10;
+	z-index: 100;
+	transition: transform 0.3s ease; /* Slide animation */
 }
 
+/* Sidebar Header */
 .sidebar header {
-	padding: 24px 20px;
-	border-bottom: 1px solid var(--border-color);
+	padding: 30px 24px 20px;
 	background: var(--sidebar-bg);
+	position: sticky;
+	top: 0;
+	z-index: 10;
 }
 
 .sidebar h1 a {
 	color: var(--text-color);
-	font-size: 1.1rem;
+	font-size: 1.2rem;
 	font-weight: 700;
-	word-break: normal;
 }
 
 .subtitle {
-	font-size: 0.85rem;
+	font-size: 0.8rem;
 	color: var(--secondary-text);
-	margin: 4px 0 0 0;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	margin-top: 5px;
 }
 
+/* Archive List Styling */
+.sidebar nav {
+	padding-bottom: 40px;
+}
 .sidebar nav ul {
 	list-style: none;
-	padding: 10px 0;
+	padding: 0;
 	margin: 0;
 }
 
+/* Author Groups */
+details.author-group {
+	margin-bottom: 8px;
+}
+details.author-group summary {
+	padding: 8px 24px;
+	cursor: pointer;
+	font-size: 0.85rem;
+	font-weight: 600;
+	color: var(--secondary-text);
+	user-select: none;
+	transition: color 0.2s;
+}
+details.author-group summary:hover {
+	color: var(--text-color);
+}
+
+/* Note Links in Sidebar */
 .sidebar nav li a {
 	display: block;
-	padding: 8px 20px;
-	color: var(--text-color);
+	padding: 6px 24px 6px 40px; /* Indent */
 	font-size: 0.9rem;
-	border-left: 3px solid transparent;
-	word-break: normal;
+	color: var(--text-color);
+	border-radius: 4px;
+	margin: 0 10px; /* Spacing for pill shape */
+	transition: background 0.1s;
 }
 
 .sidebar nav li a:hover {
-	background-color: #ecf0f4;
+	background-color: rgba(0, 0, 0, 0.04);
 }
 
 .sidebar nav li a.active {
-	background-color: #ffffff;
-	border-left: 3px solid var(--accent-color);
-	font-weight: 600;
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+	background-color: var(--active-bg);
+	color: var(--accent-color);
+	font-weight: 500;
 }
 
-/* Main Content */
+/* Sort Logic Visualization (Minimal) */
+/* Bold top rated articles, but no colors/stars */
+li.rating-5 a {
+	font-weight: 600;
+}
+
+/* --- MAIN CONTENT --- */
 .content {
-	margin-left: 280px;
-	padding: 60px 80px;
+	margin-left: 300px; /* Matches sidebar width */
+	padding: 80px 100px;
 	max-width: 900px;
 	width: 100%;
 	background: #fff;
 	min-width: 0;
 }
 
-/* --- TYPOGRAPHY --- */
-.markdown-body {
-	/* Increased size for Desktop */
-	font-size: 18px;
-	color: var(--text-color);
-	overflow-wrap: break-word;
-}
-
-.markdown-body h1 {
-	border-bottom: 1px solid var(--border-color);
-	padding-bottom: 15px;
-	margin-bottom: 30px;
-	font-size: 2.2rem;
-	line-height: 1.3;
-	font-weight: 700;
-}
-.markdown-body h2 {
-	margin-top: 50px;
-	padding-bottom: 8px;
-	border-bottom: 1px solid var(--hover-bg);
-	font-size: 1.65rem;
-	font-weight: 600;
-}
-.markdown-body h3 {
-	margin-top: 35px;
-	font-size: 1.35rem;
-	font-weight: 600;
-}
-.markdown-body ul,
-.markdown-body ol {
-	padding-left: 30px;
-	margin-bottom: 16px;
-}
-.markdown-body li {
-	margin-bottom: 8px;
-}
-
-/* Code Blocks */
-.markdown-body pre,
-.markdown-body code {
-	background-color: var(--code-bg);
-	font-family: var(--font-mono);
-	font-size: 0.85em;
-	border-radius: 4px;
-}
-.markdown-body pre {
-	padding: 15px;
-	overflow-x: auto;
-	border: 1px solid var(--border-color);
-}
-.markdown-body code {
-	padding: 2px 6px;
-	border: 1px solid var(--border-color);
-	word-break: break-word;
-}
-
-/* --- TRANSCRIPT SECTION (Prettier Arrow) --- */
-.transcript-section {
-	margin-top: 60px;
-}
-
-details {
-	border: 1px solid var(--border-color);
-	border-radius: 6px;
-	overflow: hidden; /* Keeps content inside rounded corners */
-}
-
-summary {
-	padding: 15px 20px;
-	background-color: var(--sidebar-bg);
-	cursor: pointer;
-	font-weight: 600;
-	color: var(--text-color);
-	list-style: none; /* Hide default black triangle */
-	display: flex;
-	align-items: center;
-	transition: background 0.2s;
-}
-
-summary:hover {
-	background-color: var(--hover-bg);
-}
-
-/* Remove default marker in Webkit/Chrome */
-summary::-webkit-details-marker {
-	display: none;
-}
-
-/* Create Custom Arrow */
-summary::before {
-	content: '';
-	display: inline-block;
-	width: 8px;
-	height: 8px;
-	border-right: 2px solid var(--secondary-text);
-	border-bottom: 2px solid var(--secondary-text);
-	transform: rotate(-45deg); /* Points Right */
-	margin-right: 12px;
-	transition: transform 0.2s ease;
-	margin-bottom: 2px;
-}
-
-/* Rotate Arrow when Open */
-details[open] summary::before {
-	transform: rotate(45deg); /* Points Down */
-	border-color: var(--accent-color);
-}
-
-details[open] summary {
-	border-bottom: 1px solid var(--border-color);
-	color: var(--accent-color);
-}
-
-.transcript-content {
-	padding: 25px;
-	background: #fff;
-	max-height: 600px;
-	overflow-y: auto;
-}
-#transcript-text {
-	font-size: 0.85rem;
-	color: var(--secondary-text);
-	border: none;
-	background: transparent;
-	padding: 0;
-	white-space: pre-wrap;
-	word-break: break-word;
-}
-
-/* --- MOBILE RESPONSIVE TWEAKS --- */
-@media (max-width: 768px) {
-	.container {
-		flex-direction: column;
-	}
-
-	.sidebar {
-		width: 100%;
-		height: auto;
-		position: relative;
-		border-right: none;
-		border-bottom: 1px solid var(--border-color);
-	}
-
-	.content {
-		margin-left: 0;
-		padding: 30px 20px;
-		width: 100vw;
-	}
-
-	/* Scaling down text for Mobile */
-	.markdown-body {
-		font-size: 16px; /* Back to 16px for mobile */
-	}
-
-	.markdown-body h1 {
-		font-size: 1.7rem;
-	}
-	.markdown-body h2 {
-		font-size: 1.4rem;
-	}
-
-	/* Tighten list indentation on mobile */
-	.markdown-body ul,
-	.markdown-body ol {
-		padding-left: 18px; /* Significantly reduced from default 40px */
-	}
-
-	/* Ensure code blocks don't push width out */
-	.markdown-body pre {
-		white-space: pre;
-		overflow-x: scroll;
-	}
-}
-
-/* --- SIDEBAR GROUPING & RATINGS --- */
-
-/* Author Group Header */
-details.author-group {
-	border: none;
-	border-bottom: 1px solid var(--border-color);
-	margin-bottom: 0;
-	border-radius: 0;
-}
-
-details.author-group summary {
-	background-color: #fff;
-	font-size: 0.8rem;
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	color: var(--secondary-text);
-	padding: 12px 20px;
-	border-radius: 0;
-	border: none;
-}
-
-/* Custom arrow for sidebar author groups */
-details.author-group summary::before {
-	margin-right: 8px;
-	width: 6px;
-	height: 6px;
-}
-
-/* Sidebar Links */
-.sidebar nav li a {
-	padding-left: 35px; /* Indent content */
-	border-left: 0; /* Remove default left border logic */
-	font-size: 0.9rem;
-}
-.sidebar nav li a.active {
-	background: #fff;
-	border-right: 3px solid var(--accent-color); /* Move active indicator to right */
-	border-left: none;
-	box-shadow: none;
-}
-
-/* Rating 5 - High Visibility */
-li.rating-5 a {
-	color: #d97706; /* Amber/Gold color */
-	font-weight: 600;
-}
-li.rating-5 a::after {
-	content: ' ★';
-	font-size: 0.8em;
-}
-
-/* Rating 1 - Low Visibility */
-li.rating-1 a {
-	color: #9ca3af; /* Light gray */
-	opacity: 0.8;
-}
-
-/* Header Metadata Tags */
+/* Note Header */
 .note-header {
-	border-bottom: 1px solid var(--border-color);
-	padding-bottom: 20px;
-	margin-bottom: 30px;
+	margin-bottom: 40px;
+}
+.note-header h1 {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin: 0 0 10px 0;
+	line-height: 1.2;
+	color: #111;
 }
 .meta-tags {
 	display: flex;
-	gap: 15px;
-	margin-top: 10px;
-	font-size: 0.85rem;
+	gap: 20px;
+	font-size: 0.9rem;
 	color: var(--secondary-text);
-	font-family: var(--font-mono);
+	font-family: var(--font-main); /* Keep consistent */
 }
-.rating-tag-5 {
-	color: #d97706;
-	font-weight: bold;
-	background: #fffbeb;
-	padding: 2px 6px;
-	border-radius: 4px;
-	border: 1px solid #fcd34d;
+
+/* Typography */
+.markdown-body {
+	font-size: 18px;
+	color: #37352f;
+}
+.markdown-body h2 {
+	margin-top: 40px;
+	font-size: 1.5rem;
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: 8px;
+}
+.markdown-body h3 {
+	margin-top: 30px;
+	font-size: 1.25rem;
+}
+.markdown-body ul,
+.markdown-body ol {
+	padding-left: 25px;
+}
+.markdown-body li {
+	margin-bottom: 6px;
+}
+
+/* Transcripts */
+.transcript-section {
+	margin-top: 60px;
+}
+details#transcript-container {
+	border: 1px solid var(--border-color);
+	border-radius: 6px;
+}
+details#transcript-container summary {
+	padding: 15px;
+	font-weight: 500;
+	background: #fafafa;
+	cursor: pointer;
+}
+.transcript-content {
+	padding: 20px;
+	background: #fff;
+	max-height: 500px;
+	overflow-y: auto;
+}
+#transcript-text {
+	font-size: 0.8rem;
+	color: var(--secondary-text);
+	white-space: pre-wrap;
+	border: none;
+}
+
+/* --- MOBILE MENU & RESPONSIVENESS --- */
+
+/* Hamburger Button (Hidden on Desktop) */
+.menu-toggle {
+	display: none;
+	position: fixed;
+	top: 15px;
+	left: 20px;
+	z-index: 200;
+	background: #fff;
+	border: 1px solid var(--border-color);
+	padding: 8px 12px;
+	border-radius: 6px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+	cursor: pointer;
+	font-weight: 600;
+	font-size: 0.9rem;
+	align-items: center;
+	gap: 6px;
+}
+
+@media (max-width: 768px) {
+	/* Show Menu Button */
+	.menu-toggle {
+		display: flex;
+	}
+
+	/* Hide Sidebar by default (slide out to left) */
+	.sidebar {
+		transform: translateX(-100%);
+		width: 85%; /* Don't take full width, leave a gap */
+		max-width: 320px;
+		box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+		background: #fff;
+	}
+
+	/* Open State */
+	.sidebar.open {
+		transform: translateX(0);
+	}
+
+	/* Content adjustments */
+	.content {
+		margin-left: 0;
+		padding: 80px 20px 40px; /* Top padding for menu btn */
+		width: 100vw;
+	}
+
+	/* Typography scaling */
+	.note-header h1 {
+		font-size: 1.8rem;
+	}
+	.markdown-body {
+		font-size: 16px;
+	}
+
+	/* Overlay for clicking out */
+	.overlay {
+		display: none;
+		position: fixed;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: rgba(0, 0, 0, 0.3);
+		z-index: 90;
+	}
+	.overlay.active {
+		display: block;
+	}
 }

@@ -3,14 +3,20 @@ import re
 import datetime
 import sys
 
-# Try importing, but don't crash if library is missing/broken
+# --- IMPORT HACK (Keep this to bypass your IP/Library issues) ---
 try:
-    from youtube_transcript_api import YouTubeTranscriptApi, TranscriptsDisabled, NoTranscriptFound
+    from youtube_transcript_api import YouTubeTranscriptApi
     from youtube_transcript_api.formatters import TextFormatter
     LIBRARY_AVAILABLE = True
 except ImportError:
     LIBRARY_AVAILABLE = False
-    print("Warning: youtube_transcript_api not functioning. Transcripts will be skipped.")
+
+if LIBRARY_AVAILABLE and not hasattr(YouTubeTranscriptApi, 'get_transcript'):
+    try:
+        from youtube_transcript_api._api import YouTubeTranscriptApi
+    except ImportError:
+        LIBRARY_AVAILABLE = False
+# ---------------------------------------------------------------
 
 # Configuration
 SOURCE_FOLDER = "Notes"       
@@ -33,11 +39,10 @@ def extract_metadata_and_clean(content, filename):
     else:
         author, title = "Uncategorized", base_name
 
-    # 2. Rating
+    # 2. Extract Metadata
     rating_match = re.search(RATING_REGEX, content)
     rating = int(rating_match.group(1)) if rating_match else 0
     
-    # 3. Date
     date_match = re.search(DATE_REGEX, content)
     date_str = ""
     if date_match:
@@ -47,15 +52,19 @@ def extract_metadata_and_clean(content, filename):
         except ValueError:
             pass
 
-    # 4. Cleanup Body (Remove Rating line only)
+    # 3. CLEAN CONTENT
+    # Remove Rating AND Date lines from the body so they don't show up twice
     content = re.sub(r'^Rating:\s*\d+.*$', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^Date:\s*`?.*`?.*$', '', content, flags=re.MULTILINE)
+    
+    # Clean up empty newlines
     content = re.sub(r'\n{3,}', '\n\n', content).strip()
 
-    # 5. Check if YAML exists
+    # 4. Check if YAML exists
     if content.startswith("---"):
         return None, content
 
-    # 6. Generate YAML
+    # 5. Generate YAML
     yaml = "---\n"
     yaml += f'layout: default\n'
     yaml += f'title: "{title}"\n'
@@ -70,7 +79,6 @@ def extract_metadata_and_clean(content, filename):
 def main():
     if not os.path.exists(OUTPUT_FOLDER):
         os.makedirs(OUTPUT_FOLDER)
-
     if not os.path.exists(SOURCE_FOLDER):
         print(f"Error: Folder '{SOURCE_FOLDER}' not found.")
         return
@@ -86,7 +94,7 @@ def main():
         with open(input_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        # --- STEP 1: Process Metadata (ALWAYS RUNS) ---
+        # --- STEP 1: Metadata & Cleaning ---
         yaml_header, cleaned_body = extract_metadata_and_clean(content, filename)
         
         if yaml_header:
@@ -96,30 +104,23 @@ def main():
                 f.write(full_text)
             content = full_text
 
-        # --- STEP 2: Download Transcript (OPTIONAL / FAULT TOLERANT) ---
-        # If this fails (IP block), we just skip it.
-        if not LIBRARY_AVAILABLE:
-            continue
+        # --- STEP 2: Transcripts (Skip if blocked/missing) ---
+        if not LIBRARY_AVAILABLE: continue
 
         base_name = os.path.splitext(filename)[0]
         output_path = os.path.join(OUTPUT_FOLDER, f"{base_name}.txt")
 
-        # Skip if we already have it
-        if os.path.exists(output_path):
-            continue
+        if os.path.exists(output_path): continue
 
         video_ids = get_video_ids(content)
-        if not video_ids:
-            continue
+        if not video_ids: continue
 
         print(f"Attempting Download: '{filename}'...")
-
         try:
             full_transcript_text = ""
             success = False
-
             for i, video_id in enumerate(video_ids):
-                # Try fetching
+                # Using standard call (with hack applied at top if needed)
                 transcript_data = YouTubeTranscriptApi.get_transcript(video_id)
                 formatted_part = formatter.format_transcript(transcript_data)
                 
@@ -134,8 +135,7 @@ def main():
                 print(f"  [✓] Success.")
 
         except Exception as e:
-            # THIS IS THE FIX: We catch the error, print a warning, and CONTINUE.
-            print(f"  [!] Skipped transcript (IP Block or Error): {e}")
+            print(f"  [!] Skipped transcript (Error): {e}")
             continue
 
 if __name__ == "__main__":

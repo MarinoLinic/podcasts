@@ -8,7 +8,6 @@ date: 2025-10-14
 
 Here are the comprehensive notes from the interview between Peter McCormack and Curtis Yarvin. 
 
-Date: `14 Oct 2025` 
 Video URL: https://www.youtube.com/watch?v=47yObVOJciw
 
 ---

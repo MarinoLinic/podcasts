@@ -8,8 +8,6 @@ date: 2025-10-28
 
 Here are detailed notes from the discussion with Professor David Betts (King’s College London) regarding his thesis on the potential for civil war in the West. 
 
-Rating: 5
-Date: `28 Oct 2025` 
 Video URL: https://www.youtube.com/watch?v=5ioTSLpPuME
 
 ---
