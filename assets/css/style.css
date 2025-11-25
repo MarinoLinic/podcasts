@@ -1,10 +1,10 @@
 :root {
 	/* Strict Light Mode Variables */
 	--bg-color: #ffffff;
-	--sidebar-bg: #f8f9fa; /* Very subtle gray */
+	--sidebar-bg: #f8f9fa;
 	--text-color: #24292f;
 	--secondary-text: #57606a;
-	--accent-color: #0969da; /* GitHub Blue */
+	--accent-color: #0969da;
 	--border-color: #d0d7de;
 	--code-bg: #f6f8fa;
 	--hover-bg: #eaeef2;
@@ -14,6 +14,15 @@
 	--font-mono: 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
 body {
 	margin: 0;
 	padding: 0;
@@ -21,15 +30,17 @@ body {
 	color: var(--text-color);
 	font-family: var(--font-main);
 	line-height: 1.6;
-	overflow-x: hidden; /* Prevent horizontal scroll on mobile */
+	overflow-x: hidden;
 }
 
-/* Link Styling */
+/* --- LINK STYLING (The Fix) --- */
 a {
 	color: var(--accent-color);
 	text-decoration: none;
 	font-weight: 500;
-	overflow-wrap: anywhere; /* Ensures links break if they are too long */
+
+	/* This forces long URLs to break anywhere, fixing the overflow */
+	word-break: break-all;
 }
 a:hover {
 	text-decoration: underline;
@@ -64,6 +75,7 @@ a:hover {
 	color: var(--text-color);
 	font-size: 1.1rem;
 	font-weight: 700;
+	word-break: normal; /* Don't break sidebar titles */
 }
 
 .subtitle {
@@ -84,6 +96,7 @@ a:hover {
 	color: var(--text-color);
 	font-size: 0.9rem;
 	border-left: 3px solid transparent;
+	word-break: normal; /* Don't break sidebar links */
 }
 
 .sidebar nav li a:hover {
@@ -99,32 +112,36 @@ a:hover {
 
 /* Main Content */
 .content {
-	margin-left: 280px; /* Matches sidebar width */
+	margin-left: 280px;
 	padding: 60px 80px;
-	max-width: 800px;
+	max-width: 900px; /* Slightly wider constraint */
 	width: 100%;
 	background: #fff;
+	/* Ensure content never pushes past 100% of its flex container */
+	min-width: 0;
 }
 
-/* Typography & Content Layout */
+/* Typography */
 .markdown-body {
 	font-size: 16px;
-	/* This is the magic property that fixes the long URL overflow */
-	overflow-wrap: anywhere;
-	word-break: break-word;
+	color: var(--text-color);
 }
 
 .markdown-body h1 {
 	border-bottom: 1px solid var(--border-color);
 	padding-bottom: 10px;
 	margin-bottom: 30px;
+	font-size: 2rem;
+	line-height: 1.3;
 }
 .markdown-body h2 {
 	margin-top: 40px;
 	padding-bottom: 5px;
 	border-bottom: 1px solid var(--hover-bg);
+	font-size: 1.5rem;
 }
 
+/* Code Blocks */
 .markdown-body pre,
 .markdown-body code {
 	background-color: var(--code-bg);
@@ -134,12 +151,13 @@ a:hover {
 }
 .markdown-body pre {
 	padding: 15px;
-	overflow-x: auto;
+	overflow-x: auto; /* Allows code blocks to scroll horizontally if needed */
 	border: 1px solid var(--border-color);
 }
 .markdown-body code {
 	padding: 2px 6px;
 	border: 1px solid var(--border-color);
+	word-break: break-word; /* Let inline code break normally */
 }
 
 /* Transcript Section */
@@ -174,11 +192,11 @@ details[open] summary {
 	border: none;
 	background: transparent;
 	padding: 0;
-	overflow-wrap: anywhere;
 	white-space: pre-wrap;
+	word-break: break-word;
 }
 
-/* Mobile Responsive */
+/* --- MOBILE RESPONSIVE TWEAKS --- */
 @media (max-width: 768px) {
 	.container {
 		flex-direction: column;
@@ -194,8 +212,26 @@ details[open] summary {
 
 	.content {
 		margin-left: 0;
-		padding: 30px 20px;
-		max-width: 100%;
-		box-sizing: border-box; /* Ensures padding doesn't push width > 100% */
+		padding: 25px 20px; /* Reduced padding */
+		width: 100vw; /* Ensure it stays within viewport */
+	}
+
+	/* Scaling down text for Mobile */
+	.markdown-body {
+		font-size: 15px; /* Smaller body text */
+	}
+
+	.markdown-body h1 {
+		font-size: 1.6rem; /* Smaller H1 */
+	}
+
+	.markdown-body h2 {
+		font-size: 1.3rem; /* Smaller H2 */
+	}
+
+	/* Ensure code blocks don't push width out */
+	.markdown-body pre {
+		white-space: pre;
+		overflow-x: scroll;
 	}
 }
