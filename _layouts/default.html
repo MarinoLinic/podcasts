@@ -5,23 +5,21 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{ page.title }}</title>
 		<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
-		<!-- Google Fonts for typography -->
 		<link
-			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=JetBrains+Mono&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono&display=swap"
 			rel="stylesheet"
 		/>
 	</head>
 	<body>
 		<div class="container">
-			<!-- Sidebar / Navigation -->
+			<!-- Sidebar -->
 			<aside class="sidebar">
 				<header>
 					<h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-					<p class="subtitle">Library</p>
+					<p class="subtitle">Archive</p>
 				</header>
 				<nav>
 					<ul>
-						<!-- Loop through all files in Notes folder -->
 						{% for note in site.pages %} {% if note.path contains 'Notes/' %}
 						<li>
 							<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}">
@@ -33,19 +31,20 @@
 				</nav>
 			</aside>
 
-			<!-- Main Content Area -->
+			<!-- Main Content -->
 			<main class="content">
 				{% if page.path contains 'Notes/' %}
-				<article class="markdown-body">
+				<article class="markdown-body" id="note-content">
 					<h1>{{ page.name | replace: '.md', '' }}</h1>
-					<div class="note-content">{{ content }}</div>
+					<!-- Content injection -->
+					{{ content }}
 				</article>
 
 				<!-- Transcript Section -->
 				<section class="transcript-section">
-					<hr />
+					<hr style="border: 0; border-top: 1px solid #eaeaea; margin: 40px 0" />
 					<details id="transcript-container">
-						<summary>📄 View Transcript</summary>
+						<summary>📄 Read Transcript</summary>
 						<div class="transcript-content">
 							<pre id="transcript-text">Loading transcript...</pre>
 						</div>
@@ -53,12 +52,10 @@
 				</section>
 
 				<script>
-					// Logic to find the matching transcript
 					document.addEventListener('DOMContentLoaded', function () {
+						// 1. Fetch Transcript Logic
 						const noteFilename = '{{ page.name }}'
-						// Replace .md extension with .txt
 						const transcriptFilename = noteFilename.replace('.md', '.txt')
-						// Construct path (GitHub Pages serves relative to root)
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
 
 						fetch(transcriptPath)
@@ -70,14 +67,41 @@
 								document.getElementById('transcript-text').textContent = text
 							})
 							.catch((err) => {
-								document.getElementById('transcript-text').textContent =
-									'No matching transcript found in /Transcripts/ folder.'
+								document.getElementById('transcript-text').textContent = 'No matching transcript found.'
 							})
+
+						// 2. Auto-Linkifier Logic
+						// This finds plain text URLs and converts them to clickable links
+						const contentDiv = document.getElementById('note-content')
+						if (contentDiv) {
+							// Helper to linkify text nodes safely
+							function linkify(node) {
+								if (node.nodeType === 3) {
+									// Text node
+									const urlRegex = /(https?:\/\/[^\s]+)/g
+									const text = node.nodeValue
+									if (urlRegex.test(text)) {
+										const span = document.createElement('span')
+										span.innerHTML = text.replace(urlRegex, '<a href="$1" target="_blank">$1</a>')
+										node.parentNode.replaceChild(span, node)
+									}
+								} else if (
+									node.nodeType === 1 &&
+									node.tagName !== 'A' &&
+									node.tagName !== 'PRE' &&
+									node.tagName !== 'CODE'
+								) {
+									// Recurse for elements, skipping existing links and code blocks
+									Array.from(node.childNodes).forEach(linkify)
+								}
+							}
+							linkify(contentDiv)
+						}
 					})
 				</script>
 				{% else %}
-				<!-- This handles the Index page content -->
-				{{ content }} {% endif %}
+				<div class="markdown-body">{{ content }}</div>
+				{% endif %}
 			</main>
 		</div>
 	</body>
