@@ -1,0 +1,5 @@
+title: Podcast Notes
+description: Archive of notes and transcripts
+theme: jekyll-theme-prime # We will override this, but this sets a baseline
+permalink: /:title/
+markdown: kramdown
