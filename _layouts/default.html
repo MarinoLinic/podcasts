@@ -15,11 +15,13 @@
 		<button class="menu-toggle" id="menuToggle"><span>☰</span> Menu</button>
 
 		<!-- Dark Overlay for Mobile -->
-		<div class="overlay" id="overlay"></div>
+		<!-- Open overlay by default if on Home Page -->
+		<div class="overlay {% if page.url == '/' %}active{% endif %}" id="overlay"></div>
 
 		<div class="container">
 			<!-- Sidebar -->
-			<aside class="sidebar" id="sidebar">
+			<!-- Open sidebar by default if on Home Page -->
+			<aside class="sidebar {% if page.url == '/' %}open{% endif %}" id="sidebar">
 				<header>
 					<h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
 					<p class="subtitle">Archive</p>
@@ -57,7 +59,7 @@
 			<main class="content">
 				{% if page.path contains 'Notes/' %}
 				<article class="markdown-body" id="note-content">
-					<!-- Clean Header: Author & Date Only. NO RATING. -->
+					<!-- Clean Header -->
 					<div class="note-header">
 						<h1>{{ page.title }}</h1>
 						<div class="meta-tags">
@@ -80,38 +82,10 @@
 					</details>
 				</section>
 
+				<!-- NOTE SPECIFIC SCRIPTS -->
 				<script>
-					// --- Mobile Menu Logic ---
-					const menuBtn = document.getElementById('menuToggle')
-					const sidebar = document.getElementById('sidebar')
-					const overlay = document.getElementById('overlay')
-					const sidebarLinks = document.querySelectorAll('.sidebar nav a')
-
-					function toggleMenu() {
-						sidebar.classList.toggle('open')
-						overlay.classList.toggle('active')
-						// Change text based on state
-						if (sidebar.classList.contains('open')) {
-							menuBtn.innerHTML = '<span>✕</span> Close'
-						} else {
-							menuBtn.innerHTML = '<span>☰</span> Menu'
-						}
-					}
-
-					menuBtn.addEventListener('click', toggleMenu)
-					overlay.addEventListener('click', toggleMenu)
-
-					// Auto-close menu when clicking a link on mobile
-					sidebarLinks.forEach((link) => {
-						link.addEventListener('click', () => {
-							if (window.innerWidth <= 768) {
-								toggleMenu()
-							}
-						})
-					})
-
-					// --- Transcript & Link Logic ---
 					document.addEventListener('DOMContentLoaded', function () {
+						// Transcript Logic
 						const currentPath = '{{ page.path }}'
 						const filename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + filename
@@ -124,6 +98,7 @@
 							.then((text) => (document.getElementById('transcript-text').textContent = text))
 							.catch((err) => (document.getElementById('transcript-text').textContent = 'Transcript not available.'))
 
+						// Linkifier Logic
 						const contentDiv = document.getElementById('note-content')
 						if (contentDiv) {
 							function linkify(node) {
@@ -149,9 +124,67 @@
 					})
 				</script>
 				{% else %}
+				<!-- Index / Fallback Content -->
 				<div class="markdown-body">{{ content }}</div>
 				{% endif %}
 			</main>
 		</div>
+
+		<!-- GLOBAL SCRIPTS (Menu & Sidebar Memory) -->
+		<script>
+			// --- 1. Sidebar Scroll Memory ---
+			// Restore scroll position immediately
+			const sidebar = document.querySelector('.sidebar')
+			const scrollKey = 'sidebarScrollPos'
+			const savedScroll = localStorage.getItem(scrollKey)
+
+			if (savedScroll && sidebar) {
+				sidebar.scrollTop = savedScroll
+			}
+
+			// Save scroll position before leaving page
+			window.addEventListener('beforeunload', () => {
+				if (sidebar) {
+					localStorage.setItem(scrollKey, sidebar.scrollTop)
+				}
+			})
+
+			// --- 2. Mobile Menu Logic ---
+			const menuBtn = document.getElementById('menuToggle')
+			const overlay = document.getElementById('overlay')
+			const sidebarEl = document.getElementById('sidebar') // Use different var name to be safe
+			const sidebarLinks = document.querySelectorAll('.sidebar nav a')
+
+			function toggleMenu() {
+				sidebarEl.classList.toggle('open')
+				overlay.classList.toggle('active')
+
+				// Update Button Icon
+				if (sidebarEl.classList.contains('open')) {
+					menuBtn.innerHTML = '<span>✕</span> Close'
+				} else {
+					menuBtn.innerHTML = '<span>☰</span> Menu'
+				}
+			}
+
+			if (menuBtn) {
+				menuBtn.addEventListener('click', toggleMenu)
+				overlay.addEventListener('click', toggleMenu)
+			}
+
+			// Auto-close menu when clicking a link on mobile
+			sidebarLinks.forEach((link) => {
+				link.addEventListener('click', () => {
+					if (window.innerWidth <= 768) {
+						toggleMenu()
+					}
+				})
+			})
+
+			// Initialize button state if loaded open (e.g. Homepage)
+			if (sidebarEl.classList.contains('open')) {
+				menuBtn.innerHTML = '<span>✕</span> Close'
+			}
+		</script>
 	</body>
 </html>

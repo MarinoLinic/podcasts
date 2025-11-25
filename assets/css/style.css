@@ -1,11 +1,11 @@
 :root {
 	--bg-color: #ffffff;
-	--sidebar-bg: #fbfbfb; /* Very subtle off-white for sidebar */
-	--text-color: #37352f; /* Notion-like dark gray */
+	--sidebar-bg: #fbfbfb;
+	--text-color: #37352f;
 	--secondary-text: #787774;
 	--accent-color: #0969da;
 	--border-color: #e6e6e6;
-	--active-bg: #edf5fd; /* Light blue pill background */
+	--active-bg: #edf5fd;
 	--font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
 	--font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, monospace;
 }
@@ -62,7 +62,7 @@ a {
 	height: 100vh;
 	overflow-y: auto;
 	z-index: 100;
-	transition: transform 0.3s ease; /* Slide animation */
+	transition: transform 0.3s ease;
 }
 
 /* Sidebar Header */
@@ -118,12 +118,13 @@ details.author-group summary:hover {
 /* Note Links in Sidebar */
 .sidebar nav li a {
 	display: block;
-	padding: 6px 24px 6px 40px; /* Indent */
+	padding: 6px 24px 6px 40px;
 	font-size: 0.9rem;
 	color: var(--text-color);
 	border-radius: 4px;
-	margin: 0 10px; /* Spacing for pill shape */
+	margin: 0 10px;
 	transition: background 0.1s;
+	border-left: 0; /* Reset */
 }
 
 .sidebar nav li a:hover {
@@ -136,15 +137,14 @@ details.author-group summary:hover {
 	font-weight: 500;
 }
 
-/* Sort Logic Visualization (Minimal) */
-/* Bold top rated articles, but no colors/stars */
+/* Sort Logic Visualization */
 li.rating-5 a {
 	font-weight: 600;
 }
 
 /* --- MAIN CONTENT --- */
 .content {
-	margin-left: 300px; /* Matches sidebar width */
+	margin-left: 300px;
 	padding: 80px 100px;
 	max-width: 900px;
 	width: 100%;
@@ -165,10 +165,14 @@ li.rating-5 a {
 }
 .meta-tags {
 	display: flex;
-	gap: 20px;
+	gap: 12px;
 	font-size: 0.9rem;
 	color: var(--secondary-text);
-	font-family: var(--font-main); /* Keep consistent */
+	font-family: var(--font-main);
+	align-items: center;
+}
+.meta-separator {
+	color: #ddd;
 }
 
 /* Typography */
@@ -223,27 +227,27 @@ details#transcript-container summary {
 
 /* --- MOBILE MENU & RESPONSIVENESS --- */
 
-/* Hamburger Button (Hidden on Desktop) */
+/* Hamburger Button */
 .menu-toggle {
-	display: none;
+	display: none; /* Hidden on Desktop */
 	position: fixed;
 	top: 15px;
 	left: 20px;
-	z-index: 200;
+	z-index: 200; /* Ensure this is the highest */
 	background: #fff;
 	border: 1px solid var(--border-color);
-	padding: 8px 12px;
+	padding: 8px 14px;
 	border-radius: 6px;
-	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
 	cursor: pointer;
 	font-weight: 600;
 	font-size: 0.9rem;
 	align-items: center;
 	gap: 6px;
+	color: var(--text-color);
 }
 
 @media (max-width: 768px) {
-	/* Show Menu Button */
 	.menu-toggle {
 		display: flex;
 	}
@@ -251,7 +255,7 @@ details#transcript-container summary {
 	/* Hide Sidebar by default (slide out to left) */
 	.sidebar {
 		transform: translateX(-100%);
-		width: 85%; /* Don't take full width, leave a gap */
+		width: 85%;
 		max-width: 320px;
 		box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 		background: #fff;
@@ -265,11 +269,10 @@ details#transcript-container summary {
 	/* Content adjustments */
 	.content {
 		margin-left: 0;
-		padding: 80px 20px 40px; /* Top padding for menu btn */
+		padding: 80px 20px 40px;
 		width: 100vw;
 	}
 
-	/* Typography scaling */
 	.note-header h1 {
 		font-size: 1.8rem;
 	}
@@ -287,6 +290,7 @@ details#transcript-container summary {
 		bottom: 0;
 		background: rgba(0, 0, 0, 0.3);
 		z-index: 90;
+		backdrop-filter: blur(2px);
 	}
 	.overlay.active {
 		display: block;
