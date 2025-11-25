@@ -1,0 +1,139 @@
+---
+layout: default
+title: "Plan for Britain"
+author: "Curtis Yarvin"
+rating: 1
+date: 2025-09-29
+---
+
+Here are comprehensive notes from the interview with Curtis Yarvin on the Anglo Futurism Podcast.
+
+Rating: 1
+Date: `29 Sep 2025` 
+Video URL: https://www.youtube.com/watch?v=-4evSKxZvOA
+
+---
+
+### **1. Introduction: The King Charles III Space Station**
+*   **The Setting:**
+    *   The interview takes place in a conceptual "King Charles III Space Station."
+    *   **Arrival:** Curtis Yarvin arrives via a hot air balloon powered by his own "magnificent hot air"—a self-deprecating joke about his voluminous writing output.
+    *   **Airship Physics:** Yarvin discusses the actual feasibility of airships to space. It requires a massive balloon for buoyancy in the upper stratosphere, followed by rocket acceleration once in a vacuum (since space is about velocity, not just altitude).
+
+### **2. The State of the West: The "Banana" vs. The Wasteland**
+*   **The "Preference Cascade":**
+    *   We are currently living through a moment where ideas that were once impossible to voice are becoming mainstream.
+    *   *Example:* Normal people with normal jobs are now openly questioning the validity of the social contract, realizing that things like a "British passport" are just pieces of paper if the state cannot enforce order.
+*   **The "Banana" (Elysium):**
+    *   There are specific geographic zones of prosperity that function like the movie *Elysium*.
+    *   **London:** The "Banana" (a curved geographic zone stretching from Hampstead/Highgate down to Clapham/Richmond).
+    *   **California:** Palo Alto/Silicon Valley.
+    *   *The Vibe:* These areas feel like an "alternate present" where World War I never happened. They are manicured, beautiful, and completely detached from the reality of the rest of the country.
+*   **The Wasteland (The Andromeda Strain):**
+    *   Outside these bubbles, the West is a "burned-out wasteland."
+    *   **The Russell, Kansas Anecdote:** Yarvin recounts driving through Russell, Kansas (Bob Dole's hometown) in 2021.
+        *   The town was not just quiet due to COVID; it was populated by "shambling zombies."
+        *   There were no restaurants open, no life; the town had been completely hollowed out.
+    *   **The Ohio Anecdote:** Columbus, Ohio (formerly an industrial powerhouse) is now full of crumbling mansions and has been taken over by urban decay and foreign populations (Haitians/Somalis).
+    *   *Conclusion:* The defining feature of the modern West is the stark contrast between the preserved reality of the "Banana" and the "Andromeda Strain" reality of the interior.
+
+### **3. Sociology of Labor: The Deliveroo Economy vs. Slavery**
+*   **Defining Slavery:**
+    *   Yarvin introduces a sociological definition of slavery inspired by Robert Nozick (*Tale of a Slave*).
+    *   **Social Disconnection:** Slavery exists fundamentally when the people who serve you are completely removed from your social network.
+    *   **The Deliveroo/Uber Economy:** In the modern gig economy, there is zero social connection between the customer and the server. They are alien to one another.
+    *   *Personal Example:* Yarvin contrasts his current cleaner (a friend of his wife) with previous cleaners (illegal Brazilian immigrants with whom he had 10 degrees of social separation).
+*   **Historical Context (Feudal/Victorian):**
+    *   In the past, servants were part of the "family" structure (the etymology of "family" implies dependents).
+    *   Even if treated poorly, they were integrated into the social fabric. A chauffeur or butler was a lifelong connection.
+    *   **Carlyle’s Critique:** The modern "Gig Economy" is the ultimate realization of Thomas Carlyle's warning that "Money is the only nexus between man and man."
+*   **The Liberal Paradox:**
+    *   Liberals intuitively understand this problem, even if they can't name it.
+    *   **The Contradiction:** Liberals hate the Gig Economy (impersonal/precarious) but love the Japanese "Salaryman" system (e.g., Toyota).
+    *   **The Toyota Model:** In Japan, the corporation provides healthcare, identity, and lifelong security. Workers sing company hymns. It is essentially a form of benevolent slavery or feudalism.
+    *   *Conclusion:* The fact that liberals prefer the Salaryman model to the Uber model proves they actually desire a return to hierarchical, integrated social bonds, not the "freedom" of the market.
+
+### **4. The History of English Decline**
+*   **The Axial Age (16th Century):**
+    *   Yarvin identifies the 16th Century as the critical turning point for England.
+    *   **Henry VIII:** A "metal" king—a true sovereign with absolute power who tolerated no insubordination.
+*   **The Decline under Elizabeth I:**
+    *   While culturally significant, Yarvin argues Elizabeth I represented a decline in sovereignty.
+    *   **The Gender Issue:** Yarvin argues her gender led to a tendency to delegate excessive power to the civil service (the Cecils/Walsingham). This was the birth of the "Deep State" or "Platonic Guardians"—bureaucrats who believe they know better than the monarch.
+    *   **The Mary Queen of Scots Incident:** The bureaucracy tricked Elizabeth into signing the death warrant and carried it out without her direct command. Henry VIII would have executed the bureaucrats for such insubordination; Elizabeth complained but accepted it.
+*   **The Stuart Failure:**
+    *   **James I:** An "imported king" (from Scotland) without a domestic power base. His constant insistence on the "Divine Right of Kings" was a sign of weakness (true power doesn't need to constantly assert its text).
+    *   **The Rise of Parliament:** The Tudor Parliament was a rubber stamp (like the Supreme Soviet). Under the Stuarts, Parliament began to usurp sovereignty.
+    *   **The Legal Heresy:** The English Civil War established the "heresy" that the **Law is above the King**. Yarvin argues that for a state to function, the Sovereign must be above the law (the Schmittian exception/Royal Prerogative).
+
+### **5. Monarchy, Oligarchy, and the FDR Pivot**
+*   **The American Monarchy Cycle:**
+    *   The US system tends to produce a "King" every 80 years or so.
+    *   **Franklin D. Roosevelt (FDR):** The last true Monarch/CEO of America. He held absolute power and employed brilliant subordinates.
+*   **The Transition to Oligarchy:**
+    *   When FDR knew he was dying (1944), he chose Harry Truman (a nobody/haberdasher) as his successor rather than a capable heir.
+    *   **The "Pharaonic Move":** FDR wanted to be replaced by "nobody." He effectively decapitated the presidency so that his power would flow down into the agencies and bureaucracy.
+    *   **Result:** This created the modern "Deep State" or Oligarchy.
+*   **The Stability of Oligarchy:**
+    *   Oligarchies are extremely stable because they run on procedure.
+    *   There is no procedure for removing the procedure. You cannot vote out an oligarchy.
+    *   *The Solution:* The only way to fix it is a "Hercules cleaning the Augean Stables" moment—a return to Monarchy (Unity of Command).
+
+### **6. The Solution for Britain: Restoring Sovereignty**
+*   **The Parliamentary Opportunity:**
+    *   Britain has a unique advantage: **Parliamentary Sovereignty**.
+    *   *The Maxim:* Parliament can do anything except turn a man into a woman (which modern ideology claims it can do, making Parliament truly omnipotent).
+    *   **The Strategy:** Parliament should elect a Prime Minister and vest them with the full, absolute powers of a King.
+*   **The "Cathedral" Sweep:**
+    *   This leader would sweep away the NGOs, the quangos, the Human Rights Act, and the Supreme Court.
+    *   **The Supreme Court Embarrassment:** Yarvin mocks the UK Supreme Court as a "younger brother wearing his older brother's clothes." It is an embarrassing imitation of American dysfunction.
+    *   **Return to the Star Chamber:** The UK should return to the "Star Chamber"—an unapologetic assertion of executive justice.
+*   **The "Year Zero" Approach:**
+    *   Reform cannot be piecemeal. The analogy is the **Allied Military Government of Germany (1945)**.
+    *   When the Allies took over, they didn't respect Nazi laws or property rights derived from the Nazi state. It was "Year Zero."
+    *   A restorative government in the UK needs to view the current system (Blairite reforms, Equality Acts) as illegitimate as the Nazi legal code.
+    *   **The Mauritius/Chagos Example:** The giving away of the Chagos Islands was so perverse that Mauritius abolished its income tax because they can now just tax the US/UK for the base. This is a government working actively against its own people.
+
+### **7. Anglo Futurism: Space and Empire**
+*   **The Victorian Vibe:**
+    *   Yarvin identifies as a fan of the High Victorians (Kipling, etc.).
+    *   **Anglo Futurism:** Applying that Victorian ambition to the modern age.
+    *   *Cape to Cairo:* The past dream was a railway; the future dream is a Space Elevator or Hyperloop.
+*   **Elon Musk as the Ultimate Englishman:**
+    *   Musk is South African, which makes him part of the Empire/White Dominions. He represents the last spark of Victorian "can-do" energy.
+    *   **The Tragedy of Mars:** Yarvin argues Mars is the "cuck chair." It is running away from Earth.
+    *   **Antarctica:** Antarctica is better real estate than Mars. If you can terraform Mars, you can colonize Antarctica. The goal should be to fix Earth (and the Empire), not flee to a radiation-soaked rock.
+*   **The Anglosphere:**
+    *   The internet has reunified the English-speaking world.
+    *   The discourse is now transatlantic (e.g., "Charlie Kirk memorials in England").
+    *   The "Young Right" is a singular, global entity sharing the same memes and enemies.
+
+### **8. Geopolitics: The Fan in Washington**
+*   **The "Wind of Change" Myth:**
+    *   Harold Macmillan spoke of the "Wind of Change" decolonizing Africa.
+    *   **Yarvin's Counter:** It wasn't a wind; it was a **"Fan in Washington."** The US Empire (Eisenhower at Suez) forced Britain to decolonize.
+    *   **The Current State:** The Fan is off (or on low power).
+    *   If Britain decided to reassert control over former dominions (e.g., South Africa or Zimbabwe, which are failing), the US likely wouldn't stop them. The "International Community" is a paper tiger.
+*   **The El Salvador Example (Nayib Bukele):**
+    *   Bukele is the proof of concept for the "Just Do Things" philosophy.
+    *   He ended the reign of terror in El Salvador by ignoring human rights NGOs and the US State Department.
+    *   **Result:** 90% approval ratings and safety. Yarvin notes he felt safer carrying a laptop in San Salvador than in San Francisco or London.
+    *   *Lesson:* In 1975, the CIA would have crushed Bukele. Today, the US Empire is too senile to stop him. Sovereignty is there for the taking.
+
+### **9. The China/Debt Solution (West Oakland)**
+*   **The Problem:** The US cannot pay the trillions it owes to China.
+*   **The Proposal:** **Reverse Extraterritoriality**.
+    *   The US should cede **West Oakland** (a failed, high-crime area) to China.
+    *   It becomes a Chinese territory with Chinese police (white gloves, strict order).
+    *   **Win-Win:** China gets a foothold in the "Beautiful Country" (America), and Americans get a safe, clean manufacturing zone where they can drink bubble tea without getting mugged.
+
+### **10. Conclusion: Picking Up the Crown**
+*   **The Pornography of Power:**
+    *   Modern democracy is "pornographic." It simulates power for the voter (like watching sports) but offers no actual participation in governance.
+    *   Voting for the Tories or Labour is like cheering for Chelsea or Man United. It changes nothing.
+*   **The Future of Britain:**
+    *   Britain is fully capable of resuming leadership of the Western world.
+    *   America is intellectually exhausted and gridlocked.
+    *   A revitalized Britain, embracing its history and rejecting the "Empire of Love" (Liberalism), could build an Oxbridge that is miles ahead of Harvard.
+    *   **The Napoleon Quote:** "The Crown of France is lying in the gutter."
+    *   **The Closing Image:** The Crown of the Western World is currently lying in the gutter. It is waiting for someone (a King, a CEO, a Prime Minister with vision) to pick it up with their sword.

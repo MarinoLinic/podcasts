@@ -1,8 +1,16 @@
+---
+layout: default
+title: "Will Civil Unrest Come to the West"
+author: "David Betz"
+rating: 5
+date: 2025-10-28
+---
+
 Here are detailed notes from the discussion with Professor David Betts (King’s College London) regarding his thesis on the potential for civil war in the West. 
 
-28 Oct 2025. https://www.youtube.com/watch?v=5ioTSLpPuME
-
-AI: https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221e7r4zF2oISidYi0UGGo5JNL5XuDk6SP0%22%5D,%22action%22:%22open%22,%22userId%22:%22118142141777278847588%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
+Rating: 5
+Date: `28 Oct 2025` 
+Video URL: https://www.youtube.com/watch?v=5ioTSLpPuME
 
 ---
 

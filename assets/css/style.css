@@ -291,3 +291,83 @@ details[open] summary {
 		overflow-x: scroll;
 	}
 }
+
+/* --- SIDEBAR GROUPING & RATINGS --- */
+
+/* Author Group Header */
+details.author-group {
+	border: none;
+	border-bottom: 1px solid var(--border-color);
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+details.author-group summary {
+	background-color: #fff;
+	font-size: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+	color: var(--secondary-text);
+	padding: 12px 20px;
+	border-radius: 0;
+	border: none;
+}
+
+/* Custom arrow for sidebar author groups */
+details.author-group summary::before {
+	margin-right: 8px;
+	width: 6px;
+	height: 6px;
+}
+
+/* Sidebar Links */
+.sidebar nav li a {
+	padding-left: 35px; /* Indent content */
+	border-left: 0; /* Remove default left border logic */
+	font-size: 0.9rem;
+}
+.sidebar nav li a.active {
+	background: #fff;
+	border-right: 3px solid var(--accent-color); /* Move active indicator to right */
+	border-left: none;
+	box-shadow: none;
+}
+
+/* Rating 5 - High Visibility */
+li.rating-5 a {
+	color: #d97706; /* Amber/Gold color */
+	font-weight: 600;
+}
+li.rating-5 a::after {
+	content: ' ★';
+	font-size: 0.8em;
+}
+
+/* Rating 1 - Low Visibility */
+li.rating-1 a {
+	color: #9ca3af; /* Light gray */
+	opacity: 0.8;
+}
+
+/* Header Metadata Tags */
+.note-header {
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.meta-tags {
+	display: flex;
+	gap: 15px;
+	margin-top: 10px;
+	font-size: 0.85rem;
+	color: var(--secondary-text);
+	font-family: var(--font-mono);
+}
+.rating-tag-5 {
+	color: #d97706;
+	font-weight: bold;
+	background: #fffbeb;
+	padding: 2px 6px;
+	border-radius: 4px;
+	border: 1px solid #fcd34d;
+}

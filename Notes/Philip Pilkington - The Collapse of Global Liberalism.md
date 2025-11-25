@@ -1,8 +1,16 @@
+---
+layout: default
+title: "The Collapse of Global Liberalism"
+author: "Philip Pilkington"
+rating: 5
+date: 2025-05-30
+---
+
 Here are the consolidated, expanded, and highly detailed notes from the interview with economist Philip Pilkington. These notes expand on the geopolitical and economic theories, and specifically highlight the distinctions regarding military doctrine and historical analogies.
 
-30 May 2025. https://www.youtube.com/watch?v=TsrwaYQUGkM
-
-AI: https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221Fov-GQOoWX2v0iMwbEYSkkjGyyQJFISd%22%5D,%22action%22:%22open%22,%22userId%22:%22118142141777278847588%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
+Rating: 5
+Date: `30 May 2025`
+Video URL: https://www.youtube.com/watch?v=TsrwaYQUGkM
 
 ---
 

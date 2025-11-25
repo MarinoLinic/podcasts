@@ -1,8 +1,15 @@
+---
+layout: default
+title: "The Tyranny of Democracy - The Case for Monarchy"
+author: "Curtis Yarvin"
+rating: 5
+date: 2025-10-14
+---
+
 Here are the comprehensive notes from the interview between Peter McCormack and Curtis Yarvin. 
 
-14 Oct 2025. https://www.youtube.com/watch?v=47yObVOJciw
-
-AI: https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221dx4INh-03ptcUqAhBmq6sB5Db0aYd1TJ%22%5D,%22action%22:%22open%22,%22userId%22:%22118142141777278847588%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
+Date: `14 Oct 2025` 
+Video URL: https://www.youtube.com/watch?v=47yObVOJciw
 
 ---
 

@@ -1,8 +1,16 @@
+---
+layout: default
+title: "How to Prevent Civilizational Collapse"
+author: "Samo Burja"
+rating: 5
+date: 2024-05-29
+---
+
 Here are detailed notes from the interview with Samo Burja on the **Win-Win Podcast**, covering his theories on civilizational collapse, the sociology of knowledge, and Great Founder Theory. 
 
-29 May 2024. https://www.youtube.com/watch?v=A3Zd2K0BJoI
-
-AI: https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221Ckm1VGazEDhLN20U_ASWCXvqNgeeakgw%22%5D,%22action%22:%22open%22,%22userId%22:%22118142141777278847588%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
+Rating: 5
+Date: `29 May 2024` 
+Video URL: https://www.youtube.com/watch?v=A3Zd2K0BJoI
 
 ---
 

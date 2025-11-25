@@ -1,9 +1,16 @@
+---
+layout: default
+title: "Why Populists WIN Elections But Fail to Govern"
+author: "Samo Burja"
+rating: 1
+date: 2024-11-15
+---
+
 Here are the detailed notes from the **Live Players** podcast episode featuring **Samo Burja** and **Erik Torenberg**, discussing populism, the administrative state, and the potential future of US politics.
 
-15 Nov 2024. https://www.youtube.com/watch?v=i-Jfl1MOpyI
-
-AI: https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221sowiB4-OWZX_mkXhO2C0jC1yIiPA52uQ%22%5D,%22action%22:%22open%22,%22userId%22:%22118142141777278847588%22,%22resourceKeys%22:%7B%7D%7D&usp=sharing
-
+Rating: 1
+Date: `15 Nov 2024` 
+Video URL: https://www.youtube.com/watch?v=i-Jfl1MOpyI
 
 ---
 
@@ -26,7 +33,7 @@ AI: https://aistudio.google.com/app/prompts?state=%7B%22ids%22:%5B%221sowiB4-OWZ
     *   From the Cold War to the Neoliberal 90s, the state was tweaked but not fundamentally changed.
     *   *The 90s Illusion:* It seemed economic growth would forever fund the expanding state. That illusion is now breaking (especially in Europe/UK), forcing a confrontation.
 *   **The Cultural Win vs. Policy Failure:**
-    *   *Victor Orban (Hungary):* A "Cultural Win." He co-opted the state over years, staffed it with conservatives, and pursued middle-class family policies. However, he hasn't solved economic stagnation or achieved replacement fertility rates.
+    *   *Viktor Orbán (Hungary):* A "Cultural Win." He co-opted the state over years, staffed it with conservatives, and pursued middle-class family policies. However, he hasn't solved economic stagnation or achieved replacement fertility rates.
     *   *Brexit (UK):* A "Populist Failure." A successful mobilization against the establishment that failed to chart a new course because it didn't break or replace the administrative class. Winning an election $\neq$ controlling the bureaucracy.
 
 ### **III. Trump Term 2 & The Theory of Victory**

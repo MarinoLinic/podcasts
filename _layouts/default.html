@@ -19,15 +19,42 @@
 					<p class="subtitle">Archive</p>
 				</header>
 				<nav>
-					<ul>
-						{% for note in site.pages %} {% if note.path contains 'Notes/' %}
-						<li>
-							<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}">
-								{{ note.name | replace: '.md', '' }}
-							</a>
-						</li>
-						{% endif %} {% endfor %}
-					</ul>
+					<!-- 1. Extract all Authors from Notes -->
+					{% assign all_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign authors =
+					all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
+					<details open class="author-group">
+						<summary>{{ author }}</summary>
+						<ul>
+							<!-- 2. Get notes for this specific author -->
+							{% assign author_notes = all_notes | where: "author", author %}
+
+							<!-- 3. Sorting Logic:
+                                 - Top Notes: Rating == 5 (Sorted by Date Descending)
+                                 - Other Notes: Rating != 5 (Sorted by Date Descending)
+                            -->
+							{% assign top_notes = author_notes | where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes
+							= author_notes | where_exp: "item", "item.rating != 5" | sort: "date" | reverse %}
+
+							<!-- Output Rating 5 Notes (Must Read) -->
+							{% for note in top_notes %}
+							<li class="rating-5">
+								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}">
+									{{ note.title }}
+								</a>
+							</li>
+							{% endfor %}
+
+							<!-- Output Standard Notes (Ratings 1-4) -->
+							{% for note in other_notes %}
+							<li class="rating-{{ note.rating }}">
+								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}">
+									{{ note.title }}
+								</a>
+							</li>
+							{% endfor %}
+						</ul>
+					</details>
+					{% endfor %}
 				</nav>
 			</aside>
 
@@ -35,14 +62,23 @@
 			<main class="content">
 				{% if page.path contains 'Notes/' %}
 				<article class="markdown-body" id="note-content">
-					<h1>{{ page.name | replace: '.md', '' }}</h1>
-					<!-- Content injection -->
+					<!-- Header with Metadata (Author, Date, Rating) -->
+					<div class="note-header">
+						<h1 style="margin-bottom: 0">{{ page.title }}</h1>
+						<div class="meta-tags">
+							<span class="meta-author">👤 {{ page.author }}</span>
+							<span class="meta-date">📅 {{ page.date | date: "%d %b %Y" }}</span>
+							<span class="meta-rating rating-tag-{{ page.rating }}">
+								{% if page.rating == 5 %}★ Must Read{% else %}Rating: {{ page.rating }}{% endif %}
+							</span>
+						</div>
+					</div>
+
 					{{ content }}
 				</article>
 
 				<!-- Transcript Section -->
 				<section class="transcript-section">
-					<hr style="border: 0; border-top: 1px solid #eaeaea; margin: 40px 0" />
 					<details id="transcript-container">
 						<summary>📄 Read Transcript</summary>
 						<div class="transcript-content">
@@ -53,10 +89,12 @@
 
 				<script>
 					document.addEventListener('DOMContentLoaded', function () {
-						// 1. Fetch Transcript Logic
-						const noteFilename = '{{ page.name }}'
-						const transcriptFilename = noteFilename.replace('.md', '.txt')
-						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
+						// --- 1. Transcript Fetcher Logic ---
+						// We calculate the transcript filename based on the markdown filename.
+						// If the Python script skipped downloading it, this fetch will fail gracefully.
+						const currentPath = '{{ page.path }}' // e.g., Notes/Author - Title.md
+						const filename = currentPath.split('/').pop().replace('.md', '.txt')
+						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + filename
 
 						fetch(transcriptPath)
 							.then((response) => {
@@ -67,14 +105,14 @@
 								document.getElementById('transcript-text').textContent = text
 							})
 							.catch((err) => {
-								document.getElementById('transcript-text').textContent = 'No matching transcript found.'
+								// If 404 (missing file), show this message instead of crashing
+								document.getElementById('transcript-text').textContent = 'Transcript not available.'
 							})
 
-						// 2. Auto-Linkifier Logic
-						// This finds plain text URLs and converts them to clickable links
+						// --- 2. Auto-Linkifier Logic ---
+						// Converts plain text URLs in the body into clickable links
 						const contentDiv = document.getElementById('note-content')
 						if (contentDiv) {
-							// Helper to linkify text nodes safely
 							function linkify(node) {
 								if (node.nodeType === 3) {
 									// Text node
@@ -91,7 +129,7 @@
 									node.tagName !== 'PRE' &&
 									node.tagName !== 'CODE'
 								) {
-									// Recurse for elements, skipping existing links and code blocks
+									// Recursive check
 									Array.from(node.childNodes).forEach(linkify)
 								}
 							}
@@ -100,6 +138,7 @@
 					})
 				</script>
 				{% else %}
+				<!-- Fallback for non-note pages (like Index) -->
 				<div class="markdown-body">{{ content }}</div>
 				{% endif %}
 			</main>

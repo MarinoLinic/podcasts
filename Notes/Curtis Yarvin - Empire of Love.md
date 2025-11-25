@@ -1,0 +1,181 @@
+---
+layout: default
+title: "Empire of Love"
+author: "Curtis Yarvin"
+rating: 3
+date: 2025-07-11
+---
+
+Here are detailed notes from the interview with Curtis Yarvin on the **Stimson Center Trialogue Podcast**, covering his ideological journey, his theories on the "Empire of Love," his vision for a "Modern Right," his views on the American Empire, the State Department vs. Pentagon dynamic, and his radical proposal for dismantling the liberal international order.
+
+Rating: 3
+Date: `11 Jul 2025` 
+Video URLs:
+Part 1 - https://www.youtube.com/watch?v=fSWKrxuHQN8
+Part 2 - https://www.youtube.com/watch?v=LdWxBdgWtrs
+
+---
+
+## **PART 1**
+
+### **I. Introduction & The "Modern Right"**
+*   **The Guest:** Curtis Yarvin (formerly Mencius Moldbug), veteran of Silicon Valley and a leading figure of the "Dissident Right."
+*   **Terminology:**
+    *   Yarvin rejects "Alt-Right" ("the worst") and "New Right" (used too many times, implies transience like the "New Left").
+    *   He prefers **"Modern Right"** (coined by a Washington Post writer). It sounds arrogant in the right way and distinguishes itself from the "dinosaurs" of the Republican establishment (e.g., Paul Ryan).
+    *   "Dissident Right" is acceptable but feels "whiny and beta."
+
+### **II. Biography & Intellectual Journey**
+*   **Background:** Son of a US diplomat, grew up inside the "International Community" (a euphemism for the American Empire).
+*   **Education/Career:** Computer Science at Johns Hopkins, Brown, and Berkeley. Made money in the Dot-com boom, then pursued a "boil the ocean" project to reinvent operating systems (Urbit).
+*   **The Red Pill Moment:**
+    *   While working on his OS project, he had free time to read Austrian Economics (Mises, Rothbard, Hoppe).
+    *   **Hans-Hermann Hoppe:** Reading Hoppe made him realize he could read pre-revolutionary/anti-democratic thought without having an allergic reaction ("getting hives").
+    *   **The Awakening:** He began reading Thomas Carlyle and Joseph de Maistre, realizing these "reactionary" thinkers were actually trying to save civilization, not destroy it.
+    *   *The Matrix Metaphor:* Yarvin claims to be the one who stole the "Red Pill" metaphor from the Wachowskis and applied it to right-wing enlightenment (to their likely displeasure).
+
+### **III. The State as a Firm & The "Empire of Love"**
+*   **Hoppe’s Insight:**
+    *   If you view **States as Firms** (Proprietary ownership of territory), the world is actually a libertarian paradise because there is no world government above them.
+    *   The "Westphalian Order" (Classical International Law) worked well. It treated states as sovereign property owners with no citizens, only subjects.
+*   **The Empire of Love:**
+    *   Yarvin’s term for the **Anglo-American Liberal Global Order** (born at Waterloo, 1815).
+    *   *The "Love Parade":* Since conquering Germany in 1945, the Empire holds "Love Parades" in Berlin. It is an empire that conquers in the name of love/liberalism.
+    *   *Dutch Elm Disease Analogy:* Liberalism is not a universal truth; it is an endemic disease of the Anglo-American mind.
+        *   The English/Americans have "natural enemies" (antibodies) to it at home.
+        *   When exported to places without resistance (e.g., 18th Century France), it destroys the host (like Smallpox to Native Americans).
+    *   *The France Example:* Pre-revolutionary France was a sophisticated, libertine civilization. It tried to copy the English system ("taking pills found on the floor") and destroyed itself.
+
+### **IV. Liberalism as an Imperial Tool**
+*   **Modernization Theory vs. Reality:**
+    *   The idea that adopting Anglo-American forms (elections) leads to prosperity (steel mills/chip fabs) is a delusion.
+    *   Liberalism is a tool of conquest.
+*   **The Garibaldi Myth (1848):**
+    *   Garibaldi overthrowing the Kingdom of the Two Sicilies with 300 guys is militarily impossible.
+    *   *The Reality:* It was Garibaldi + The British Royal Navy.
+    *   Liberal revolutions (1848, Arab Spring, Ukraine) are often covert imperial expansions where a sovereign rival is dismantled and integrated into the Anglo-American economic zone.
+*   **Gladstone’s Rhetoric:** Calling the Kingdom of the Two Sicilies "The Negation of God" is pure imperialist rhetoric to justify regime change.
+
+### **V. The "Mischling" Revolutionary Temperament**
+*   **Heritage:** Yarvin reveals his grandparents were American Communists.
+    *   "Progressive" was a code word for Communist in the 1940s (proven by Venona intercepts).
+*   **The "Mischling" Metaphor:** Yarvin describes himself and his peers as "Mischlings" (Nazi term for mixed-blood) in a revolutionary sense.
+    *   He is carrying "gold ore from the bottom of the Grand Canyon" (reactionary truth) but belongs to neither the "Donkeys" (Establishment) nor the "Horses" (Traditional Right).
+*   **Revolution vs. Reset:**
+    *   Yarvin advocates for a **"Hard Reboot"** or **"Reset"** of the US, akin to the liquidation of East Germany.
+    *   *Problem:* East Germany had West Germany to be absorbed into. The US has no external "super-structure" to absorb it.
+    *   *The Nerd Reich:* A tentative (ironic) name for the new regime needed to replace the current order.
+
+### **VI. Democracy vs. Oligarchy vs. Monarchy**
+*   **The "Democracy" Trap:**
+    *   "Democratic" now just means "Legitimate" (e.g., North Korea calls itself the Democratic People's Republic).
+    *   Aristotelian Democracy (Rule of the Many) = **Populism**.
+    *   Modern "Democracy" (Rule of the Few/Selected) = **Oligarchy**.
+*   **The Populist Weakness:**
+    *   *The Osho Syllogism:* "Democracy is government by the people... but if the people are retarded, the government is retarded."
+    *   *The Real Problem:* The people are not just incompetent; they are **WEAK**.
+    *   *Historical Shift:* In 1789, a mob could tear a man apart (Bastille). Today, a mob of 100,000 does nothing but litter. The "force" that justified elections (fear of the mob) is gone.
+    *   *Technological Pacification:* Elites have learned to neutralize mass opinion. The populace is depoliticized and frivolous (voting like sports fans).
+
+### **VII. The Alignment of Forces (Authority, Popularity, Prestige)**
+*   **The Three Forces:**
+    1.  **Authority** (Monarchy/Dictatorship)
+    2.  **Popularity** (Democracy/Populism)
+    3.  **Prestige** (Oligarchy/Meritocracy/The Academy)
+*   **The Current Crisis:**
+    *   Prestige (The Elites/New York Times) is at war with Popularity (Trump/The Mob).
+    *   Authority is weak/non-existent.
+*   **Historical Alignments:**
+    *   *Russian/French Revolution:* Popularity + Prestige vs. Authority. (Result: Chaos).
+    *   *Fascism:* Popularity + Authority vs. Prestige. (Result: Tyranny).
+    *   *True Monarchy (Louis XIV/Elizabeth I):* **Authority + Popularity + Prestige** are all aligned. This is the goal.
+*   **The Trump Failure:** Trump has Popularity but zero Prestige (elites despise him as a "short-fingered vulgarian" with a gold-plated toilet) and very little Authority (he is constrained by the Deep State). This is a "fake" Caesarism.
+
+### **VIII. The Vision for a "Nerd Monarchy"**
+*   **The Ingredients exist:**
+    *   The "Tech Right" (Elon Musk, etc.) possesses **High Intelligence** and **Capability**.
+    *   The "Dissident Right" (Bronze Age Pervert, etc.) possesses **High Culture/Education** (Yale PhDs, speaking Ancient Greek).
+    *   *The Thesis:* The ingredients for a new **Prestige Elite** exist. They are currently "closeted" in institutions.
+*   **The Strategy:**
+    *   Unite **Popularity** (The Zoomer "Why not?" attitude) with this new **Prestige Elite** to seize **Authority**.
+    *   *The Zoomer Factor:* Unlike the "Good Citizen" who cares about school boards, the Zoomer/Populist is frivolous enough to say "Fuck it, let's try a regime change." This frivolity is an asset because it allows for radical action ("What we wanted we did not know, what we knew we did not want").
+*   **The One Chance:**
+    *   This is the *last chance* for a populist-driven reboot.
+    *   *Demographic Warfare:* Mass migration ("Jus Airbus" - citizenship by plane ticket) is permanently eroding the populist power base.
+    *   *The Alternative:* If this fails, every Western city will eventually look like Johannesburg.
+    *   *The Mechanism:* The populace must be offered a "Product" (a new regime) that works. They cannot design it, but they can approve it (one time) via a vote to end the current system.
+
+### **IX. Conclusion**
+*   **The False Idols:** The American Founders, the Constitution, and "Liberal Democracy" are dead religions ("Nobody takes that [__] seriously anymore").
+*   **The Path Forward:** A transition to a Monarchical form of governance (CEO of America) that aligns the Tech/Nerd elite (Prestige) with the masses (Popularity) to impose order (Authority).
+
+
+## **PART 2**
+### **I. Defining the "Empire of Love"**
+*   **Definition:** Yarvin’s poetic term for the **American Empire/Liberal International Order**.
+    *   It concerns itself with every square inch of the globe (even Antarctica has a "desk" somewhere in the State Department).
+    *   Its relationship to the actual interests of American citizens is "very obscure and very historical."
+*   **World Domination vs. Global Leadership:**
+    *   *Samantha Power Test:* If you asked Samantha Power the difference between "World Domination" and "Global Leadership," she would struggle to answer honestly.
+    *   *Yarvin’s Answer:* Global Leadership is "Soft Power" (Oligarchic/Institutional), while World Domination is "Hard Power" (Monarchical/Authoritative).
+    *   The Empire of Love relies on the difficulty of deviating from its path rather than direct coercion.
+
+### **II. The Anatomy of Power (State Dept vs. Pentagon)**
+*   **The Myth of Conflict:** The idea that the Pentagon and State Department are at odds is a caricature.
+*   **The "Orchestra":** The International Community is a chorus responding to an orchestra in Washington.
+    *   *The Conductor:* There is no single conductor (Monarch), but silencing the orchestra requires dismantling specific institutions.
+*   **The United Nations (UN):**
+    *   *Relevance:* Yarvin argues the UN is actually an organization of "very little significance" (not relevant since the era of Hans Blix and *Team America: World Police*).
+    *   *Why Withdraw?* Shutting down the UN or expelling it from Turtle Bay would be a massive **symbolic step**.
+    *   *The Message:* It signals that "The world is no longer traveling toward this utopia." Dispersing the mirage changes the trajectory, even if the mirage did little practically.
+
+### **III. Dismantling the Soft Power Apparatus**
+*   **The Proposal:** Yarvin suggests a "reverse merger" to undo the creation of the Foreign Service (which combined diplomatic and consular services).
+    *   **Close the Embassies:** Modern technology (Zoom/Email) makes physical embassies obsolete.
+    *   *Diplomats:* Before the telegraph, diplomats were necessary plenipotentiaries. Now, they function to connect elites rather than facilitate necessary communication.
+*   **The Logic of Withdrawal:**
+    *   Embassies act as hubs for maintaining pro-American elites ("Quislings") in foreign countries.
+    *   These elites believe they are the natural rulers of their countries.
+    *   *The Goal:* By closing the embassy, you remove the "wind from above." Without American backing, these globalist elites become vulnerable to their own populations.
+
+### **IV. Hard Power & Retrenchment**
+*   **Soldiers follow Missionaries:**
+    *   Yarvin argues that if you pull back the "Missionaries" (State Dept/Soft Power), the "Soldiers" (Bases/Hard Power) will naturally follow.
+    *   American Hard Power is mostly a "money-spending effort" (e.g., spending $1 trillion to turn Afghanistan into Afghanistan).
+*   **The Space Manhattan Project:**
+    *   *Strategy:* Instead of policing the globe, the US should focus entirely on the **Conquest of Space**.
+    *   *Territorial Denial:* Build a system (updated "Brilliant Pebbles" / "Project Thor") that can destroy anything trying to leave Earth's atmosphere without a permit.
+    *   *Self-Defense:* Protect this system with kinetic bombardment weapons ("Tungsten Telephone Poles").
+    *   *The Result:* Total security for the North American continent. "If you want Paris, you can have Paris." The US becomes unassailable at home and indifferent abroad.
+
+### **V. A New Grand Strategy: Indifference**
+*   **The Message:** The US should credible signal to the world: "We don't care about your conflicts."
+    *   *Israel vs. Iran:* "We genuinely do not care." (Oil is real, but history is the main reason we care).
+    *   *India vs. Pakistan:* Cites a moment where a US VP told them "We don't care," and all the oxygen left the room. This forces local actors to stabilize their own regions.
+*   **The Trade Surplus Delusion:**
+    *   Anglo-American imperialism is built on the 19th-century assumption of a **Trade Surplus** (needing foreign markets for Birmingham's goods).
+    *   *Reality:* The US makes nothing (Birmingham makes kebabs). The US runs a deficit.
+    *   *The Rogue Autopilot:* Foreign policy is running on a 19th-century script ("Open Markets") that no longer serves the US economic reality (which relies on borrowing, not exporting).
+
+### **VI. The Soviet Collapse Analogy**
+*   **Gorbachev’s Error:** Gorbachev tried to remodel the house (unwind the empire slowly) and the whole structure collapsed.
+    *   *The Mechanism:* When Eastern European provinces realized they had independence (1989), they took it. When the tanks didn't roll, the fear evaporated.
+*   **The US Risk:** Can the US unwind its empire without collapsing domestically?
+    *   Yarvin argues the US system is robust enough to manage the financial/trade unwind.
+    *   *The Moral:* The collapse of the external empire (Soviet control of Poland) showed the domestic population (Russians) that the regime could also die at home.
+    *   *Yarvin's Goal:* He *wants* this realization. Show Americans that "there is an alternative to living this way."
+
+### **VII. Transatlantic Relations (NATO & Europe)**
+*   **The Prescription:** Disband NATO and withdraw from Europe **immediately and completely** (over 3 weeks).
+*   **Why?**
+    *   Europe is not an asset (except for Bordeaux wine and tourism).
+    *   Western Civilization is a cultural legacy, not a defense pact.
+*   **The Effect on European Politics:**
+    *   *Don't Support the Right:* Trump trying to help Le Pen or the AfD is counter-productive.
+    *   *Withdraw Support for the Left:* The most effective thing is to make the European Left/Liberals feel **utterly unsupported**.
+    *   *Panic:* When the US withdraws, the liberal elites in Europe (who rely on US soft power) will panic. Populist elements will feel emboldened. "There is a world where everyone in France wakes up tomorrow ruled by Catholic army officers."
+
+### **VIII. Conclusion**
+*   **Shock and Awe:** A total withdrawal creates momentum. It forces a realization that the old order is dead.
+*   **The Vision:** A US that is militarily unassailable (Space Dominance), economically sovereign (fixing the trade deficit), and geopolitically indifferent (letting nations be nations).
+*   **The 1990s Moscow Analogy:** The transition might be "terribly fun" but also "terrible." Yarvin hopes for the fun part.
