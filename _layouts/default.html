@@ -25,7 +25,7 @@
 					<p class="subtitle">Archive</p>
 				</header>
 				<nav>
-					<!-- 1. CRITICAL FIX: Filter out notes that are missing a date to prevent build crash -->
+					<!-- 1. Filter out notes that are missing a date to prevent build crash -->
 					{% assign raw_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign all_notes =
 					raw_notes | where_exp: "item", "item.date" %}
 
@@ -82,7 +82,12 @@
 
 					<!-- View Containers -->
 					<div id="markdown-view">{{ content }}</div>
+
+					<!-- Text View with Copy Button -->
 					<div id="text-view">
+						<div class="copy-btn-wrapper">
+							<button class="copy-btn" id="copy-text-btn" onclick="copyToClipboard()"><span>📋</span> Copy Text</button>
+						</div>
 						<pre id="raw-text-content">Loading text version...</pre>
 					</div>
 				</article>
@@ -143,7 +148,30 @@
 							switchView('text')
 						}
 
-						// --- 2. Transcript Logic ---
+						// --- 2. Copy to Clipboard Function ---
+						window.copyToClipboard = function () {
+							const text = rawTextContent.textContent
+							const btn = document.getElementById('copy-text-btn')
+
+							navigator.clipboard
+								.writeText(text)
+								.then(() => {
+									// Visual Feedback
+									const originalHTML = btn.innerHTML
+									btn.innerHTML = '<span>✓</span> Copied!'
+									btn.classList.add('copied')
+
+									setTimeout(() => {
+										btn.innerHTML = originalHTML
+										btn.classList.remove('copied')
+									}, 2000)
+								})
+								.catch((err) => {
+									console.error('Failed to copy: ', err)
+								})
+						}
+
+						// --- 3. Transcript Logic ---
 						const transcriptFilename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
 						const transcriptSection = document.querySelector('.transcript-section')
@@ -155,11 +183,10 @@
 							})
 							.then((text) => (document.getElementById('transcript-text').textContent = text))
 							.catch((err) => {
-								// Hide section if missing
 								if (transcriptSection) transcriptSection.style.display = 'none'
 							})
 
-						// --- 3. Linkifier ---
+						// --- 4. Linkifier ---
 						const contentDiv = document.getElementById('markdown-view')
 						if (contentDiv) {
 							function linkify(node) {

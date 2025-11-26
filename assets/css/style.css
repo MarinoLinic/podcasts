@@ -9,7 +9,7 @@
 	--code-bg: #f6f8fa;
 	--hover-bg: #eaeef2;
 
-	/* Fonts - Added 'Inter' to the front so it's used everywhere */
+	/* Fonts */
 	--font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
 	--font-mono: 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
@@ -99,7 +99,7 @@ a {
 	margin: 0;
 }
 
-/* --- SIDEBAR DROPDOWNS (Slick Blue Arrow) --- */
+/* --- SIDEBAR DROPDOWNS --- */
 details.author-group {
 	margin-bottom: 8px;
 }
@@ -121,11 +121,10 @@ details.author-group summary::-webkit-details-marker {
 	display: none;
 }
 
-/* The Arrow Logic */
 details.author-group summary::before {
 	content: '';
 	display: inline-block;
-	width: 6px; /* Slightly smaller than transcript arrow */
+	width: 6px;
 	height: 6px;
 	border-right: 2px solid var(--secondary-text);
 	border-bottom: 2px solid var(--secondary-text);
@@ -202,9 +201,18 @@ li.rating-5 a {
 .meta-tags {
 	display: flex;
 	gap: 12px;
-	font-size: 0.9rem;
-	color: var(--secondary-text);
+	font-size: 0.95rem; /* Slightly larger */
 	align-items: center;
+}
+
+/* --- NEW: Slick Colors --- */
+.meta-author {
+	color: #d32f2f; /* Slick Red */
+	font-weight: 700;
+}
+.meta-date {
+	color: #2e7d32; /* Slick Green */
+	font-weight: 700;
 }
 .meta-separator {
 	color: #ddd;
@@ -262,20 +270,58 @@ li.rating-5 a {
 	margin-bottom: 6px;
 }
 
-/* Text View specific styling */
+/* --- UPDATED: Text View Styling --- */
 #text-view {
 	display: none;
+	position: relative; /* Anchor for the copy button */
 }
+
 #text-view pre {
 	font-family: var(--font-mono);
 	font-size: 15px;
 	color: #444;
 	background: #f9f9f9;
-	padding: 20px;
+	padding: 50px 20px 20px 20px; /* Top padding reserved for button */
 	border-radius: 8px;
 	border: 1px solid var(--border-color);
-	white-space: pre-wrap; /* Wrap text */
+	white-space: pre-wrap;
 	overflow-x: hidden;
+}
+
+/* Copy Button Styling */
+.copy-btn-wrapper {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	z-index: 5;
+}
+
+.copy-btn {
+	background: #fff;
+	border: 1px solid var(--border-color);
+	border-radius: 4px;
+	padding: 6px 12px;
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: var(--secondary-text);
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	transition: all 0.2s;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.copy-btn:hover {
+	background: #f0f0f0;
+	color: var(--text-color);
+	border-color: #bbb;
+}
+
+.copy-btn.copied {
+	background: #2e7d32;
+	border-color: #2e7d32;
+	color: #fff;
 }
 
 /* --- TRANSCRIPT SECTION --- */

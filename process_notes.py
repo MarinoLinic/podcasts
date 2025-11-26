@@ -48,17 +48,15 @@ def process_for_jekyll(content, filename):
     rating = int(rating_match.group(1)) if rating_match else 0
     
     date_match = re.search(DATE_REGEX, content)
-    date_str = "1970-01-01" # Default fallback to prevent build errors
+    date_str = "1970-01-01" # Default fallback
     
     if date_match:
         date_text = date_match.group(1)
         try:
-            # Try parsing "29 Sep 2025"
             dt_obj = datetime.datetime.strptime(date_text, "%d %b %Y")
             date_str = dt_obj.strftime("%Y-%m-%d")
         except ValueError:
             try:
-                # Try parsing "29 September 2025" (Full month name)
                 dt_obj = datetime.datetime.strptime(date_text, "%d %B %Y")
                 date_str = dt_obj.strftime("%Y-%m-%d")
             except ValueError:
@@ -79,7 +77,7 @@ def process_for_jekyll(content, filename):
     yaml += f'title: "{title}"\n'
     yaml += f'author: "{author}"\n'
     yaml += f'rating: {rating}\n'
-    yaml += f'date: {date_str}\n' # Always write a date
+    yaml += f'date: {date_str}\n'
     yaml += "---\n\n"
 
     return yaml + content
@@ -112,43 +110,51 @@ def convert_to_text_format(content, filename):
     processed_lines = []
     
     for line in lines:
-        # Remove Metadata lines from body
+        # Remove Metadata lines
         if "Rating:" in line or "Date:" in line or "Video URL:" in line:
             continue
-        
-        # Remove intro text logic
         if "Here are" in line and "notes" in line:
             continue
         
         # Handle Empty Lines (Preserve Paragraphs)
         if not line.strip():
-            processed_lines.append("")
+            if processed_lines and processed_lines[-1] != "":
+                processed_lines.append("")
             continue
 
         # Headers (### **I. Title**) -> I. Title
         if line.strip().startswith('#'):
             clean_header = line.lstrip('#').strip()
             clean_header = clean_header.replace('**', '')
+            # Ensure separation before header
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")
             processed_lines.append(clean_header)
             continue
             
-        # Lists
+        # Lists (Sub-bullets) - NO EXTRA NEWLINE
         if re.match(r'^\s+(\*|-)\s+', line):
             clean_sub = re.sub(r'^\s+(\*|-)\s+', '-- ', line)
             clean_sub = clean_sub.replace('**', '')
             processed_lines.append(clean_sub)
             continue
 
+        # Lists (Main bullets) - FORCE NEWLINE BEFORE
         if re.match(r'^(\*|-)\s+', line):
             clean_item = re.sub(r'^(\*|-)\s+', '- ', line)
             clean_item = clean_item.replace('**', '')
+            
+            # Add breathing room before a main bullet point
+            if processed_lines and processed_lines[-1] != "":
+                processed_lines.append("")
+                
             processed_lines.append(clean_item)
             continue
             
         # Separators
         if "---" in line:
+            if processed_lines and processed_lines[-1] != "":
+                processed_lines.append("")
             processed_lines.append("---")
             continue
 
