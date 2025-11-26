@@ -28,7 +28,8 @@ SOURCE_EXTENSION = ".md"
 # Regex patterns
 YOUTUBE_REGEX = r'(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})'
 RATING_REGEX = r'Rating:\s*(\d+)'
-DATE_REGEX = r'Date:\s*`?([0-9]{1,2}\s+[A-Za-z]{3}\s+[0-9]{4})`?'
+# Matches: Date: 29 Sep 2025 OR Date: `29 Sep 2025`
+DATE_REGEX = r'Date:\s*`?([0-9]{1,2}\s+[A-Za-z]{3,}\s+[0-9]{4})`?'
 
 def get_video_ids(text):
     return re.findall(YOUTUBE_REGEX, text)
@@ -47,17 +48,27 @@ def process_for_jekyll(content, filename):
     rating = int(rating_match.group(1)) if rating_match else 0
     
     date_match = re.search(DATE_REGEX, content)
-    date_str = ""
+    date_str = "1970-01-01" # Default fallback to prevent build errors
+    
     if date_match:
+        date_text = date_match.group(1)
         try:
-            dt_obj = datetime.datetime.strptime(date_match.group(1), "%d %b %Y")
+            # Try parsing "29 Sep 2025"
+            dt_obj = datetime.datetime.strptime(date_text, "%d %b %Y")
             date_str = dt_obj.strftime("%Y-%m-%d")
         except ValueError:
-            pass
+            try:
+                # Try parsing "29 September 2025" (Full month name)
+                dt_obj = datetime.datetime.strptime(date_text, "%d %B %Y")
+                date_str = dt_obj.strftime("%Y-%m-%d")
+            except ValueError:
+                print(f"  [!] WARNING: Could not parse date '{date_text}' in {filename}. Using default.")
+    else:
+        print(f"  [!] WARNING: No date found in {filename}. Using 1970-01-01.")
 
     # CLEAN CONTENT: Remove Rating AND Date lines from body
     content = re.sub(r'^Rating:\s*\d+.*$', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^Date:\s*`?.*`?.*$', '', content, flags=re.MULTILINE) # Removed per request
+    content = re.sub(r'^Date:\s*`?.*`?.*$', '', content, flags=re.MULTILINE)
     
     # Clean up excessive newlines
     content = re.sub(r'\n{3,}', '\n\n', content).strip()
@@ -68,8 +79,7 @@ def process_for_jekyll(content, filename):
     yaml += f'title: "{title}"\n'
     yaml += f'author: "{author}"\n'
     yaml += f'rating: {rating}\n'
-    if date_str:
-        yaml += f'date: {date_str}\n'
+    yaml += f'date: {date_str}\n' # Always write a date
     yaml += "---\n\n"
 
     return yaml + content
@@ -106,7 +116,7 @@ def convert_to_text_format(content, filename):
         if "Rating:" in line or "Date:" in line or "Video URL:" in line:
             continue
         
-        # Remove intro text logic (if it matches your standard intro)
+        # Remove intro text logic
         if "Here are" in line and "notes" in line:
             continue
         
@@ -119,21 +129,18 @@ def convert_to_text_format(content, filename):
         if line.strip().startswith('#'):
             clean_header = line.lstrip('#').strip()
             clean_header = clean_header.replace('**', '')
-            # Ensure a blank line before headers for readability
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")
             processed_lines.append(clean_header)
             continue
             
         # Lists
-        # Convert indented bullets (    *) to (-- )
         if re.match(r'^\s+(\*|-)\s+', line):
             clean_sub = re.sub(r'^\s+(\*|-)\s+', '-- ', line)
             clean_sub = clean_sub.replace('**', '')
             processed_lines.append(clean_sub)
             continue
 
-        # Convert top level bullets (* or -) to (- )
         if re.match(r'^(\*|-)\s+', line):
             clean_item = re.sub(r'^(\*|-)\s+', '- ', line)
             clean_item = clean_item.replace('**', '')
@@ -145,11 +152,10 @@ def convert_to_text_format(content, filename):
             processed_lines.append("---")
             continue
 
-        # Normal text (remove bolding)
+        # Normal text
         processed_lines.append(line.replace('**', ''))
 
     body = "\n".join(processed_lines)
-    # Ensure no more than 2 newlines consecutively
     body = re.sub(r'\n{3,}', '\n\n', body).strip()
     
     return header + "\n" + body
