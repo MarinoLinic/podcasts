@@ -25,14 +25,21 @@
 					<p class="subtitle">Archive</p>
 				</header>
 				<nav>
-					{% assign all_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign authors =
-					all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
+					<!-- 1. CRITICAL FIX: Filter out notes that are missing a date to prevent build crash -->
+					{% assign raw_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign all_notes =
+					raw_notes | where_exp: "item", "item.date" %}
+
+					<!-- 2. Extract Authors -->
+					{% assign authors = all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
 					<details open class="author-group">
 						<summary>{{ author }}</summary>
 						<ul>
-							{% assign author_notes = all_notes | where: "author", author %} {% assign top_notes = author_notes |
-							where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes = author_notes | where_exp: "item",
-							"item.rating != 5" | sort: "date" | reverse %} {% for note in top_notes %}
+							{% assign author_notes = all_notes | where: "author", author %}
+
+							<!-- 3. Sort Logic -->
+							{% assign top_notes = author_notes | where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes
+							= author_notes | where_exp: "item", "item.rating != 5" | sort: "date" | reverse %} {% for note in
+							top_notes %}
 							<li class="rating-5">
 								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}"
 									>{{ note.title }}</a
@@ -65,7 +72,7 @@
 								<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
 							</div>
 
-							<!-- The Switcher -->
+							<!-- View Switcher -->
 							<div class="view-switcher">
 								<button class="view-btn active" id="btn-markdown" onclick="switchView('markdown')">Markdown</button>
 								<button class="view-btn" id="btn-text" onclick="switchView('text')">Text</button>
@@ -73,7 +80,7 @@
 						</div>
 					</div>
 
-					<!-- Content Container -->
+					<!-- View Containers -->
 					<div id="markdown-view">{{ content }}</div>
 					<div id="text-view">
 						<pre id="raw-text-content">Loading text version...</pre>
@@ -99,7 +106,6 @@
 						const btnText = document.getElementById('btn-text')
 						const rawTextContent = document.getElementById('raw-text-content')
 
-						// Calculate text file path based on current page
 						const currentPath = '{{ page.path }}'
 						const textFilename = currentPath.split('/').pop().replace('.md', '.txt')
 						const textFilePath = "{{ '/Notes_Text/' | relative_url }}" + textFilename
@@ -114,7 +120,6 @@
 								btnMd.classList.remove('active')
 								btnText.classList.add('active')
 
-								// Fetch text only if not already loaded
 								if (!textLoaded) {
 									fetch(textFilePath)
 										.then((res) => res.text())
@@ -132,7 +137,7 @@
 							}
 						}
 
-						// Initialize View based on LocalStorage
+						// Restore Preference
 						const savedMode = localStorage.getItem('noteViewMode')
 						if (savedMode === 'text') {
 							switchView('text')
@@ -150,6 +155,7 @@
 							})
 							.then((text) => (document.getElementById('transcript-text').textContent = text))
 							.catch((err) => {
+								// Hide section if missing
 								if (transcriptSection) transcriptSection.style.display = 'none'
 							})
 
