@@ -14,13 +14,11 @@
 		<!-- Mobile Menu Button -->
 		<button class="menu-toggle" id="menuToggle"><span>☰</span> Menu</button>
 
-		<!-- Dark Overlay for Mobile -->
-		<!-- Open overlay by default if on Home Page -->
+		<!-- Dark Overlay -->
 		<div class="overlay {% if page.url == '/' %}active{% endif %}" id="overlay"></div>
 
 		<div class="container">
 			<!-- Sidebar -->
-			<!-- Open sidebar by default if on Home Page -->
 			<aside class="sidebar {% if page.url == '/' %}open{% endif %}" id="sidebar">
 				<header>
 					<h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
@@ -32,21 +30,19 @@
 					<details open class="author-group">
 						<summary>{{ author }}</summary>
 						<ul>
-							{% assign author_notes = all_notes | where: "author", author %}
-							<!-- Sorting Logic: Rating 5 first, then Date -->
-							{% assign top_notes = author_notes | where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes
-							= author_notes | where_exp: "item", "item.rating != 5" | sort: "date" | reverse %} {% for note in
-							top_notes %}
+							{% assign author_notes = all_notes | where: "author", author %} {% assign top_notes = author_notes |
+							where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes = author_notes | where_exp: "item",
+							"item.rating != 5" | sort: "date" | reverse %} {% for note in top_notes %}
 							<li class="rating-5">
-								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}">
-									{{ note.title }}
-								</a>
+								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}"
+									>{{ note.title }}</a
+								>
 							</li>
 							{% endfor %} {% for note in other_notes %}
 							<li class="rating-{{ note.rating }}">
-								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}">
-									{{ note.title }}
-								</a>
+								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}"
+									>{{ note.title }}</a
+								>
 							</li>
 							{% endfor %}
 						</ul>
@@ -59,7 +55,6 @@
 			<main class="content">
 				{% if page.path contains 'Notes/' %}
 				<article class="markdown-body" id="note-content">
-					<!-- Clean Header -->
 					<div class="note-header">
 						<h1>{{ page.title }}</h1>
 						<div class="meta-tags">
@@ -68,7 +63,6 @@
 							<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
 						</div>
 					</div>
-
 					{{ content }}
 				</article>
 
@@ -82,23 +76,26 @@
 					</details>
 				</section>
 
-				<!-- NOTE SPECIFIC SCRIPTS -->
 				<script>
 					document.addEventListener('DOMContentLoaded', function () {
-						// Transcript Logic
 						const currentPath = '{{ page.path }}'
 						const filename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + filename
+						const transcriptSection = document.querySelector('.transcript-section')
 
 						fetch(transcriptPath)
 							.then((res) => {
 								if (!res.ok) throw new Error('Not found')
 								return res.text()
 							})
-							.then((text) => (document.getElementById('transcript-text').textContent = text))
-							.catch((err) => (document.getElementById('transcript-text').textContent = 'Transcript not available.'))
+							.then((text) => {
+								document.getElementById('transcript-text').textContent = text
+							})
+							.catch((err) => {
+								// HIDE SECTION IF NOT FOUND
+								if (transcriptSection) transcriptSection.style.display = 'none'
+							})
 
-						// Linkifier Logic
 						const contentDiv = document.getElementById('note-content')
 						if (contentDiv) {
 							function linkify(node) {
@@ -124,42 +121,30 @@
 					})
 				</script>
 				{% else %}
-				<!-- Index / Fallback Content -->
 				<div class="markdown-body">{{ content }}</div>
 				{% endif %}
 			</main>
 		</div>
 
-		<!-- GLOBAL SCRIPTS (Menu & Sidebar Memory) -->
+		<!-- GLOBAL SCRIPTS -->
 		<script>
-			// --- 1. Sidebar Scroll Memory ---
-			// Restore scroll position immediately
 			const sidebar = document.querySelector('.sidebar')
 			const scrollKey = 'sidebarScrollPos'
 			const savedScroll = localStorage.getItem(scrollKey)
+			if (savedScroll && sidebar) sidebar.scrollTop = savedScroll
 
-			if (savedScroll && sidebar) {
-				sidebar.scrollTop = savedScroll
-			}
-
-			// Save scroll position before leaving page
 			window.addEventListener('beforeunload', () => {
-				if (sidebar) {
-					localStorage.setItem(scrollKey, sidebar.scrollTop)
-				}
+				if (sidebar) localStorage.setItem(scrollKey, sidebar.scrollTop)
 			})
 
-			// --- 2. Mobile Menu Logic ---
 			const menuBtn = document.getElementById('menuToggle')
 			const overlay = document.getElementById('overlay')
-			const sidebarEl = document.getElementById('sidebar') // Use different var name to be safe
+			const sidebarEl = document.getElementById('sidebar')
 			const sidebarLinks = document.querySelectorAll('.sidebar nav a')
 
 			function toggleMenu() {
 				sidebarEl.classList.toggle('open')
 				overlay.classList.toggle('active')
-
-				// Update Button Icon
 				if (sidebarEl.classList.contains('open')) {
 					menuBtn.innerHTML = '<span>✕</span> Close'
 				} else {
@@ -172,16 +157,12 @@
 				overlay.addEventListener('click', toggleMenu)
 			}
 
-			// Auto-close menu when clicking a link on mobile
 			sidebarLinks.forEach((link) => {
 				link.addEventListener('click', () => {
-					if (window.innerWidth <= 768) {
-						toggleMenu()
-					}
+					if (window.innerWidth <= 768) toggleMenu()
 				})
 			})
 
-			// Initialize button state if loaded open (e.g. Homepage)
 			if (sidebarEl.classList.contains('open')) {
 				menuBtn.innerHTML = '<span>✕</span> Close'
 			}
