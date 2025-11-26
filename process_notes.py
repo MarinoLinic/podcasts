@@ -3,7 +3,7 @@ import re
 import datetime
 import sys
 
-# --- IMPORT HACK (Keep this to bypass your IP/Library issues) ---
+# --- IMPORT HACK (Keep this) ---
 try:
     from youtube_transcript_api import YouTubeTranscriptApi
     from youtube_transcript_api.formatters import TextFormatter
@@ -16,11 +16,13 @@ if LIBRARY_AVAILABLE and not hasattr(YouTubeTranscriptApi, 'get_transcript'):
         from youtube_transcript_api._api import YouTubeTranscriptApi
     except ImportError:
         LIBRARY_AVAILABLE = False
-# ---------------------------------------------------------------
+# -------------------------------
 
 # Configuration
-SOURCE_FOLDER = "Notes"       
-OUTPUT_FOLDER = "Transcripts"
+INPUT_FOLDER = "Original_Notes"       
+JEKYLL_OUTPUT_FOLDER = "Notes"
+TEXT_OUTPUT_FOLDER = "Notes_Text"
+TRANSCRIPT_FOLDER = "Transcripts"
 SOURCE_EXTENSION = ".md"
 
 # Regex patterns
@@ -31,15 +33,16 @@ DATE_REGEX = r'Date:\s*`?([0-9]{1,2}\s+[A-Za-z]{3}\s+[0-9]{4})`?'
 def get_video_ids(text):
     return re.findall(YOUTUBE_REGEX, text)
 
-def extract_metadata_and_clean(content, filename):
-    # 1. Author/Title
+# --- 1. JEKYLL PROCESSING ---
+def process_for_jekyll(content, filename):
+    # Extract Author/Title
     base_name = os.path.splitext(filename)[0]
     if " - " in base_name:
         author, title = base_name.split(" - ", 1)
     else:
         author, title = "Uncategorized", base_name
 
-    # 2. Extract Metadata
+    # Extract Metadata
     rating_match = re.search(RATING_REGEX, content)
     rating = int(rating_match.group(1)) if rating_match else 0
     
@@ -52,19 +55,14 @@ def extract_metadata_and_clean(content, filename):
         except ValueError:
             pass
 
-    # 3. CLEAN CONTENT
-    # Remove Rating AND Date lines from the body so they don't show up twice
+    # CLEAN CONTENT: Remove Rating AND Date lines from body
     content = re.sub(r'^Rating:\s*\d+.*$', '', content, flags=re.MULTILINE)
-    content = re.sub(r'^Date:\s*`?.*`?.*$', '', content, flags=re.MULTILINE)
+    content = re.sub(r'^Date:\s*`?.*`?.*$', '', content, flags=re.MULTILINE) # Removed per request
     
-    # Clean up empty newlines
+    # Clean up excessive newlines
     content = re.sub(r'\n{3,}', '\n\n', content).strip()
 
-    # 4. Check if YAML exists
-    if content.startswith("---"):
-        return None, content
-
-    # 5. Generate YAML
+    # Generate YAML
     yaml = "---\n"
     yaml += f'layout: default\n'
     yaml += f'title: "{title}"\n'
@@ -74,53 +72,136 @@ def extract_metadata_and_clean(content, filename):
         yaml += f'date: {date_str}\n'
     yaml += "---\n\n"
 
-    return yaml, content
+    return yaml + content
+
+# --- 2. FACEBOOK/TEXT PROCESSING ---
+def convert_to_text_format(content, filename):
+    # Extract Metadata for Header
+    base_name = os.path.splitext(filename)[0]
+    title_parts = base_name.split(" - ", 1)
+    full_title = f"{title_parts[0]} on {title_parts[1]}" if len(title_parts) > 1 else base_name
+
+    date_match = re.search(DATE_REGEX, content)
+    date_txt = date_match.group(1) if date_match else ""
+
+    # Find the link
+    link_match = re.search(YOUTUBE_REGEX, content)
+    full_link = f"https://www.youtube.com/watch?v={link_match.group(1)}" if link_match else ""
+    
+    # 1. Header Construction
+    header = f"Here are the comprehensive notes from the interview with {full_title}."
+    if date_txt:
+        header += f" {date_txt}."
+    if full_link:
+        header += f" Link: {full_link}"
+    header += "\n***\n"
+    header += f"Interview Notes: {full_title}\n"
+
+    # 2. Body Processing
+    lines = content.split('\n')
+    processed_lines = []
+    
+    for line in lines:
+        # Remove Metadata lines from body
+        if "Rating:" in line or "Date:" in line or "Video URL:" in line:
+            continue
+        
+        # Remove intro text logic (if it matches your standard intro)
+        if "Here are" in line and "notes" in line:
+            continue
+        
+        # Handle Empty Lines (Preserve Paragraphs)
+        if not line.strip():
+            processed_lines.append("")
+            continue
+
+        # Headers (### **I. Title**) -> I. Title
+        if line.strip().startswith('#'):
+            clean_header = line.lstrip('#').strip()
+            clean_header = clean_header.replace('**', '')
+            # Ensure a blank line before headers for readability
+            if processed_lines and processed_lines[-1] != "":
+                processed_lines.append("")
+            processed_lines.append(clean_header)
+            continue
+            
+        # Lists
+        # Convert indented bullets (    *) to (-- )
+        if re.match(r'^\s+(\*|-)\s+', line):
+            clean_sub = re.sub(r'^\s+(\*|-)\s+', '-- ', line)
+            clean_sub = clean_sub.replace('**', '')
+            processed_lines.append(clean_sub)
+            continue
+
+        # Convert top level bullets (* or -) to (- )
+        if re.match(r'^(\*|-)\s+', line):
+            clean_item = re.sub(r'^(\*|-)\s+', '- ', line)
+            clean_item = clean_item.replace('**', '')
+            processed_lines.append(clean_item)
+            continue
+            
+        # Separators
+        if "---" in line:
+            processed_lines.append("---")
+            continue
+
+        # Normal text (remove bolding)
+        processed_lines.append(line.replace('**', ''))
+
+    body = "\n".join(processed_lines)
+    # Ensure no more than 2 newlines consecutively
+    body = re.sub(r'\n{3,}', '\n\n', body).strip()
+    
+    return header + "\n" + body
 
 def main():
-    if not os.path.exists(OUTPUT_FOLDER):
-        os.makedirs(OUTPUT_FOLDER)
-    if not os.path.exists(SOURCE_FOLDER):
-        print(f"Error: Folder '{SOURCE_FOLDER}' not found.")
-        return
+    # Ensure directories exist
+    for folder in [INPUT_FOLDER, JEKYLL_OUTPUT_FOLDER, TEXT_OUTPUT_FOLDER, TRANSCRIPT_FOLDER]:
+        if not os.path.exists(folder):
+            os.makedirs(folder)
 
-    files = [f for f in os.listdir(SOURCE_FOLDER) if f.endswith(SOURCE_EXTENSION)]
+    files = [f for f in os.listdir(INPUT_FOLDER) if f.endswith(SOURCE_EXTENSION)]
     formatter = TextFormatter() if LIBRARY_AVAILABLE else None
 
-    print(f"Scanning {len(files)} files...")
+    print(f"Scanning {len(files)} files in '{INPUT_FOLDER}'...")
 
     for filename in files:
-        input_path = os.path.join(SOURCE_FOLDER, filename)
+        input_path = os.path.join(INPUT_FOLDER, filename)
         
         with open(input_path, 'r', encoding='utf-8') as f:
             content = f.read()
 
-        # --- STEP 1: Metadata & Cleaning ---
-        yaml_header, cleaned_body = extract_metadata_and_clean(content, filename)
+        # --- A. Generate Jekyll Markdown ---
+        jekyll_content = process_for_jekyll(content, filename)
+        jekyll_path = os.path.join(JEKYLL_OUTPUT_FOLDER, filename)
+        with open(jekyll_path, 'w', encoding='utf-8') as f:
+            f.write(jekyll_content)
         
-        if yaml_header:
-            print(f"Updated Metadata: {filename}")
-            full_text = yaml_header + cleaned_body
-            with open(input_path, 'w', encoding='utf-8') as f:
-                f.write(full_text)
-            content = full_text
+        # --- B. Generate Facebook Text ---
+        text_content = convert_to_text_format(content, filename)
+        text_filename = os.path.splitext(filename)[0] + ".txt"
+        text_path = os.path.join(TEXT_OUTPUT_FOLDER, text_filename)
+        with open(text_path, 'w', encoding='utf-8') as f:
+            f.write(text_content)
 
-        # --- STEP 2: Transcripts (Skip if blocked/missing) ---
+        print(f"Processed: {filename}")
+
+        # --- C. Transcripts ---
         if not LIBRARY_AVAILABLE: continue
 
         base_name = os.path.splitext(filename)[0]
-        output_path = os.path.join(OUTPUT_FOLDER, f"{base_name}.txt")
+        transcript_path = os.path.join(TRANSCRIPT_FOLDER, f"{base_name}.txt")
 
-        if os.path.exists(output_path): continue
+        if os.path.exists(transcript_path): continue
 
         video_ids = get_video_ids(content)
         if not video_ids: continue
 
-        print(f"Attempting Download: '{filename}'...")
+        print(f"  Downloading Transcript...")
         try:
             full_transcript_text = ""
             success = False
             for i, video_id in enumerate(video_ids):
-                # Using standard call (with hack applied at top if needed)
                 transcript_data = YouTubeTranscriptApi.get_transcript(video_id)
                 formatted_part = formatter.format_transcript(transcript_data)
                 
@@ -130,12 +211,11 @@ def main():
                 success = True
 
             if success:
-                with open(output_path, 'w', encoding='utf-8') as f:
+                with open(transcript_path, 'w', encoding='utf-8') as f:
                     f.write(full_transcript_text)
-                print(f"  [✓] Success.")
 
         except Exception as e:
-            print(f"  [!] Skipped transcript (Error): {e}")
+            print(f"  [!] Skipped transcript: {e}")
             continue
 
 if __name__ == "__main__":
