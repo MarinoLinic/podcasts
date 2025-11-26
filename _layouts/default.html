@@ -25,14 +25,21 @@
 					<p class="subtitle">Archive</p>
 				</header>
 				<nav>
-					{% assign all_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign authors =
-					all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
+					<!-- 1. Get Notes and Filter out any files missing a date (fixes build crash) -->
+					{% assign raw_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign all_notes =
+					raw_notes | where_exp: "item", "item.date" %}
+
+					<!-- 2. Extract Authors -->
+					{% assign authors = all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
 					<details open class="author-group">
 						<summary>{{ author }}</summary>
 						<ul>
-							{% assign author_notes = all_notes | where: "author", author %} {% assign top_notes = author_notes |
-							where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes = author_notes | where_exp: "item",
-							"item.rating != 5" | sort: "date" | reverse %} {% for note in top_notes %}
+							{% assign author_notes = all_notes | where: "author", author %}
+
+							<!-- 3. Sort Logic -->
+							{% assign top_notes = author_notes | where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes
+							= author_notes | where_exp: "item", "item.rating != 5" | sort: "date" | reverse %} {% for note in
+							top_notes %}
 							<li class="rating-5">
 								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}"
 									>{{ note.title }}</a
@@ -92,7 +99,7 @@
 								document.getElementById('transcript-text').textContent = text
 							})
 							.catch((err) => {
-								// HIDE SECTION IF NOT FOUND
+								// Hide section if transcript missing
 								if (transcriptSection) transcriptSection.style.display = 'none'
 							})
 
@@ -126,7 +133,7 @@
 			</main>
 		</div>
 
-		<!-- GLOBAL SCRIPTS -->
+		<!-- Global Scripts -->
 		<script>
 			const sidebar = document.querySelector('.sidebar')
 			const scrollKey = 'sidebarScrollPos'
