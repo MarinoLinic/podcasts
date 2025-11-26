@@ -1,17 +1,16 @@
 :root {
-	/* Strict Light Mode Variables */
 	--bg-color: #ffffff;
-	--sidebar-bg: #fbfbfb; /* Very subtle off-white for sidebar */
-	--text-color: #37352f; /* Notion-like dark gray */
+	--sidebar-bg: #fbfbfb;
+	--text-color: #37352f;
 	--secondary-text: #787774;
-	--accent-color: #0969da; /* GitHub/Notion Blue */
+	--accent-color: #0969da;
 	--border-color: #e6e6e6;
-	--active-bg: #edf5fd; /* Light blue pill background */
+	--active-bg: #edf5fd;
 	--code-bg: #f6f8fa;
 	--hover-bg: #eaeef2;
 
-	/* Fonts */
-	--font-main: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+	/* Fonts - Added 'Inter' to the front so it's used everywhere */
+	--font-main: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
 	--font-mono: 'JetBrains Mono', SFMono-Regular, Consolas, 'Liberation Mono', Menlo, monospace;
 }
 
@@ -34,14 +33,12 @@ body {
 	overflow-x: hidden;
 }
 
-/* --- LINK STYLING --- */
+/* Links */
 a {
 	color: inherit;
 	text-decoration: none;
-	word-break: break-word; /* Prevents long links from breaking layout */
+	word-break: break-word;
 }
-
-/* Content links specifically */
 .markdown-body a {
 	color: var(--accent-color);
 	text-decoration: none;
@@ -51,14 +48,14 @@ a {
 	text-decoration: underline;
 }
 
-/* Layout Container */
+/* Layout */
 .container {
 	display: flex;
 	min-height: 100vh;
 	position: relative;
 }
 
-/* --- SIDEBAR (Archive) --- */
+/* --- SIDEBAR --- */
 .sidebar {
 	width: 300px;
 	background-color: var(--sidebar-bg);
@@ -69,10 +66,9 @@ a {
 	height: 100vh;
 	overflow-y: auto;
 	z-index: 100;
-	transition: transform 0.3s ease; /* Slide animation for mobile */
+	transition: transform 0.3s ease;
 }
 
-/* Sidebar Header */
 .sidebar header {
 	padding: 30px 24px 20px;
 	background: var(--sidebar-bg);
@@ -86,7 +82,6 @@ a {
 	font-size: 1.2rem;
 	font-weight: 700;
 }
-
 .subtitle {
 	font-size: 0.8rem;
 	color: var(--secondary-text);
@@ -95,7 +90,6 @@ a {
 	margin-top: 5px;
 }
 
-/* Archive List Styling */
 .sidebar nav {
 	padding-bottom: 40px;
 }
@@ -105,10 +99,11 @@ a {
 	margin: 0;
 }
 
-/* Author Groups */
+/* --- SIDEBAR DROPDOWNS (Slick Blue Arrow) --- */
 details.author-group {
 	margin-bottom: 8px;
 }
+
 details.author-group summary {
 	padding: 8px 24px;
 	cursor: pointer;
@@ -117,42 +112,66 @@ details.author-group summary {
 	color: var(--secondary-text);
 	user-select: none;
 	transition: color 0.2s;
+	list-style: none; /* Hide default */
+	display: flex;
+	align-items: center;
+}
+
+details.author-group summary::-webkit-details-marker {
+	display: none;
+}
+
+/* The Arrow Logic */
+details.author-group summary::before {
+	content: '';
+	display: inline-block;
+	width: 6px; /* Slightly smaller than transcript arrow */
+	height: 6px;
+	border-right: 2px solid var(--secondary-text);
+	border-bottom: 2px solid var(--secondary-text);
+	transform: rotate(-45deg); /* Points Right */
+	margin-right: 10px;
+	transition: transform 0.2s ease, border-color 0.2s ease;
+	margin-bottom: 2px;
+}
+
+/* Open State */
+details.author-group[open] summary::before {
+	transform: rotate(45deg); /* Points Down */
+	border-color: var(--accent-color);
+}
+details.author-group[open] summary {
+	color: var(--text-color);
 }
 details.author-group summary:hover {
 	color: var(--text-color);
 }
 
-/* Note Links in Sidebar */
+/* Sidebar Links */
 .sidebar nav li a {
 	display: block;
-	padding: 6px 24px 6px 40px; /* Indent */
+	padding: 6px 24px 6px 40px;
 	font-size: 0.9rem;
 	color: var(--text-color);
 	border-radius: 4px;
-	margin: 0 10px; /* Spacing for pill shape */
+	margin: 0 10px;
 	transition: background 0.1s;
-	border-left: 0; /* Reset default border */
 }
-
 .sidebar nav li a:hover {
 	background-color: rgba(0, 0, 0, 0.04);
 }
-
 .sidebar nav li a.active {
 	background-color: var(--active-bg);
 	color: var(--accent-color);
 	font-weight: 500;
 }
-
-/* Sort Logic Visualization */
-/* We just bold the top rated articles, no icons/stars */
 li.rating-5 a {
 	font-weight: 600;
 }
 
 /* --- MAIN CONTENT --- */
 .content {
-	margin-left: 300px; /* Matches sidebar width */
+	margin-left: 300px;
 	padding: 80px 100px;
 	max-width: 900px;
 	width: 100%;
@@ -160,27 +179,63 @@ li.rating-5 a {
 	min-width: 0;
 }
 
-/* Note Header */
+/* Note Header & Switcher */
 .note-header {
 	margin-bottom: 40px;
 }
 .note-header h1 {
 	font-size: 2.5rem;
 	font-weight: 700;
-	margin: 0 0 10px 0;
+	margin: 0 0 15px 0;
 	line-height: 1.2;
 	color: #111;
 }
+
+.header-meta-row {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 15px;
+}
+
 .meta-tags {
 	display: flex;
 	gap: 12px;
 	font-size: 0.9rem;
 	color: var(--secondary-text);
-	font-family: var(--font-main);
 	align-items: center;
 }
 .meta-separator {
 	color: #ddd;
+}
+
+/* View Switcher Buttons */
+.view-switcher {
+	display: flex;
+	background: #f0f0f0;
+	padding: 3px;
+	border-radius: 6px;
+}
+.view-btn {
+	border: none;
+	background: transparent;
+	padding: 4px 12px;
+	font-size: 0.8rem;
+	font-weight: 600;
+	color: var(--secondary-text);
+	cursor: pointer;
+	border-radius: 4px;
+	font-family: var(--font-main);
+	transition: all 0.2s;
+}
+.view-btn:hover {
+	color: var(--text-color);
+}
+.view-btn.active {
+	background: #fff;
+	color: var(--text-color);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
 /* Typography */
@@ -189,7 +244,6 @@ li.rating-5 a {
 	color: #37352f;
 	overflow-wrap: break-word;
 }
-
 .markdown-body h2 {
 	margin-top: 40px;
 	font-size: 1.5rem;
@@ -208,57 +262,50 @@ li.rating-5 a {
 	margin-bottom: 6px;
 }
 
-/* Code Blocks */
-.markdown-body pre,
-.markdown-body code {
-	background-color: var(--code-bg);
+/* Text View specific styling */
+#text-view {
+	display: none;
+}
+#text-view pre {
 	font-family: var(--font-mono);
-	font-size: 0.85em;
-	border-radius: 4px;
-}
-.markdown-body pre {
-	padding: 15px;
-	overflow-x: auto;
+	font-size: 15px;
+	color: #444;
+	background: #f9f9f9;
+	padding: 20px;
+	border-radius: 8px;
 	border: 1px solid var(--border-color);
-}
-.markdown-body code {
-	padding: 2px 6px;
-	border: 1px solid var(--border-color);
+	white-space: pre-wrap; /* Wrap text */
+	overflow-x: hidden;
 }
 
-/* --- TRANSCRIPT SECTION (Slick Blue Arrow) --- */
+/* --- TRANSCRIPT SECTION --- */
 .transcript-section {
 	margin-top: 60px;
 }
-
 details#transcript-container {
 	border: 1px solid var(--border-color);
 	border-radius: 6px;
-	overflow: hidden; /* Keeps content inside rounded corners */
+	overflow: hidden;
 }
-
 details#transcript-container summary {
 	padding: 15px 20px;
 	background-color: var(--sidebar-bg);
 	cursor: pointer;
 	font-weight: 600;
 	color: var(--text-color);
-	list-style: none; /* Hide default black triangle */
+	list-style: none;
 	display: flex;
 	align-items: center;
 	transition: background 0.2s;
 }
-
 details#transcript-container summary:hover {
 	background-color: var(--hover-bg);
 }
-
-/* Remove default marker in Webkit/Chrome */
 details#transcript-container summary::-webkit-details-marker {
 	display: none;
 }
 
-/* Create Custom Slick Arrow */
+/* Transcript Arrow */
 details#transcript-container summary::before {
 	content: '';
 	display: inline-block;
@@ -266,18 +313,15 @@ details#transcript-container summary::before {
 	height: 8px;
 	border-right: 2px solid var(--secondary-text);
 	border-bottom: 2px solid var(--secondary-text);
-	transform: rotate(-45deg); /* Points Right */
+	transform: rotate(-45deg);
 	margin-right: 12px;
 	transition: transform 0.2s ease, border-color 0.2s ease;
 	margin-bottom: 2px;
 }
-
-/* Rotate Arrow and Color when Open */
 details#transcript-container[open] summary::before {
-	transform: rotate(45deg); /* Points Down */
+	transform: rotate(45deg);
 	border-color: var(--accent-color);
 }
-
 details#transcript-container[open] summary {
 	border-bottom: 1px solid var(--border-color);
 	color: var(--accent-color);
@@ -299,15 +343,13 @@ details#transcript-container[open] summary {
 	word-break: break-word;
 }
 
-/* --- MOBILE MENU & RESPONSIVENESS --- */
-
-/* Hamburger Button */
+/* --- MOBILE MENU --- */
 .menu-toggle {
-	display: none; /* Hidden on Desktop */
+	display: none;
 	position: fixed;
 	top: 15px;
 	left: 20px;
-	z-index: 200; /* Ensure this is on top of everything */
+	z-index: 200;
 	background: #fff;
 	border: 1px solid var(--border-color);
 	padding: 8px 14px;
@@ -325,8 +367,6 @@ details#transcript-container[open] summary {
 	.menu-toggle {
 		display: flex;
 	}
-
-	/* Hide Sidebar by default (slide out to left) */
 	.sidebar {
 		transform: translateX(-100%);
 		width: 85%;
@@ -334,34 +374,20 @@ details#transcript-container[open] summary {
 		box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 		background: #fff;
 	}
-
-	/* Open State */
 	.sidebar.open {
 		transform: translateX(0);
 	}
-
-	/* Content adjustments */
 	.content {
 		margin-left: 0;
-		padding: 80px 20px 40px; /* Top padding accounts for menu button */
+		padding: 80px 20px 40px;
 		width: 100vw;
 	}
-
-	/* Mobile Typography Scaling */
 	.note-header h1 {
 		font-size: 1.8rem;
 	}
 	.markdown-body {
 		font-size: 16px;
 	}
-
-	/* Fix List Indentation on Mobile */
-	.markdown-body ul,
-	.markdown-body ol {
-		padding-left: 18px;
-	}
-
-	/* Overlay for clicking out */
 	.overlay {
 		display: none;
 		position: fixed;

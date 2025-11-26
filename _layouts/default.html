@@ -25,21 +25,14 @@
 					<p class="subtitle">Archive</p>
 				</header>
 				<nav>
-					<!-- 1. Get Notes and Filter out any files missing a date (fixes build crash) -->
-					{% assign raw_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign all_notes =
-					raw_notes | where_exp: "item", "item.date" %}
-
-					<!-- 2. Extract Authors -->
-					{% assign authors = all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
+					{% assign all_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign authors =
+					all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
 					<details open class="author-group">
 						<summary>{{ author }}</summary>
 						<ul>
-							{% assign author_notes = all_notes | where: "author", author %}
-
-							<!-- 3. Sort Logic -->
-							{% assign top_notes = author_notes | where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes
-							= author_notes | where_exp: "item", "item.rating != 5" | sort: "date" | reverse %} {% for note in
-							top_notes %}
+							{% assign author_notes = all_notes | where: "author", author %} {% assign top_notes = author_notes |
+							where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes = author_notes | where_exp: "item",
+							"item.rating != 5" | sort: "date" | reverse %} {% for note in top_notes %}
 							<li class="rating-5">
 								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}"
 									>{{ note.title }}</a
@@ -64,13 +57,27 @@
 				<article class="markdown-body" id="note-content">
 					<div class="note-header">
 						<h1>{{ page.title }}</h1>
-						<div class="meta-tags">
-							<span class="meta-author">{{ page.author }}</span>
-							<span class="meta-separator">•</span>
-							<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
+
+						<div class="header-meta-row">
+							<div class="meta-tags">
+								<span class="meta-author">{{ page.author }}</span>
+								<span class="meta-separator">•</span>
+								<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
+							</div>
+
+							<!-- The Switcher -->
+							<div class="view-switcher">
+								<button class="view-btn active" id="btn-markdown" onclick="switchView('markdown')">Markdown</button>
+								<button class="view-btn" id="btn-text" onclick="switchView('text')">Text</button>
+							</div>
 						</div>
 					</div>
-					{{ content }}
+
+					<!-- Content Container -->
+					<div id="markdown-view">{{ content }}</div>
+					<div id="text-view">
+						<pre id="raw-text-content">Loading text version...</pre>
+					</div>
 				</article>
 
 				<!-- Transcript Section -->
@@ -85,9 +92,55 @@
 
 				<script>
 					document.addEventListener('DOMContentLoaded', function () {
+						// --- 1. View Switcher Logic ---
+						const mdView = document.getElementById('markdown-view')
+						const textView = document.getElementById('text-view')
+						const btnMd = document.getElementById('btn-markdown')
+						const btnText = document.getElementById('btn-text')
+						const rawTextContent = document.getElementById('raw-text-content')
+
+						// Calculate text file path based on current page
 						const currentPath = '{{ page.path }}'
-						const filename = currentPath.split('/').pop().replace('.md', '.txt')
-						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + filename
+						const textFilename = currentPath.split('/').pop().replace('.md', '.txt')
+						const textFilePath = "{{ '/Notes_Text/' | relative_url }}" + textFilename
+						let textLoaded = false
+
+						window.switchView = function (mode) {
+							localStorage.setItem('noteViewMode', mode)
+
+							if (mode === 'text') {
+								mdView.style.display = 'none'
+								textView.style.display = 'block'
+								btnMd.classList.remove('active')
+								btnText.classList.add('active')
+
+								// Fetch text only if not already loaded
+								if (!textLoaded) {
+									fetch(textFilePath)
+										.then((res) => res.text())
+										.then((text) => {
+											rawTextContent.textContent = text
+											textLoaded = true
+										})
+										.catch((err) => (rawTextContent.textContent = 'Text version not available.'))
+								}
+							} else {
+								textView.style.display = 'none'
+								mdView.style.display = 'block'
+								btnText.classList.remove('active')
+								btnMd.classList.add('active')
+							}
+						}
+
+						// Initialize View based on LocalStorage
+						const savedMode = localStorage.getItem('noteViewMode')
+						if (savedMode === 'text') {
+							switchView('text')
+						}
+
+						// --- 2. Transcript Logic ---
+						const transcriptFilename = currentPath.split('/').pop().replace('.md', '.txt')
+						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
 						const transcriptSection = document.querySelector('.transcript-section')
 
 						fetch(transcriptPath)
@@ -95,15 +148,13 @@
 								if (!res.ok) throw new Error('Not found')
 								return res.text()
 							})
-							.then((text) => {
-								document.getElementById('transcript-text').textContent = text
-							})
+							.then((text) => (document.getElementById('transcript-text').textContent = text))
 							.catch((err) => {
-								// Hide section if transcript missing
 								if (transcriptSection) transcriptSection.style.display = 'none'
 							})
 
-						const contentDiv = document.getElementById('note-content')
+						// --- 3. Linkifier ---
+						const contentDiv = document.getElementById('markdown-view')
 						if (contentDiv) {
 							function linkify(node) {
 								if (node.nodeType === 3) {
@@ -133,7 +184,7 @@
 			</main>
 		</div>
 
-		<!-- Global Scripts -->
+		<!-- GLOBAL SCRIPTS -->
 		<script>
 			const sidebar = document.querySelector('.sidebar')
 			const scrollKey = 'sidebarScrollPos'
