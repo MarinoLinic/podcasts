@@ -17,7 +17,7 @@
 		<!-- Dark Overlay (Mobile) -->
 		<div class="overlay {% if page.url == '/' %}active{% endif %}" id="overlay"></div>
 
-		<!-- NEW: Statistics Modal -->
+		<!-- Statistics Modal (Expanded) -->
 		<div class="modal-overlay" id="statsOverlay">
 			<div class="stats-modal">
 				<h3>Note Statistics</h3>
@@ -30,9 +30,23 @@
 						<span class="stat-label">Characters</span>
 						<span class="stat-value" id="modal-chars">0</span>
 					</div>
+					<!-- New Reading Time -->
 					<div class="stat-item">
-						<span class="stat-label">Lines</span>
-						<span class="stat-value" id="modal-lines">0</span>
+						<span class="stat-label">Reading Time</span>
+						<span class="stat-value" id="modal-readtime">0 min</span>
+					</div>
+					<!-- Additional Helpful Stats -->
+					<div class="stat-item">
+						<span class="stat-label">Sentences</span>
+						<span class="stat-value" id="modal-sentences">0</span>
+					</div>
+					<div class="stat-item">
+						<span class="stat-label">Paragraphs</span>
+						<span class="stat-value" id="modal-paragraphs">0</span>
+					</div>
+					<div class="stat-item">
+						<span class="stat-label">Avg. Sentence</span>
+						<span class="stat-value" id="modal-avg">0 words</span>
 					</div>
 				</div>
 				<button
@@ -60,22 +74,15 @@
 					<p class="subtitle">Archive</p>
 				</header>
 				<nav>
-					<!-- 1. Filter out notes that are missing a date to prevent build crash -->
 					{% assign raw_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign all_notes =
-					raw_notes | where_exp: "item", "item.date" %}
-
-					<!-- 2. Extract Authors -->
-					{% assign authors = all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
-					<!-- 'open' attribute is default, JS will close it if saved in localStorage -->
+					raw_notes | where_exp: "item", "item.date" %} {% assign authors = all_notes | map: 'author' | uniq | sort %}
+					{% for author in authors %}
 					<details open class="author-group">
 						<summary>{{ author }}</summary>
 						<ul>
-							{% assign author_notes = all_notes | where: "author", author %}
-
-							<!-- 3. Sort Logic -->
-							{% assign top_notes = author_notes | where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes
-							= author_notes | where_exp: "item", "item.rating != 5" | sort: "date" | reverse %} {% for note in
-							top_notes %}
+							{% assign author_notes = all_notes | where: "author", author %} {% assign top_notes = author_notes |
+							where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes = author_notes | where_exp: "item",
+							"item.rating != 5" | sort: "date" | reverse %} {% for note in top_notes %}
 							<li class="rating-5">
 								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}"
 									>{{ note.title }}</a
@@ -107,7 +114,6 @@
 								<span class="meta-separator">•</span>
 								<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
 								<span class="meta-separator">•</span>
-								<!-- UPDATED: Word Count Trigger -->
 								<span class="meta-stats" id="word-count-trigger" onclick="openStats()"> Loading... </span>
 							</div>
 
@@ -119,10 +125,8 @@
 						</div>
 					</div>
 
-					<!-- View Containers -->
 					<div id="markdown-view">{{ content }}</div>
 
-					<!-- Text View with Copy Button -->
 					<div id="text-view">
 						<div class="copy-btn-wrapper">
 							<button class="copy-btn" id="copy-text-btn" onclick="copyToClipboard()"><span>📋</span> Copy Text</button>
@@ -131,7 +135,6 @@
 					</div>
 				</article>
 
-				<!-- Transcript Section -->
 				<section class="transcript-section">
 					<details id="transcript-container">
 						<summary>📄 Read Transcript</summary>
@@ -141,91 +144,86 @@
 					</details>
 				</section>
 
-				<!-- Note Specific Scripts -->
 				<script>
 					document.addEventListener('DOMContentLoaded', function () {
-						// --- 1. Sidebar Persistence Logic ---
+						// --- 1. Sidebar Persistence ---
 						const authorDetails = document.querySelectorAll('details.author-group')
-
 						authorDetails.forEach((details) => {
 							const summary = details.querySelector('summary').innerText.trim()
-							// Create a unique key for each author
 							const storageKey = 'sidebar_author_' + summary
-
-							// Check LocalStorage
 							const savedState = localStorage.getItem(storageKey)
-
-							// The HTML defaults to 'open'. If storage says 'closed', we remove the attribute.
-							if (savedState === 'closed') {
-								details.removeAttribute('open')
-							}
-
-							// Listen for toggles and save state
+							if (savedState === 'closed') details.removeAttribute('open')
 							details.addEventListener('toggle', () => {
-								if (details.open) {
-									localStorage.setItem(storageKey, 'open')
-								} else {
-									localStorage.setItem(storageKey, 'closed')
-								}
+								localStorage.setItem(storageKey, details.open ? 'open' : 'closed')
 							})
 						})
 
-						// --- 2. Word Count & Stats Logic ---
+						// --- 2. Advanced Stats Logic ---
 						const contentDiv = document.getElementById('markdown-view')
 						const trigger = document.getElementById('word-count-trigger')
 
 						function calculateStats() {
-							if (!contentDiv) return { words: 0, chars: 0, lines: 0 }
+							if (!contentDiv) return { words: 0, chars: 0, lines: 0, readTime: 0, sentences: 0, paragraphs: 0, avg: 0 }
 
-							// Get text content (stripped of HTML tags for accuracy)
 							const text = contentDiv.innerText || ''
+							const cleanText = text.trim()
 
-							const words = text
-								.trim()
-								.split(/\s+/)
-								.filter((w) => w.length > 0).length
-							const chars = text.length
-							// Rough line count estimate
+							// Basic Counts
+							const words = cleanText.split(/\s+/).filter((w) => w.length > 0).length
+							const chars = cleanText.length
 							const lines = text.split(/\r\n|\r|\n/).length
 
-							return { words, chars, lines }
+							// New Stats
+							// Reading time (approx 225 wpm)
+							const readTime = Math.ceil(words / 225)
+
+							// Sentences (Simple split by punctuation)
+							const sentences = cleanText.split(/[.!?]+/).filter((s) => s.trim().length > 0).length
+
+							// Paragraphs (Split by double newlines)
+							const paragraphs = text.split(/\n\s*\n/).filter((p) => p.trim().length > 0).length
+
+							// Avg Sentence Length
+							const avg = sentences > 0 ? (words / sentences).toFixed(1) : 0
+
+							return { words, chars, lines, readTime, sentences, paragraphs, avg }
 						}
 
-						// Initialize Stats on Load
 						const stats = calculateStats()
 						if (trigger) trigger.innerText = stats.words.toLocaleString() + ' words'
 
-						// Modal Functions
 						window.openStats = function () {
 							document.getElementById('modal-words').innerText = stats.words.toLocaleString()
 							document.getElementById('modal-chars').innerText = stats.chars.toLocaleString()
 							document.getElementById('modal-lines').innerText = stats.lines.toLocaleString()
 
+							// Populate New Stats
+							document.getElementById('modal-readtime').innerText = stats.readTime + ' min'
+							document.getElementById('modal-sentences').innerText = stats.sentences.toLocaleString()
+							document.getElementById('modal-paragraphs').innerText = stats.paragraphs.toLocaleString()
+							document.getElementById('modal-avg').innerText = stats.avg
+
 							const overlay = document.getElementById('statsOverlay')
 							overlay.style.display = 'flex'
-							// Small timeout to allow display:flex to apply before opacity transition
 							setTimeout(() => overlay.classList.add('active'), 10)
 						}
 
 						window.closeStats = function () {
 							const overlay = document.getElementById('statsOverlay')
 							overlay.classList.remove('active')
-							// Wait for transition to finish before hiding
 							setTimeout(() => (overlay.style.display = 'none'), 200)
 						}
 
-						// Close modal on background click
 						document.getElementById('statsOverlay').addEventListener('click', (e) => {
 							if (e.target.id === 'statsOverlay') closeStats()
 						})
 
-						// --- 3. View Switcher Logic ---
+						// --- 3. View Switcher & Copy (Existing) ---
 						const mdView = document.getElementById('markdown-view')
 						const textView = document.getElementById('text-view')
 						const btnMd = document.getElementById('btn-markdown')
 						const btnText = document.getElementById('btn-text')
 						const rawTextContent = document.getElementById('raw-text-content')
-
 						const currentPath = '{{ page.path }}'
 						const textFilename = currentPath.split('/').pop().replace('.md', '.txt')
 						const textFilePath = "{{ '/Notes_Text/' | relative_url }}" + textFilename
@@ -233,13 +231,11 @@
 
 						window.switchView = function (mode) {
 							localStorage.setItem('noteViewMode', mode)
-
 							if (mode === 'text') {
 								mdView.style.display = 'none'
 								textView.style.display = 'block'
 								btnMd.classList.remove('active')
 								btnText.classList.add('active')
-
 								if (!textLoaded) {
 									fetch(textFilePath)
 										.then((res) => res.text())
@@ -256,37 +252,22 @@
 								btnMd.classList.add('active')
 							}
 						}
+						if (localStorage.getItem('noteViewMode') === 'text') switchView('text')
 
-						// Restore Preference
-						const savedMode = localStorage.getItem('noteViewMode')
-						if (savedMode === 'text') {
-							switchView('text')
-						}
-
-						// --- 4. Copy to Clipboard Function ---
 						window.copyToClipboard = function () {
-							const text = rawTextContent.textContent
-							const btn = document.getElementById('copy-text-btn')
-
-							navigator.clipboard
-								.writeText(text)
-								.then(() => {
-									// Visual Feedback
-									const originalHTML = btn.innerHTML
-									btn.innerHTML = '<span>✓</span> Copied!'
-									btn.classList.add('copied')
-
-									setTimeout(() => {
-										btn.innerHTML = originalHTML
-										btn.classList.remove('copied')
-									}, 2000)
-								})
-								.catch((err) => {
-									console.error('Failed to copy: ', err)
-								})
+							navigator.clipboard.writeText(rawTextContent.textContent).then(() => {
+								const btn = document.getElementById('copy-text-btn')
+								const originalHTML = btn.innerHTML
+								btn.innerHTML = '<span>✓</span> Copied!'
+								btn.classList.add('copied')
+								setTimeout(() => {
+									btn.innerHTML = originalHTML
+									btn.classList.remove('copied')
+								}, 2000)
+							})
 						}
 
-						// --- 5. Transcript Logic ---
+						// --- 4. Transcript & Linkify (Existing) ---
 						const transcriptFilename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
 						const transcriptSection = document.querySelector('.transcript-section')
@@ -301,7 +282,6 @@
 								if (transcriptSection) transcriptSection.style.display = 'none'
 							})
 
-						// --- 6. Linkifier ---
 						if (contentDiv) {
 							function linkify(node) {
 								if (node.nodeType === 3) {
@@ -312,12 +292,7 @@
 										span.innerHTML = text.replace(urlRegex, '<a href="$1" target="_blank">$1</a>')
 										node.parentNode.replaceChild(span, node)
 									}
-								} else if (
-									node.nodeType === 1 &&
-									node.tagName !== 'A' &&
-									node.tagName !== 'PRE' &&
-									node.tagName !== 'CODE'
-								) {
+								} else if (node.nodeType === 1 && !['A', 'PRE', 'CODE'].includes(node.tagName)) {
 									Array.from(node.childNodes).forEach(linkify)
 								}
 							}
@@ -326,52 +301,38 @@
 					})
 				</script>
 				{% else %}
-				<!-- This else block handles pages that aren't notes (like index.html) -->
 				<div class="markdown-body">{{ content }}</div>
 				{% endif %}
 			</main>
 		</div>
 
-		<!-- GLOBAL SCRIPTS (Mobile Menu & Scroll Position) -->
 		<script>
 			const sidebar = document.querySelector('.sidebar')
 			const scrollKey = 'sidebarScrollPos'
 			const savedScroll = localStorage.getItem(scrollKey)
 			if (savedScroll && sidebar) sidebar.scrollTop = savedScroll
-
 			window.addEventListener('beforeunload', () => {
 				if (sidebar) localStorage.setItem(scrollKey, sidebar.scrollTop)
 			})
-
 			const menuBtn = document.getElementById('menuToggle')
 			const overlay = document.getElementById('overlay')
 			const sidebarEl = document.getElementById('sidebar')
 			const sidebarLinks = document.querySelectorAll('.sidebar nav a')
-
 			function toggleMenu() {
 				sidebarEl.classList.toggle('open')
 				overlay.classList.toggle('active')
-				if (sidebarEl.classList.contains('open')) {
-					menuBtn.innerHTML = '<span>✕</span> Close'
-				} else {
-					menuBtn.innerHTML = '<span>☰</span> Menu'
-				}
+				menuBtn.innerHTML = sidebarEl.classList.contains('open') ? '<span>✕</span> Close' : '<span>☰</span> Menu'
 			}
-
 			if (menuBtn) {
 				menuBtn.addEventListener('click', toggleMenu)
 				overlay.addEventListener('click', toggleMenu)
 			}
-
 			sidebarLinks.forEach((link) => {
 				link.addEventListener('click', () => {
 					if (window.innerWidth <= 768) toggleMenu()
 				})
 			})
-
-			if (sidebarEl.classList.contains('open')) {
-				menuBtn.innerHTML = '<span>✕</span> Close'
-			}
+			if (sidebarEl.classList.contains('open')) menuBtn.innerHTML = '<span>✕</span> Close'
 		</script>
 	</body>
 </html>
