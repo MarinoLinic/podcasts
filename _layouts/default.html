@@ -14,8 +14,43 @@
 		<!-- Mobile Menu Button -->
 		<button class="menu-toggle" id="menuToggle"><span>☰</span> Menu</button>
 
-		<!-- Dark Overlay -->
+		<!-- Dark Overlay (Mobile) -->
 		<div class="overlay {% if page.url == '/' %}active{% endif %}" id="overlay"></div>
+
+		<!-- NEW: Statistics Modal -->
+		<div class="modal-overlay" id="statsOverlay">
+			<div class="stats-modal">
+				<h3>Note Statistics</h3>
+				<div class="stats-grid">
+					<div class="stat-item">
+						<span class="stat-label">Words</span>
+						<span class="stat-value" id="modal-words">0</span>
+					</div>
+					<div class="stat-item">
+						<span class="stat-label">Characters</span>
+						<span class="stat-value" id="modal-chars">0</span>
+					</div>
+					<div class="stat-item">
+						<span class="stat-label">Lines</span>
+						<span class="stat-value" id="modal-lines">0</span>
+					</div>
+				</div>
+				<button
+					onclick="closeStats()"
+					style="
+						margin-top: 20px;
+						padding: 8px 16px;
+						border: 1px solid #ddd;
+						background: #fff;
+						cursor: pointer;
+						border-radius: 4px;
+						font-weight: 500;
+					"
+				>
+					Close
+				</button>
+			</div>
+		</div>
 
 		<div class="container">
 			<!-- Sidebar -->
@@ -31,6 +66,7 @@
 
 					<!-- 2. Extract Authors -->
 					{% assign authors = all_notes | map: 'author' | uniq | sort %} {% for author in authors %}
+					<!-- 'open' attribute is default, JS will close it if saved in localStorage -->
 					<details open class="author-group">
 						<summary>{{ author }}</summary>
 						<ul>
@@ -70,6 +106,9 @@
 								<span class="meta-author">{{ page.author }}</span>
 								<span class="meta-separator">•</span>
 								<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
+								<span class="meta-separator">•</span>
+								<!-- UPDATED: Word Count Trigger -->
+								<span class="meta-stats" id="word-count-trigger" onclick="openStats()"> Loading... </span>
 							</div>
 
 							<!-- View Switcher -->
@@ -102,9 +141,85 @@
 					</details>
 				</section>
 
+				<!-- Note Specific Scripts -->
 				<script>
 					document.addEventListener('DOMContentLoaded', function () {
-						// --- 1. View Switcher Logic ---
+						// --- 1. Sidebar Persistence Logic ---
+						const authorDetails = document.querySelectorAll('details.author-group')
+
+						authorDetails.forEach((details) => {
+							const summary = details.querySelector('summary').innerText.trim()
+							// Create a unique key for each author
+							const storageKey = 'sidebar_author_' + summary
+
+							// Check LocalStorage
+							const savedState = localStorage.getItem(storageKey)
+
+							// The HTML defaults to 'open'. If storage says 'closed', we remove the attribute.
+							if (savedState === 'closed') {
+								details.removeAttribute('open')
+							}
+
+							// Listen for toggles and save state
+							details.addEventListener('toggle', () => {
+								if (details.open) {
+									localStorage.setItem(storageKey, 'open')
+								} else {
+									localStorage.setItem(storageKey, 'closed')
+								}
+							})
+						})
+
+						// --- 2. Word Count & Stats Logic ---
+						const contentDiv = document.getElementById('markdown-view')
+						const trigger = document.getElementById('word-count-trigger')
+
+						function calculateStats() {
+							if (!contentDiv) return { words: 0, chars: 0, lines: 0 }
+
+							// Get text content (stripped of HTML tags for accuracy)
+							const text = contentDiv.innerText || ''
+
+							const words = text
+								.trim()
+								.split(/\s+/)
+								.filter((w) => w.length > 0).length
+							const chars = text.length
+							// Rough line count estimate
+							const lines = text.split(/\r\n|\r|\n/).length
+
+							return { words, chars, lines }
+						}
+
+						// Initialize Stats on Load
+						const stats = calculateStats()
+						if (trigger) trigger.innerText = stats.words.toLocaleString() + ' words'
+
+						// Modal Functions
+						window.openStats = function () {
+							document.getElementById('modal-words').innerText = stats.words.toLocaleString()
+							document.getElementById('modal-chars').innerText = stats.chars.toLocaleString()
+							document.getElementById('modal-lines').innerText = stats.lines.toLocaleString()
+
+							const overlay = document.getElementById('statsOverlay')
+							overlay.style.display = 'flex'
+							// Small timeout to allow display:flex to apply before opacity transition
+							setTimeout(() => overlay.classList.add('active'), 10)
+						}
+
+						window.closeStats = function () {
+							const overlay = document.getElementById('statsOverlay')
+							overlay.classList.remove('active')
+							// Wait for transition to finish before hiding
+							setTimeout(() => (overlay.style.display = 'none'), 200)
+						}
+
+						// Close modal on background click
+						document.getElementById('statsOverlay').addEventListener('click', (e) => {
+							if (e.target.id === 'statsOverlay') closeStats()
+						})
+
+						// --- 3. View Switcher Logic ---
 						const mdView = document.getElementById('markdown-view')
 						const textView = document.getElementById('text-view')
 						const btnMd = document.getElementById('btn-markdown')
@@ -148,7 +263,7 @@
 							switchView('text')
 						}
 
-						// --- 2. Copy to Clipboard Function ---
+						// --- 4. Copy to Clipboard Function ---
 						window.copyToClipboard = function () {
 							const text = rawTextContent.textContent
 							const btn = document.getElementById('copy-text-btn')
@@ -171,7 +286,7 @@
 								})
 						}
 
-						// --- 3. Transcript Logic ---
+						// --- 5. Transcript Logic ---
 						const transcriptFilename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
 						const transcriptSection = document.querySelector('.transcript-section')
@@ -186,8 +301,7 @@
 								if (transcriptSection) transcriptSection.style.display = 'none'
 							})
 
-						// --- 4. Linkifier ---
-						const contentDiv = document.getElementById('markdown-view')
+						// --- 6. Linkifier ---
 						if (contentDiv) {
 							function linkify(node) {
 								if (node.nodeType === 3) {
@@ -212,12 +326,13 @@
 					})
 				</script>
 				{% else %}
+				<!-- This else block handles pages that aren't notes (like index.html) -->
 				<div class="markdown-body">{{ content }}</div>
 				{% endif %}
 			</main>
 		</div>
 
-		<!-- GLOBAL SCRIPTS -->
+		<!-- GLOBAL SCRIPTS (Mobile Menu & Scroll Position) -->
 		<script>
 			const sidebar = document.querySelector('.sidebar')
 			const scrollKey = 'sidebarScrollPos'
