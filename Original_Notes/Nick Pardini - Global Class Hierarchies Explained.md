@@ -4,9 +4,7 @@ Rating: 5
 Date: `26 Nov 2025` 
 Video URL: https://www.youtube.com/watch?v=GKyuUa0o9Hc
 
-***
-
-# Global Class Hierarchies & The Future of Society
+---
 
 ## Introduction: The Flawed Standard Model
 *   The conventional view of society (the feudal model or the 5-class model) is deeply flawed when applied to the modern United States.

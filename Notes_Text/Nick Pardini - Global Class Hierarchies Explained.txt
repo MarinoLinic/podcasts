@@ -2,9 +2,7 @@ Here are the comprehensive notes from the interview with Nick Pardini on Global 
 ***
 Interview Notes: Nick Pardini on Global Class Hierarchies Explained
 
-*
-
-Global Class Hierarchies & The Future of Society
+---
 
 Introduction: The Flawed Standard Model
 

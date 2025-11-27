@@ -269,8 +269,15 @@ li.rating-5 a {
 .markdown-body li {
 	margin-bottom: 6px;
 }
+.markdown-body img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+	border-radius: 4px;
+}
 
-/* --- UPDATED: Text View Styling --- */
+/* --- Text View Styling --- */
 #text-view {
 	display: none;
 	position: relative; /* Anchor for the copy button */
