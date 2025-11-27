@@ -31,6 +31,10 @@
 						<span class="stat-value" id="modal-chars">0</span>
 					</div>
 					<div class="stat-item">
+						<span class="stat-label">Lines</span>
+						<span class="stat-value" id="modal-lines">0</span>
+					</div>
+					<div class="stat-item">
 						<span class="stat-label">Reading Time</span>
 						<span class="stat-value" id="modal-readtime">0 min</span>
 					</div>
@@ -113,7 +117,7 @@
 								<span class="meta-separator">•</span>
 								<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
 								<span class="meta-separator">•</span>
-								<!-- FIXED: No inline onclick, ID handled in JS -->
+								<!-- Trigger with ID for JS Listener -->
 								<span class="meta-stats" id="word-count-trigger"> Loading... </span>
 							</div>
 
@@ -158,11 +162,17 @@
 							})
 						})
 
-						// --- 2. Advanced Stats Logic (FIXED) ---
+						// --- 2. Advanced Stats Logic (FIXED & SAFER) ---
 						const contentDiv = document.getElementById('markdown-view')
 						const trigger = document.getElementById('word-count-trigger')
 						const modalOverlay = document.getElementById('statsOverlay')
 						const closeBtn = document.getElementById('closeStatsBtn')
+
+						// Helper to prevent "Cannot set property of null" errors
+						function safeSetText(id, text) {
+							const el = document.getElementById(id)
+							if (el) el.innerText = text
+						}
 
 						function calculateStats() {
 							if (!contentDiv) return { words: 0, chars: 0, lines: 0, readTime: 0, sentences: 0, paragraphs: 0, avg: 0 }
@@ -181,23 +191,20 @@
 							return { words, chars, lines, readTime, sentences, paragraphs, avg }
 						}
 
-						// Initialize Trigger Text
+						// Initialize Trigger
 						const stats = calculateStats()
 						if (trigger) {
 							trigger.innerText = stats.words.toLocaleString() + ' words'
 
-							// ATTACH CLICK EVENT HERE (Instead of inline HTML)
 							trigger.addEventListener('click', function () {
-								// Populate Modal Data
-								if (document.getElementById('modal-words')) {
-									document.getElementById('modal-words').innerText = stats.words.toLocaleString()
-									document.getElementById('modal-chars').innerText = stats.chars.toLocaleString()
-									document.getElementById('modal-lines').innerText = stats.lines.toLocaleString()
-									document.getElementById('modal-readtime').innerText = stats.readTime + ' min'
-									document.getElementById('modal-sentences').innerText = stats.sentences.toLocaleString()
-									document.getElementById('modal-paragraphs').innerText = stats.paragraphs.toLocaleString()
-									document.getElementById('modal-avg').innerText = stats.avg
-								}
+								// Safe Updates
+								safeSetText('modal-words', stats.words.toLocaleString())
+								safeSetText('modal-chars', stats.chars.toLocaleString())
+								safeSetText('modal-lines', stats.lines.toLocaleString())
+								safeSetText('modal-readtime', stats.readTime + ' min')
+								safeSetText('modal-sentences', stats.sentences.toLocaleString())
+								safeSetText('modal-paragraphs', stats.paragraphs.toLocaleString())
+								safeSetText('modal-avg', stats.avg)
 
 								// Show Modal
 								if (modalOverlay) {
@@ -207,7 +214,6 @@
 							})
 						}
 
-						// Modal Close Logic
 						function closeModal() {
 							if (modalOverlay) {
 								modalOverlay.classList.remove('active')
