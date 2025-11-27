@@ -17,7 +17,7 @@
 		<!-- Dark Overlay (Mobile) -->
 		<div class="overlay {% if page.url == '/' %}active{% endif %}" id="overlay"></div>
 
-		<!-- Statistics Modal (Expanded) -->
+		<!-- Statistics Modal -->
 		<div class="modal-overlay" id="statsOverlay">
 			<div class="stats-modal">
 				<h3>Note Statistics</h3>
@@ -30,12 +30,10 @@
 						<span class="stat-label">Characters</span>
 						<span class="stat-value" id="modal-chars">0</span>
 					</div>
-					<!-- New Reading Time -->
 					<div class="stat-item">
 						<span class="stat-label">Reading Time</span>
 						<span class="stat-value" id="modal-readtime">0 min</span>
 					</div>
-					<!-- Additional Helpful Stats -->
 					<div class="stat-item">
 						<span class="stat-label">Sentences</span>
 						<span class="stat-value" id="modal-sentences">0</span>
@@ -49,8 +47,9 @@
 						<span class="stat-value" id="modal-avg">0 words</span>
 					</div>
 				</div>
+				<!-- Close Button -->
 				<button
-					onclick="closeStats()"
+					id="closeStatsBtn"
 					style="
 						margin-top: 20px;
 						padding: 8px 16px;
@@ -114,7 +113,8 @@
 								<span class="meta-separator">•</span>
 								<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
 								<span class="meta-separator">•</span>
-								<span class="meta-stats" id="word-count-trigger" onclick="openStats()"> Loading... </span>
+								<!-- FIXED: No inline onclick, ID handled in JS -->
+								<span class="meta-stats" id="word-count-trigger"> Loading... </span>
 							</div>
 
 							<!-- View Switcher -->
@@ -158,9 +158,11 @@
 							})
 						})
 
-						// --- 2. Advanced Stats Logic ---
+						// --- 2. Advanced Stats Logic (FIXED) ---
 						const contentDiv = document.getElementById('markdown-view')
 						const trigger = document.getElementById('word-count-trigger')
+						const modalOverlay = document.getElementById('statsOverlay')
+						const closeBtn = document.getElementById('closeStatsBtn')
 
 						function calculateStats() {
 							if (!contentDiv) return { words: 0, chars: 0, lines: 0, readTime: 0, sentences: 0, paragraphs: 0, avg: 0 }
@@ -168,57 +170,59 @@
 							const text = contentDiv.innerText || ''
 							const cleanText = text.trim()
 
-							// Basic Counts
 							const words = cleanText.split(/\s+/).filter((w) => w.length > 0).length
 							const chars = cleanText.length
 							const lines = text.split(/\r\n|\r|\n/).length
-
-							// New Stats
-							// Reading time (approx 225 wpm)
 							const readTime = Math.ceil(words / 225)
-
-							// Sentences (Simple split by punctuation)
 							const sentences = cleanText.split(/[.!?]+/).filter((s) => s.trim().length > 0).length
-
-							// Paragraphs (Split by double newlines)
 							const paragraphs = text.split(/\n\s*\n/).filter((p) => p.trim().length > 0).length
-
-							// Avg Sentence Length
 							const avg = sentences > 0 ? (words / sentences).toFixed(1) : 0
 
 							return { words, chars, lines, readTime, sentences, paragraphs, avg }
 						}
 
+						// Initialize Trigger Text
 						const stats = calculateStats()
-						if (trigger) trigger.innerText = stats.words.toLocaleString() + ' words'
+						if (trigger) {
+							trigger.innerText = stats.words.toLocaleString() + ' words'
 
-						window.openStats = function () {
-							document.getElementById('modal-words').innerText = stats.words.toLocaleString()
-							document.getElementById('modal-chars').innerText = stats.chars.toLocaleString()
-							document.getElementById('modal-lines').innerText = stats.lines.toLocaleString()
+							// ATTACH CLICK EVENT HERE (Instead of inline HTML)
+							trigger.addEventListener('click', function () {
+								// Populate Modal Data
+								if (document.getElementById('modal-words')) {
+									document.getElementById('modal-words').innerText = stats.words.toLocaleString()
+									document.getElementById('modal-chars').innerText = stats.chars.toLocaleString()
+									document.getElementById('modal-lines').innerText = stats.lines.toLocaleString()
+									document.getElementById('modal-readtime').innerText = stats.readTime + ' min'
+									document.getElementById('modal-sentences').innerText = stats.sentences.toLocaleString()
+									document.getElementById('modal-paragraphs').innerText = stats.paragraphs.toLocaleString()
+									document.getElementById('modal-avg').innerText = stats.avg
+								}
 
-							// Populate New Stats
-							document.getElementById('modal-readtime').innerText = stats.readTime + ' min'
-							document.getElementById('modal-sentences').innerText = stats.sentences.toLocaleString()
-							document.getElementById('modal-paragraphs').innerText = stats.paragraphs.toLocaleString()
-							document.getElementById('modal-avg').innerText = stats.avg
-
-							const overlay = document.getElementById('statsOverlay')
-							overlay.style.display = 'flex'
-							setTimeout(() => overlay.classList.add('active'), 10)
+								// Show Modal
+								if (modalOverlay) {
+									modalOverlay.style.display = 'flex'
+									setTimeout(() => modalOverlay.classList.add('active'), 10)
+								}
+							})
 						}
 
-						window.closeStats = function () {
-							const overlay = document.getElementById('statsOverlay')
-							overlay.classList.remove('active')
-							setTimeout(() => (overlay.style.display = 'none'), 200)
+						// Modal Close Logic
+						function closeModal() {
+							if (modalOverlay) {
+								modalOverlay.classList.remove('active')
+								setTimeout(() => (modalOverlay.style.display = 'none'), 200)
+							}
 						}
 
-						document.getElementById('statsOverlay').addEventListener('click', (e) => {
-							if (e.target.id === 'statsOverlay') closeStats()
-						})
+						if (closeBtn) closeBtn.addEventListener('click', closeModal)
+						if (modalOverlay) {
+							modalOverlay.addEventListener('click', (e) => {
+								if (e.target.id === 'statsOverlay') closeModal()
+							})
+						}
 
-						// --- 3. View Switcher & Copy (Existing) ---
+						// --- 3. View Switcher & Copy ---
 						const mdView = document.getElementById('markdown-view')
 						const textView = document.getElementById('text-view')
 						const btnMd = document.getElementById('btn-markdown')
@@ -267,7 +271,7 @@
 							})
 						}
 
-						// --- 4. Transcript & Linkify (Existing) ---
+						// --- 4. Transcript & Linkify ---
 						const transcriptFilename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
 						const transcriptSection = document.querySelector('.transcript-section')
@@ -307,6 +311,7 @@
 		</div>
 
 		<script>
+			// Global Menu Logic
 			const sidebar = document.querySelector('.sidebar')
 			const scrollKey = 'sidebarScrollPos'
 			const savedScroll = localStorage.getItem(scrollKey)
