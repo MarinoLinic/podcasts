@@ -116,6 +116,10 @@ def convert_to_text_format(content, filename):
         if "Summary:" in line: 
             pass
         
+        # Replaces ![alt](url) with "Image: url"
+        line = re.sub(r'!\[.*?\]\((.*?)\)', r'Image: \1', line)
+        
+        # Handle Empty Lines
         if not line.strip():
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")
@@ -124,7 +128,7 @@ def convert_to_text_format(content, filename):
         # Headers
         if line.strip().startswith('#'):
             clean_header = line.lstrip('#').strip()
-            # UPDATED: Remove bold AND italics
+            # Remove bold AND italics
             clean_header = clean_header.replace('**', '').replace('*', '')
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")
@@ -134,7 +138,7 @@ def convert_to_text_format(content, filename):
         # Sub-bullets
         if re.match(r'^\s+(\*|-)\s+', line):
             clean_sub = re.sub(r'^\s+(\*|-)\s+', '-- ', line)
-            # UPDATED: Remove bold AND italics
+            # Remove bold AND italics
             clean_sub = clean_sub.replace('**', '').replace('*', '')
             processed_lines.append(clean_sub)
             continue
@@ -142,7 +146,7 @@ def convert_to_text_format(content, filename):
         # Main bullets
         if re.match(r'^(\*|-)\s+', line):
             clean_item = re.sub(r'^(\*|-)\s+', '- ', line)
-            # UPDATED: Remove bold AND italics
+            # Remove bold AND italics
             clean_item = clean_item.replace('**', '').replace('*', '')
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")    
@@ -156,7 +160,7 @@ def convert_to_text_format(content, filename):
             processed_lines.append("---")
             continue
 
-        # Normal text - UPDATED: Remove bold AND italics
+        # Normal text - Remove bold AND italics
         processed_lines.append(line.replace('**', '').replace('*', ''))
 
     body = "\n".join(processed_lines)
