@@ -9,16 +9,16 @@ A deep dive into the economic history of why nations become wealthy, debunking t
 
 - The "Plunder" Definition:
 -- The popular conception of Western wealth is based on the "Man with a Gun" model: Colonial powers send ships, enslave or coerce locals, extract natural resources (silver, rubber), and cart them back to the "Metropole of Empire" to build monuments.
--- *Historical Context:* This did happen (e.g., Spanish *encomienda*, Belgian Congo, British/French extraction). It was morally horrific.
+-- Historical Context: This did happen (e.g., Spanish encomienda, Belgian Congo, British/French extraction). It was morally horrific.
 
 - The "Zero-Sum" Fallacy:
 -- The Neighbor Analogy: If your neighbor has \$40 and you shoot him and take it, you now have \$80. You are slightly richer, he is dead. However, this is a one-time transfer. It does not create sustainable growth.
--- Global Wealth Logic: If plunder were the source of wealth, the world generally would remain poor (wealth just moving around). Instead, the *entire world* has become exponentially richer since 1870. There are no "Martians" to plunder; the wealth was created internally.
+-- Global Wealth Logic: If plunder were the source of wealth, the world generally would remain poor (wealth just moving around). Instead, the entire world has become exponentially richer since 1870. There are no "Martians" to plunder; the wealth was created internally.
 -- Negative Sum Game: Plunder is likely negative-sum because the threat of theft forces actors to spend resources on defense (fences, guns) rather than innovation, and discourages productive investment.
 
 - The Timing Mismatch:
 -- 1870/1950 Inflection Points: Humans were desperately poor for thousands of years, including during the height of many empires.
--- The Explosion: Real, massive wealth accumulation in the West only began around 1870 (Industrial Revolution maturity) and accelerated wildly after 1950. This occurred *after* the peak of many colonial extraction periods.
+-- The Explosion: Real, massive wealth accumulation in the West only began around 1870 (Industrial Revolution maturity) and accelerated wildly after 1950. This occurred after the peak of many colonial extraction periods.
 
 - Comparative Case Studies:
 -- The Plunderers (Spain/Portugal): Extracted massive amounts of gold/silver. Result: They remained poor for centuries because they spent the loot on wars and gilding churches rather than industrial investment.
@@ -28,9 +28,9 @@ A deep dive into the economic history of why nations become wealthy, debunking t
 2. Industrialization: The Real Engine of Wealth
 
 - The "Kickstarter" Theory (The Steelman Argument):
--- *Hypothesis:* Did the influx of cheap resources (cotton, coal, sugar) from colonies provide the necessary capital to "jumpstart" the Industrial Revolution? (Ref: Robert Allen, Kenneth Pomeranz).
--- *Mechanism:* High British wages + Cheap Colonial Resources = Incentive to invent machines to save labor.
--- *Noah’s Verdict:* It is *possible* this sparked the initial transition, but the evidence is inconclusive. However, once the "fire" of industrialization was lit, it became self-sustaining independent of colonies.
+-- Hypothesis: Did the influx of cheap resources (cotton, coal, sugar) from colonies provide the necessary capital to "jumpstart" the Industrial Revolution? (Ref: Robert Allen, Kenneth Pomeranz).
+-- Mechanism: High British wages + Cheap Colonial Resources = Incentive to invent machines to save labor.
+-- Noah’s Verdict: It is possible this sparked the initial transition, but the evidence is inconclusive. However, once the "fire" of industrialization was lit, it became self-sustaining independent of colonies.
 
 - Stocks vs. Flows:
 -- Plunder provides a Stock (a pile of gold).
@@ -39,14 +39,14 @@ A deep dive into the economic history of why nations become wealthy, debunking t
 
 - The Machine Advantage:
 -- Human Limitations: You can only whip a human so hard before they break or die. Biological speed limits are fixed.
--- Machine Potential: You *can* "torture" a machine (run it 24/7, upgrade it, refine it). There is no upper limit to the productivity improvements of machinery.
+-- Machine Potential: You can "torture" a machine (run it 24/7, upgrade it, refine it). There is no upper limit to the productivity improvements of machinery.
 -- The Capitalist Etymology: "Capitalist" comes from "Capital" (owners of machines). While owners got rich, the productivity gains also accrued to workers, raising living standards broadly.
 
 3. The Economics of Slavery (The "New History of Capitalism" Debunked)
 
 - The 1619 Project / Ed Baptist Claim:
--- *The Claim:* New, unspecified "torture methods" in the US South increased cotton output, which fueled the Industrial Revolution.
--- *The Rebuttal:* Historical data shows the increase in cotton output came from better seeds (biological innovation), not "more efficient torture."
+-- The Claim: New, unspecified "torture methods" in the US South increased cotton output, which fueled the Industrial Revolution.
+-- The Rebuttal: Historical data shows the increase in cotton output came from better seeds (biological innovation), not "more efficient torture."
 
 - Slavery as Economic Distortion (Hornbeck & Logan):
 -- Slavery made regions poorer, not richer.
@@ -73,12 +73,12 @@ A deep dive into the economic history of why nations become wealthy, debunking t
 
 - The Hump-Shaped Migration Curve:
 -- Migration is not driven solely by poverty or climate.
--- *The Pattern:* At very low income, people *want* to move but can't afford it. As income rises (to ~$10k/capita), migration increases because people now have the means to move.
+-- The Pattern: At very low income, people want to move but can't afford it. As income rises (to ~$10k/capita), migration increases because people now have the means to move.
 -- Current migration waves are driven by the developing world finally getting rich enough to buy plane/bus tickets, not just desperation.
 
 - The Asian Miracle:
 -- China: Growth was driven by Liberalization (Deng Xiaoping allowing markets) and Privatization (Jiang Zemin/Hu Jintao selling off State-Owned Enterprises).
--- *Xi Jinping’s Error:* Xi is reversing this, favoring State-Owned Enterprises again. This is causing economic stagnation.
+-- Xi Jinping’s Error: Xi is reversing this, favoring State-Owned Enterprises again. This is causing economic stagnation.
 -- India: Growth driven by dismantling the "License Raj" (deregulation) under Manmohan Singh.
 
 - The "Alt-Asia" Future:

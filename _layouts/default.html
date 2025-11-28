@@ -17,38 +17,35 @@
 		<!-- Dark Overlay (Mobile) -->
 		<div class="overlay {% if page.url == '/' %}active{% endif %}" id="overlay"></div>
 
-		<!-- Statistics Modal -->
+		<!-- Statistics Modal (Updated Order) -->
 		<div class="modal-overlay" id="statsOverlay">
 			<div class="stats-modal">
 				<h3>Note Statistics</h3>
 				<div class="stats-grid">
-					<div class="stat-item">
-						<span class="stat-label">Words</span>
-						<span class="stat-value" id="modal-words">0</span>
-					</div>
-					<div class="stat-item">
-						<span class="stat-label">Characters</span>
-						<span class="stat-value" id="modal-chars">0</span>
-					</div>
-					<div class="stat-item">
-						<span class="stat-label">Lines</span>
-						<span class="stat-value" id="modal-lines">0</span>
-					</div>
+					<!-- 1. Reading Time -->
 					<div class="stat-item">
 						<span class="stat-label">Reading Time</span>
 						<span class="stat-value" id="modal-readtime">0 min</span>
 					</div>
+					<!-- 2. Word Count -->
+					<div class="stat-item">
+						<span class="stat-label">Words</span>
+						<span class="stat-value" id="modal-words">0</span>
+					</div>
+					<!-- 3. Character Count -->
+					<div class="stat-item">
+						<span class="stat-label">Characters</span>
+						<span class="stat-value" id="modal-chars">0</span>
+					</div>
+					<!-- 4. Sentences -->
 					<div class="stat-item">
 						<span class="stat-label">Sentences</span>
 						<span class="stat-value" id="modal-sentences">0</span>
 					</div>
+					<!-- 5. Lines -->
 					<div class="stat-item">
-						<span class="stat-label">Paragraphs</span>
-						<span class="stat-value" id="modal-paragraphs">0</span>
-					</div>
-					<div class="stat-item">
-						<span class="stat-label">Avg. Sentence</span>
-						<span class="stat-value" id="modal-avg">0 words</span>
+						<span class="stat-label">Lines</span>
+						<span class="stat-value" id="modal-lines">0</span>
 					</div>
 				</div>
 				<button
@@ -73,7 +70,7 @@
 			<aside class="sidebar {% if page.url == '/' %}open{% endif %}" id="sidebar">
 				<header>
 					<h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-					<!-- Filters are now permanent here -->
+					<!-- Permanent Filters -->
 					<div class="tag-filter-container">
 						<button class="filter-btn" data-filter="politics">Politics</button>
 						<button class="filter-btn" data-filter="anthropology">Anthropology</button>
@@ -285,7 +282,7 @@
 							})
 						}
 
-						// --- 3. Stats Logic ---
+						// --- 3. Stats Logic (UPDATED) ---
 						const contentDiv = document.getElementById('markdown-view')
 						const trigger = document.getElementById('word-count-trigger')
 						const modalOverlay = document.getElementById('statsOverlay')
@@ -297,30 +294,31 @@
 						}
 
 						function calculateStats() {
-							if (!contentDiv) return { words: 0, chars: 0, lines: 0, readTime: 0, sentences: 0, paragraphs: 0, avg: 0 }
+							if (!contentDiv) return { words: 0, chars: 0, lines: 0, readTime: 0, sentences: 0 }
+
 							const text = contentDiv.innerText || ''
 							const cleanText = text.trim()
+
 							const words = cleanText.split(/\s+/).filter((w) => w.length > 0).length
 							const chars = cleanText.length
 							const lines = text.split(/\r\n|\r|\n/).length
 							const readTime = Math.ceil(words / 225)
 							const sentences = cleanText.split(/[.!?]+/).filter((s) => s.trim().length > 0).length
-							const paragraphs = text.split(/\n\s*\n/).filter((p) => p.trim().length > 0).length
-							const avg = sentences > 0 ? (words / sentences).toFixed(1) : 0
-							return { words, chars, lines, readTime, sentences, paragraphs, avg }
+
+							return { words, chars, lines, readTime, sentences }
 						}
 
 						const stats = calculateStats()
 						if (trigger) {
 							trigger.innerText = stats.words.toLocaleString() + ' words'
+
 							trigger.addEventListener('click', function () {
+								safeSetText('modal-readtime', stats.readTime + ' min')
 								safeSetText('modal-words', stats.words.toLocaleString())
 								safeSetText('modal-chars', stats.chars.toLocaleString())
-								safeSetText('modal-lines', stats.lines.toLocaleString())
-								safeSetText('modal-readtime', stats.readTime + ' min')
 								safeSetText('modal-sentences', stats.sentences.toLocaleString())
-								safeSetText('modal-paragraphs', stats.paragraphs.toLocaleString())
-								safeSetText('modal-avg', stats.avg)
+								safeSetText('modal-lines', stats.lines.toLocaleString())
+
 								if (modalOverlay) {
 									modalOverlay.style.display = 'flex'
 									setTimeout(() => modalOverlay.classList.add('active'), 10)

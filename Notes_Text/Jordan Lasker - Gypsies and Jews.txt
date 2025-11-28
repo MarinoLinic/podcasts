@@ -25,7 +25,7 @@ Summary: An analysis of how "selective identification" skews group statistics an
 
 - Public Perception vs. Reality:
 -- In a survey, Romanians claimed they could identify Gypsies by clothes, skin color, or speech.
--- *Reality:* They failed to identify the "passing" Gypsies. Because the public only sees the low-class Gypsies who *don't* pass, the negative stereotypes are reinforced by a sampling error. Accounting for "passing" explains ~13% of the Roma education gap.
+-- Reality: They failed to identify the "passing" Gypsies. Because the public only sees the low-class Gypsies who don't pass, the negative stereotypes are reinforced by a sampling error. Accounting for "passing" explains ~13% of the Roma education gap.
 
 2. Comparative Ethnic Attrition
 Cremieux notes that "Ethnic Attrition"—where immigrants stop identifying with their ancestral group—skews data for other groups as well.
@@ -48,7 +48,7 @@ A. The Origins (Judea & The Pharisees)
 - The Cost: In a Malthusian farming society, education was prohibitively expensive.
 
 - The Filter: Uneducated Jews became Am Ha’aretz ("People of the Land")—outcasts. To avoid stigma and cost, the poor/uneducated converted to Christianity.
--- *Result:* Judaism became a religion of the literate/wealthy by shedding its lower class.
+-- Result: Judaism became a religion of the literate/wealthy by shedding its lower class.
 
 B. The Islamic Golden Age (800–1200 AD)
 
@@ -56,7 +56,7 @@ B. The Islamic Golden Age (800–1200 AD)
 
 - The Transition: Jews moved en masse from farming to skilled crafts, trade, and lending.
 
-- The Jizya Tax: Muslims charged a head tax (*Jizya*) on non-Muslims. Poor Jews who couldn't pay converted to Islam.
+- The Jizya Tax: Muslims charged a head tax (Jizya) on non-Muslims. Poor Jews who couldn't pay converted to Islam.
 
 - Result: By 1200 AD, the Jewish population was small, highly urban, highly literate, and occupationally distinct.
 

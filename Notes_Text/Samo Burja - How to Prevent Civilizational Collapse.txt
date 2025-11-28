@@ -19,14 +19,14 @@ I. The Mechanics of Civilizational Collapse
 
 - The "Victory Narrative" in Decline:
 -- Elites in declining societies always reframe "Defeat" as "Victory" to sustain the social pyramid.
--- *Historical Analogy:* The Protestant Reformation/Christianization of Rome. Seizing gold from churches/temples was framed as theological purity ("We are closer to God without this ornateness"), but functionally it was an economic necessity to fund wars or state treasuries during a period of resource scarcity.
--- *Modern Analogy:* If commercial air travel becomes too expensive due to the loss of military subsidies (drones replacing manned jets) and fuel costs, the decline will be reframed as an environmental victory ("We are flying less to save the planet," not "We are too poor to fly").
+-- Historical Analogy: The Protestant Reformation/Christianization of Rome. Seizing gold from churches/temples was framed as theological purity ("We are closer to God without this ornateness"), but functionally it was an economic necessity to fund wars or state treasuries during a period of resource scarcity.
+-- Modern Analogy: If commercial air travel becomes too expensive due to the loss of military subsidies (drones replacing manned jets) and fuel costs, the decline will be reframed as an environmental victory ("We are flying less to save the planet," not "We are too poor to fly").
 
 II. The Loss of Knowledge (Tacit vs. Explicit)
 
 - The Nature of Knowledge:
 -- Most critical knowledge is Tacit (procedural, experiential), not Explicit (written).
--- *The TSMC Example:* You could write down every procedure in a chip fab, but without experienced humans, you cannot manufacture the chip.
+-- The TSMC Example: You could write down every procedure in a chip fab, but without experienced humans, you cannot manufacture the chip.
 -- The Coordination Problem: Every piece of technology (from Stone Age axes to Boeing 737s) is a coordination problem requiring human specialization.
 
 - Intellectual Dark Matter:
@@ -35,28 +35,28 @@ II. The Loss of Knowledge (Tacit vs. Explicit)
 
 - The Succession Problem:
 -- Master/Apprentice: Historically, succession was solved by long apprenticeships (free labor in exchange for tacit knowledge).
--- The Science Crisis: We do not have a unified "Theory of Science"; science is a *practice*.
+-- The Science Crisis: We do not have a unified "Theory of Science"; science is a practice.
 -- The "Stem Cell" Metaphor: A society that loses the ability to generate new knowledge (stem cells) is simply fighting a losing battle against entropy (aging). It is merely preserving a pattern until it inevitably breaks down.
 
 III. Institutional Rot and The "Simulation" of Competence
 
 - Goodhart’s Law & Bureaucracy:
 -- When a measure becomes a target, it ceases to be a good measure.
--- *The Chinese Imperial Exam:* Started as a meritocratic way to strip-mine talent from the population. Eventually, it became a system of rote memorization and test-hacking, producing fragility.
--- *The Ivy League Interview:* We are currently at the "Farce" stage, where a student’s entire life is choreographed for a single admissions interview.
+-- The Chinese Imperial Exam: Started as a meritocratic way to strip-mine talent from the population. Eventually, it became a system of rote memorization and test-hacking, producing fragility.
+-- The Ivy League Interview: We are currently at the "Farce" stage, where a student’s entire life is choreographed for a single admissions interview.
 
 - The Collapse of the Writing Culture:
 -- We are "LARPing" (Live Action Role Playing) as a writing-based civilization.
 -- Academic Papers: In 1920, papers were beautiful, non-formulaic, and written for humans. Today, they are jargon-heavy, formulaic, and written for committees.
 -- Peer Review:
--- *Old Peer Review:* "I trust this editor's intellectual taste." (High variance, high quality).
--- *New Peer Review:* "A committee must agree." (Consensus-seeking, evaporative cooling of outliers).
+-- Old Peer Review: "I trust this editor's intellectual taste." (High variance, high quality).
+-- New Peer Review: "A committee must agree." (Consensus-seeking, evaporative cooling of outliers).
 -- The Essay: The word comes from "to attempt." Students no longer "attempt" to think; they output predicted text (which explains why AI can replace them so easily).
 
 - Evaporative Cooling of Elites:
 -- Modern institutions aggressively filter out outliers (the "Right Tail" and "Left Tail").
 -- Isaac Newton Test: Newton was ego-driven and nasty. He would fail any modern HR interview. By filtering out "disagreeable" people, we filter out the generative capacity for genius.
--- The Boardroom Crisis: The shock over the OpenAI board firing Sam Altman wasn't about whether they were right or wrong; it was shock that a Board exercised oversight *at all*. Functional governance has become "exotic."
+-- The Boardroom Crisis: The shock over the OpenAI board firing Sam Altman wasn't about whether they were right or wrong; it was shock that a Board exercised oversight at all. Functional governance has become "exotic."
 
 IV. Political Decay: The "Zombie" Institutions
 
@@ -64,7 +64,7 @@ IV. Political Decay: The "Zombie" Institutions
 
 - The Deliberation Test:
 -- A functional democracy requires a legislative body where speeches are made to change the minds of other legislators.
--- *Timeline:* This stopped happening in the UK/US around the 1960s/70s.
+-- Timeline: This stopped happening in the UK/US around the 1960s/70s.
 -- Now, speeches are performance art for the public/cameras.
 
 - Administrative Law: The vast majority of US law is now made by administrative agencies, followed by judicial review. Congress is a "Zombie Institution"—like the Roman Senate in the 7th Century (which still existed but did nothing).
@@ -77,7 +77,7 @@ V. The Sensemaking Crisis & Technology
 
 - AI as a Monument:
 -- LLMs (Large Language Models) are the "SparkNotes of our Civilization." They represent a snapshot of the text corpus we have produced up to this point.
--- *Synthetic Data Risk:* If we stop producing original human thought and feed AI with AI-generated text, we enter a "Garbage In, Garbage Out" loop.
+-- Synthetic Data Risk: If we stop producing original human thought and feed AI with AI-generated text, we enter a "Garbage In, Garbage Out" loop.
 
 - The "Cargo Cult" of AI:
 -- Burja fears we are developing a priesthood around AI. We treat it as an Oracle or a magic plane that delivers goods, rather than understanding the engineering behind it.
@@ -91,7 +91,7 @@ VI. How to Break the Cycle (Great Founder Theory)
 
 - Great Founder Theory (GFT):
 -- A revision of "Great Man Theory." Innovations in Social Technology (how humans coordinate) are almost always the work of a single individual or a small group.
--- *Examples:* Confucius, The Founding Fathers (Constitutional Convention), Napoleon (Civil Code).
+-- Examples: Confucius, The Founding Fathers (Constitutional Convention), Napoleon (Civil Code).
 -- These changes happen rapidly (within one lifetime) after long periods of stasis.
 
 - Traits of a Great Founder:
@@ -102,15 +102,15 @@ VI. How to Break the Cycle (Great Founder Theory)
 
 - The Danger of Power:
 -- Does power fry the brain? Yes.
--- *The "Payload" Argument:* From a civilizational perspective, it doesn't matter if the founder goes crazy *after* they have delivered the new social technology (e.g., the iPhone, the Code of Law, a new Religion). They are the "stem cells"; we need them even if they carry a cancer risk.
--- Agency Deficit: We are nowhere near the "too much agency" danger zone. We are saturated with boring, parasitical elites. We need *more* crazy agency, not less.
+-- The "Payload" Argument: From a civilizational perspective, it doesn't matter if the founder goes crazy after they have delivered the new social technology (e.g., the iPhone, the Code of Law, a new Religion). They are the "stem cells"; we need them even if they carry a cancer risk.
+-- Agency Deficit: We are nowhere near the "too much agency" danger zone. We are saturated with boring, parasitical elites. We need more crazy agency, not less.
 
 VII. Solutions & "The New City"
 
 - Escaping Negative Sum Games:
 -- When existing institutions become negative-sum (success requires bad faith), you cannot fix them from within.
 -- The "New City" Solution: Historically, leaders create new centers of power to escape old elites.
--- *Examples:* Constantine (Rome -> Constantinople), Peter the Great (Moscow -> St. Petersburg).
+-- Examples: Constantine (Rome -> Constantinople), Peter the Great (Moscow -> St. Petersburg).
 -- Physical Coordination: Coordination is physical. Separating the US State Dept and Dept of Defense into different buildings/cities ensures they don't understand each other.
 
 - Advice for Tech Elites:

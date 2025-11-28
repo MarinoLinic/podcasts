@@ -663,6 +663,9 @@ details#transcript-container[open] summary {
 		box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
 		background: #fff;
 	}
+	.sidebar header {
+		padding-top: 70px; /* Pushes title down so Menu button doesn't overlap */
+	}
 	.sidebar.open {
 		transform: translateX(0);
 	}

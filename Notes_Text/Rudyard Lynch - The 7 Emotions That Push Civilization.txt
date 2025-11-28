@@ -13,9 +13,9 @@ I. Introduction: The Irrationality of Humans and History
 
 - The "Monkey Brain": A concept from Eastern religions describing the uncontrollable subconscious mind rattling from topic to topic, exacerbated by modern societal anxiety.
 
-- The Theory of Death: Based on the book *The Worm at the Core*. Every human action is a response to the awareness of death. Emotions and cultural structures are mechanisms to create a sense of immortality or manage this existential terror.
+- The Theory of Death: Based on the book The Worm at the Core. Every human action is a response to the awareness of death. Emotions and cultural structures are mechanisms to create a sense of immortality or manage this existential terror.
 
-- Negative Drivers: Most driving emotions are negative because society needs to pull energy to enforce cooperation. Humans are more motivated by fear (avoiding the tiger) than by reward (getting a Honda Civic). Therefore, societies unify more strongly *against* what they don't want.
+- Negative Drivers: Most driving emotions are negative because society needs to pull energy to enforce cooperation. Humans are more motivated by fear (avoiding the tiger) than by reward (getting a Honda Civic). Therefore, societies unify more strongly against what they don't want.
 
 II. The Seven Emotional Pillars of Civilization
 The speaker identifies seven emotional axes that drive cultures. Three and a half are recognized by anthropology; the rest are the speaker's own synthesis.
@@ -38,7 +38,7 @@ The speaker identifies seven emotional axes that drive cultures. Three and a hal
 
 2. Shame
 
-- Dominance: The largest emotional driver historically and currently (East Asia, Middle East, parts of Latin America/Africa). Western Europe is the only major region *without* shame as a primary driver.
+- Dominance: The largest emotional driver historically and currently (East Asia, Middle East, parts of Latin America/Africa). Western Europe is the only major region without shame as a primary driver.
 
 - Social Structure:
 -- The Group over the Individual: Identity is derived from the clan/family. The individual is a pawn for the group's success.
@@ -46,7 +46,7 @@ The speaker identifies seven emotional axes that drive cultures. Three and a hal
 -- Conformity: Low tolerance for risk-taking genes (e.g., in East Asia).
 
 - Mechanism: Shame is the feeling of transgressing against the group.
--- *Examples:* Honor killings in Pakistan (to cleanse family shame), Japanese Kamikaze (suicide to avoid national shame).
+-- Examples: Honor killings in Pakistan (to cleanse family shame), Japanese Kamikaze (suicide to avoid national shame).
 
 - Pros: Incredible resilience and stability (China/India surviving millennia). Strong family units.
 
@@ -65,8 +65,8 @@ The speaker identifies seven emotional axes that drive cultures. Three and a hal
 -- Aristocratic: Democracy originated here (voting rights for free warriors), not as egalitarianism but as respect for the dignity of free men.
 
 - The Double-Edged Sword:
--- *Good Pride (Dignity):* Holding oneself to a high standard (Spartans, American Revolutionaries).
--- *Bad Pride (Arrogance):* Believing you are better than others (Nazis).
+-- Good Pride (Dignity): Holding oneself to a high standard (Spartans, American Revolutionaries).
+-- Bad Pride (Arrogance): Believing you are better than others (Nazis).
 
 - Cultural Balance: The West is a balance of Indo-Aryan Pride (aggressive) and Christian Humility/Pacifism. When the balance breaks (e.g., Nazis removing Christian morality), Pride becomes destructive.
 
@@ -75,8 +75,8 @@ The speaker identifies seven emotional axes that drive cultures. Three and a hal
 - Biological Roots: A "Car Alarm" for disease. Evolved to keep people away from pathogens and poisons.
 
 - Manifestation: Racism and classism.
--- *Caste Systems:* India’s caste system separates the "pure" from the "untouchable" (disgusting/disease-prone jobs). Hinduism/Buddhism view the physical world as inherently disgusting.
--- *Conservatism:* High disgust sensitivity correlates with social conservatism (maintaining purity/boundaries).
+-- Caste Systems: India’s caste system separates the "pure" from the "untouchable" (disgusting/disease-prone jobs). Hinduism/Buddhism view the physical world as inherently disgusting.
+-- Conservatism: High disgust sensitivity correlates with social conservatism (maintaining purity/boundaries).
 
 - The Nazi Example: The most purely disgust-driven society. Obsessed with racial purity and "cleansing" the nation. Failed because disgust isolates a society—everyone else hates you because you view them as disgusting.
 
@@ -85,7 +85,7 @@ The speaker identifies seven emotional axes that drive cultures. Three and a hal
 - Uniqueness: The dominant emotion of Western Civilization. The West is the only major guilt-based culture.
 
 - Origin: Started with Socrates/Stoics but cemented by Christianity.
--- *The Shift:* The Catholic Church banned cousin marriage in the 6th century, breaking the clan system and forcing individualism.
+-- The Shift: The Catholic Church banned cousin marriage in the 6th century, breaking the clan system and forcing individualism.
 
 - The Logic:
 -- Internal Standard: You are responsible to God/Conscience, not the group. You must do right even if the community hates you (Christ vs. The Mob).
@@ -102,8 +102,8 @@ The speaker identifies seven emotional axes that drive cultures. Three and a hal
 - History: Traditional societies suppressed envy to maintain stability (e.g., hiding wealth, regulating merchants). Christianity suppressed envy by focusing on God.
 
 - Modern Manifestation: Communism/Marxism.
--- *The Logic:* All evil comes from the successful (Rich). Killing them creates Utopia.
--- *The Reality:* Killing the "Rich" often meant killing competent peasant farmers (Kulaks). It creates poverty because it destroys competence.
+-- The Logic: All evil comes from the successful (Rich). Killing them creates Utopia.
+-- The Reality: Killing the "Rich" often meant killing competent peasant farmers (Kulaks). It creates poverty because it destroys competence.
 
 - Social Dynamics: Envy attacks beauty, success, and responsibility. (e.g., Maoist China forcing women to wear baggy clothes to suppress envy of beauty; modern "Fat Shaming" discourse).
 
@@ -114,7 +114,7 @@ The speaker identifies seven emotional axes that drive cultures. Three and a hal
 - The Current Era: The modern West has shifted from Guilt to Anxiety.
 
 - Causes:
--- Lack of real struggle (Taleb's *Antifragile* argument—we are coddled).
+-- Lack of real struggle (Taleb's Antifragile argument—we are coddled).
 -- Loss of God/Afterlife (no way to deal with death).
 -- Loss of Family/Community (loneliness).
 

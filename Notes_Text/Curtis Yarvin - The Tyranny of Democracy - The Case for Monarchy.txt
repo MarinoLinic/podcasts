@@ -12,7 +12,7 @@ Here are the comprehensive notes from the interview between Peter McCormack and 
 -- However, revolutions happen, and when systems become stagnant, change often happens suddenly.
 
 - The Soviet Analogy:
--- Yarvin compares the current Western situation to the Soviet Union in the mid-1980s. Everyone knew the system was failing (bad harvests, bad technology), but they were focused on *reform* rather than *replacement*.
+-- Yarvin compares the current Western situation to the Soviet Union in the mid-1980s. Everyone knew the system was failing (bad harvests, bad technology), but they were focused on reform rather than replacement.
 -- The Structural Difficulty: The Soviets only had to discard about 80 years of political theory to revert to a previous model (Czarism/Western Capitalism). The West would have to discard about 400 years of political theory (going back to the Enlightenment/English Civil War).
 -- The "Model" Problem: The Soviets thought they could just flip to the Western model. The West has no living model to flip to, only "books written by dead people."
 
@@ -51,7 +51,7 @@ Here are the comprehensive notes from the interview between Peter McCormack and 
 - Perverse Incentives (The Cobra Effect):
 -- If the system worked properly, virologists would wake up every day trying to protect humanity from viruses.
 -- Instead, the system rewarded "impact." To get funding, scientists needed viruses to be dangerous.
--- The Cobra Farm: Yarvin cites the British Raj anecdote where placing a bounty on cobras led locals to farm them. Modern virology became a "cobra farm"—funding gain-of-function research to prove viruses *could* be dangerous, inadvertently creating the danger they were meant to prevent.
+-- The Cobra Farm: Yarvin cites the British Raj anecdote where placing a bounty on cobras led locals to farm them. Modern virology became a "cobra farm"—funding gain-of-function research to prove viruses could be dangerous, inadvertently creating the danger they were meant to prevent.
 
 - The EcoHealth Alliance:
 -- Peter Daszak transformed a conservation NGO (originally for collecting cute animals) into a virus-hunting grant machine because that’s where the Pentagon money was.
@@ -67,10 +67,10 @@ Here are the comprehensive notes from the interview between Peter McCormack and 
 
 - WWII was not a Marvel Movie:
 -- Both the Axis and the Allies fought based on primary lies (The Jewish Conspiracy vs. Hitler's plan to conquer the world), even if their secondary arguments had truth.
--- Recommended Book: *Human Smoke* by Nicholson Baker.
+-- Recommended Book: Human Smoke by Nicholson Baker.
 
 - The American Revolution as the Vietnam War:
--- Yarvin cites Sydney George Fisher's 1903 book *True History of the American Revolution*.
+-- Yarvin cites Sydney George Fisher's 1903 book True History of the American Revolution.
 -- The revolution is best understood as a domestic political conflict (a civil war) that turned into a foreign proxy war, similar to Vietnam.
 -- We accept "mythical propaganda history" because the alternative (that the founding was messy/leftist) is too difficult to process.
 

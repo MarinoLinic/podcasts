@@ -108,6 +108,7 @@ def convert_to_text_format(content, filename):
     processed_lines = []
     
     for line in lines:
+        # Remove Metadata lines
         if "Rating:" in line or "Date:" in line or "Type:" in line or "Tags:" in line:
             continue
         if "Source:" in line or "Video URL:" in line:
@@ -120,35 +121,43 @@ def convert_to_text_format(content, filename):
                 processed_lines.append("")
             continue
 
+        # Headers
         if line.strip().startswith('#'):
             clean_header = line.lstrip('#').strip()
-            clean_header = clean_header.replace('**', '')
+            # UPDATED: Remove bold AND italics
+            clean_header = clean_header.replace('**', '').replace('*', '')
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")
             processed_lines.append(clean_header)
             continue
             
+        # Sub-bullets
         if re.match(r'^\s+(\*|-)\s+', line):
             clean_sub = re.sub(r'^\s+(\*|-)\s+', '-- ', line)
-            clean_sub = clean_sub.replace('**', '')
+            # UPDATED: Remove bold AND italics
+            clean_sub = clean_sub.replace('**', '').replace('*', '')
             processed_lines.append(clean_sub)
             continue
 
+        # Main bullets
         if re.match(r'^(\*|-)\s+', line):
             clean_item = re.sub(r'^(\*|-)\s+', '- ', line)
-            clean_item = clean_item.replace('**', '')
+            # UPDATED: Remove bold AND italics
+            clean_item = clean_item.replace('**', '').replace('*', '')
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")    
             processed_lines.append(clean_item)
             continue
             
+        # Separators
         if "---" in line:
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")
             processed_lines.append("---")
             continue
 
-        processed_lines.append(line.replace('**', ''))
+        # Normal text - UPDATED: Remove bold AND italics
+        processed_lines.append(line.replace('**', '').replace('*', ''))
 
     body = "\n".join(processed_lines)
     body = re.sub(r'\n{3,}', '\n\n', body).strip()
