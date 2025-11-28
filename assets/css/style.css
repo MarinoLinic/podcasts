@@ -90,6 +90,39 @@ a {
 	margin-top: 5px;
 }
 
+/* --- SIDEBAR TAG FILTERS --- */
+.tag-filter-container {
+	padding: 0 24px 20px 24px;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 6px;
+	border-bottom: 1px solid var(--border-color);
+	margin-bottom: 20px;
+}
+
+.filter-btn {
+	background: #fff;
+	border: 1px solid #d1d5db;
+	color: #64748b;
+	font-size: 0.75rem;
+	padding: 4px 8px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-family: var(--font-mono);
+	transition: all 0.2s;
+}
+
+.filter-btn:hover {
+	border-color: #94a3b8;
+	color: #334155;
+}
+
+.filter-btn.active {
+	background: #3b82f6; /* Blue 500 */
+	border-color: #3b82f6;
+	color: #fff;
+}
+
 .sidebar nav {
 	padding-bottom: 40px;
 }
@@ -212,7 +245,7 @@ li.rating-5 a {
 	gap: 15px;
 }
 
-/* Meta Tags */
+/* Meta Tags Container */
 .meta-tags {
 	display: flex;
 	gap: 12px;
@@ -233,6 +266,31 @@ li.rating-5 a {
 	color: #e2e8f0;
 }
 
+/* Article Header Tags */
+.meta-tag-list {
+	display: inline-flex;
+	gap: 6px;
+}
+
+.meta-tag-item {
+	font-family: var(--font-mono);
+	font-size: 0.8rem;
+	color: #ec4899; /* Pink-600 */
+	background-color: #fdf2f8; /* Pink-50 */
+	padding: 2px 6px;
+	border-radius: 4px;
+	cursor: pointer;
+	border: 1px solid transparent;
+	transition: all 0.2s;
+	text-transform: lowercase;
+}
+
+.meta-tag-item:hover {
+	background-color: #fce7f3;
+	border-color: #fbcfe8;
+	text-decoration: underline;
+}
+
 /* Word Count Stat */
 .meta-stats {
 	color: #059669;
@@ -247,17 +305,51 @@ li.rating-5 a {
 	text-decoration: underline;
 }
 
-/* Type Icon */
+/* Type Icon & Mobile Tooltip */
+.meta-type-wrapper {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+}
+
 .meta-type {
 	font-size: 1.1rem;
 	line-height: 1;
-	cursor: help;
 	display: flex;
 	align-items: center;
 	transition: transform 0.2s;
 }
 .meta-type:hover {
 	transform: scale(1.1);
+}
+
+.meta-type-label {
+	display: none;
+	font-size: 0.8rem;
+	font-weight: 600;
+	margin-left: 6px;
+	background: #333;
+	color: #fff;
+	padding: 2px 6px;
+	border-radius: 4px;
+	animation: fadeIn 0.2s ease;
+	white-space: nowrap;
+}
+
+.meta-type-label.visible {
+	display: block;
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(2px);
+	}
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }
 
 /* View Switcher Buttons */

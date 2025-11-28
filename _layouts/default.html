@@ -51,7 +51,6 @@
 						<span class="stat-value" id="modal-avg">0 words</span>
 					</div>
 				</div>
-				<!-- Close Button -->
 				<button
 					id="closeStatsBtn"
 					style="
@@ -76,6 +75,16 @@
 					<h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
 					<p class="subtitle">Archive</p>
 				</header>
+
+				<!-- Tag Filters -->
+				<div class="tag-filter-container">
+					<button class="filter-btn" data-filter="politics">Politics</button>
+					<button class="filter-btn" data-filter="anthropology">Anthropology</button>
+					<button class="filter-btn" data-filter="economics">Economics</button>
+					<button class="filter-btn" data-filter="history">History</button>
+					<button class="filter-btn" data-filter="life">Life</button>
+				</div>
+
 				<nav>
 					{% assign raw_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign all_notes =
 					raw_notes | where_exp: "item", "item.date" %} {% assign authors = all_notes | map: 'author' | uniq | sort %}
@@ -86,13 +95,14 @@
 							{% assign author_notes = all_notes | where: "author", author %} {% assign top_notes = author_notes |
 							where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes = author_notes | where_exp: "item",
 							"item.rating != 5" | sort: "date" | reverse %} {% for note in top_notes %}
-							<li class="rating-5">
+							<!-- Add data-tags attribute for JS filtering -->
+							<li class="rating-5 note-link-item" data-tags="{{ note.tags | join: ',' | downcase }}">
 								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}"
 									>{{ note.title }}</a
 								>
 							</li>
 							{% endfor %} {% for note in other_notes %}
-							<li class="rating-{{ note.rating }}">
+							<li class="rating-{{ note.rating }} note-link-item" data-tags="{{ note.tags | join: ',' | downcase }}">
 								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}"
 									>{{ note.title }}</a
 								>
@@ -116,17 +126,31 @@
 								<span class="meta-author">{{ page.author }}</span>
 								<span class="meta-separator">•</span>
 								<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
+
+								<!-- TAGS SECTION -->
+								{% if page.tags.size > 0 %}
 								<span class="meta-separator">•</span>
-								<!-- Trigger with ID for JS Listener -->
+								<div class="meta-tag-list">
+									{% for tag in page.tags %}
+									<span class="meta-tag-item" onclick="filterByTag('{{ tag | downcase }}')">#{{ tag }}</span>
+									{% endfor %}
+								</div>
+								{% endif %}
+
+								<span class="meta-separator">•</span>
 								<span class="meta-stats" id="word-count-trigger"> Loading... </span>
 
-								<!-- TYPE ICON LOGIC -->
+								<!-- TYPE ICON LOGIC (Clickable for Mobile) -->
 								{% if page.type %}
 								<span class="meta-separator">•</span>
-								<span class="meta-type" title="Type: {{ page.type | capitalize }}" style="cursor: help">
-									{% case page.type %} {% when 'video' %} 🎬 {% when 'article' %} 📄 {% when 'podcast' %} 🎙️ {% when
-									'book' %} 📖 {% else %} 🔖 {% endcase %}
-								</span>
+								<div class="meta-type-wrapper" id="typeIconWrapper">
+									<span class="meta-type" title="Type: {{ page.type | capitalize }}">
+										{% case page.type %} {% when 'video' %} 🎬 {% when 'article' %} 📄 {% when 'podcast' %} 🎙️ {% when
+										'book' %} 📖 {% else %} 🔖 {% endcase %}
+									</span>
+									<!-- Hidden label that toggles on click -->
+									<span class="meta-type-label" id="typeLabel">{{ page.type | capitalize }}</span>
+								</div>
 								{% endif %}
 							</div>
 
@@ -159,25 +183,111 @@
 
 				<script>
 					document.addEventListener('DOMContentLoaded', function () {
-						// --- 1. Sidebar Persistence ---
+						// --- 1. Sidebar Persistence & Filtering Logic ---
 						const authorDetails = document.querySelectorAll('details.author-group')
+						const filterBtns = document.querySelectorAll('.filter-btn')
+						const noteItems = document.querySelectorAll('.note-link-item')
+						let activeTags = new Set(JSON.parse(localStorage.getItem('activeTags')) || [])
+
+						// Restore filter button state
+						function updateFilterUI() {
+							filterBtns.forEach((btn) => {
+								const tag = btn.getAttribute('data-filter')
+								if (activeTags.has(tag)) btn.classList.add('active')
+								else btn.classList.remove('active')
+							})
+							applyFilters()
+						}
+
+						function applyFilters() {
+							// If no tags selected, show everything
+							const showAll = activeTags.size === 0
+
+							noteItems.forEach((item) => {
+								if (showAll) {
+									item.style.display = ''
+									return
+								}
+								// Check if note has AT LEAST one of the active tags
+								const noteTags = item.getAttribute('data-tags').split(',')
+								const hasMatch = noteTags.some((t) => activeTags.has(t))
+								item.style.display = hasMatch ? '' : 'none'
+							})
+
+							// Hide empty author groups
+							authorDetails.forEach((group) => {
+								const visibleChildren = group.querySelectorAll("li:not([style*='display: none'])")
+								group.style.display = visibleChildren.length > 0 ? '' : 'none'
+							})
+						}
+
+						// Filter Button Click Handler
+						filterBtns.forEach((btn) => {
+							btn.addEventListener('click', (e) => {
+								const tag = e.target.getAttribute('data-filter')
+								if (activeTags.has(tag)) {
+									activeTags.delete(tag)
+								} else {
+									activeTags.add(tag)
+								}
+								localStorage.setItem('activeTags', JSON.stringify([...activeTags]))
+								updateFilterUI()
+							})
+						})
+
+						// Global function for in-article tag clicking
+						window.filterByTag = function (tag) {
+							// Clear current filters and set only this one
+							activeTags = new Set([tag])
+							localStorage.setItem('activeTags', JSON.stringify([...activeTags]))
+							updateFilterUI()
+
+							// If mobile, open sidebar to show results
+							if (window.innerWidth <= 768) {
+								toggleMenu()
+							}
+
+							// Scroll sidebar to top to show results
+							const sb = document.getElementById('sidebar')
+							if (sb) sb.scrollTop = 0
+						}
+
+						// Init Filters
+						updateFilterUI()
+
+						// Sidebar Expand/Collapse persistence
 						authorDetails.forEach((details) => {
 							const summary = details.querySelector('summary').innerText.trim()
 							const storageKey = 'sidebar_author_' + summary
 							const savedState = localStorage.getItem(storageKey)
-							if (savedState === 'closed') details.removeAttribute('open')
+							// Only respect closed state if filters aren't active (filters might hide content inside)
+							if (savedState === 'closed' && activeTags.size === 0) details.removeAttribute('open')
+
 							details.addEventListener('toggle', () => {
 								localStorage.setItem(storageKey, details.open ? 'open' : 'closed')
 							})
 						})
 
-						// --- 2. Advanced Stats Logic (FIXED & SAFER) ---
+						// --- 2. Type Icon Mobile Toggle ---
+						const typeWrapper = document.getElementById('typeIconWrapper')
+						const typeLabel = document.getElementById('typeLabel')
+						if (typeWrapper && typeLabel) {
+							typeWrapper.addEventListener('click', function (e) {
+								e.stopPropagation() // prevent bubbling
+								typeLabel.classList.toggle('visible')
+								// Auto-hide after 3 seconds
+								setTimeout(() => {
+									typeLabel.classList.remove('visible')
+								}, 3000)
+							})
+						}
+
+						// --- 3. Stats Logic ---
 						const contentDiv = document.getElementById('markdown-view')
 						const trigger = document.getElementById('word-count-trigger')
 						const modalOverlay = document.getElementById('statsOverlay')
 						const closeBtn = document.getElementById('closeStatsBtn')
 
-						// Helper to prevent "Cannot set property of null" errors
 						function safeSetText(id, text) {
 							const el = document.getElementById(id)
 							if (el) el.innerText = text
@@ -185,10 +295,8 @@
 
 						function calculateStats() {
 							if (!contentDiv) return { words: 0, chars: 0, lines: 0, readTime: 0, sentences: 0, paragraphs: 0, avg: 0 }
-
 							const text = contentDiv.innerText || ''
 							const cleanText = text.trim()
-
 							const words = cleanText.split(/\s+/).filter((w) => w.length > 0).length
 							const chars = cleanText.length
 							const lines = text.split(/\r\n|\r|\n/).length
@@ -196,17 +304,13 @@
 							const sentences = cleanText.split(/[.!?]+/).filter((s) => s.trim().length > 0).length
 							const paragraphs = text.split(/\n\s*\n/).filter((p) => p.trim().length > 0).length
 							const avg = sentences > 0 ? (words / sentences).toFixed(1) : 0
-
 							return { words, chars, lines, readTime, sentences, paragraphs, avg }
 						}
 
-						// Initialize Trigger
 						const stats = calculateStats()
 						if (trigger) {
 							trigger.innerText = stats.words.toLocaleString() + ' words'
-
 							trigger.addEventListener('click', function () {
-								// Safe Updates
 								safeSetText('modal-words', stats.words.toLocaleString())
 								safeSetText('modal-chars', stats.chars.toLocaleString())
 								safeSetText('modal-lines', stats.lines.toLocaleString())
@@ -214,8 +318,6 @@
 								safeSetText('modal-sentences', stats.sentences.toLocaleString())
 								safeSetText('modal-paragraphs', stats.paragraphs.toLocaleString())
 								safeSetText('modal-avg', stats.avg)
-
-								// Show Modal
 								if (modalOverlay) {
 									modalOverlay.style.display = 'flex'
 									setTimeout(() => modalOverlay.classList.add('active'), 10)
@@ -237,7 +339,7 @@
 							})
 						}
 
-						// --- 3. View Switcher & Copy ---
+						// --- 4. View Switcher & Copy ---
 						const mdView = document.getElementById('markdown-view')
 						const textView = document.getElementById('text-view')
 						const btnMd = document.getElementById('btn-markdown')
@@ -286,7 +388,7 @@
 							})
 						}
 
-						// --- 4. Transcript & Linkify ---
+						// --- 5. Transcript & Linkify ---
 						const transcriptFilename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
 						const transcriptSection = document.querySelector('.transcript-section')
