@@ -4,11 +4,16 @@ title: "Plan for Britain"
 author: "Curtis Yarvin"
 rating: 1
 date: 2025-09-29
+type: "video"
+tags: [politics]
 ---
 
+Summary:
 Here are comprehensive notes from the interview with Curtis Yarvin on the Anglo Futurism Podcast.
 
-Video URL: https://www.youtube.com/watch?v=-4evSKxZvOA
+Tags: politics
+
+Source: https://www.youtube.com/watch?v=-4evSKxZvOA
 
 ---
 

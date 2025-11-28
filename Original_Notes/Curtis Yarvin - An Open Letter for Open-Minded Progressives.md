@@ -1,8 +1,11 @@
-Summary: An Open Letter to Open-Minded Progressives is a foundational text of the Neoreactionary (NRx) movement. It functions as a "Red Pill" for the modern liberal intellectual, arguing that the Progressive worldview is not a result of reason or science, but a non-theistic Christian sect (Universalism/Neo-Quakerism) that has conquered the West. Moldbug argues that "Democracy" is a sham; true power lies with the "Cathedral" (the unholy union of Universities and the Press), which manufactures consent to maintain a corrupt, entropic, and insecure order. The book deconstructs the "Whig" interpretation of history, arguing that order (Reaction) is superior to liberty (Revolution), and proposes a radical solution: "Neocameralism"—running the state as a sovereign, for-profit corporation headed by a CEO-monarch, secured by cryptography, and stripped of all democratic politics.
+Summary: 
+An Open Letter to Open-Minded Progressives is a foundational text of the Neoreactionary (NRx) movement. It functions as a "Red Pill" for the modern liberal intellectual, arguing that the Progressive worldview is not a result of reason or science, but a non-theistic Christian sect (Universalism/Neo-Quakerism) that has conquered the West. Moldbug argues that "Democracy" is a sham; true power lies with the "Cathedral" (the unholy union of Universities and the Press), which manufactures consent to maintain a corrupt, entropic, and insecure order. The book deconstructs the "Whig" interpretation of history, arguing that order (Reaction) is superior to liberty (Revolution), and proposes a radical solution: "Neocameralism"—running the state as a sovereign, for-profit corporation headed by a CEO-monarch, secured by cryptography, and stripped of all democratic politics.
 
 Rating: 5
-Date: `17 Apr 2008`
-Book URL: https://www.unqualified-reservations.org/2008/04/open-letter-to-open-minded-progressives/
+Type: book
+Tags: politics
+Date: 17 Apr 2008
+Source: https://www.unqualified-reservations.org/2008/04/open-letter-to-open-minded-progressives/
 
 ---
 

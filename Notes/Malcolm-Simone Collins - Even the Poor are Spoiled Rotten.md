@@ -2,13 +2,18 @@
 layout: default
 title: "Even the Poor are Spoiled Rotten"
 author: "Malcolm-Simone Collins"
-rating: 5
+rating: 3
 date: 2025-11-27
+type: "video"
+tags: [life]
 ---
 
+Summary:
 Here are highly comprehensive notes from the Thanksgiving episode featuring **Malcolm and Simone Collins**, detailing their arguments on privilege, history, and gratitude.
 
-Video URL: https://www.youtube.com/watch?v=14CKaQHrw6w
+Tags: life
+
+Source: https://www.youtube.com/watch?v=14CKaQHrw6w
 
 ***
 

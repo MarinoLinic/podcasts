@@ -4,11 +4,16 @@ title: "The Tyranny of Democracy - The Case for Monarchy"
 author: "Curtis Yarvin"
 rating: 5
 date: 2025-10-14
+type: "video"
+tags: [politics]
 ---
 
+Summary:
 Here are the comprehensive notes from the interview between Peter McCormack and Curtis Yarvin. 
 
-Video URL: https://www.youtube.com/watch?v=47yObVOJciw
+Tags: politics
+
+Source: https://www.youtube.com/watch?v=47yObVOJciw
 
 ---
 

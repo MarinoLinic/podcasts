@@ -1,10 +1,8 @@
-Here are the comprehensive notes from the interview with Jordan Lasker on Gypsies and Jews. 27 Nov 2025.
-***
-Interview Notes: Jordan Lasker on Gypsies and Jews
+Jordan Lasker on Gypsies and Jews
 
 Summary: An analysis of how "selective identification" skews group statistics and reputations. Cremieux cites new data showing that high-status Gypsies stop identifying as Gypsies (making the group appear lower-class), whereas historically, low-status Jews left Judaism (making the group appear higher-class). The article argues that these filtering processes fundamentally alter both the demographic reality and the public perception of these ethnic groups.
 
-Source: https://www.cremieux.xyz/p/gypsies-and-jews
+Tags: anthropology
 
 ---
 
@@ -44,8 +42,6 @@ Cremieux notes that "Ethnic Attrition"—where immigrants stop identifying with 
 While smart Gypsies leave the group (lowering the average), the historical success of Jews is driven by poor Jews leaving the group (raising the average).
 
 A. The Origins (Judea & The Pharisees)
-
-- Source: Botticini and Eckstein’s *The Chosen Few*.
 
 - The Mechanism: After the fall of the Second Temple, the Pharisees (scholars) wrested control from the Sadducees (priests).
 

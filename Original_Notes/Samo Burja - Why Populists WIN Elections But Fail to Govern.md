@@ -1,8 +1,11 @@
+Summary:
 Here are the detailed notes from the **Live Players** podcast episode featuring **Samo Burja** and **Erik Torenberg**, discussing populism, the administrative state, and the potential future of US politics.
 
 Rating: 1
-Date: `15 Nov 2024` 
-Video URL: https://www.youtube.com/watch?v=i-Jfl1MOpyI
+Type: video
+Tags: politics
+Date: 15 Nov 2024
+Source: https://www.youtube.com/watch?v=i-Jfl1MOpyI
 
 ---
 

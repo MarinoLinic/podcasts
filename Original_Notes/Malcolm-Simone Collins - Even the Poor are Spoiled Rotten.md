@@ -1,8 +1,11 @@
+Summary:
 Here are highly comprehensive notes from the Thanksgiving episode featuring **Malcolm and Simone Collins**, detailing their arguments on privilege, history, and gratitude.
 
-Rating: 5
-Date: `27 Nov 2025` 
-Video URL: https://www.youtube.com/watch?v=14CKaQHrw6w
+Rating: 3
+Type: video
+Tags: life
+Date: 27 Nov 2025 
+Source: https://www.youtube.com/watch?v=14CKaQHrw6w
 
 ***
 

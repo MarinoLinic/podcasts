@@ -1,8 +1,11 @@
+Summary:
 Here are comprehensive notes from the transcript discussing the role of emotions in driving civilizations and historical cycles.
 
 Rating: 3
+Type: video
+Tags: anthropology
 Date: `29 Jan 2023`
-Video URL: https://www.youtube.com/watch?v=Ul2iW3mWl90
+Source: https://www.youtube.com/watch?v=Ul2iW3mWl90
 
 ---
 

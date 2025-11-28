@@ -4,11 +4,16 @@ title: "Can a Nation Plunder Its Way to Wealth"
 author: "Noah Smith"
 rating: 5
 date: 2024-01-15
+type: "video"
+tags: [economics]
 ---
 
-Summary: A deep dive into the economic history of why nations become wealthy, debunking the popular "plunder theory" (colonialism/slavery) in favor of industrialization, technological innovation, and liberalization. The discussion covers the historical failures of Spanish/Portuguese extraction models, the economic inefficiencies of slavery, the current geopolitical threats to global trade (end of US hegemony), and the rise of Asia through market reforms.
+Summary: 
+A deep dive into the economic history of why nations become wealthy, debunking the popular "plunder theory" (colonialism/slavery) in favor of industrialization, technological innovation, and liberalization. The discussion covers the historical failures of Spanish/Portuguese extraction models, the economic inefficiencies of slavery, the current geopolitical threats to global trade (end of US hegemony), and the rise of Asia through market reforms.
 
-Video URL: https://www.youtube.com/watch?v=XJctvnB9_Kk
+Tags: economics
+
+Source: https://www.youtube.com/watch?v=XJctvnB9_Kk
 
 ---
 

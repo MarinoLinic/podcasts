@@ -1,8 +1,11 @@
+Summary:
 Here are detailed notes from **Nick Pardini’s** presentation on global social hierarchies and the future of class warfare in the age of AI.
 
 Rating: 5
-Date: `26 Nov 2025` 
-Video URL: https://www.youtube.com/watch?v=GKyuUa0o9Hc
+Type: video
+Tags: politics
+Date: 26 Nov 2025 
+Source: https://www.youtube.com/watch?v=GKyuUa0o9Hc
 
 ---
 

@@ -1,8 +1,10 @@
 Summary: An analysis of the demographic and cultural collapse of Liberal Judaism in America. Nathan Cofnas argues that due to hyper-intermarriage rates (72%+), low fertility, and exclusion by the progressive Left, the "Liberal Jew" is becoming a historical relic. He predicts that the future face of American Jewry will be defined almost exclusively by Orthodoxy and Conservatism (e.g., Ben Shapiro). The notes also cover the institutional decline of Jews in the Ivy League and government, and conclude with a personal revelation regarding Cofnas's own assimilation.
 
 Rating: 4
-Date: `20 Sep 2023`
-URLs: 
+Type: video
+Tags: politics
+Date: 20 Sep 2023
+Sources: 
 1 - https://www.youtube.com/watch?v=C-Cobvf1o8w
 2 - https://thecritic.co.uk/twilight-of-the-liberal-jew/
 

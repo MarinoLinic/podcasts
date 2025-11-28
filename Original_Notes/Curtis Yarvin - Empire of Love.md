@@ -1,8 +1,11 @@
+Summary:
 Here are detailed notes from the interview with Curtis Yarvin on the **Stimson Center Trialogue Podcast**, covering his ideological journey, his theories on the "Empire of Love," his vision for a "Modern Right," his views on the American Empire, the State Department vs. Pentagon dynamic, and his radical proposal for dismantling the liberal international order.
 
 Rating: 3
-Date: `11 Jul 2025` 
-Video URLs:
+Type: video
+Tags: politics
+Date: 11 Jul 2025
+Sources:
 Part 1 - https://www.youtube.com/watch?v=fSWKrxuHQN8
 Part 2 - https://www.youtube.com/watch?v=LdWxBdgWtrs
 

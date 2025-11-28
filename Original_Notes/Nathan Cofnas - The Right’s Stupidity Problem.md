@@ -1,8 +1,11 @@
-Summary: An internal critique of the political Right, arguing that Conservatives are losing the culture war because they are intellectually inferior to Liberals. Cofnas presents data showing a significant IQ gap between the Left and Right, arguing that smart people flock to Wokism because it is the only logically consistent response to the "Equality Thesis." He critiques alternative theories of Wokism (Rufo’s Philosophy theory, Hanania’s Law theory) and concludes that the Right can only win by embracing "Hereditarianism" (Race Realism) to shatter the premise of Wokism.
+Summary: 
+An internal critique of the political Right, arguing that Conservatives are losing the culture war because they are intellectually inferior to Liberals. Cofnas presents data showing a significant IQ gap between the Left and Right, arguing that smart people flock to Wokism because it is the only logically consistent response to the "Equality Thesis." He critiques alternative theories of Wokism (Rufo’s Philosophy theory, Hanania’s Law theory) and concludes that the Right can only win by embracing "Hereditarianism" (Race Realism) to shatter the premise of Wokism.
 
 Rating: 3
-Date: `02 Jan 2024`
-Substack URL: https://ncofnas.com/p/why-we-need-to-talk-about-the-rights
+Type: article
+Tags: politics
+Date: 02 Jan 2024
+Source: https://ncofnas.com/p/why-we-need-to-talk-about-the-rights
 
 ---
 
@@ -68,7 +71,7 @@ Cofnas argues that Rufo and Hanania mistake *effects* for *causes*.
 *   **The Strategy:** The Hereditarian Revolution must come from the **Top Down** (Intellectuals/Elites), not the **Bottom Up** (Groypers/Neo-Nazis). We need a new political philosophy that appeals to the current Left-Wing elite.
 
 
-# Related Rebuttal
+# Related Rebuttal - Elite Human Capital Debunked
 Summary: A critical response to Richard Hanania and Anatoly Karlin’s theory of "Elite Human Capital" (EHC). The author argues that Hanania falsely bundles high IQ with Leftist ideology to claim Liberals rule via merit. The critique asserts that the IQ gap is trivial and historically recent, that institutional dominance is the result of a rigged system (not meritocracy), and that in other contexts (like Russia), the "Elite Human Capital" is nationalist and pro-regime, proving that elites simply align with power rather than "Woke" values.
 
 Author: UBERSOY
@@ -130,3 +133,11 @@ The author uses Russia to demonstrate that "Elite Human Capital" adapts to the r
         1.  It is advantageous to align with power.
         2.  Russian elites are selected for conformity to the State.
     *   **Final Verdict:** EHC is not a metric of "Liberalism"; it is a metric of **Power Alignment**. Hanania conflates "Smart" with "Woke" only because he observes the West in isolation.
+
+# Marino's Additional Notes
+- The IQ gap isn't inherent, but what does seem to be more inherent is that high IQ is strongly correlated with high openness.
+- They will tend towards wokeness if they are not hereditarian: to expect Russia's elites are hereditarian.
+- People like Cofnas and Cremieux and other more academic types are ones who have a chance at influencing them.
+- Power games are also real, and Rufo is good at them, but it's swimming against the tide without more comfort with hereditarianism. Still very necessary though, because it opens up cracks to let in these ideas. Necessary but not sufficient.
+- Actually, if you have blank slatists who are very comfortable with unequal outcomes, that may be a sign that you've filtered for a particularly power hungry and corruptible crowd. Not ideal.
+

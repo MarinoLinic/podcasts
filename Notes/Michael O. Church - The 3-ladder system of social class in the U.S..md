@@ -2,13 +2,18 @@
 layout: default
 title: "The 3-ladder system of social class in the U.S."
 author: "Michael O. Church"
-rating: 5
+rating: 4
 date: 2012-09-09
+type: "article"
+tags: [anthropology]
 ---
 
-Summary: A sociological analysis positing that US society is not a single linear hierarchy, but three distinct "ladders" (Labor, Gentry, Elite) with different values (Effort, Education, Power). The essay details the internal structure of each ladder, the specific "rungs" within them, and the "ladder conflict" wherein the Elite manipulate Labor to despise the Gentry, maintaining their own dominance.
+Summary: 
+A sociological analysis positing that US society is not a single linear hierarchy, but three distinct "ladders" (Labor, Gentry, Elite) with different values (Effort, Education, Power). The essay details the internal structure of each ladder, the specific "rungs" within them, and the "ladder conflict" wherein the Elite manipulate Labor to despise the Gentry, maintaining their own dominance.
 
-Blog URL: https://web.archive.org/web/20120912080138/http://michaelochurch.wordpress.com/2012/09/09/the-3-ladder-system-of-social-class-in-the-u-s/
+Tags: anthropology
+
+Source: https://web.archive.org/web/20120912080138/http://michaelochurch.wordpress.com/2012/09/09/the-3-ladder-system-of-social-class-in-the-u-s/
 
 ---
 

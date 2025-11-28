@@ -1,6 +1,9 @@
-Here are the comprehensive notes from the interview with Nick Pardini on Global Class Hierarchies Explained. 26 Nov 2025. Link: https://www.youtube.com/watch?v=GKyuUa0o9Hc
-***
-Interview Notes: Nick Pardini on Global Class Hierarchies Explained
+Nick Pardini on Global Class Hierarchies Explained
+
+Summary:
+Here are detailed notes from Nick Pardini’s presentation on global social hierarchies and the future of class warfare in the age of AI.
+
+Tags: politics
 
 ---
 

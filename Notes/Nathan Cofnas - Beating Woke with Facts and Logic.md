@@ -4,11 +4,16 @@ title: "Beating Woke with Facts and Logic"
 author: "Nathan Cofnas"
 rating: 5
 date: 2025-10-09
+type: "article"
+tags: [politics]
 ---
 
-Summary: An argument that "wokism" (race communism) is built on a false empirical premise (the equality thesis) and can only be defeated by exposing this premise as false via a "hereditarian revolution." The essay counters critics (like Chris Rufo) who argue that ideology is immune to facts, demonstrating through history (Darwinism, Heliocentrism) and cognitive science that elites *do* change their minds when presented with overwhelming evidence. It predicts that once the "equality thesis" falls, wokism will collapse rather than mutate into "hereditarian race communism."
+Summary: 
+An argument that "wokism" (race communism) is built on a false empirical premise (the equality thesis) and can only be defeated by exposing this premise as false via a "hereditarian revolution." The essay counters critics (like Chris Rufo) who argue that ideology is immune to facts, demonstrating through history (Darwinism, Heliocentrism) and cognitive science that elites *do* change their minds when presented with overwhelming evidence. It predicts that once the "equality thesis" falls, wokism will collapse rather than mutate into "hereditarian race communism."
 
-Substack URL: https://ncofnas.com/p/beating-woke-with-facts-and-logic
+Tags: politics
+
+Source: https://ncofnas.com/p/beating-woke-with-facts-and-logic
 
 ---
 

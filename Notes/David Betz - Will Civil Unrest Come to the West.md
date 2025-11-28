@@ -4,11 +4,16 @@ title: "Will Civil Unrest Come to the West"
 author: "David Betz"
 rating: 5
 date: 2025-10-28
+type: "video"
+tags: [politics]
 ---
 
+Summary:
 Here are detailed notes from the discussion with Professor David Betz (King’s College London) regarding his thesis on the potential for civil war in the West. 
 
-Video URL: https://www.youtube.com/watch?v=5ioTSLpPuME
+Tags: politics
+
+Source: https://www.youtube.com/watch?v=5ioTSLpPuME
 
 ---
 

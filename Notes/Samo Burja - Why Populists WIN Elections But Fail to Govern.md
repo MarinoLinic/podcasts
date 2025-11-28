@@ -4,11 +4,16 @@ title: "Why Populists WIN Elections But Fail to Govern"
 author: "Samo Burja"
 rating: 1
 date: 2024-11-15
+type: "video"
+tags: [politics]
 ---
 
+Summary:
 Here are the detailed notes from the **Live Players** podcast episode featuring **Samo Burja** and **Erik Torenberg**, discussing populism, the administrative state, and the potential future of US politics.
 
-Video URL: https://www.youtube.com/watch?v=i-Jfl1MOpyI
+Tags: politics
+
+Source: https://www.youtube.com/watch?v=i-Jfl1MOpyI
 
 ---
 

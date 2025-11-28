@@ -4,11 +4,16 @@ title: "Judaism as a Group Evolutionary Strategy"
 author: "Nathan Cofnas"
 rating: 3
 date: 2018-03-10
+type: "article"
+tags: [politics]
 ---
 
-Summary: A rigorous academic critique of Kevin MacDonald’s trilogy, specifically *The Culture of Critique*. Cofnas argues that MacDonald’s theory—that Judaism is a group evolutionary strategy designed to undermine Gentile society—relies on systematically misrepresented sources, the omission of key counter-evidence (e.g., anti-Zionist Jews), and unfalsifiable circular logic. Cofnas proposes the "Default Hypothesis" (High IQ + Urban Geography) as a superior, parsimonious explanation for Jewish overrepresentation in *both* Liberal and Conservative movements.
+Summary: 
+A rigorous academic critique of Kevin MacDonald’s trilogy, specifically *The Culture of Critique*. Cofnas argues that MacDonald’s theory—that Judaism is a group evolutionary strategy designed to undermine Gentile society—relies on systematically misrepresented sources, the omission of key counter-evidence (e.g., anti-Zionist Jews), and unfalsifiable circular logic. Cofnas proposes the "Default Hypothesis" (High IQ + Urban Geography) as a superior, parsimonious explanation for Jewish overrepresentation in *both* Liberal and Conservative movements.
 
-Article URL: https://pmc.ncbi.nlm.nih.gov/articles/PMC5942340/
+Tags: politics
+
+Source: https://pmc.ncbi.nlm.nih.gov/articles/PMC5942340/
 
 ---
 

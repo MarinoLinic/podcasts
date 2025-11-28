@@ -4,11 +4,16 @@ title: "The 7 Emotions That Push Civilization"
 author: "Rudyard Lynch"
 rating: 3
 date: 2023-01-29
+type: "video"
+tags: [anthropology]
 ---
 
+Summary:
 Here are comprehensive notes from the transcript discussing the role of emotions in driving civilizations and historical cycles.
 
-Video URL: https://www.youtube.com/watch?v=Ul2iW3mWl90
+Tags: anthropology
+
+Source: https://www.youtube.com/watch?v=Ul2iW3mWl90
 
 ---
 

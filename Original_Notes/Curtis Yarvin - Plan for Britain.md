@@ -1,8 +1,11 @@
+Summary:
 Here are comprehensive notes from the interview with Curtis Yarvin on the Anglo Futurism Podcast.
 
 Rating: 1
-Date: `29 Sep 2025` 
-Video URL: https://www.youtube.com/watch?v=-4evSKxZvOA
+Type: video
+Tags: politics
+Date: 29 Sep 2025
+Source: https://www.youtube.com/watch?v=-4evSKxZvOA
 
 ---
 

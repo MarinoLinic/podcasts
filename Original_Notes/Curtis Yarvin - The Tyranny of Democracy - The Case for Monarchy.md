@@ -1,8 +1,11 @@
+Summary:
 Here are the comprehensive notes from the interview between Peter McCormack and Curtis Yarvin. 
 
 Rating: 5
-Date: `14 Oct 2025` 
-Video URL: https://www.youtube.com/watch?v=47yObVOJciw
+Type: video
+Tags: politics
+Date: 14 Oct 2025 
+Source: https://www.youtube.com/watch?v=47yObVOJciw
 
 ---
 

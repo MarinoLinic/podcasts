@@ -247,6 +247,19 @@ li.rating-5 a {
 	text-decoration: underline;
 }
 
+/* Type Icon */
+.meta-type {
+	font-size: 1.1rem;
+	line-height: 1;
+	cursor: help;
+	display: flex;
+	align-items: center;
+	transition: transform 0.2s;
+}
+.meta-type:hover {
+	transform: scale(1.1);
+}
+
 /* View Switcher Buttons */
 .view-switcher {
 	display: flex;

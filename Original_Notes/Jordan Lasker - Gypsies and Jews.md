@@ -1,7 +1,9 @@
 Summary: An analysis of how "selective identification" skews group statistics and reputations. Cremieux cites new data showing that high-status Gypsies stop identifying as Gypsies (making the group appear lower-class), whereas historically, low-status Jews left Judaism (making the group appear higher-class). The article argues that these filtering processes fundamentally alter both the demographic reality and the public perception of these ethnic groups.
 
 Rating: 3
-Date: `27 Nov 2025`
+Type: article
+Tags: anthropology
+Date: 27 Nov 2025
 Source: https://www.cremieux.xyz/p/gypsies-and-jews
 
 ---

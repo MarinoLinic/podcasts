@@ -119,6 +119,15 @@
 								<span class="meta-separator">•</span>
 								<!-- Trigger with ID for JS Listener -->
 								<span class="meta-stats" id="word-count-trigger"> Loading... </span>
+
+								<!-- TYPE ICON LOGIC -->
+								{% if page.type %}
+								<span class="meta-separator">•</span>
+								<span class="meta-type" title="Type: {{ page.type | capitalize }}" style="cursor: help">
+									{% case page.type %} {% when 'video' %} 🎬 {% when 'article' %} 📄 {% when 'podcast' %} 🎙️ {% when
+									'book' %} 📖 {% else %} 🔖 {% endcase %}
+								</span>
+								{% endif %}
 							</div>
 
 							<!-- View Switcher -->

@@ -1,8 +1,11 @@
+Summary:
 Here are the consolidated, expanded, and highly detailed notes from the interview with economist Philip Pilkington. These notes expand on the geopolitical and economic theories, and specifically highlight the distinctions regarding military doctrine and historical analogies.
 
 Rating: 5
-Date: `30 May 2025`
-Video URL: https://www.youtube.com/watch?v=TsrwaYQUGkM
+Type: video
+Tags: politics
+Date: 30 May 2025
+Source: https://www.youtube.com/watch?v=TsrwaYQUGkM
 
 ---
 
