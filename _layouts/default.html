@@ -190,6 +190,25 @@
 					</details>
 				</section>
 
+				<!-- Desktop Right Sidebar TOC -->
+				<aside class="toc-sidebar" id="desktop-toc">
+					<div class="toc-header">On this page</div>
+					<ul class="toc-list" id="toc-list-desktop"></ul>
+				</aside>
+
+				<!-- Mobile Bottom Bar -->
+				<div class="mobile-toc-bar" id="mobile-toc-trigger">
+					<span class="mobile-toc-label">Reading:</span>
+					<span class="mobile-toc-current" id="mobile-current-header">Introduction</span>
+				</div>
+
+				<!-- Mobile Overlay Menu -->
+				<div class="toc-backdrop" id="toc-backdrop"></div>
+				<div class="toc-mobile-overlay" id="toc-mobile-menu">
+					<h3>Table of Contents</h3>
+					<ul class="toc-list" id="toc-list-mobile"></ul>
+				</div>
+
 				<script>
 					document.addEventListener('DOMContentLoaded', function () {
 						// --- 1. Sidebar Persistence & Filtering Logic ---
@@ -282,7 +301,7 @@
 							})
 						}
 
-						// --- 3. Stats Logic (UPDATED) ---
+						// --- 3. Stats Logic (UPDATED ORDER) ---
 						const contentDiv = document.getElementById('markdown-view')
 						const trigger = document.getElementById('word-count-trigger')
 						const modalOverlay = document.getElementById('statsOverlay')
@@ -420,6 +439,92 @@
 							}
 							linkify(contentDiv)
 						}
+
+						// --- 6. Table of Contents & Scroll Spy ---
+						const markdownBody = document.querySelector('.markdown-body')
+						const headers = markdownBody ? markdownBody.querySelectorAll('h2, h3') : []
+						const desktopList = document.getElementById('toc-list-desktop')
+						const mobileList = document.getElementById('toc-list-mobile')
+						const mobileBar = document.getElementById('mobile-toc-trigger')
+						const mobileCurrentText = document.getElementById('mobile-current-header')
+
+						if (headers.length > 0) {
+							// Show mobile bar
+							mobileBar.classList.add('visible')
+
+							headers.forEach((header, index) => {
+								// Ensure ID exists
+								if (!header.id) header.id = 'section-' + index
+
+								// Create Link Item
+								function createTocItem(isMobile) {
+									const li = document.createElement('li')
+									const a = document.createElement('a')
+									a.href = '#' + header.id
+									a.innerText = header.innerText
+									a.className = 'toc-link'
+									if (header.tagName === 'H3') a.classList.add('level-3')
+
+									// Mobile click: close menu
+									if (isMobile) {
+										a.addEventListener('click', () => {
+											toggleMobileToc(false)
+										})
+									}
+
+									li.appendChild(a)
+									return li
+								}
+
+								desktopList.appendChild(createTocItem(false))
+								mobileList.appendChild(createTocItem(true))
+							})
+
+							// Scroll Spy Logic
+							const observerOptions = {
+								root: null,
+								rootMargin: '-100px 0px -60% 0px', // Highlights when header is near top
+								threshold: 0,
+							}
+
+							const observer = new IntersectionObserver((entries) => {
+								entries.forEach((entry) => {
+									if (entry.isIntersecting) {
+										const id = entry.target.id
+
+										// Update Desktop Active State
+										document.querySelectorAll('.toc-link').forEach((link) => {
+											link.classList.remove('active')
+											if (link.getAttribute('href') === '#' + id) {
+												link.classList.add('active')
+											}
+										})
+
+										// Update Mobile Text
+										mobileCurrentText.innerText = entry.target.innerText
+									}
+								})
+							}, observerOptions)
+
+							headers.forEach((header) => observer.observe(header))
+						}
+
+						// Mobile TOC Toggle Logic
+						const tocBackdrop = document.getElementById('toc-backdrop')
+						const tocMenu = document.getElementById('toc-mobile-menu')
+
+						function toggleMobileToc(show) {
+							if (show) {
+								tocBackdrop.classList.add('active')
+								tocMenu.classList.add('active')
+							} else {
+								tocBackdrop.classList.remove('active')
+								tocMenu.classList.remove('active')
+							}
+						}
+
+						if (mobileBar) mobileBar.addEventListener('click', () => toggleMobileToc(true))
+						if (tocBackdrop) tocBackdrop.addEventListener('click', () => toggleMobileToc(false))
 					})
 				</script>
 				{% else %}

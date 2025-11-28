@@ -697,3 +697,171 @@ details#transcript-container[open] summary {
 		display: block;
 	}
 }
+
+/* --- TABLE OF CONTENTS (Right Sidebar - Desktop) --- */
+.toc-sidebar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 250px;
+	height: 100vh;
+	padding: 100px 20px 40px 0; /* Align top padding with content */
+	overflow-y: auto;
+	display: none; /* Hidden by default (mobile) */
+	z-index: 10;
+}
+
+/* Only show on wide screens (Left Sidebar 300 + Content 900 + TOC 250 = ~1450px) */
+@media (min-width: 1450px) {
+	.toc-sidebar {
+		display: block;
+	}
+}
+
+.toc-header {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	color: var(--secondary-text);
+	font-weight: 700;
+	letter-spacing: 0.05em;
+	margin-bottom: 15px;
+}
+
+.toc-list {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	border-left: 1px solid var(--border-color);
+}
+
+.toc-list li {
+	margin: 0;
+}
+
+.toc-link {
+	display: block;
+	padding: 4px 0 4px 15px;
+	font-size: 0.85rem;
+	color: var(--secondary-text);
+	text-decoration: none;
+	border-left: 2px solid transparent;
+	margin-left: -1px; /* Overlap border */
+	transition: all 0.2s;
+	line-height: 1.4;
+}
+
+.toc-link:hover {
+	color: var(--text-color);
+}
+
+.toc-link.active {
+	color: var(--accent-color);
+	border-left-color: var(--accent-color);
+	font-weight: 500;
+}
+
+/* Indent H3s */
+.toc-link.level-3 {
+	padding-left: 30px;
+	font-size: 0.8rem;
+}
+
+/* --- MOBILE CURRENT SECTION BAR --- */
+.mobile-toc-bar {
+	display: none; /* Hidden on Desktop */
+	position: fixed;
+	bottom: 20px;
+	left: 50%;
+	transform: translateX(-50%);
+	background: rgba(255, 255, 255, 0.95);
+	backdrop-filter: blur(8px);
+	border: 1px solid var(--border-color);
+	padding: 10px 20px;
+	border-radius: 30px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	z-index: 900;
+	max-width: 90%;
+	width: auto;
+	align-items: center;
+	gap: 10px;
+	cursor: pointer;
+	transition: all 0.2s ease;
+}
+
+@media (max-width: 1449px) {
+	.mobile-toc-bar.visible {
+		display: flex; /* Only show when we have headers */
+	}
+}
+
+.mobile-toc-label {
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	color: var(--secondary-text);
+	font-weight: 700;
+	white-space: nowrap;
+}
+
+.mobile-toc-current {
+	font-size: 0.85rem;
+	font-weight: 600;
+	color: var(--text-color);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	max-width: 200px;
+}
+
+/* Mobile TOC Overlay (When clicked) */
+.toc-mobile-overlay {
+	display: none;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: #fff;
+	border-top: 1px solid var(--border-color);
+	border-radius: 16px 16px 0 0;
+	padding: 20px;
+	max-height: 60vh;
+	overflow-y: auto;
+	z-index: 1000;
+	box-shadow: 0 -5px 30px rgba(0, 0, 0, 0.15);
+	animation: slideUp 0.3s ease;
+}
+
+.toc-mobile-overlay.active {
+	display: block;
+}
+
+@keyframes slideUp {
+	from {
+		transform: translateY(100%);
+	}
+	to {
+		transform: translateY(0);
+	}
+}
+
+.toc-mobile-overlay h3 {
+	margin-top: 0;
+	font-size: 1rem;
+	border-bottom: 1px solid var(--border-color);
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+}
+
+/* Overlay Backdrop */
+.toc-backdrop {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.3);
+	z-index: 999;
+}
+.toc-backdrop.active {
+	display: block;
+}
