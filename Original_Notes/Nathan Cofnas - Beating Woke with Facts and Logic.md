@@ -2,7 +2,7 @@ Summary: An argument that "wokism" (race communism) is built on a false empirica
 
 Rating: 5
 Date: `09 Oct 2025`
-Video URL: https://ncofnas.com/p/beating-woke-with-facts-and-logic
+Substack URL: https://ncofnas.com/p/beating-woke-with-facts-and-logic
 
 ---
 

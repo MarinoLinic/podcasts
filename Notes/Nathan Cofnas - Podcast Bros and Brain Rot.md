@@ -2,7 +2,7 @@
 layout: default
 title: "Podcast Bros and Brain Rot"
 author: "Nathan Cofnas"
-rating: 3
+rating: 2
 date: 2025-05-05
 ---
 
