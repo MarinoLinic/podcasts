@@ -1,0 +1,64 @@
+---
+layout: default
+title: "Gypsies and Jews"
+author: "Jordan Lasker"
+rating: 3
+date: 2025-11-27
+---
+
+Summary: An analysis of how "selective identification" skews group statistics and reputations. Cremieux cites new data showing that high-status Gypsies stop identifying as Gypsies (making the group appear lower-class), whereas historically, low-status Jews left Judaism (making the group appear higher-class). The article argues that these filtering processes fundamentally alter both the demographic reality and the public perception of these ethnic groups.
+
+Source: https://www.cremieux.xyz/p/gypsies-and-jews
+
+---
+
+### **1. The Gypsy "Passing" Phenomenon (Romanian Data)**
+*   **The Context:** "Received wisdom" in Europe holds that Gypsies are prone to crime, poor, and uneducated.
+*   **The Hypothesis:** Because the group is stigmatized, high-status individuals essentially "defect" from the identity, leaving only the low-status individuals visible.
+*   **The Study (Mitrut et al.):**
+    *   Used Romanian administrative data tracking millions of individuals over years.
+    *   **"Desistence":** Measured how often individuals stopped identifying as Roma/Gypsy compared to other minorities (e.g., Hungarians).
+*   **The Findings:**
+    *   **Educational Gradient:** Gypsies "selectively desist." The more educated/wealthy a Gypsy becomes, the more likely they are to identify as Romanian or Hungarian.
+    *   **Magnitude of Passing:** More than **half** of Gypsies who become professionals change their ethnic self-identification.
+*   **The Statistical Distortion:**
+    *   **Official Data:** Reports 2.3% of the population is Roma.
+    *   **Actual Data:** Likely 3.7%–4.1%.
+    *   **The "Elite" Undercount:** Official data misses the vast majority of successful Roma. There are **6x more** Roma post-secondary graduates in reality than in the census.
+*   **Public Perception vs. Reality:**
+    *   In a survey, Romanians claimed they could identify Gypsies by clothes, skin color, or speech.
+    *   *Reality:* They failed to identify the "passing" Gypsies. Because the public only sees the low-class Gypsies who *don't* pass, the negative stereotypes are reinforced by a sampling error. Accounting for "passing" explains ~13% of the Roma education gap.
+
+### **2. Comparative Ethnic Attrition**
+Cremieux notes that "Ethnic Attrition"—where immigrants stop identifying with their ancestral group—skews data for other groups as well.
+*   **Scots-Irish:** Largely vanished into the generic "American" identity.
+*   **African Immigrants:** Downwardly mobile descendants tend to identify as generic "Black" rather than "African," making statistics on African immigrants look "unduly optimistic" (because the failures filter out of the data set).
+*   **Mexican Americans:** The opposite trend. Less successful ones stick to the "Mexican" label; successful ones intermarry and identify as white/mixed, making the remaining "Mexican" pool appear less assimilated than it actually is.
+
+### **3. The Jewish Selection Event (The Inverse of the Gypsy Story)**
+While smart Gypsies leave the group (lowering the average), the historical success of Jews is driven by **poor Jews leaving the group** (raising the average).
+
+#### **A. The Origins (Judea & The Pharisees)**
+*   **Source:** Botticini and Eckstein’s *The Chosen Few*.
+*   **The Mechanism:** After the fall of the Second Temple, the Pharisees (scholars) wrested control from the Sadducees (priests).
+*   **The Ordinance:** They required Jewish fathers to educate their sons in literacy/Torah.
+*   **The Cost:** In a Malthusian farming society, education was prohibitively expensive.
+*   **The Filter:** Uneducated Jews became **Am Ha’aretz** ("People of the Land")—outcasts. To avoid stigma and cost, the poor/uneducated converted to Christianity.
+    *   *Result:* Judaism became a religion of the literate/wealthy by shedding its lower class.
+
+#### **B. The Islamic Golden Age (800–1200 AD)**
+*   **Urbanization:** Unlike the Romans, Muslims encouraged urbanization. This gave Jews a market for their literacy.
+*   **The Transition:** Jews moved en masse from farming to skilled crafts, trade, and lending.
+*   **The Jizya Tax:** Muslims charged a head tax (*Jizya*) on non-Muslims. Poor Jews who couldn't pay converted to Islam.
+*   **Result:** By 1200 AD, the Jewish population was small, highly urban, highly literate, and occupationally distinct.
+
+#### **C. Migration to Europe & The "Rift"**
+*   **Selective Immigration:** European rulers invited Jews specifically to fill high-skill niches (lending, treasury, tax collection) that Christians could not fill.
+*   **The Mongol Shock (1250s):** The Mongol invasion devastated the Middle East, pushing Middle Eastern Jews back into poverty/farming.
+*   **The Rift:** At the same time, European expulsions (England, France) closed the borders.
+*   **Outcome:** A split formed between the decimated Middle Eastern Jewish community and the hyper-selected, high-IQ European Jewish community.
+
+### **4. Conclusion: The Power of Selective Identification**
+*   **The Gypsy Model:** High-status members exit → The group appears worse than it is. (Reinforces negative stereotypes).
+*   **The Jewish Model:** Low-status members exit → The group appears better than it is. (Creates an elite demographic profile).
+*   **Final Insight:** Group identity is not a fixed biological container; it is a leaky vessel where the "leaks" (who leaves and who stays) determine the sociological destiny of the group.
