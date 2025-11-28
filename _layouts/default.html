@@ -17,7 +17,7 @@
 		<!-- Dark Overlay (Mobile) -->
 		<div class="overlay" id="overlay"></div>
 
-		<!-- Statistics Modal (Updated Order) -->
+		<!-- Statistics Modal (Reordered) -->
 		<div class="modal-overlay" id="statsOverlay">
 			<div class="stats-modal">
 				<h3>Note Statistics</h3>
@@ -131,10 +131,19 @@
 
 						<!-- Metadata Row -->
 						<div class="header-meta-row">
+							<!-- Clickable Author -->
 							<div class="meta-tags">
-								<span class="meta-author">{{ page.author }}</span>
+								<span class="meta-author" id="author-trigger" style="cursor: pointer">{{ page.author }}</span>
 								<span class="meta-separator">•</span>
-								<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
+
+								<!-- Clickable Date (Time Ago) -->
+								<div class="meta-type-wrapper" id="date-wrapper">
+									<span class="meta-date" data-date="{{ page.date | date: '%Y-%m-%d' }}"
+										>{{ page.date | date: "%d %b %Y" }}</span
+									>
+									<span class="meta-type-label" id="date-label">Loading...</span>
+								</div>
+
 								<span class="meta-separator">•</span>
 								<span class="meta-stats" id="word-count-trigger"> Loading... </span>
 
@@ -288,7 +297,65 @@
 							})
 						})
 
-						// --- 2. Type Icon Mobile Toggle ---
+						// --- 2. Author Click Logic (Sidebar Focus) ---
+						const authorTrigger = document.getElementById('author-trigger')
+						if (authorTrigger) {
+							authorTrigger.addEventListener('click', () => {
+								// Mobile: Open Sidebar
+								if (window.innerWidth <= 768) {
+									toggleMenu()
+								}
+								// Scroll Sidebar to Active Link
+								const activeLink = document.querySelector('.sidebar nav a.active')
+								if (activeLink) {
+									activeLink.scrollIntoView({ behavior: 'smooth', block: 'center' })
+									// Optional visual cue
+									activeLink.style.transition = 'background 0.3s'
+									const oldBg = activeLink.style.backgroundColor
+									activeLink.style.backgroundColor = 'var(--active-bg)' // Highlight
+									setTimeout(() => {
+										activeLink.style.backgroundColor = oldBg
+									}, 800)
+								}
+							})
+						}
+
+						// --- 3. Date "Time Ago" Logic ---
+						const dateWrapper = document.getElementById('date-wrapper')
+						const dateLabel = document.getElementById('date-label')
+						const dateEl = document.querySelector('.meta-date')
+
+						if (dateWrapper && dateLabel && dateEl) {
+							const dateStr = dateEl.getAttribute('data-date')
+							const past = new Date(dateStr)
+							const now = new Date()
+
+							let months = (now.getFullYear() - past.getFullYear()) * 12
+							months -= past.getMonth()
+							months += now.getMonth()
+
+							const years = Math.floor(months / 12)
+							const remainingMonths = months % 12
+
+							let timeAgoText = ''
+							if (years > 0) timeAgoText += years + ' year' + (years > 1 ? 's' : '')
+							if (years > 0 && remainingMonths > 0) timeAgoText += ', '
+							if (remainingMonths > 0) timeAgoText += remainingMonths + ' month' + (remainingMonths > 1 ? 's' : '')
+							if (timeAgoText === '') timeAgoText = 'This month'
+							else timeAgoText += ' ago'
+
+							dateLabel.innerText = timeAgoText
+
+							dateWrapper.addEventListener('click', function (e) {
+								e.stopPropagation()
+								dateLabel.classList.toggle('visible')
+								setTimeout(() => {
+									dateLabel.classList.remove('visible')
+								}, 3000)
+							})
+						}
+
+						// --- 4. Type Icon Mobile Toggle ---
 						const typeWrapper = document.getElementById('typeIconWrapper')
 						const typeLabel = document.getElementById('typeLabel')
 						if (typeWrapper && typeLabel) {
@@ -301,7 +368,7 @@
 							})
 						}
 
-						// --- 3. Stats Logic (UPDATED ORDER) ---
+						// --- 5. Stats Logic (Updated Order) ---
 						const contentDiv = document.getElementById('markdown-view')
 						const trigger = document.getElementById('word-count-trigger')
 						const modalOverlay = document.getElementById('statsOverlay')
@@ -314,16 +381,13 @@
 
 						function calculateStats() {
 							if (!contentDiv) return { words: 0, chars: 0, lines: 0, readTime: 0, sentences: 0 }
-
 							const text = contentDiv.innerText || ''
 							const cleanText = text.trim()
-
 							const words = cleanText.split(/\s+/).filter((w) => w.length > 0).length
 							const chars = cleanText.length
 							const lines = text.split(/\r\n|\r|\n/).length
 							const readTime = Math.ceil(words / 225)
 							const sentences = cleanText.split(/[.!?]+/).filter((s) => s.trim().length > 0).length
-
 							return { words, chars, lines, readTime, sentences }
 						}
 
@@ -359,7 +423,7 @@
 							})
 						}
 
-						// --- 4. View Switcher & Copy ---
+						// --- 6. View Switcher & Copy ---
 						const mdView = document.getElementById('markdown-view')
 						const textView = document.getElementById('text-view')
 						const btnMd = document.getElementById('btn-markdown')
@@ -408,7 +472,7 @@
 							})
 						}
 
-						// --- 5. Transcript & Linkify ---
+						// --- 7. Transcript & Linkify ---
 						const transcriptFilename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
 						const transcriptSection = document.querySelector('.transcript-section')
@@ -440,38 +504,37 @@
 							linkify(contentDiv)
 						}
 
-						// --- 6. Table of Contents & Scroll Spy ---
+						// --- 8. Table of Contents & Scroll Spy (UPDATED) ---
 						const markdownBody = document.querySelector('.markdown-body')
-						const headers = markdownBody ? markdownBody.querySelectorAll('h2, h3') : []
+						const headers = markdownBody ? markdownBody.querySelectorAll('h1, h2, h3') : []
 						const desktopList = document.getElementById('toc-list-desktop')
 						const mobileList = document.getElementById('toc-list-mobile')
 						const mobileBar = document.getElementById('mobile-toc-trigger')
 						const mobileCurrentText = document.getElementById('mobile-current-header')
 
 						if (headers.length > 0) {
-							// Show mobile bar
 							mobileBar.classList.add('visible')
 
 							headers.forEach((header, index) => {
-								// Ensure ID exists
 								if (!header.id) header.id = 'section-' + index
 
-								// Create Link Item
 								function createTocItem(isMobile) {
 									const li = document.createElement('li')
 									const a = document.createElement('a')
 									a.href = '#' + header.id
 									a.innerText = header.innerText
 									a.className = 'toc-link'
+
+									// Indentation Classes
+									if (header.tagName === 'H1') a.classList.add('level-1')
+									if (header.tagName === 'H2') a.classList.add('level-2')
 									if (header.tagName === 'H3') a.classList.add('level-3')
 
-									// Mobile click: close menu
 									if (isMobile) {
 										a.addEventListener('click', () => {
 											toggleMobileToc(false)
 										})
 									}
-
 									li.appendChild(a)
 									return li
 								}
@@ -480,33 +543,34 @@
 								mobileList.appendChild(createTocItem(true))
 							})
 
-							// Scroll Spy Logic
-							const observerOptions = {
-								root: null,
-								rootMargin: '-100px 0px -60% 0px', // Highlights when header is near top
-								threshold: 0,
-							}
+							// Updated Scroll Spy Logic (Scroll Position Based)
+							function highlightActiveToc() {
+								const scrollPos = window.scrollY
+								const triggerPoint = scrollPos + 150
 
-							const observer = new IntersectionObserver((entries) => {
-								entries.forEach((entry) => {
-									if (entry.isIntersecting) {
-										const id = entry.target.id
+								let currentSection = null
 
-										// Update Desktop Active State
-										document.querySelectorAll('.toc-link').forEach((link) => {
-											link.classList.remove('active')
-											if (link.getAttribute('href') === '#' + id) {
-												link.classList.add('active')
-											}
-										})
-
-										// Update Mobile Text
-										mobileCurrentText.innerText = entry.target.innerText
+								headers.forEach((header) => {
+									if (header.offsetTop <= triggerPoint) {
+										currentSection = header
 									}
 								})
-							}, observerOptions)
 
-							headers.forEach((header) => observer.observe(header))
+								if (currentSection) {
+									// Update Desktop
+									document.querySelectorAll('.toc-link').forEach((link) => {
+										link.classList.remove('active')
+										if (link.getAttribute('href') === '#' + currentSection.id) {
+											link.classList.add('active')
+										}
+									})
+									// Update Mobile Text
+									mobileCurrentText.innerText = currentSection.innerText
+								}
+							}
+
+							window.addEventListener('scroll', highlightActiveToc)
+							highlightActiveToc() // Run once on load
 						}
 
 						// Mobile TOC Toggle Logic

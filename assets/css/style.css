@@ -778,7 +778,7 @@ details#transcript-container[open] summary {
 	border: 1px solid var(--border-color);
 	padding: 10px 20px;
 	border-radius: 30px;
-	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
 	z-index: 900;
 	max-width: 90%;
 	width: auto;
@@ -810,6 +810,21 @@ details#transcript-container[open] summary {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	max-width: 200px;
+}
+
+/* ToC Indentation Levels */
+.toc-link.level-1 {
+	font-weight: 700;
+	color: var(--text-color);
+}
+.toc-link.level-2 {
+	padding-left: 15px;
+	font-weight: 500;
+}
+.toc-link.level-3 {
+	padding-left: 30px;
+	font-size: 0.8rem;
+	color: var(--secondary-text);
 }
 
 /* Mobile TOC Overlay (When clicked) */
