@@ -23,6 +23,23 @@
 				animation: highlightFlash 1.5s ease-out;
 				border-radius: 4px;
 			}
+			/* Added to align "Tags:" label with "Author" text above */
+			.tags-label {
+				padding-left: 6px;
+			}
+			/* Generic close button for modals */
+			.close-modal-btn {
+				margin-top: 20px;
+				padding: 8px 16px;
+				border: 1px solid #ddd;
+				background: #fff;
+				cursor: pointer;
+				border-radius: 4px;
+				font-weight: 500;
+			}
+			.close-modal-btn:hover {
+				background: #f5f5f5;
+			}
 		</style>
 	</head>
 	<body>
@@ -62,7 +79,7 @@
 			</div>
 		</div>
 
-		<!-- Date Info Modal (New) -->
+		<!-- Date Info Modal -->
 		<div class="modal-overlay" id="dateOverlay">
 			<div class="stats-modal">
 				<h3>Date Information</h3>
@@ -311,43 +328,35 @@
 							})
 						})
 
-						// --- 2. Author Click Logic (Finds first visible article) ---
+						// --- 2. Author Click Logic (Reverted: Focus Current Article) ---
 						const authorTrigger = document.getElementById('author-trigger')
 						if (authorTrigger) {
 							authorTrigger.addEventListener('click', (e) => {
 								e.stopPropagation()
-								const authorName = authorTrigger.innerText.trim()
 
-								// Find the specific details element for this author
-								let targetGroup = null
-								authorDetails.forEach((group) => {
-									const summaryText = group.querySelector('summary').innerText.trim()
-									if (summaryText === authorName) targetGroup = group
-								})
+								// 1. Open Sidebar on Mobile
+								if (window.innerWidth <= 768) toggleMenu()
 
-								if (targetGroup) {
-									// 1. Force open the details group
-									targetGroup.open = true
-									// Update localStorage so it stays open
-									localStorage.setItem('sidebar_author_' + authorName, 'open')
+								// 2. Find active link
+								const activeLink = document.querySelector('.sidebar nav a.active')
 
-									// 2. Find the first visible link inside this group
-									// We check 'display: none' in case filters are active
-									const firstVisibleLink = targetGroup.querySelector("li:not([style*='display: none']) a")
-
-									if (firstVisibleLink) {
-										// Mobile: Open Sidebar
-										if (window.innerWidth <= 768) toggleMenu()
-
-										// 3. Scroll Sidebar to First Link
-										firstVisibleLink.scrollIntoView({ behavior: 'smooth', block: 'center' })
-
-										// 4. Visual Highlight Flash
-										firstVisibleLink.classList.add('flash-highlight')
-										setTimeout(() => {
-											firstVisibleLink.classList.remove('flash-highlight')
-										}, 1500)
+								if (activeLink) {
+									// 3. Ensure parent Details is open
+									const parentDetails = activeLink.closest('details')
+									if (parentDetails && !parentDetails.open) {
+										parentDetails.open = true
+										const summary = parentDetails.querySelector('summary').innerText.trim()
+										localStorage.setItem('sidebar_author_' + summary, 'open')
 									}
+
+									// 4. Scroll Sidebar to Active Link
+									activeLink.scrollIntoView({ behavior: 'smooth', block: 'center' })
+
+									// 5. Visual Flash Cue
+									activeLink.classList.add('flash-highlight')
+									setTimeout(() => {
+										activeLink.classList.remove('flash-highlight')
+									}, 1500)
 								}
 							})
 						}
@@ -644,7 +653,6 @@
 								tocMenu.classList.add('active')
 
 								// --- Mobile ToC Auto-Scroll on Open ---
-								// Wait for animation frame to ensure element is visible/rendered
 								setTimeout(() => {
 									const activeMobileLink = mobileList.querySelector('.active')
 									if (activeMobileLink && tocMenu) {
@@ -696,20 +704,5 @@
 			})
 			if (sidebarEl.classList.contains('open')) menuBtn.innerHTML = '<span>✕</span> Close'
 		</script>
-		<style>
-			/* Styling for standard generic buttons used in modals */
-			.close-modal-btn {
-				margin-top: 20px;
-				padding: 8px 16px;
-				border: 1px solid #ddd;
-				background: #fff;
-				cursor: pointer;
-				border-radius: 4px;
-				font-weight: 500;
-			}
-			.close-modal-btn:hover {
-				background: #f5f5f5;
-			}
-		</style>
 	</body>
 </html>
