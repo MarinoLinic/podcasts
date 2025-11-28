@@ -28,9 +28,7 @@ SOURCE_EXTENSION = ".md"
 # Regex patterns
 YOUTUBE_REGEX = r'(?:youtube\.com\/watch\?v=|youtu\.be\/)([a-zA-Z0-9_-]{11})'
 RATING_REGEX = r'Rating:\s*(\d+)'
-# Updated Date Regex to be more flexible (no ticks required)
 DATE_REGEX = r'Date:\s*`?([0-9]{1,2}\s+[A-Za-z]{3,}\s+[0-9]{4})`?'
-# New Regexes
 TYPE_REGEX = r'Type:\s*(.*)'
 TAGS_REGEX = r'Tags:\s*(.*)'
 
@@ -51,13 +49,13 @@ def process_for_jekyll(content, filename):
     rating = int(rating_match.group(1)) if rating_match else 0
     
     type_match = re.search(TYPE_REGEX, content)
-    note_type = type_match.group(1).strip() if type_match else "article" # default
+    note_type = type_match.group(1).strip() if type_match else "article" 
 
     tags_match = re.search(TAGS_REGEX, content)
     tags = tags_match.group(1).strip() if tags_match else ""
     
     date_match = re.search(DATE_REGEX, content)
-    date_str = "1970-01-01" # Default fallback
+    date_str = "1970-01-01" 
     
     if date_match:
         date_text = date_match.group(1)
@@ -74,12 +72,11 @@ def process_for_jekyll(content, filename):
         print(f"  [!] WARNING: No date found in {filename}. Using 1970-01-01.")
 
     # CLEAN CONTENT: 
-    # Remove Rating, Date, and Type lines.
-    # We DO NOT remove Tags line (it remains in body).
+    # Remove Rating, Date, Type, AND Tags from body
     content = re.sub(r'^Rating:\s*\d+.*$', '', content, flags=re.MULTILINE)
     content = re.sub(r'^Date:\s*.*$', '', content, flags=re.MULTILINE)
     content = re.sub(r'^Type:\s*.*$', '', content, flags=re.MULTILINE)
-    # Note: Source/URL is usually at the bottom or inline, we leave it unless specified.
+    content = re.sub(r'^Tags:\s*.*$', '', content, flags=re.MULTILINE)
     
     # Clean up excessive newlines
     content = re.sub(r'\n{3,}', '\n\n', content).strip()
@@ -92,7 +89,6 @@ def process_for_jekyll(content, filename):
     yaml += f'rating: {rating}\n'
     yaml += f'date: {date_str}\n'
     yaml += f'type: "{note_type}"\n'
-    # We add tags to YAML too so Jekyll can use them if needed, even if they stay in body
     yaml += f'tags: [{tags}]\n' 
     yaml += "---\n\n"
 
@@ -105,68 +101,53 @@ def convert_to_text_format(content, filename):
     title_parts = base_name.split(" - ", 1)
     full_title = f"{title_parts[0]} on {title_parts[1]}" if len(title_parts) > 1 else base_name
 
-    # 1. Header Construction (SIMPLIFIED per request)
-    # Only the title remains.
     header = f"{full_title}"
 
-    # 2. Body Processing
+    # Body Processing
     lines = content.split('\n')
     processed_lines = []
     
     for line in lines:
-        # Remove Metadata lines we don't want in text version
-        # We strip Rating, Date, Type, and Source/URL lines.
-        # We KEEP Tags.
-        if "Rating:" in line or "Date:" in line or "Type:" in line:
+        if "Rating:" in line or "Date:" in line or "Type:" in line or "Tags:" in line:
             continue
         if "Source:" in line or "Video URL:" in line:
             continue
-        if "Summary:" in line: # Optional: keep or remove summary label, keeping for now
+        if "Summary:" in line: 
             pass
         
-        # Handle Empty Lines (Preserve Paragraphs)
         if not line.strip():
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")
             continue
 
-        # Headers (### **I. Title**) -> I. Title
         if line.strip().startswith('#'):
             clean_header = line.lstrip('#').strip()
             clean_header = clean_header.replace('**', '')
-            # Ensure separation before header
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")
             processed_lines.append(clean_header)
             continue
             
-        # Lists (Sub-bullets) - NO EXTRA NEWLINE
         if re.match(r'^\s+(\*|-)\s+', line):
             clean_sub = re.sub(r'^\s+(\*|-)\s+', '-- ', line)
             clean_sub = clean_sub.replace('**', '')
             processed_lines.append(clean_sub)
             continue
 
-        # Lists (Main bullets) - FORCE NEWLINE BEFORE
         if re.match(r'^(\*|-)\s+', line):
             clean_item = re.sub(r'^(\*|-)\s+', '- ', line)
             clean_item = clean_item.replace('**', '')
-            
-            # Add breathing room before a main bullet point
             if processed_lines and processed_lines[-1] != "":
-                processed_lines.append("")
-                
+                processed_lines.append("")    
             processed_lines.append(clean_item)
             continue
             
-        # Separators
         if "---" in line:
             if processed_lines and processed_lines[-1] != "":
                 processed_lines.append("")
             processed_lines.append("---")
             continue
 
-        # Normal text
         processed_lines.append(line.replace('**', ''))
 
     body = "\n".join(processed_lines)
@@ -175,7 +156,6 @@ def convert_to_text_format(content, filename):
     return header + "\n\n" + body
 
 def main():
-    # Ensure directories exist
     for folder in [INPUT_FOLDER, JEKYLL_OUTPUT_FOLDER, TEXT_OUTPUT_FOLDER, TRANSCRIPT_FOLDER]:
         if not os.path.exists(folder):
             os.makedirs(folder)

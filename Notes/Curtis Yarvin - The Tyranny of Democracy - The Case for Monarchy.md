@@ -11,8 +11,6 @@ tags: [politics]
 Summary:
 Here are the comprehensive notes from the interview between Peter McCormack and Curtis Yarvin. 
 
-Tags: politics
-
 Source: https://www.youtube.com/watch?v=47yObVOJciw
 
 ---

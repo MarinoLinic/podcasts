@@ -11,8 +11,6 @@ tags: [politics]
 Summary:
 Joseph Henrich argues that human success is not defined by raw individual intelligence, but by the "Collective Brain"—our unique ability to accumulate culture over generations. He explains how 70,000 years ago, cultural "packages" allowed humans to expand violently across the globe. He details the counter-intuitive history of the West, arguing that the Catholic Church’s accidental dismantling of tribal kinship structures created the specific psychological conditions (WEIRD) necessary for the Industrial Revolution. The discussion moves to the decline of human brain size, the specific mechanics of "blind" cultural transmission (e.g., cassava processing), and the implications of AI as a massive acceleration of social learning that risks eliminating necessary "noise" and serendipity.
 
-Tags: politics
-
 Sources:
 YouTube - https://www.youtube.com/watch?v=TcfhrThp1OU
 Substack transcript - https://www.dwarkesh.com/p/joseph-henrich

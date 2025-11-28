@@ -11,8 +11,6 @@ tags: [anthropology]
 Summary:
 Here are comprehensive notes from the transcript discussing the role of emotions in driving civilizations and historical cycles.
 
-Tags: anthropology
-
 Source: https://www.youtube.com/watch?v=Ul2iW3mWl90
 
 ---

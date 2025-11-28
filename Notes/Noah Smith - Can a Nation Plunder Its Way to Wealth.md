@@ -11,8 +11,6 @@ tags: [economics]
 Summary: 
 A deep dive into the economic history of why nations become wealthy, debunking the popular "plunder theory" (colonialism/slavery) in favor of industrialization, technological innovation, and liberalization. The discussion covers the historical failures of Spanish/Portuguese extraction models, the economic inefficiencies of slavery, the current geopolitical threats to global trade (end of US hegemony), and the rise of Asia through market reforms.
 
-Tags: economics
-
 Source: https://www.youtube.com/watch?v=XJctvnB9_Kk
 
 ---

@@ -73,17 +73,15 @@
 			<aside class="sidebar {% if page.url == '/' %}open{% endif %}" id="sidebar">
 				<header>
 					<h1><a href="{{ '/' | relative_url }}">{{ site.title }}</a></h1>
-					<p class="subtitle">Archive</p>
+					<!-- Filters are now permanent here -->
+					<div class="tag-filter-container">
+						<button class="filter-btn" data-filter="politics">Politics</button>
+						<button class="filter-btn" data-filter="anthropology">Anthropology</button>
+						<button class="filter-btn" data-filter="economics">Economics</button>
+						<button class="filter-btn" data-filter="history">History</button>
+						<button class="filter-btn" data-filter="life">Life</button>
+					</div>
 				</header>
-
-				<!-- Tag Filters -->
-				<div class="tag-filter-container">
-					<button class="filter-btn" data-filter="politics">Politics</button>
-					<button class="filter-btn" data-filter="anthropology">Anthropology</button>
-					<button class="filter-btn" data-filter="economics">Economics</button>
-					<button class="filter-btn" data-filter="history">History</button>
-					<button class="filter-btn" data-filter="life">Life</button>
-				</div>
 
 				<nav>
 					{% assign raw_notes = site.pages | where_exp: "item", "item.path contains 'Notes/'" %} {% assign all_notes =
@@ -112,6 +110,19 @@
 					</details>
 					{% endfor %}
 				</nav>
+
+				<!-- Sidebar Footer with X Icon -->
+				<div class="sidebar-footer">
+					<a href="https://x.com/MarinoLinic" target="_blank" title="Follow on X">
+						<svg viewBox="0 0 24 24" aria-hidden="true" class="x-icon">
+							<g>
+								<path
+									d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"
+								></path>
+							</g>
+						</svg>
+					</a>
+				</div>
 			</aside>
 
 			<!-- Main Content -->
@@ -121,26 +132,16 @@
 					<div class="note-header">
 						<h1>{{ page.title }}</h1>
 
+						<!-- Metadata Row -->
 						<div class="header-meta-row">
 							<div class="meta-tags">
 								<span class="meta-author">{{ page.author }}</span>
 								<span class="meta-separator">•</span>
 								<span class="meta-date">{{ page.date | date: "%d %b %Y" }}</span>
-
-								<!-- TAGS SECTION -->
-								{% if page.tags.size > 0 %}
-								<span class="meta-separator">•</span>
-								<div class="meta-tag-list">
-									{% for tag in page.tags %}
-									<span class="meta-tag-item" onclick="filterByTag('{{ tag | downcase }}')">#{{ tag }}</span>
-									{% endfor %}
-								</div>
-								{% endif %}
-
 								<span class="meta-separator">•</span>
 								<span class="meta-stats" id="word-count-trigger"> Loading... </span>
 
-								<!-- TYPE ICON LOGIC (Clickable for Mobile) -->
+								<!-- TYPE ICON LOGIC -->
 								{% if page.type %}
 								<span class="meta-separator">•</span>
 								<div class="meta-type-wrapper" id="typeIconWrapper">
@@ -148,7 +149,6 @@
 										{% case page.type %} {% when 'video' %} 🎬 {% when 'article' %} 📄 {% when 'podcast' %} 🎙️ {% when
 										'book' %} 📖 {% else %} 🔖 {% endcase %}
 									</span>
-									<!-- Hidden label that toggles on click -->
 									<span class="meta-type-label" id="typeLabel">{{ page.type | capitalize }}</span>
 								</div>
 								{% endif %}
@@ -160,6 +160,18 @@
 								<button class="view-btn" id="btn-text" onclick="switchView('text')">Text</button>
 							</div>
 						</div>
+
+						<!-- Separate Tags Row -->
+						{% if page.tags.size > 0 %}
+						<div class="header-tags-row">
+							<span class="tags-label">Tags:</span>
+							<div class="meta-tag-list">
+								{% for tag in page.tags %}
+								<span class="meta-tag-item" onclick="filterByTag('{{ tag | downcase }}')">#{{ tag }}</span>
+								{% endfor %}
+							</div>
+						</div>
+						{% endif %}
 					</div>
 
 					<div id="markdown-view">{{ content }}</div>
@@ -200,25 +212,25 @@
 						}
 
 						function applyFilters() {
-							// If no tags selected, show everything
 							const showAll = activeTags.size === 0
 
-							noteItems.forEach((item) => {
-								if (showAll) {
-									item.style.display = ''
-									return
-								}
-								// Check if note has AT LEAST one of the active tags
-								const noteTags = item.getAttribute('data-tags').split(',')
-								const hasMatch = noteTags.some((t) => activeTags.has(t))
-								item.style.display = hasMatch ? '' : 'none'
-							})
+							if (noteItems.length > 0) {
+								noteItems.forEach((item) => {
+									if (showAll) {
+										item.style.display = ''
+										return
+									}
+									const noteTags = item.getAttribute('data-tags').split(',')
+									const hasMatch = noteTags.some((t) => activeTags.has(t))
+									item.style.display = hasMatch ? '' : 'none'
+								})
 
-							// Hide empty author groups
-							authorDetails.forEach((group) => {
-								const visibleChildren = group.querySelectorAll("li:not([style*='display: none'])")
-								group.style.display = visibleChildren.length > 0 ? '' : 'none'
-							})
+								// Hide empty author groups
+								authorDetails.forEach((group) => {
+									const visibleChildren = group.querySelectorAll("li:not([style*='display: none'])")
+									group.style.display = visibleChildren.length > 0 ? '' : 'none'
+								})
+							}
 						}
 
 						// Filter Button Click Handler
@@ -237,17 +249,10 @@
 
 						// Global function for in-article tag clicking
 						window.filterByTag = function (tag) {
-							// Clear current filters and set only this one
 							activeTags = new Set([tag])
 							localStorage.setItem('activeTags', JSON.stringify([...activeTags]))
 							updateFilterUI()
-
-							// If mobile, open sidebar to show results
-							if (window.innerWidth <= 768) {
-								toggleMenu()
-							}
-
-							// Scroll sidebar to top to show results
+							if (window.innerWidth <= 768) toggleMenu()
 							const sb = document.getElementById('sidebar')
 							if (sb) sb.scrollTop = 0
 						}
@@ -260,7 +265,6 @@
 							const summary = details.querySelector('summary').innerText.trim()
 							const storageKey = 'sidebar_author_' + summary
 							const savedState = localStorage.getItem(storageKey)
-							// Only respect closed state if filters aren't active (filters might hide content inside)
 							if (savedState === 'closed' && activeTags.size === 0) details.removeAttribute('open')
 
 							details.addEventListener('toggle', () => {
@@ -275,7 +279,6 @@
 							typeWrapper.addEventListener('click', function (e) {
 								e.stopPropagation() // prevent bubbling
 								typeLabel.classList.toggle('visible')
-								// Auto-hide after 3 seconds
 								setTimeout(() => {
 									typeLabel.classList.remove('visible')
 								}, 3000)

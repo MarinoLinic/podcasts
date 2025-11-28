@@ -11,8 +11,6 @@ tags: [politics]
 Summary:
 Here are comprehensive notes from the interview with Curtis Yarvin on the Anglo Futurism Podcast.
 
-Tags: politics
-
 Source: https://www.youtube.com/watch?v=-4evSKxZvOA
 
 ---

@@ -11,8 +11,6 @@ tags: [politics]
 Summary: 
 An analysis of the epistemic crisis where trust has shifted from credentialed experts to "alt-media" figures (Rogan, Brand, Owens). The notes cover the specific failures of the expert class during Covid (Noble Lies, Lab Leak cover-ups), the resulting rise of "uneducated podcast bros" who peddle misinformation on history and science, and proposed heuristics for determining truth in a fractured media landscape.
 
-Tags: politics
-
 Source: https://ncofnas.com/p/podcast-bros-and-brain-rot
 
 ---

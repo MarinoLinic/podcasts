@@ -11,8 +11,6 @@ tags: [politics]
 Summary:
 Here are the consolidated, expanded, and highly detailed notes from the interview with economist Philip Pilkington. These notes expand on the geopolitical and economic theories, and specifically highlight the distinctions regarding military doctrine and historical analogies.
 
-Tags: politics
-
 Source: https://www.youtube.com/watch?v=TsrwaYQUGkM
 
 ---

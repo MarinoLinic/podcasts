@@ -11,8 +11,6 @@ tags: [politics]
 Summary: 
 A strategic manifesto arguing that Wokism (the crusade to eliminate disparities) is the inevitable result of the "Equality Thesis" (the belief that all groups have equal innate potential). Cofnas argues that "Soft Realism" (cultural explanations) fails because it is empirically false and leads back to blaming whites. The only solution is a "Hereditarian Revolution"—convincing the elites that race differences are genetic. The essay rebuts objections about political feasibility, linguistics ("Race" vs. "Population"), and the supposed danger of "Hard Realism."
 
-Tags: politics
-
 Source: https://ncofnas.com/p/a-guide-for-the-hereditarian-revolution
 
 ---

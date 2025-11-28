@@ -69,12 +69,18 @@ a {
 	transition: transform 0.3s ease;
 }
 
+/* Sidebar Header */
 .sidebar header {
-	padding: 30px 24px 20px;
+	padding: 30px 24px 15px;
 	background: var(--sidebar-bg);
 	position: sticky;
 	top: 0;
-	z-index: 10;
+	z-index: 20; /* Higher than content to stay on top */
+}
+
+.sidebar h1 {
+	margin: 0 0 15px 0;
+	line-height: 1.2;
 }
 
 .sidebar h1 a {
@@ -82,22 +88,13 @@ a {
 	font-size: 1.2rem;
 	font-weight: 700;
 }
-.subtitle {
-	font-size: 0.8rem;
-	color: var(--secondary-text);
-	text-transform: uppercase;
-	letter-spacing: 0.05em;
-	margin-top: 5px;
-}
 
-/* --- SIDEBAR TAG FILTERS --- */
+/* Sidebar Tag Filters */
 .tag-filter-container {
-	padding: 0 24px 20px 24px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 6px;
-	border-bottom: 1px solid var(--border-color);
-	margin-bottom: 20px;
+	margin-bottom: 5px;
 }
 
 .filter-btn {
@@ -123,8 +120,10 @@ a {
 	color: #fff;
 }
 
+/* Sidebar Navigation */
 .sidebar nav {
-	padding-bottom: 40px;
+	padding-bottom: 20px;
+	flex-grow: 1; /* Ensures nav takes available space */
 }
 .sidebar nav ul {
 	list-style: none;
@@ -132,25 +131,45 @@ a {
 	margin: 0;
 }
 
-/* --- SIDEBAR DROPDOWNS (Updated Austere Look) --- */
+/* Sidebar Footer (X Link) */
+.sidebar-footer {
+	margin-top: auto;
+	padding: 20px 24px;
+	background: var(--sidebar-bg);
+	border-top: 1px solid var(--border-color);
+	position: sticky;
+	bottom: 0;
+	z-index: 20;
+}
+
+.x-icon {
+	width: 20px;
+	height: 20px;
+	fill: #333;
+	transition: fill 0.2s;
+	display: block;
+}
+
+.sidebar-footer a:hover .x-icon {
+	fill: #000;
+}
+
+/* --- SIDEBAR DROPDOWNS --- */
 details.author-group {
-	margin-bottom: 4px; /* Tighter spacing since we have backgrounds now */
+	margin-bottom: 4px;
 }
 
 details.author-group summary {
 	padding: 10px 24px;
 	cursor: pointer;
-	/* Visual Distinction: Subtle Background Strip */
-	background-color: #f1f5f9; /* Slate 100 - very subtle grey */
-	border-top: 1px solid #fff; /* tiny separator */
+	background-color: #f1f5f9; /* Slate 100 */
+	border-top: 1px solid #fff;
 	border-bottom: 1px solid #fff;
-
 	font-size: 0.75rem;
 	text-transform: uppercase;
 	letter-spacing: 0.08em;
 	font-weight: 700;
-	color: #475569; /* Slate 600 - darker than before for contrast */
-
+	color: #475569;
 	user-select: none;
 	transition: all 0.2s ease;
 	list-style: none;
@@ -159,7 +178,7 @@ details.author-group summary {
 }
 
 details.author-group summary:hover {
-	background-color: #e2e8f0; /* Darker on hover */
+	background-color: #e2e8f0;
 	color: #1e293b;
 }
 
@@ -187,7 +206,7 @@ details.author-group[open] summary::before {
 	border-color: var(--text-color);
 }
 details.author-group[open] summary {
-	color: #0f172a; /* Slate 900 */
+	color: #0f172a;
 }
 
 /* Sidebar Links */
@@ -195,10 +214,9 @@ details.author-group[open] summary {
 	display: block;
 	padding: 6px 24px 6px 42px;
 	font-size: 0.9rem;
-	/* Make notes slightly softer to distinguish from headers */
 	color: #4b5563;
 	border-radius: 4px;
-	margin: 2px 10px; /* added small vertical spacing */
+	margin: 2px 10px;
 	transition: all 0.1s;
 }
 .sidebar nav li a:hover {
@@ -212,7 +230,7 @@ details.author-group[open] summary {
 }
 li.rating-5 a {
 	font-weight: 600;
-	color: #111; /* Top rated notes stay dark */
+	color: #111;
 }
 
 /* --- MAIN CONTENT --- */
@@ -225,7 +243,7 @@ li.rating-5 a {
 	min-width: 0;
 }
 
-/* Note Header & Switcher */
+/* Note Header */
 .note-header {
 	margin-bottom: 40px;
 }
@@ -237,6 +255,7 @@ li.rating-5 a {
 	color: #111;
 }
 
+/* Meta Data Row */
 .header-meta-row {
 	display: flex;
 	justify-content: space-between;
@@ -245,7 +264,6 @@ li.rating-5 a {
 	gap: 15px;
 }
 
-/* Meta Tags Container */
 .meta-tags {
 	display: flex;
 	gap: 12px;
@@ -266,7 +284,21 @@ li.rating-5 a {
 	color: #e2e8f0;
 }
 
-/* Article Header Tags */
+/* Tags Row (New Separate Row) */
+.header-tags-row {
+	margin-top: 12px;
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.tags-label {
+	font-size: 0.85rem;
+	font-weight: 600;
+	color: var(--secondary-text);
+	font-family: var(--font-mono);
+}
+
 .meta-tag-list {
 	display: inline-flex;
 	gap: 6px;
@@ -291,7 +323,7 @@ li.rating-5 a {
 	text-decoration: underline;
 }
 
-/* Word Count Stat */
+/* Stats */
 .meta-stats {
 	color: #059669;
 	font-weight: 600;
@@ -305,7 +337,7 @@ li.rating-5 a {
 	text-decoration: underline;
 }
 
-/* Type Icon & Mobile Tooltip */
+/* Type Icon & Tooltip */
 .meta-type-wrapper {
 	position: relative;
 	display: inline-flex;
@@ -352,7 +384,7 @@ li.rating-5 a {
 	}
 }
 
-/* View Switcher Buttons */
+/* View Switcher */
 .view-switcher {
 	display: flex;
 	background: #f0f0f0;
@@ -380,14 +412,13 @@ li.rating-5 a {
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 }
 
-/* Typography */
+/* Typography & Content */
 .markdown-body {
 	font-size: 18px;
 	color: #37352f;
 	overflow-wrap: break-word;
 }
 
-/* Image Styling */
 .markdown-body img {
 	max-width: 100%;
 	height: auto;
@@ -496,7 +527,6 @@ details#transcript-container summary::-webkit-details-marker {
 	display: none;
 }
 
-/* Transcript Arrow */
 details#transcript-container summary::before {
 	content: '';
 	display: inline-block;
@@ -560,7 +590,7 @@ details#transcript-container[open] summary {
 	border: 1px solid var(--border-color);
 	box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
 	border-radius: 12px;
-	width: 320px; /* Slightly wider for new stats */
+	width: 320px;
 	padding: 24px;
 	text-align: center;
 	transform: scale(0.95);

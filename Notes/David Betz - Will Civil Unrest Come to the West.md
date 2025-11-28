@@ -11,8 +11,6 @@ tags: [politics]
 Summary:
 Here are detailed notes from the discussion with Professor David Betz (King’s College London) regarding his thesis on the potential for civil war in the West. 
 
-Tags: politics
-
 Source: https://www.youtube.com/watch?v=5ioTSLpPuME
 
 ---

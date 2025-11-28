@@ -11,8 +11,6 @@ tags: [life]
 Summary:
 Here are highly comprehensive notes from the Thanksgiving episode featuring **Malcolm and Simone Collins**, detailing their arguments on privilege, history, and gratitude.
 
-Tags: life
-
 Source: https://www.youtube.com/watch?v=14CKaQHrw6w
 
 ***

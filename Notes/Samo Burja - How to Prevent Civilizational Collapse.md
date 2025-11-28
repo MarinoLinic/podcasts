@@ -11,8 +11,6 @@ tags: [anthropology]
 Summary:
 Here are detailed notes from the interview with Samo Burja on the **Win-Win Podcast**, covering his theories on civilizational collapse, the sociology of knowledge, and Great Founder Theory. 
 
-Tags: anthropology
-
 Source: https://www.youtube.com/watch?v=A3Zd2K0BJoI
 
 ---

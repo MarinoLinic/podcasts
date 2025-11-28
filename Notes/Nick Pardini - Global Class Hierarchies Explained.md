@@ -11,8 +11,6 @@ tags: [politics]
 Summary:
 Here are detailed notes from **Nick Pardini’s** presentation on global social hierarchies and the future of class warfare in the age of AI.
 
-Tags: politics
-
 Source: https://www.youtube.com/watch?v=GKyuUa0o9Hc
 
 ---

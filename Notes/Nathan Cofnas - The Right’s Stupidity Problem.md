@@ -11,8 +11,6 @@ tags: [politics]
 Summary: 
 An internal critique of the political Right, arguing that Conservatives are losing the culture war because they are intellectually inferior to Liberals. Cofnas presents data showing a significant IQ gap between the Left and Right, arguing that smart people flock to Wokism because it is the only logically consistent response to the "Equality Thesis." He critiques alternative theories of Wokism (Rufo’s Philosophy theory, Hanania’s Law theory) and concludes that the Right can only win by embracing "Hereditarianism" (Race Realism) to shatter the premise of Wokism.
 
-Tags: politics
-
 Source: https://ncofnas.com/p/why-we-need-to-talk-about-the-rights
 
 ---
