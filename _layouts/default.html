@@ -17,7 +17,7 @@
 		<!-- Dark Overlay (Mobile) -->
 		<div class="overlay" id="overlay"></div>
 
-		<!-- Statistics Modal (Reordered) -->
+		<!-- Statistics Modal -->
 		<div class="modal-overlay" id="statsOverlay">
 			<div class="stats-modal">
 				<h3>Note Statistics</h3>
@@ -49,7 +49,38 @@
 					</div>
 				</div>
 				<button
-					id="closeStatsBtn"
+					class="close-modal-btn"
+					style="
+						margin-top: 20px;
+						padding: 8px 16px;
+						border: 1px solid #ddd;
+						background: #fff;
+						cursor: pointer;
+						border-radius: 4px;
+						font-weight: 500;
+					"
+				>
+					Close
+				</button>
+			</div>
+		</div>
+
+		<!-- Date Modal (New) -->
+		<div class="modal-overlay" id="dateOverlay">
+			<div class="stats-modal">
+				<h3>Publication Timeline</h3>
+				<div class="stats-grid">
+					<div class="stat-item">
+						<span class="stat-label">Published</span>
+						<span class="stat-value">{{ page.date | date: "%d %b %Y" }}</span>
+					</div>
+					<div class="stat-item">
+						<span class="stat-label">Time Elapsed</span>
+						<span class="stat-value" id="modal-time-ago">Calculating...</span>
+					</div>
+				</div>
+				<button
+					class="close-modal-btn"
 					style="
 						margin-top: 20px;
 						padding: 8px 16px;
@@ -90,7 +121,6 @@
 							{% assign author_notes = all_notes | where: "author", author %} {% assign top_notes = author_notes |
 							where: "rating", 5 | sort: "date" | reverse %} {% assign other_notes = author_notes | where_exp: "item",
 							"item.rating != 5" | sort: "date" | reverse %} {% for note in top_notes %}
-							<!-- Add data-tags attribute for JS filtering -->
 							<li class="rating-5 note-link-item" data-tags="{{ note.tags | join: ',' | downcase }}">
 								<a href="{{ note.url | relative_url }}" class="{% if note.url == page.url %}active{% endif %}"
 									>{{ note.title }}</a
@@ -108,7 +138,6 @@
 					{% endfor %}
 				</nav>
 
-				<!-- Sidebar Footer with X Icon -->
 				<div class="sidebar-footer">
 					<a href="https://x.com/MarinoLinic" target="_blank" title="Follow on X">
 						<svg viewBox="0 0 24 24" aria-hidden="true" class="x-icon">
@@ -131,18 +160,15 @@
 
 						<!-- Metadata Row -->
 						<div class="header-meta-row">
-							<!-- Clickable Author -->
 							<div class="meta-tags">
-								<span class="meta-author" id="author-trigger" style="cursor: pointer">{{ page.author }}</span>
+								<!-- Clickable Author -->
+								<span class="meta-author" id="author-trigger">{{ page.author }}</span>
 								<span class="meta-separator">•</span>
 
-								<!-- Clickable Date (Time Ago) -->
-								<div class="meta-type-wrapper" id="date-wrapper">
-									<span class="meta-date" data-date="{{ page.date | date: '%Y-%m-%d' }}"
-										>{{ page.date | date: "%d %b %Y" }}</span
-									>
-									<span class="meta-type-label" id="date-label">Loading...</span>
-								</div>
+								<!-- Clickable Date (Opens Modal) -->
+								<span class="meta-date" id="date-trigger" data-date="{{ page.date | date: '%Y-%m-%d' }}"
+									>{{ page.date | date: "%d %b %Y" }}</span
+								>
 
 								<span class="meta-separator">•</span>
 								<span class="meta-stats" id="word-count-trigger"> Loading... </span>
@@ -226,7 +252,6 @@
 						const noteItems = document.querySelectorAll('.note-link-item')
 						let activeTags = new Set(JSON.parse(localStorage.getItem('activeTags')) || [])
 
-						// Restore filter button state
 						function updateFilterUI() {
 							filterBtns.forEach((btn) => {
 								const tag = btn.getAttribute('data-filter')
@@ -238,7 +263,6 @@
 
 						function applyFilters() {
 							const showAll = activeTags.size === 0
-
 							if (noteItems.length > 0) {
 								noteItems.forEach((item) => {
 									if (showAll) {
@@ -249,8 +273,6 @@
 									const hasMatch = noteTags.some((t) => activeTags.has(t))
 									item.style.display = hasMatch ? '' : 'none'
 								})
-
-								// Hide empty author groups
 								authorDetails.forEach((group) => {
 									const visibleChildren = group.querySelectorAll("li:not([style*='display: none'])")
 									group.style.display = visibleChildren.length > 0 ? '' : 'none'
@@ -258,7 +280,6 @@
 							}
 						}
 
-						// Filter Button Click Handler
 						filterBtns.forEach((btn) => {
 							btn.addEventListener('click', (e) => {
 								const tag = e.target.getAttribute('data-filter')
@@ -272,7 +293,6 @@
 							})
 						})
 
-						// Global function for in-article tag clicking
 						window.filterByTag = function (tag) {
 							activeTags = new Set([tag])
 							localStorage.setItem('activeTags', JSON.stringify([...activeTags]))
@@ -282,58 +302,68 @@
 							if (sb) sb.scrollTop = 0
 						}
 
-						// Init Filters
 						updateFilterUI()
 
-						// Sidebar Expand/Collapse persistence
 						authorDetails.forEach((details) => {
 							const summary = details.querySelector('summary').innerText.trim()
 							const storageKey = 'sidebar_author_' + summary
 							const savedState = localStorage.getItem(storageKey)
 							if (savedState === 'closed' && activeTags.size === 0) details.removeAttribute('open')
-
 							details.addEventListener('toggle', () => {
 								localStorage.setItem(storageKey, details.open ? 'open' : 'closed')
 							})
 						})
 
-						// --- 2. Author Click Logic (Sidebar Focus) ---
+						// --- 2. Author Click Logic (Finds First Article of Author) ---
 						const authorTrigger = document.getElementById('author-trigger')
+						const currentAuthor = '{{ page.author }}'
+
 						if (authorTrigger) {
 							authorTrigger.addEventListener('click', () => {
 								// Mobile: Open Sidebar
-								if (window.innerWidth <= 768) {
-									toggleMenu()
-								}
-								// Scroll Sidebar to Active Link
-								const activeLink = document.querySelector('.sidebar nav a.active')
-								if (activeLink) {
-									activeLink.scrollIntoView({ behavior: 'smooth', block: 'center' })
-									// Optional visual cue
-									activeLink.style.transition = 'background 0.3s'
-									const oldBg = activeLink.style.backgroundColor
-									activeLink.style.backgroundColor = 'var(--active-bg)' // Highlight
-									setTimeout(() => {
-										activeLink.style.backgroundColor = oldBg
-									}, 800)
+								if (window.innerWidth <= 768) toggleMenu()
+
+								// Find the specific details group for this author
+								const summaries = Array.from(document.querySelectorAll('details.author-group summary'))
+								const targetSummary = summaries.find((s) => s.innerText.trim() === currentAuthor)
+
+								if (targetSummary) {
+									const details = targetSummary.parentElement
+									// Open if closed
+									if (!details.open) details.open = true
+
+									// Find FIRST link inside
+									const firstLink = details.querySelector('ul li a')
+
+									if (firstLink) {
+										// Scroll Sidebar to it
+										firstLink.scrollIntoView({ behavior: 'smooth', block: 'center' })
+
+										// Flash Highlight
+										firstLink.style.transition = 'background 0.3s'
+										const oldBg = firstLink.style.backgroundColor
+										firstLink.style.backgroundColor = '#fef08a'
+										setTimeout(() => {
+											firstLink.style.backgroundColor = oldBg
+										}, 800)
+									}
 								}
 							})
 						}
 
-						// --- 3. Date "Time Ago" Logic ---
-						const dateWrapper = document.getElementById('date-wrapper')
-						const dateLabel = document.getElementById('date-label')
-						const dateEl = document.querySelector('.meta-date')
+						// --- 3. Date Modal Logic ---
+						const dateTrigger = document.getElementById('date-trigger')
+						const dateOverlay = document.getElementById('dateOverlay')
+						const timeAgoVal = document.getElementById('modal-time-ago')
 
-						if (dateWrapper && dateLabel && dateEl) {
-							const dateStr = dateEl.getAttribute('data-date')
+						if (dateTrigger && dateOverlay && timeAgoVal) {
+							// Pre-calculate
+							const dateStr = dateTrigger.getAttribute('data-date')
 							const past = new Date(dateStr)
 							const now = new Date()
-
 							let months = (now.getFullYear() - past.getFullYear()) * 12
 							months -= past.getMonth()
 							months += now.getMonth()
-
 							const years = Math.floor(months / 12)
 							const remainingMonths = months % 12
 
@@ -344,35 +374,18 @@
 							if (timeAgoText === '') timeAgoText = 'This month'
 							else timeAgoText += ' ago'
 
-							dateLabel.innerText = timeAgoText
-
-							dateWrapper.addEventListener('click', function (e) {
-								e.stopPropagation()
-								dateLabel.classList.toggle('visible')
-								setTimeout(() => {
-									dateLabel.classList.remove('visible')
-								}, 3000)
+							dateTrigger.addEventListener('click', () => {
+								timeAgoVal.innerText = timeAgoText
+								dateOverlay.style.display = 'flex'
+								setTimeout(() => dateOverlay.classList.add('active'), 10)
 							})
 						}
 
-						// --- 4. Type Icon Mobile Toggle ---
-						const typeWrapper = document.getElementById('typeIconWrapper')
-						const typeLabel = document.getElementById('typeLabel')
-						if (typeWrapper && typeLabel) {
-							typeWrapper.addEventListener('click', function (e) {
-								e.stopPropagation() // prevent bubbling
-								typeLabel.classList.toggle('visible')
-								setTimeout(() => {
-									typeLabel.classList.remove('visible')
-								}, 3000)
-							})
-						}
-
-						// --- 5. Stats Logic (Updated Order) ---
+						// --- 4. Stats & Modal Logic ---
 						const contentDiv = document.getElementById('markdown-view')
-						const trigger = document.getElementById('word-count-trigger')
-						const modalOverlay = document.getElementById('statsOverlay')
-						const closeBtn = document.getElementById('closeStatsBtn')
+						const wordTrigger = document.getElementById('word-count-trigger')
+						const statsOverlay = document.getElementById('statsOverlay')
+						const closeBtns = document.querySelectorAll('.close-modal-btn') // Use class for both buttons
 
 						function safeSetText(id, text) {
 							const el = document.getElementById(id)
@@ -392,34 +405,45 @@
 						}
 
 						const stats = calculateStats()
-						if (trigger) {
-							trigger.innerText = stats.words.toLocaleString() + ' words'
-
-							trigger.addEventListener('click', function () {
+						if (wordTrigger) {
+							wordTrigger.innerText = stats.words.toLocaleString() + ' words'
+							wordTrigger.addEventListener('click', function () {
 								safeSetText('modal-readtime', stats.readTime + ' min')
 								safeSetText('modal-words', stats.words.toLocaleString())
 								safeSetText('modal-chars', stats.chars.toLocaleString())
 								safeSetText('modal-sentences', stats.sentences.toLocaleString())
 								safeSetText('modal-lines', stats.lines.toLocaleString())
-
-								if (modalOverlay) {
-									modalOverlay.style.display = 'flex'
-									setTimeout(() => modalOverlay.classList.add('active'), 10)
+								if (statsOverlay) {
+									statsOverlay.style.display = 'flex'
+									setTimeout(() => statsOverlay.classList.add('active'), 10)
 								}
 							})
 						}
 
+						// Shared Modal Close Logic
 						function closeModal() {
-							if (modalOverlay) {
-								modalOverlay.classList.remove('active')
-								setTimeout(() => (modalOverlay.style.display = 'none'), 200)
-							}
+							const overlays = document.querySelectorAll('.modal-overlay')
+							overlays.forEach((ov) => {
+								ov.classList.remove('active')
+								setTimeout(() => (ov.style.display = 'none'), 200)
+							})
 						}
 
-						if (closeBtn) closeBtn.addEventListener('click', closeModal)
-						if (modalOverlay) {
-							modalOverlay.addEventListener('click', (e) => {
-								if (e.target.id === 'statsOverlay') closeModal()
+						closeBtns.forEach((btn) => btn.addEventListener('click', closeModal))
+						document.querySelectorAll('.modal-overlay').forEach((ov) => {
+							ov.addEventListener('click', (e) => {
+								if (e.target.classList.contains('modal-overlay')) closeModal()
+							})
+						})
+
+						// --- 5. Type Icon Toggle ---
+						const typeWrapper = document.getElementById('typeIconWrapper')
+						const typeLabel = document.getElementById('typeLabel')
+						if (typeWrapper && typeLabel) {
+							typeWrapper.addEventListener('click', function (e) {
+								e.stopPropagation()
+								typeLabel.classList.toggle('visible')
+								setTimeout(() => typeLabel.classList.remove('visible'), 3000)
 							})
 						}
 
@@ -448,7 +472,7 @@
 											rawTextContent.textContent = text
 											textLoaded = true
 										})
-										.catch((err) => (rawTextContent.textContent = 'Text version not available.'))
+										.catch(() => (rawTextContent.textContent = 'Text version not available.'))
 								}
 							} else {
 								textView.style.display = 'none'
@@ -473,17 +497,15 @@
 						}
 
 						// --- 7. Transcript & Linkify ---
-						const transcriptFilename = currentPath.split('/').pop().replace('.md', '.txt')
 						const transcriptPath = "{{ '/Transcripts/' | relative_url }}" + transcriptFilename
 						const transcriptSection = document.querySelector('.transcript-section')
-
 						fetch(transcriptPath)
 							.then((res) => {
-								if (!res.ok) throw new Error('Not found')
+								if (!res.ok) throw new Error()
 								return res.text()
 							})
 							.then((text) => (document.getElementById('transcript-text').textContent = text))
-							.catch((err) => {
+							.catch(() => {
 								if (transcriptSection) transcriptSection.style.display = 'none'
 							})
 
@@ -504,13 +526,14 @@
 							linkify(contentDiv)
 						}
 
-						// --- 8. Table of Contents & Scroll Spy (UPDATED) ---
+						// --- 8. Table of Contents & Auto-Scrolling ---
 						const markdownBody = document.querySelector('.markdown-body')
 						const headers = markdownBody ? markdownBody.querySelectorAll('h1, h2, h3') : []
 						const desktopList = document.getElementById('toc-list-desktop')
 						const mobileList = document.getElementById('toc-list-mobile')
 						const mobileBar = document.getElementById('mobile-toc-trigger')
 						const mobileCurrentText = document.getElementById('mobile-current-header')
+						const desktopTocSidebar = document.getElementById('desktop-toc')
 
 						if (headers.length > 0) {
 							mobileBar.classList.add('visible')
@@ -524,16 +547,15 @@
 									a.href = '#' + header.id
 									a.innerText = header.innerText
 									a.className = 'toc-link'
+									// Store ID for easier mapping
+									a.setAttribute('data-target', header.id)
 
-									// Indentation Classes
 									if (header.tagName === 'H1') a.classList.add('level-1')
 									if (header.tagName === 'H2') a.classList.add('level-2')
 									if (header.tagName === 'H3') a.classList.add('level-3')
 
 									if (isMobile) {
-										a.addEventListener('click', () => {
-											toggleMobileToc(false)
-										})
+										a.addEventListener('click', () => toggleMobileToc(false))
 									}
 									li.appendChild(a)
 									return li
@@ -543,11 +565,12 @@
 								mobileList.appendChild(createTocItem(true))
 							})
 
-							// Updated Scroll Spy Logic (Scroll Position Based)
+							// Active State & Auto-Scrolling
+							let currentActiveId = null
+
 							function highlightActiveToc() {
 								const scrollPos = window.scrollY
 								const triggerPoint = scrollPos + 150
-
 								let currentSection = null
 
 								headers.forEach((header) => {
@@ -556,12 +579,20 @@
 									}
 								})
 
-								if (currentSection) {
-									// Update Desktop
+								if (currentSection && currentSection.id !== currentActiveId) {
+									currentActiveId = currentSection.id
+
+									// Update Desktop Active Class
 									document.querySelectorAll('.toc-link').forEach((link) => {
 										link.classList.remove('active')
-										if (link.getAttribute('href') === '#' + currentSection.id) {
+										if (link.getAttribute('href') === '#' + currentActiveId) {
 											link.classList.add('active')
+
+											// Desktop Auto-Scroll
+											// Only scroll sidebar if it's the desktop list link
+											if (!link.closest('#toc-list-mobile')) {
+												link.scrollIntoView({ behavior: 'smooth', block: 'center' })
+											}
 										}
 									})
 									// Update Mobile Text
@@ -570,7 +601,7 @@
 							}
 
 							window.addEventListener('scroll', highlightActiveToc)
-							highlightActiveToc() // Run once on load
+							highlightActiveToc()
 						}
 
 						// Mobile TOC Toggle Logic
@@ -581,6 +612,14 @@
 							if (show) {
 								tocBackdrop.classList.add('active')
 								tocMenu.classList.add('active')
+
+								// Scroll Mobile Menu to Active Link immediately
+								const activeMobileLink = mobileList.querySelector('.toc-link.active')
+								if (activeMobileLink) {
+									setTimeout(() => {
+										activeMobileLink.scrollIntoView({ behavior: 'smooth', block: 'center' })
+									}, 100)
+								}
 							} else {
 								tocBackdrop.classList.remove('active')
 								tocMenu.classList.remove('active')

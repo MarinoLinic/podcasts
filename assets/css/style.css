@@ -257,7 +257,8 @@ li.rating-5 a {
 	color: #111;
 }
 
-/* Meta Data Row */
+/* --- META DATA SECTION --- */
+/* 1. Layout Containers */
 .header-meta-row {
 	display: flex;
 	justify-content: space-between;
@@ -274,19 +275,90 @@ li.rating-5 a {
 	font-family: var(--font-mono);
 }
 
-.meta-author {
-	color: #334155;
-	font-weight: 600;
-}
-.meta-date {
-	color: #94a3b8;
-	font-weight: 500;
-}
 .meta-separator {
 	color: #e2e8f0;
 }
 
-/* Tags Row (New Separate Row) */
+/* 2. Interactive Meta Items (Author, Date, Stats) */
+/* Shared Base Styles */
+.meta-author,
+.meta-date,
+.meta-stats {
+	padding: 2px 6px;
+	border-radius: 4px;
+	transition: all 0.2s;
+	cursor: pointer;
+}
+
+/* Author Specifics */
+.meta-author {
+	color: #334155;
+	font-weight: 600;
+}
+.meta-author:hover {
+	background-color: #f1f5f9; /* Slate 100 */
+	text-decoration: underline;
+	color: #0f172a; /* Slate 900 */
+}
+
+/* Date Specifics */
+.meta-date {
+	color: #94a3b8;
+	font-weight: 500;
+}
+.meta-date:hover {
+	background-color: #f1f5f9; /* Slate 100 */
+	text-decoration: underline;
+	color: #334155; /* Slate 700 */
+}
+
+/* Stats (Word Count) Specifics */
+.meta-stats {
+	color: #059669; /* Emerald 600 */
+	font-weight: 600;
+}
+.meta-stats:hover {
+	background-color: #ecfdf5; /* Emerald 50 */
+	text-decoration: underline;
+}
+
+/* 3. Type Icon & Tooltip */
+.meta-type-wrapper {
+	position: relative;
+	display: inline-flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+.meta-type {
+	font-size: 1.1rem;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	transition: transform 0.2s;
+}
+.meta-type:hover {
+	transform: scale(1.1);
+}
+
+.meta-type-label {
+	display: none;
+	font-size: 0.8rem;
+	font-weight: 600;
+	margin-left: 6px;
+	background: #333;
+	color: #fff;
+	padding: 2px 6px;
+	border-radius: 4px;
+	animation: fadeIn 0.2s ease;
+	white-space: nowrap;
+}
+
+.meta-type-label.visible {
+	display: block;
+}
+
+/* 4. Tags Row (Separate Line) */
 .header-tags-row {
 	margin-top: 12px;
 	display: flex;
@@ -325,56 +397,7 @@ li.rating-5 a {
 	text-decoration: underline;
 }
 
-/* Stats */
-.meta-stats {
-	color: #059669;
-	font-weight: 600;
-	cursor: pointer;
-	padding: 2px 6px;
-	border-radius: 4px;
-	transition: all 0.2s;
-}
-.meta-stats:hover {
-	background-color: #ecfdf5;
-	text-decoration: underline;
-}
-
-/* Type Icon & Tooltip */
-.meta-type-wrapper {
-	position: relative;
-	display: inline-flex;
-	align-items: center;
-	cursor: pointer;
-}
-
-.meta-type {
-	font-size: 1.1rem;
-	line-height: 1;
-	display: flex;
-	align-items: center;
-	transition: transform 0.2s;
-}
-.meta-type:hover {
-	transform: scale(1.1);
-}
-
-.meta-type-label {
-	display: none;
-	font-size: 0.8rem;
-	font-weight: 600;
-	margin-left: 6px;
-	background: #333;
-	color: #fff;
-	padding: 2px 6px;
-	border-radius: 4px;
-	animation: fadeIn 0.2s ease;
-	white-space: nowrap;
-}
-
-.meta-type-label.visible {
-	display: block;
-}
-
+/* Animations */
 @keyframes fadeIn {
 	from {
 		opacity: 0;
