@@ -113,6 +113,5 @@ Video URL: https://www.youtube.com/watch?v=14CKaQHrw6w
 
 ### **X. Conclusion & Misc**
 *   **Thanksgiving Strategy:** The Collins use Black Friday sales to buy an entire year's worth of staples (shoes, socks, underwear) at 25-40% off. It makes them "sick of shopping" for the rest of the year.
-*   **Krampus:** Malcolm dresses as Krampus to scare the kids when they are bad. He recently had to stage a sword fight where he "battled" Krampus because his son Octavian wasn't scared ("Daddy always beats Krampus"), so Malcolm now needs to use fake blood to show Krampus winning.
 *   **Recommendation:** *The Pragmatist’s Guide to Life* (Retails for $0.99) for structuring meaning in life.
 *   **Final Thought:** Do not envy the rich. A middle-class life with purpose, family, and gratitude is vastly superior to the aimless misery of the ultra-elite.

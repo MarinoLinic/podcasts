@@ -2,7 +2,7 @@
 layout: default
 title: "Can a Nation Plunder Its Way to Wealth"
 author: "Noah Smith"
-rating: 3
+rating: 5
 date: 2024-01-15
 ---
 
