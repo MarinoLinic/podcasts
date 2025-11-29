@@ -1,5 +1,8 @@
 title: Marino's Podcast Notes
 description: Archive of notes and transcripts
+url: 'https://marinolinic.github.io'
+baseurl: '/podcasts'
+
 permalink: /:title/
 theme: null
 markdown: kramdown

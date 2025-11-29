@@ -4,6 +4,37 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>{{ page.title }}</title>
+
+		<!-- FAVICON -->
+		<link rel="icon" type="image/png" href="{{ '/assets/img/favicon.ico' | relative_url }}" />
+
+		<!-- OPEN GRAPH / SOCIAL MEDIA META TAGS -->
+		<meta property="og:site_name" content="{{ site.title }}" />
+
+		{% if page.path contains 'Notes/' %}
+		<!-- LOGIC FOR NOTES: Use the generated PNG from Python script -->
+		{% assign img_name = page.path | split: '/' | last | replace: '.md', '.png' %}
+
+		<meta property="og:title" content="{{ page.title }} - {{ page.author }}" />
+		<meta property="og:type" content="article" />
+		<meta property="og:url" content="{{ page.url | absolute_url }}" />
+		<!-- Absolute URL is required for social media images -->
+		<meta property="og:image" content="{{ site.url }}{{ '/assets/img/og/' | append: img_name }}" />
+		<meta property="og:description" content="Read the notes and summary for {{ page.title }} by {{ page.author }}." />
+
+		<!-- Twitter Card -->
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:image" content="{{ site.url }}{{ '/assets/img/og/' | append: img_name }}" />
+		<meta name="twitter:title" content="{{ page.title }} - {{ page.author }}" />
+		{% else %}
+		<!-- LOGIC FOR HOME/OTHER PAGES: Default to favicon or specific home image -->
+		<meta property="og:title" content="{{ site.title }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="{{ page.url | absolute_url }}" />
+		<meta property="og:image" content="{{ site.url }}{{ '/assets/img/favicon.ico' }}" />
+		{% endif %}
+
+		<!-- STYLES -->
 		<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap"
