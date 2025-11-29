@@ -12,26 +12,28 @@
 		<meta property="og:site_name" content="{{ site.title }}" />
 
 		{% if page.path contains 'Notes/' %}
-		<!-- LOGIC FOR NOTES: Use the generated PNG from Python script -->
-		{% assign img_name = page.path | split: '/' | last | replace: '.md', '.png' %}
+		<!-- LOGIC FOR NOTES -->
+		{% assign img_name = page.path | split: '/' | last | replace: '.md', '.png' %} {% assign img_path =
+		'/assets/img/og/' | append: img_name %}
 
 		<meta property="og:title" content="{{ page.title }} - {{ page.author }}" />
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="{{ page.url | absolute_url }}" />
-		<!-- Absolute URL is required for social media images -->
-		<meta property="og:image" content="{{ site.url }}{{ '/assets/img/og/' | append: img_name }}" />
+
+		<!-- FIXED: This now includes baseurl (/podcasts) automatically -->
+		<meta property="og:image" content="{{ img_path | absolute_url }}" />
 		<meta property="og:description" content="Read the notes and summary for {{ page.title }} by {{ page.author }}." />
 
 		<!-- Twitter Card -->
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta name="twitter:image" content="{{ site.url }}{{ '/assets/img/og/' | append: img_name }}" />
+		<meta name="twitter:image" content="{{ img_path | absolute_url }}" />
 		<meta name="twitter:title" content="{{ page.title }} - {{ page.author }}" />
 		{% else %}
-		<!-- LOGIC FOR HOME/OTHER PAGES: Default to favicon or specific home image -->
+		<!-- LOGIC FOR HOME/OTHER PAGES -->
 		<meta property="og:title" content="{{ site.title }}" />
 		<meta property="og:type" content="website" />
 		<meta property="og:url" content="{{ page.url | absolute_url }}" />
-		<meta property="og:image" content="{{ site.url }}{{ '/assets/img/favicon.ico' }}" />
+		<meta property="og:image" content="{{ '/assets/img/favicon.ico' | absolute_url }}" />
 		{% endif %}
 
 		<!-- STYLES -->
