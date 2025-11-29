@@ -5,7 +5,7 @@ author: "Joseph Henrich"
 rating: 5
 date: 2025-03-12
 type: "video"
-tags: [politics]
+tags: [anthropology]
 ---
 
 Summary:

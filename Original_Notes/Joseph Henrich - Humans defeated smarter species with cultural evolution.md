@@ -3,7 +3,7 @@ Joseph Henrich argues that human success is not defined by raw individual intell
 
 Rating: 5
 Type: video
-Tags: politics
+Tags: anthropology
 Date: 12 Mar 2025
 Sources:
 YouTube - https://www.youtube.com/watch?v=TcfhrThp1OU
