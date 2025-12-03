@@ -1,0 +1,101 @@
+---
+layout: default
+title: "The Faithful Executioner"
+author: "Joel F. Harrington"
+rating: 3
+date: 2013-12-31
+type: "book"
+tags: [history, life]
+---
+
+Summary:
+The text chronicles the early life and training of Frantz Schmidt, a 16th-century executioner in Germany, set against a backdrop of extreme environmental hostility, social stratification, and legal reform. It details the "accidental" fall of the Schmidt family from respectability to "dishonorable" status due to the whims of a tyrant, the technical and psychological apprenticeship required to master the "judgment sword," and the broader "Golden Age" of the executioner ushered in by the *Carolina* law code. The narrative highlights the paradox of the executioner: a figure universally reviled as a source of pollution yet legally indispensable for maintaining order in a chaotic world.
+
+Source: https://www.amazon.com/Faithful-Executioner-Turbulent-Sixteenth-Century/dp/1250043611
+
+---
+
+# Chapter I: The Apprentice
+### **1. The Education of a Hangman: From Rhubarb to the Sword**
+*   **The Technical Progression:**
+    *   **The Simulation Phase:** Training began not with living beings, but with produce. Frantz and his father, Meister Heinrich, practiced decapitation on pumpkins and gourds to learn the arc of the swing.
+    *   **The "Neck" Simulation:** They advanced to sinewy **rhubarb stalks**, which better simulated the resistance and consistency of a human neck.
+    *   **The Livestock Phase:** Once fluid motion was achieved, Frantz practiced on "senseless" livestock—goats and pigs—to adapt to moving targets.
+    *   **The Final Exam (The Dog Slayer):** The text opens with Frantz at age 19 performing the final step before journeyman status: beheading stray dogs. These were procured from the local "knacker" (dog slayer), who brought them in ramshackle cages. Frantz had to overcome the anxiety of killing "innocent" animals (though the text notes this pity might be an anachronistic projection) to prove he could deliver a single, steady stroke on a chaotic target.
+*   **The Symbol of the Sword:**
+    *   **Class Distinction:** Unlike the axe (associated with mercenaries/woodsmen), the sword symbolized honor, justice, and aristocratic privilege. Beheading by sword was the "honorable" death.
+    *   **The Weapon:** The "Judgment Sword" was a specialized tool (~40 inches long, 7 lbs, flat-tipped). It hung in an honored spot over the Schmidt fireplace.
+    *   **Engravings:** These weapons were often engraved with religious or moralistic couplets to legitimize the violence, such as *“The lords prosecute, I execute”* or *“Through justice will the land prosper and thrive.”*
+    *   **Ritual Use:** The sword was kept sheathed in wood and leather until the ultimate moment of execution; handling it was a demonstration of the executioner's claim to a shred of dignity.
+
+### **2. The Context of Vulnerability: A Dangerous World**
+*   **The Fragility of Life:**
+    *   **Infant Mortality:** Frantz entered the world with only a 50/50 chance of reaching his twelfth birthday. Miscarriage/stillbirth rates claimed one in three fetuses; one in twenty mothers died from childbirth.
+    *   **Epidemics:** The era saw the highest frequency of Plague outbreaks since the Black Death. A citizen of Nuremberg could expect to survive half a dozen major epidemics (typhus, dysentery, smallpox) by age 50.
+*   **The "Little Ice Age" (1400–1700):**
+    *   Frantz lived during the worst years of a global climatic downturn.
+    *   **Ecological Stress:** Harsh winters and wet summers led to flooded fields and "sour wine" (grapes failing to ripen).
+    *   **Starvation:** Famine was frequent. Wildlife populations shrank so drastically that starving wolf packs turned their attention to human prey.
+*   **The Violence of Men:**
+    *   **Feudal Chaos:** The Holy Roman Empire was a patchwork of 300+ states with no central police force, leaving isolated farms at the mercy of strong men.
+    *   **Robber Barons:** Outlaws like **Cunz Schott** terrorized travelers, famously collecting the severed hands of citizens from enemy cities.
+    *   **Landsknechts (Mercenaries):** Described as "soulless," these soldiers-for-hire were feared more than the Turks. In peace time, they roamed as "sturdy beggars," torturing peasants for food or sport. The text details atrocities where soldiers would stuff bedding with meat or force "ghastly brews" down servants' throats.
+    *   **The Arson Threat ("Murderer-Burners"):** In an era without insurance, the threat of fire was used for extortion. Gangs would paint a "red hen" on a wall or nail a "burn letter" to a door. The punishment for arson was being burned alive.
+*   **Coping Mechanisms:**
+    *   **Supernatural:** Belief in witches, werewolves, and demons was ubiquitous.
+    *   **Religious Protection:** People used "sacramentals" (holy water, saints' medals) and talismans (gems, coral) to ward off the "angels of death."
+    *   **The Psychological Role:** In a world assailed by unpreventable disasters, the executioner provided a **ritualized assertion of order**. Magistrates used the "sword of justice" to prove they could curb at least *some* violence.
+
+### **3. The Schmidt Family Tragedy: A Fall from Grace**
+*   **The Origin of the Curse (October 1553):**
+    *   **Status:** Heinrich Schmidt (Frantz’s father) was originally a respectable woodsman and fowler in the town of Hof.
+    *   **The Tyrant:** The region was ruled by Margrave **Albrecht Alcibiades** ("The Warrior" or *Bellator*), a volatile noble who alienated his subjects and neighbors, leading to the devastating "Second Margrave War" and the Siege of Hof.
+    *   **The Incident:** After retaking Hof, Albrecht arrested three gunsmiths for an alleged assassination plot. Lacking a professional executioner, he demanded a bystander perform the killing (an ancient custom).
+    *   **The Selection:** He chose Heinrich Schmidt. When Heinrich refused, citing the infamy it would bring his family, Albrecht threatened to hang him alongside the gunsmiths.
+*   **The "Dog" Connection (Why Heinrich?):**
+    *   **The Weaver's Crime:** Years prior, Heinrich’s brother-in-law (a weaver named Günther Bergner) had killed a deer hunter with a dog during a dispute. Ostracized for this "dishonorable" act, Bergner was forced to become an executioner.
+    *   **Guilt by Association:** The Margrave knew of this family connection to an "infamous" trade. He used the logic that since Heinrich's kin was already tainted, Heinrich was the "logical" choice to perform the execution.
+*   **The Consequence:**
+    *   Heinrich executed the men to save his own life.
+    *   **Social Death:** The family was immediately cast out of honorable society. They were shunned by neighbors and forced into a hereditary caste of "dishonorable people" (unehrlich), barred from guilds, public office, and decent burials. They eventually moved to Bamberg to escape the immediate memory, but the stain remained.
+
+### **4. The "Golden Age" of the Executioner (Legal Reform)**
+*   **The Shift to Professionalization:**
+    *   **From Ad-Hoc to Salaried:** Medieval justice relied on private settlement (wergild) or ad-hoc hangmen. The 16th century saw the rise of the **Professional Executioner** (Scharfrichter) or *Nachrichter* ("After-Judge").
+    *   **The Codes:** The *Bambergensis* (1507) and the imperial **Constitutio Criminalis Carolina** (1532) standardized law using Roman civil law principles.
+    *   **The Carolina’s Impact:** It established the executioner as a salaried government official, guaranteed immunity from mob violence, and set strict protocols for torture (e.g., testimony of two witnesses required; torture implements used on an ascending scale).
+*   **The "Recidivism Trap" (Unintended Consequences):**
+    *   The *Carolina* aimed to be rational but created a massacre of petty thieves.
+    *   **The Escalation Ladder:**
+        1.  First Offense: Public Flogging.
+        2.  Second Offense: Banishment.
+        3.  Third Offense (Returning from exile): **Execution**.
+    *   **Systemic Failure:** Because banishment was ineffective (exiles just stole in the next town due to lack of social network), and "chain gangs" (Springbuben/Schellbuben) were only a temporary fix, courts were legally forced to hang repeat non-violent offenders.
+    *   **Statistic:** Property crimes jumped from <30% to ~70% of all executions during Frantz's life.
+*   **Theological Legitimacy:**
+    *   **Martin Luther:** Rebranded the executioner from a sinner to "God's Hand." He argued that if the hangman serves the state, he is an instrument of divine justice ("A very useful and merciful man").
+    *   **Jurist Defense:** Scholars compared the executioner's role to **excretion**—a distasteful but biologically necessary function of the body politic.
+
+### **5. The Art and Life of the Executioner**
+*   **Social Segregation & Pollution:**
+    *   **The Stigma:** The "touch" of a hangman was considered physically and spiritually polluting. Artisans would destroy tools touched by an executioner. A visiting merchant might be shocked to see an executioner eating in a tavern.
+    *   **Housing:** Forced to live in "unclean" locations (near slaughteryards or leper colonies). In Bamberg, the Schmidts lived in "Little Venice."
+    *   **Sumptuary Laws:** Laws attempted to force executioners to wear distinctive clothing (green/yellow capes or striped shirts) to prevent accidental contact, though in practice, wealthy executioners like Frantz dressed like dandified burghers, which infuriated artisans.
+    *   **Solidarity:** Executioner dynasties formed (Brand, Leichnam, Fuchs, Schmidt) practicing endogamy (marrying within the trade) to survive.
+*   **The Scope of the Craft:**
+    *   **Torture:** Learning the limits of the human body to extract confessions without causing premature death.
+    *   **Medicine:** Executioners were expert healers due to their anatomical knowledge (setting bones, curing wounds). Heinrich and Frantz earned significant income as consultants, eclipsing the earnings of some doctors.
+    *   **"People Skills":** Success depended on managing the theater of the scaffold—keeping the victim calm and the crowd satisfied. The executioner had to be "pious, debt-free, and fearless."
+*   **Insider Culture:**
+    *   **The Kohlenberg Court:** An irregular assembly of executioners and "traveling folk" (beggars, sack carriers) held in Basel to settle disputes. The presiding judge sat with his bare feet in a **tub of cold water** (summer or winter) while hearing cases.
+    *   **Rotwelsch:** A cryptographic slang used by the underworld. Executioners called hanging "lacing up," beheading "slicing," and a botched job "putzen."
+    *   **Nicknames:** The trade had many, often grim, monikers: "Master Hammerling" (also a name for the Devil), "The Shortener," "Snip Johnny," "Master Ouch," "The Glue-Maker," and "The Racker."
+
+### **6. The Master Test (June 5, 1573)**
+*   **The Event:** At age 19, Frantz underwent his formal "Master Test" in the village of Steinach.
+*   **The Victim:** A thief named **Lienhardt Russ**.
+*   **The Ritual:**
+    *   Frantz performed the execution (a hanging, the least prestigious but safest method for a beginner) without error.
+    *   **The Slaps:** Following "ancient custom," a master (likely his father) administered three slaps to Frantz's face and loudly proclaimed to the crowd that the apprentice had "executed adroitly."
+    *   **The Certificate:** He received a notarized *Meisterbrief* confirming his skill, allowing him to be hired as a master rather than an assistant.
+*   **The Ambition:** This moment was the first step in a lifelong, multi-generational strategy by Heinrich and Frantz to wash away the stain of Albrecht Alcibiades and restore the Schmidt family honor. Frantz would eventually document his career in a journal, noting his first execution with the sword, and his first execution where the victim remained standing—details that mattered immensely to his professional pride.

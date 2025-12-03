@@ -1,0 +1,27 @@
+Summary:
+This document is a transcript of sentencing remarks delivered by His Honour Judge Dixon on November 16, 2017, at the Crown Court in Sheffield, UK (Case No. T20170042). It concerns the conviction of three defendants—Sajid Ali, Zaheer Iqbal, and Riaz Makhmood—for serious sexual offenses against a vulnerable young girl, referred to as [Person A], who was approximately 13 years old at the time of the offenses (around 2008-2009, based on context). The offenses were classified under indecent assault (equivalent to modern sexual activity with a child), involving grooming, exploitation, and repeated abuse over nearly a year. The judge describes the acts as orchestrated, manipulative, and close to rape, but sentences based on historical guidelines with maximum penalties of 10 years (versus 14 years today). The defendants, who were teenagers at the time (Sajid Ali: 16; Zaheer Iqbal and Riaz Makhmood: 17), were treated as having maturity beyond their years in terms of culpability. Sentences imposed were: Sajid Ali and Zaheer Iqbal each received 7.5 years concurrent on all counts; Riaz Makhmood received 6 years and 9 months concurrent on all counts. The judge commends [Person A]'s bravery, honesty, and fairness in testifying, noting the long-term psychological harm to her, including loss of innocence, low self-esteem, depression, and strained family relationships. No dangerousness finding was made, and no sexual harm prevention orders were sought.
+
+Rating: 3
+Type: article
+Tags: politics
+Date: 01 Jan 2017
+Source: https://transcripts.openjusticeuk.org/location/sentencing-remarks/rotherham/rotherham-2017-2/
+
+---
+
+The document emphasizes the grooming process and psychological manipulation rather than physical violence. It details how the defendants targeted [Person A]'s vulnerabilities (e.g., feelings of low self-worth, unattractiveness, and lack of popularity), built rapport through casual chats, provided alcohol and tobacco to lower inhibitions, coerced her into repeated sexual acts (including penile penetration of the mouth), intimidated her, called her abusive names, told her she was "rubbish" at the acts, and treated her as a "thing" to pass among themselves. This control made her feel unable to disclose the abuse for about nine years, until inspired by a TV program on Rotherham abuse scandals. The judge notes the acts were non-violent but psychologically demeaning, with elements like planning, group offending, and specific targeting of a child, classifying it as Category 1A under modern guidelines (highest culpability, 4-10 year range for one offense).
+
+#### Specific Examples of Abuse (Emphasizing Depraved Instances)
+The document focuses on sexual and psychological exploitation, with no mentions of physical torture (e.g., no beating, restraint, or infliction of pain beyond the coercive sexual acts themselves). The most depraved instances described involve humiliation, objectification, and manipulation of a child, framed as "perverted sexual desires." Here is a list of specific examples drawn directly from the transcript:
+
+- **Grooming and Initial Manipulation**: Sajid Ali, despite being the youngest, initiated contact by chatting about "young people" topics to build rapport, then escalated to providing alcohol and tobacco with the others to make [Person A] feel wanted while lowering her inhibitions. This was orchestrated to ensure she returned repeatedly, proving she was "good" at the acts to gain approval.
+  
+- **Repeated Sexual Acts and Humiliation**: All three defendants subjected [Person A] to "repeated, manipulated, and contrived acts of abuse," including forcing her to perform oral sex (penile penetration of the mouth) multiple times. They told her she was "rubbish" at it, called her abusive names, and demeaned her psychologically, making her feel worthless yet compelled to return.
+
+- **Objectification as a 'Thing'**: The defendants treated [Person A] as an object to "pass amongst yourselves," exploiting her desire to be liked. This group dynamic involved all three acting together, coercing and intimidating her over many incidents spanning nearly a year.
+
+- **Psychological Control and Intimidation**: They groomed her to feel controlled, leading to her inability to disclose the abuse for years. Zaheer Iqbal's behavior was described as the "worst" and most "demeaning," involving abusive terms and manipulation that made her want to return despite the humiliation. Riaz Makhmood was the "nicest" but still participated "many many many times," showing occasional compassion (e.g., noting she drank too much) while continuing the abuse.
+
+- **Long-Term Depraved Impact**: The abuse caused [Person A] to lose her teenage years, feel guilty and blame herself, become distanced from her parents, and suffer ongoing depression, low self-esteem, and lack of control. She only came forward after seeing a TV program on similar abuses, highlighting the depth of the manipulation.
+
+These instances are presented as highly depraved due to the child's age, the group exploitation, and the calculated psychological harm, which the judge says inflicted lasting effects on [Person A] and her family.

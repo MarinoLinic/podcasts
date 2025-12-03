@@ -1,0 +1,43 @@
+---
+layout: default
+title: "Rotherham 2017 (1)"
+author: "Grooming Gang Scandal"
+rating: 3
+date: 2017-01-01
+type: "article"
+tags: [politics]
+---
+
+Summary:
+This document is a transcript of sentencing remarks delivered by Her Honour Judge Wright in the Crown Court at Sheffield on February 2, 2017, in the case of R v Nasar Dad, Basharat Dad, Tayab Dad, Amjad Ali, Mohammed Sadiq, and Matloob Hussain (Case No: T20167001). The remarks detail the convictions and sentences for serious sexual offenses committed against two vulnerable underage girls (referred to as Victim 1, aged 12, and Victim 2, aged 14) in Rotherham between 1999 and 2001. The judge emphasizes the grooming, exploitation, and long-term harm to the victims, categorizing the offenses under modern guidelines as equivalent to rape of a child under 13 or rape (Category 2A), with aggravating factors like use of alcohol/drugs, humiliation, and pregnancy. The defendants were adults or near-adults at the time, and sentences reflect the era's maximum penalties while applying current guidelines for harm and culpability. Delays in justice are attributed to victims' shame, fear, and intimidation.
+
+Source: https://transcripts.openjusticeuk.org/location/sentencing-remarks/rotherham/rotherham-2017-1/
+
+---
+
+The case involves child sexual exploitation through cynical grooming: the victims were plied with alcohol, cannabis, and attention to coerce acquiescence rather than true consent. Victim 1 was exploited starting at age 11, leading to pregnancy at 12; Victim 2 was truanting and staying out overnight from age 13. Both suffered severe psychological harm, including anxiety, depression, paranoia, panic attacks, ruined childhoods, impacted relationships/parenting, and trauma from testifying. The judge praises the victims' bravery in coming forward in 2014 to protect others. Offenses predate the Sexual Offences Act 2003, so sentences are limited (e.g., max 10 years for indecent assault), but extended licenses apply under Section 236A of the Criminal Justice Act 2003 for most defendants. The judge applies totality to avoid disproportionate totals, considering defendants' ages, lack of prior sexual convictions (for most), and post-offense lives.
+
+### Sentences Imposed:
+- **Amjad Ali** (aged 22 at offense): 11 years' custody + 1 year extended license for one count of sexual intercourse with girl under 13 (Victim 1; he impregnated her).
+- **Matloob Hussain** (aged 25): 13 years' custody + 1 year extended license for one count of sexual intercourse with girl under 13 (Victim 1).
+- **Mohammed Sadiq** (aged 24): 13 years' custody + 1 year extended license for one count of sexual intercourse with girl under 13 (Victim 1).
+- **Basharat Dad** (aged 15-17): 20 years total (11 years for rapes on Victim 1; 9 years concurrent for multiple rapes/oral sex on Victim 2, plus consecutive terms).
+- **Nasar Dad** (aged 20): 14 years 6 months' custody + 1 year extended license for rape, oral sex, and false imprisonment (Victim 1).
+- **Tayab Dad** (aged 18-19): 10 years for one count of rape (Victim 2).
+
+All are subject to sex offender notification requirements.
+
+### Specific Examples and Most Depraved Instances of Torture and Depravity:
+The document describes acts of sexual violence and degradation as depraved, involving humiliation, coercion, and exploitation of vulnerability, but does not explicitly use the term "torture." No instances of racism are mentioned or implied in the transcript (e.g., no references to racial motivations, slurs, or differential treatment based on ethnicity). The depravity centers on the systematic grooming and abuse of children, often under the influence of substances, leading to physical and psychological torment. Below is a list of the most specific and depraved examples from the remarks, emphasizing the humiliation, isolation, and coercive elements:
+
+- **Impregnation of a 12-Year-Old (Amjad Ali)**: Victim 1 was raped while heavily intoxicated with alcohol/drugs, rendering her unable to remember the act or consent. She discovered her pregnancy in February 2001; DNA confirmed Ali as the father (60 million times more likely than an unrelated male). This left her feeling like a "prostitute" at age 12, isolated her from peers, scapegoated her, and forced her into early motherhood, described as stealing her childhood and causing lifelong paranoia about her child being snatched.
+  
+- **Home Invasion Rape in Sister's Bed (Matloob Hussain)**: At age 25, he befriended Victim 1 (aged 12), posed as her "boyfriend" to her mother, and raped her in her sister's bed at home. She was too ashamed to disclose the location to police initially, highlighting the intimate violation and betrayal of trust.
+
+- **Car Rape of Intoxicated Child (Mohammed Sadiq)**: Aged 24, he befriended Victim 1 (aged 12), knowing her age, and raped her in his car after exploiting her vulnerability with alcohol/drugs. Again, shame prevented her from initially telling police the true location.
+
+- **Repeated Rapes and Oral Assaults in Firework Shop (Basharat Dad)**: Aged 15-17, he groomed both victims at his family's firework shop with alcohol and cannabis. For Victim 2 (aged 14), he conducted a two-month "campaign of rape," forcing vaginal and oral sex in an upstairs room, often after she was intoxicated. One instance occurred after she passed out from substances, leaving her with no memory—described as persistent demands degrading her for "five minutes of attention."
+
+- **Flat Rape, Oral Assault, and Abandonment (Basharat and Nasar Dad)**: For Victim 1 (aged 12), Basharat (aged ~16) raped her in a squalid, renovating flat on Fitzwilliam Road after intoxicating her. On a second occasion, both brothers (Nasar aged 20) raped her sequentially—Basharat first, then Nasar aggressively forcing oral sex. They degraded and humiliated her, then locked her in the flat without food, water, electricity, or comforts for an entire night until her mother found her the next evening. This is portrayed as one of the most depraved acts, leaving her feeling ashamed, embarrassed, and unable to disclose due to acute humiliation.
+
+- **Manipulative Upstairs Rape (Tayab Dad)**: Aged 18-19, he targeted Victim 2 (aged 14), knowing she was being exploited by his brother Basharat. He persuaded her upstairs by falsely claiming interest in a relationship (while Basharat wasn't), wore her down, and raped her, then ignored her afterward—exploiting her emotional vulnerability for degradation.
