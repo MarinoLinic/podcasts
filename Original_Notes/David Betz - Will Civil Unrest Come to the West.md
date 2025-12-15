@@ -67,7 +67,7 @@ Historically, Western nations avoided civil war due to three buffers that are no
     *   *Historical Confidence:* 25 years ago, the British rarely flew flags because they were confident in their identity (superiority complex).
     *   *Modern Insecurity:* Today, flags are everywhere (Betz counted 160 on a single dog walk). This is not patriotism; it is **Territorial Marking**. It is comparable to Northern Ireland, where flags mark tribal boundaries in a contested space.
 *   **The Rape Gangs:**
-    *   *The Scale:* Between 250,000 and 1,000,000 girls were victimized by mostly Pakistani-origin gangs.
+    *   *The Scale:* Between 250,000 and 1,000,000 girls were victimized by mostly Pakistani-origin gangs. **(Note: This is speculative. Likely in the tens of thousands instead.)**
     *   *The Message:* The state sacrificed the white working class to the "bonfire of multiculturalism." This signals that "replacement" is not a benign demographic shift but a physically dangerous one for the indigenous population.
 
 ### **The Brexit Divide: Two Realities**
