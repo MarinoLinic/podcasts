@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Prophets of Doom"
+title: "Prophets of Doom (2013)"
 author: "Dan Carlin"
 rating: 5
 date: 2013-04-22

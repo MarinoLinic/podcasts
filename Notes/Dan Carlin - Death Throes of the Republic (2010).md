@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Death Throes of the Republic"
+title: "Death Throes of the Republic (2010)"
 author: "Dan Carlin"
 rating: 5
 date: 2010-06-01

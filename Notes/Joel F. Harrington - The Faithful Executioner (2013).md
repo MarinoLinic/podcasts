@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "The Faithful Executioner"
+title: "The Faithful Executioner (2013)"
 author: "Joel F. Harrington"
 rating: 3
 date: 2013-12-31

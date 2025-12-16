@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "An Open Letter for Open-Minded Progressives"
+title: "An Open Letter for Open-Minded Progressives (2008)"
 author: "Curtis Yarvin"
 rating: 5
 date: 2008-04-17

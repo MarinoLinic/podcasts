@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Wrath of the Khans"
+title: "Wrath of the Khans (2012)"
 author: "Dan Carlin"
 rating: 5
 date: 2012-06-01
