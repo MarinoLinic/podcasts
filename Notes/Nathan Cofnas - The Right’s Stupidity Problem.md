@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/nathan-cofnas-the-right-s-stupidity-problem/
 title: "The Right’s Stupidity Problem"
 author: "Nathan Cofnas"
 rating: 3

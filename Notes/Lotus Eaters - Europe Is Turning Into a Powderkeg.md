@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/lotus-eaters-europe-is-turning-into-a-powderkeg/
 title: "Europe Is Turning Into a Powderkeg"
 author: "Lotus Eaters"
 rating: 3

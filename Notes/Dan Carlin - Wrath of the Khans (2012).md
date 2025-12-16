@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/dan-carlin-wrath-of-the-khans-2012/
 title: "Wrath of the Khans (2012)"
 author: "Dan Carlin"
 rating: 5

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/nathan-cofnas-judaism-as-a-group-evolutionary-strategy/
 title: "Judaism as a Group Evolutionary Strategy"
 author: "Nathan Cofnas"
 rating: 3

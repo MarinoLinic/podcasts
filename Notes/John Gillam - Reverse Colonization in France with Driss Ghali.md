@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/john-gillam-reverse-colonization-in-france-with-driss-ghali/
 title: "Reverse Colonization in France with Driss Ghali"
 author: "John Gillam"
 rating: 5

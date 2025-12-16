@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/nathan-cofnas-a-guide-for-the-hereditarian-revolution/
 title: "A Guide for the Hereditarian Revolution"
 author: "Nathan Cofnas"
 rating: 1

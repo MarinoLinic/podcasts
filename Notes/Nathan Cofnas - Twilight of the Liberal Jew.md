@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/nathan-cofnas-twilight-of-the-liberal-jew/
 title: "Twilight of the Liberal Jew"
 author: "Nathan Cofnas"
 rating: 4

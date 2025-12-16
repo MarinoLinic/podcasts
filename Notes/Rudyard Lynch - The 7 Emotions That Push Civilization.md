@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/rudyard-lynch-the-7-emotions-that-push-civilization/
 title: "The 7 Emotions That Push Civilization"
 author: "Rudyard Lynch"
 rating: 3

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/jordan-lasker-cremieux-national-iqs-are-valid/
 title: "National IQs Are Valid"
 author: "Jordan Lasker (Cremieux)"
 rating: 3

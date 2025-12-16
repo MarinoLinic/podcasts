@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/nick-pardini-global-class-hierarchies-explained/
 title: "Global Class Hierarchies Explained"
 author: "Nick Pardini"
 rating: 5

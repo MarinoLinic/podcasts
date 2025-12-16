@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/razib-khan-zohran-mamdani-and-third-worldism-ascendent-with-zineb-ribou/
 title: "Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou"
 author: "Razib Khan"
 rating: 3

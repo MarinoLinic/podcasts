@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/curtis-yarvin-plan-for-britain/
 title: "Plan for Britain"
 author: "Curtis Yarvin"
 rating: 1

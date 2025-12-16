@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/curtis-yarvin-the-tyranny-of-democracy-the-case-for-monarchy/
 title: "The Tyranny of Democracy - The Case for Monarchy"
 author: "Curtis Yarvin"
 rating: 5

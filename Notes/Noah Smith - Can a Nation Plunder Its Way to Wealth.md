@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/noah-smith-can-a-nation-plunder-its-way-to-wealth/
 title: "Can a Nation Plunder Its Way to Wealth"
 author: "Noah Smith"
 rating: 5

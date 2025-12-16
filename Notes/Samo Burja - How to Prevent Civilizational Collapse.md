@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/samo-burja-how-to-prevent-civilizational-collapse/
 title: "How to Prevent Civilizational Collapse"
 author: "Samo Burja"
 rating: 5

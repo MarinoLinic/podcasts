@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/david-betz-what-britain-will-look-and-feel-like-when-things-get-nasty/
 title: "What Britain Will Look And Feel Like When Things Get Nasty"
 author: "David Betz"
 rating: 3

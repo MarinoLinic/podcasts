@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/jordan-lasker-cremieux-gypsies-and-jews/
 title: "Gypsies and Jews"
 author: "Jordan Lasker (Cremieux)"
 rating: 3

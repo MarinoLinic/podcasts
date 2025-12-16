@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/triggernometry-the-real-history-of-islam-with-raymond-ibrahim/
 title: "The Real History of Islam with Raymond Ibrahim"
 author: "Triggernometry"
 rating: 3

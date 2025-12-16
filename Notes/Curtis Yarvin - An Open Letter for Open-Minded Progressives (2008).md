@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/curtis-yarvin-an-open-letter-for-open-minded-progressives-2008/
 title: "An Open Letter for Open-Minded Progressives (2008)"
 author: "Curtis Yarvin"
 rating: 5

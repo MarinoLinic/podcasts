@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/williamson-chris-alison-armstrong-how-to-treat-men-better/
 title: "Alison Armstrong (How to Treat Men Better)"
 author: "Williamson Chris"
 rating: 3

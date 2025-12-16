@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/philip-pilkington-the-collapse-of-global-liberalism/
 title: "The Collapse of Global Liberalism"
 author: "Philip Pilkington"
 rating: 5

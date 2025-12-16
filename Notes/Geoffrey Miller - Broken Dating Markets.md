@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/geoffrey-miller-broken-dating-markets/
 title: "Broken Dating Markets"
 author: "Geoffrey Miller"
 rating: 3

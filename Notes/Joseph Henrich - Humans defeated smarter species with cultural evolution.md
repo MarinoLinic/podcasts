@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/joseph-henrich-humans-defeated-smarter-species-with-cultural-evolution/
 title: "Humans defeated smarter species with cultural evolution"
 author: "Joseph Henrich"
 rating: 5

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/nathan-cofnas-beating-woke-with-facts-and-logic/
 title: "Beating Woke with Facts and Logic"
 author: "Nathan Cofnas"
 rating: 5

@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/david-betz-will-civil-unrest-come-to-the-west/
 title: "Will Civil Unrest Come to the West"
 author: "David Betz"
 rating: 5

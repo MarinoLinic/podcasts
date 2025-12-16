@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/samo-burja-why-populists-win-elections-but-fail-to-govern/
 title: "Why Populists WIN Elections But Fail to Govern"
 author: "Samo Burja"
 rating: 1

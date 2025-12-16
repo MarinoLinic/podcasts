@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/curtis-yarvin-empire-of-love/
 title: "Empire of Love"
 author: "Curtis Yarvin"
 rating: 3

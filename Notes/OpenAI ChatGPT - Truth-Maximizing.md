@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/openai-chatgpt-truth-maximizing/
 title: "Truth-Maximizing"
 author: "OpenAI ChatGPT"
 rating: 3

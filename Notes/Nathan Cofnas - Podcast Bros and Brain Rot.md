@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/nathan-cofnas-podcast-bros-and-brain-rot/
 title: "Podcast Bros and Brain Rot"
 author: "Nathan Cofnas"
 rating: 2

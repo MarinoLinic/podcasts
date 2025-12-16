@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/malcolm-simone-collins-even-the-poor-are-spoiled-rotten/
 title: "Even the Poor are Spoiled Rotten"
 author: "Malcolm-Simone Collins"
 rating: 3

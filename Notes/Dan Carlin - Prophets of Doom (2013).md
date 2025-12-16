@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/dan-carlin-prophets-of-doom-2013/
 title: "Prophets of Doom (2013)"
 author: "Dan Carlin"
 rating: 5

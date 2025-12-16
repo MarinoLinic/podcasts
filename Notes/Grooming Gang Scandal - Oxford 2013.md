@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/grooming-gang-scandal-oxford-2013/
 title: "Oxford 2013"
 author: "Grooming Gang Scandal"
 rating: 3

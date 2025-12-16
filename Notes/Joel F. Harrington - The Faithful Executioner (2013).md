@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/joel-f-harrington-the-faithful-executioner-2013/
 title: "The Faithful Executioner (2013)"
 author: "Joel F. Harrington"
 rating: 3

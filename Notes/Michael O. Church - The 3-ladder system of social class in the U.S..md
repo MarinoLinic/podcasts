@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/michael-o-church-the-3-ladder-system-of-social-class-in-the-u-s/
 title: "The 3-ladder system of social class in the U.S."
 author: "Michael O. Church"
 rating: 4

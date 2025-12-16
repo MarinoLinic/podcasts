@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/tommy-robinson-exposing-the-islamic-takeover-of-britain/
 title: "Exposing the Islamic Takeover of Britain"
 author: "Tommy Robinson"
 rating: 5

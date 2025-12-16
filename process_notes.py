@@ -151,9 +151,15 @@ def process_for_jekyll(content, filename):
     # Clean up excessive newlines
     content = re.sub(r'\n{3,}', '\n\n', content).strip()
 
+    # --- Create a clean URL slug ---
+    slug = base_name.lower()
+    slug = re.sub(r'[^a-z0-9]+', '-', slug)
+    slug = slug.strip('-')
+
     # Generate YAML Front Matter
     yaml = "---\n"
     yaml += f'layout: default\n'
+    yaml += f'permalink: /notes/{slug}/\n'
     yaml += f'title: "{title}"\n'
     yaml += f'author: "{author}"\n'
     yaml += f'rating: {rating}\n'

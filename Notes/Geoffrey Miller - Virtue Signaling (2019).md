@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/geoffrey-miller-virtue-signaling-2019/
 title: "Virtue Signaling (2019)"
 author: "Geoffrey Miller"
 rating: 5

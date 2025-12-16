@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/grooming-gang-scandal-rotherham-2016/
 title: "Rotherham 2016"
 author: "Grooming Gang Scandal"
 rating: 3

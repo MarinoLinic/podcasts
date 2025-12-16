@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: /notes/dan-carlin-death-throes-of-the-republic-2010/
 title: "Death Throes of the Republic (2010)"
 author: "Dan Carlin"
 rating: 5
