@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Gypsies and Jews"
-author: "Jordan Lasker"
+author: "Jordan Lasker (Cremieux)"
 rating: 3
 date: 2025-11-27
 type: "article"
