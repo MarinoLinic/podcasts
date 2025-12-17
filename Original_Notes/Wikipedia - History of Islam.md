@@ -1,0 +1,173 @@
+Summary:
+Summarized Wikipedia article about the history of Islam.
+
+Rating: 3
+Type: article
+Tags: anthropology
+Date: 17 Dec 2025
+Source: https://en.wikipedia.org/wiki/History_of_Islam
+
+---
+
+### **1. Historiography and Source Criticism**
+*   **The "Oral Gap":** Most Islamic history was transmitted orally until the Abbasid period (8th–9th century). The earliest sources are often "founding conquest stories" structured around a "pact-betrayal-redemption" narrative principle.
+*   **John Burton’s Conclusion:** Historians can recover "virtually nothing" of Muhammad's life from early sources beyond the bare fact of his existence; the material is too sparse and legendary.
+*   **Four Methodologies:**
+    1.  **Descriptive Method:** Follows Islamic traditions but adjusts for miracles (e.g., Edward Gibbon, Gustav Weil).
+    2.  **Source Critical:** Compares sources to identify weak informants (e.g., W. Montgomery Watt, Wilferd Madelung).
+    3.  **Tradition Critical:** Treats sources as evolving oral traditions with unclear origins (pioneered by Ignác Goldziher).
+    4.  **Skeptical Method:** Doubts nearly all material, viewing the "historical core" as undecipherable (e.g., John Wansbrough).
+*   **Reliability Shift:** The quality of sources improves drastically after the 8th Century CE with the appearance of official documents, correspondence, and poetry.
+*   **Numismatic Evidence:** Early "Pseudo-Byzantine" coins depicted Emperor Constans II with a cross, suggesting a lack of sharp political/religious boundaries in the earliest Islamic period.
+
+### **2. Inception and Pre-Islamic Arabia**
+*   **Context:**
+    *   **Geopolitics:** 6th-century Arabia faced political disorder and insecure trade routes. Judaism dominated Yemen (Himyarite Kingdom); Christianity took root in the Persian Gulf.
+    *   **The *Hanif*:** A group of "renunciates" who rejected both Arab polytheism and foreign Abrahamic faiths, seeking the original monotheism of Abraham (*Allah*). They viewed Mecca as originally monotheistic.
+    *   **Mecca:** A caravan trading center dominated by the **Quraysh** clan. They enforced "sacred months" where violence was banned to ensure safe pilgrimage trade to the polytheistic Kaaba.
+*   **Muhammad (c. 570–632 CE):**
+    *   **Origins:** Born in Mecca. Practiced *Taḥannuth* (seclusion) at **Cave Hira** on Jabal al-Nour.
+    *   **Message:** At age 40 (610 CE), received revelations (Laylat al-Qadr). Preached strict monotheism, warned of Judgment Day, and castigated social injustice.
+    *   **The Hijra (622 CE):** Migrated to Yathrib (Medina) after the death of his protector uncle, Abu Talib.
+    *   **Medina Period:** Muhammad established a "constitutional state" via the **Constitution of Medina**, defining rights for Muslims, Jews, and pagans. This effectively created a state with the power to coerce.
+    *   **Debate on Intent:** Scholars (e.g., Poston Larry) debate if Muhammad intended a world religion or a "succinctly Arab brand of monotheism," citing Quranic references to an "Arabic book."
+    *   **Consolidation:** Conquered Mecca (629 CE). Tribal chiefs across Arabia agreed to pay the alms levy to his government, which consisted of deputies, an army, and a public treasury.
+
+### **3. The Rashidun Caliphate (632–661 CE)**
+*   **Abu Bakr (632–634):**
+    *   **Role:** First Caliph ("Successor"). Retained religious authority but laid no claim to prophecy.
+    *   **Ridda Wars:** Defeated tribes that ceased alms payments or claimed new prophets. Momentum from these wars carried armies into Byzantine/Sassanid lands.
+*   **Umar ibn al-Khaṭṭāb (634–644):**
+    *   **Austerity:** Lived in a mud hut without doors; walked streets at night to consult the poor.
+    *   **Welfare State (*Bayt al-mal*):** Established a treasury assisting Muslim and non-Muslim poor, elderly, orphans, and disabled. Introduced **child benefits** and pensions.
+    *   **Administration:** Removed governors attracted to wealth. Ordered irrigation network improvements. Founded garrison cities (Basra, Kufa, Fustat) to keep troops away from "luxury."
+    *   **Conquest:** Syria, Egypt, Mesopotamia, and Persia incorporated. Expansion halted briefly (638–639) due to famine/plague.
+*   **Uthmān ibn ʿAffān (644–656):**
+    *   **Quran Compilation:** Ordered a standard copy (c. 650–656) to fix phonetic variations caused by dialects.
+    *   **Naval Power:** Governor Muawiyah established the first navy (crewed by Coptic/Jacobite Christians), defeating Byzantines at **Battle of the Masts** (655), opening the Mediterranean.
+    *   **Tensions:** Old tribal differences resurfaced (Iraq vs. Syria). Marwan I (his secretary) manipulated control. Uthman assassinated by rebels.
+*   **Ali ibn Abi Talib (656–661):**
+    *   **First Fitna:** Civil war triggered by Marwan I's manipulation and demands to punish Uthman's killers.
+    *   **Battles:** Battle of the Camel (vs. Aisha), Battle of Siffin (vs. Muawiyah).
+    *   **Kharijites:** Former allies who turned on Ali for accepting arbitration; assassinated him in 661.
+    *   **Hasan's Abdication:** Ali's son Hasan signed a peace treaty with Muawiyah, handing over power on the condition Muawiyah would rule justly and *not* establish a dynasty.
+
+### **4. The Umayyad Caliphate (661–750)**
+*   **Muawiyah I:**
+    *   Moved capital to **Damascus**. Developed a court rivaling Constantinople.
+    *   **Controversy:** Sunnis credit him with saving the nation from anarchy; Shias accuse him of fabricating heresies, slandering the Prophet's family, and selling critics into slavery.
+    *   **Succession:** Violated the treaty with Hasan by appointing his son Yazid, establishing a dynasty.
+*   **Second Fitna:**
+    *   **Karbala (680):** Yazid I’s forces killed Husayn ibn Ali.
+    *   **Abd al-Malik:** Consolidated rule. Made Arabic the state language. Minted the first independent Islamic currency, leading to a war with Byzantine Emperor Justinian II (Battle of Sebastopolis, 692).
+*   **Expansion & Decline:**
+    *   **Al-Walid I:** Empire reached maximum extent (Spain to India). Built the strongest navy.
+    *   **The Berber Revolt:** Uqba ibn Nafi marched to the Atlantic but was ambushed and killed at Biskra. Berbers drove Muslims out of North Africa temporarily.
+    *   **Siege of Constantinople (717):** Massive failure under Sulayman; decisive intervention by Bulgarians led to heavy Muslim losses.
+    *   **Internal Rot:** Walid II deposed for "immorality" (discrimination against Yemenis). Marwan II was the last Umayyad ruler in Damascus.
+*   **The Fall:** The Abbasid Revolution (750), led by Abu Muslim, rallied *Mawali* (non-Arab converts) and Shias. The Umayyad family was massacred; **Abd al-Rahman I** escaped to Spain, sending Abbasid heads back in salt packages.
+
+### **5. The Abbasid Caliphate (750–1258)**
+*   **Early Abbasids (Golden Age):**
+    *   **Shift:** Capital moved to **Baghdad**. Shifted focus to the East (Persia/Transoxania).
+    *   **Al-Mansur & Al-Mahdi:** Population of Muslims doubled (8% to 15%) as Jizya collection was de-emphasized. Baghdad became the world's largest city.
+    *   **Harun al-Rashid:** Established *Bayt al-Hikma* (House of Wisdom). Period of "Muslim Agricultural Revolution" and "Scientific Revolution."
+    *   **Al-Ma'mun:** Centralized power. Sponsored the **Mu'tazila** (rationalists). Launched the **Mihna** (Inquisition) in 833. Breached the Great Pyramid of Giza searching for knowledge.
+*   **Anarchy at Samarra:**
+    *   **Al-Mu'tasim:** Created a new capital at Samarra. Relied on Turkish slave-soldiers (*Ghilman*) due to distrust of Arabs/Persians.
+    *   **Regicide:** The Turks assassinated Al-Mutawakkil, then Al-Muntasir, then Al-Musta'in, then Al-Mu'tazz. The Caliphate became a puppet institution.
+    *   **Zanj Rebellion:** Massive slave revolt that weakened the state.
+*   **The "Shadow" Caliphate:**
+    *   **Buyids (945–1055):** Persian Shias who conquered Baghdad, ruling as Sultans while keeping Abbasid Caliphs as figureheads.
+    *   **Seljuks (1055–1194):** Sunni Turks who replaced the Buyids. Alp Arslan supported the *Nezamiyeh* universities to revive Sunnism.
+    *   **Late Revival:** Caliphs like Al-Muqtafi and An-Nasir briefly regained military control in Iraq.
+    *   **The End:** Mongol invasion (1258). Hulagu Khan sacked Baghdad. A powerless "Shadow Caliph" was installed in Cairo under the Mamluks until 1517.
+
+### **6. Regional Dynasties & The Crusades**
+*   **Fatimid Caliphate (Tunisia/Egypt):**
+    *   **Ismaili Shia:** Founded by Abdullah al-Mahdi Billah (909). Claimed descent from Fatima.
+    *   **Capitals:** Mahdia -> Al-Mansuriya -> **Cairo** (Al-Qahira, founded 969).
+    *   **Administration:** Meritocratic. Employed Christians/Jews. Trade network extended to Song Dynasty China.
+    *   **Schism:** Split into Nizari and Mustaali sects over succession.
+*   **The Crusades:**
+    *   **Context:** Pope Urban II called the First Crusade (1095) following Byzantine requests. Captured Jerusalem, Edessa, Antioch.
+    *   **Saladin (Ayyubids):** Ended Fatimid rule (1169). Reconquered Jerusalem (1187).
+    *   **Impact:** Damaged the Caliphates but eventually expelled by Mamluks.
+*   **Mamluk Sultanate (Egypt):**
+    *   **Origins:** Slave regiments overthrew Ayyubids (1250).
+    *   **Mongol Wars:** Defeated Mongols at **Ain Jalut** (1260) and **Hims**. United Syria and Egypt for the longest interval between Abbasids and Ottomans.
+    *   **Bahri vs. Burji:** Two dynastic periods of Mamluk rule.
+
+### **7. The Mongols & Timurids**
+*   **Mongol Conquests:**
+    *   **Destruction:** Sacked Baghdad (1258), ended the Abbasid line. Devastated irrigation in Iraq.
+    *   **Conversion:** The Ilkhanate, Golden Horde, and Chagatai Khanate converted. Mediated by **Sufi mystics** (dervishes), not orthodox scholars.
+    *   **Theological View:** Poets like Rumi viewed Mongols as "God's wrath." Ibn Taymiyya issued fatwas calling for Jihad against them, arguing their conversion was invalid because they followed *Yassa* law, not Sharia.
+*   **Timurid Empire:**
+    *   **Timur (Tamerlane):** Conquered Persia, Delhi, and defeated Ottoman Sultan Bayezid I (1402).
+    *   **Timurid Renaissance:** Centered in Samarkand and Herat. Invention of **Tamerlane Chess**.
+    *   **Ulugh Beg:** Built major observatory. Period rivaled the Italian Renaissance in cultural output.
+
+### **8. Al-Andalus (Islamic Iberia)**
+*   **The Conquest (711):** Tariq ibn Ziyad crossed Gibraltar. Defeated Visigoths at Battle of Guadalete.
+*   **Emirate of Córdoba:**
+    *   **Abd al-Rahman I:** Escaped Abbasid massacre. Landed at Almuñécar. Defeated Abbasid attempts to pursue him (heads in salt).
+    *   **Abd al-Rahman II:** Repelled Viking raids in Cadiz.
+    *   **Abd al-Rahman III:** Declared himself **Caliph** (929). High point of power.
+*   **Collapse:**
+    *   **Taifas (1031):** Caliphate fractured into petty kingdoms (Seville, Granada, etc.) that paid tribute to Christians.
+    *   **Berber Interventions:** The **Almoravids** (11th C) and **Almohads** (12th C) invaded from Africa to save Muslim Spain but imposed strict religious rule.
+    *   **Reconquista:** Gradual Christian advance. Fall of Granada (1492) ended Muslim rule.
+
+### **9. Spread of Islam (Africa & Asia)**
+*   **Maghreb:**
+    *   **Kairouan:** Founded 670 by Uqba ibn Nafi. Oldest mosque in the West.
+    *   **Dynasties:** Idrisids (Morocco), Aghlabids, Almoravids (Empire stretched from Senegal to Spain).
+*   **Horn of Africa:** Early disciples fled to Zeila (Somalia). Conversion via trade.
+*   **East Africa:** Swahili coast converted via trade routes. Kilwa Sultanate.
+*   **India:**
+    *   **Kerala:** Legend of Cheraman Perumal Mosque (c. 629).
+    *   **Conquests:** Muhammad bin Qasim (Sindh, 8th C). Mahmud of Ghazni (12th C).
+    *   **Delhi Sultanate (1206):** Qutb-ud-din Aybak. Stopped Mongol incursions. Razia Sultana (female ruler).
+    *   **Bengal Sultanate:** Described as the "richest country to trade with."
+*   **Southeast Asia:**
+    *   **Method:** Spread by traders (7th C onwards), not conquest.
+    *   **Key States:** Malacca, Aceh, Demak (Java).
+    *   **Philippines:** Sultanates of Sulu and Maguindanao established before Spanish arrival.
+*   **China:**
+    *   **Tang Dynasty:** Sa'd ibn abi Waqqas led embassy (650–651).
+    *   **Yuan Dynasty:** Muslims served as governing minority class.
+
+### **10. The Gunpowder Empires (Early Modern)**
+*   **Ottoman Empire (Turkey):**
+    *   **Rise:** Osman I (13th C). Conquest of **Constantinople** (1453) using cannons.
+    *   **Caliphate:** Claimed by Selim I after conquering Egypt (1517).
+    *   **Suleiman the Magnificent:** Apex of power. Franco-Ottoman alliance. Siege of Vienna.
+    *   **Interregnum:** Bayezid I captured by Timur (1402); empire nearly collapsed but recovered under Mehmed I.
+*   **Safavid Empire (Iran):**
+    *   **Origin:** Sufi order turned dynasty. Shah Ismail I (1501).
+    *   **Conversion:** Forcibly converted Sunni Iran to **Twelver Shiism** (using Qizilbash soldiers).
+    *   **Demographics:** Mixed ancestry (Kurdish, Georgian, Greek, Turcoman).
+    *   **Culture:** Shah Abbas I built **Naqsh-e Jahan Square** in Isfahan. Carpet industry boomed.
+*   **Mughal Empire (India):**
+    *   **Lineage:** Claimed descent from Timur and Genghis Khan.
+    *   **Akbar:** Syncretic rule (*Din-i Ilahi*). Subdued Rajput kingdoms.
+    *   **Shah Jahan:** Built the **Taj Mahal**.
+    *   **Aurangzeb:** Compiled *Fatawa-e-Alamgiri* (legal code). Empire became 25% of world GDP. Bengal Subah saw "proto-industrialization."
+    *   **Decline:** Sacked by Nader Shah (1739). British East India Company took over after 1857.
+
+### **11. Modern Period & Global Affairs**
+*   **Ottoman Collapse:**
+    *   **WWI:** Sided with Germany. Defeated.
+    *   **Atatürk:** Abolished Caliphate (1924). Implemented secularization (Latin script, women's suffrage).
+    *   **Arab Revolt:** British (T.E. Lawrence) supported Arab guerrillas, but post-war partition (Sykes-Picot) and Balfour Declaration caused lasting resentment.
+*   **Arab-Israeli Conflict:**
+    *   **1948:** Israel established.
+    *   **1967:** Six-Day War.
+    *   **1973:** Yom Kippur War led to the **1973 Oil Embargo** by OAPEC, creating a massive wealth transfer to Gulf states.
+*   **Iranian Revolution (1979):**
+    *   Ayatollah Khomeini established a theocratic Islamic Republic.
+    *   **Sectarianism:** Fueled proxy wars (Iran vs. Saudi Arabia) and the Iran-Iraq War.
+*   **Demographics:**
+    *   **Global Population:** ~4% in 1000 CE -> ~25% today.
+    *   **Gulf States:** Oil boom transformed GCC countries into centers of capitalism and tourism.

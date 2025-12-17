@@ -18,7 +18,7 @@ Source: https://www.youtube.com/watch?v=kM6hqIGWgd4
     *   Robinson argues that while other immigrant groups integrated successfully, Islam is "oil" to the West's "water." It does not mix; it separates and dominates.
     *   **The Blueprint:** Luton is not an anomaly; it is the future model for every British town and, eventually, American cities. The problems of rape, hostility, and segregation that were once confined to Luton are now nationwide.
 *   **The Warning to America:**
-    *   Robinson warns that the US is only 5-10 years behind the UK. (Marino's comment: *It is most certainly not, in my opinion. It would take several decades.*)
+    *   Robinson warns that the US is only 5-10 years behind the UK. (**Marino's remark: _It is most certainly not, in my opinion. It would take several decades._**)
     *   *Illegal Entry:* He recalls entering the US illegally in 2010 to give a speech titled "A Warning to America" in New York, feeling the message was urgent enough to break the law.
     *   *The Hispanic Comparison:* He critiques Americans who complained about Mexican/Hispanic immigration, arguing they "didn't have a clue." Hispanic immigrants share a Christian foundation; the influx of Somali, Afghani, Syrian, and Pakistani migrants brings a fundamentally hostile, alien culture that cannot be assimilated.
 
@@ -47,7 +47,7 @@ Robinson cites specific, high-contrast statistics to argue that the rise in crim
     *   *The "Double It" Anecdote:* Robinson asked a main Imam in Luton about the census numbers (40,000 Muslims). The Imam laughed and told him to "double it," implying census data is radically inaccurate due to illegal subletting and unregistered inhabitants.
 *   **The Benefit Trap:**
     *   Robinson argues the Labour government recently extended benefits for families with more than two children specifically to appease the Muslim vote.
-    *   *Demographics:* Native British average 1.5 children; Muslim families often have 5-7 (Marino's comment: *This is false. Second and third generation Muslims move closer to the native TFR.*). The native working class is effectively taxed to subsidize the demographic replacement of their own population.
+    *   *Demographics:* Native British average 1.5 children; Muslim families often have 5-7 (**Marino's remark: _This is false. Second and third generation Muslims move closer to the native TFR._**). The native working class is effectively taxed to subsidize the demographic replacement of their own population.
 *   **Tower Hamlets (The Case Study):**
     *   A borough in London that elected a Bangladeshi mayor (Lutfur Rahman) who was later removed for corruption but has since returned to power.
     *   He controlled a **£1 billion budget**. Robinson claims his first act was to siphon money from moderate groups to extremist groups and plan million-pound sculptures of hijabs at the borough entrance.
@@ -93,7 +93,7 @@ Robinson cites specific, high-contrast statistics to argue that the rise in crim
 
 ### **7. The "Cultural Revolution" & Remigration**
 *   **The Lion is Awake:**
-    *   Robinson claims the era of silence is over. He cites a protest on September 13th where he claims **millions** marched (Marino's comment: *Mainstream media reported 100,000, but they are most certainly wrong*).
+    *   Robinson claims the era of silence is over. He cites a protest on September 13th where he claims **millions** marched (**Marino's remark: _Mainstream media reported 100,000, but they are most certainly wrong._**).
     *   *Hidden Camera Insight:* He filmed a documentary in Ireland using hidden cameras. Women who were terrified to speak on record admitted off-record that they cannot walk the streets and are scared of the migrants. This proves the "Silent Majority" exists but is suppressed by fear of being called racist.
 *   **The Solution:**
     *   **Mass Deportation (Remigration):** This has moved from a fringe idea to a mainstream demand.
