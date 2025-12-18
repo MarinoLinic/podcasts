@@ -1,0 +1,110 @@
+Summary:
+In this essay, Professor David Betz argues that the West has already passed the tipping point of an inevitable civil war. Rejecting the techno-centric "military futurism" (lasers and balloons) in favor of H.G. Wells’ sociological approach, Betz diagnoses the West as suffering from "irresponsible adiposity" (luxury/fat) and atrophied "social muscle." He posits that the coming conflict will be a "Dirty War" defined by a rural-urban siege, where "System Disruption"—asymmetric attacks on unguarded energy and data infrastructure—collapses the "Global City." Analyzing a decade of open-source intelligence from the "Alt-Right" and "Anarchist Left," Betz demonstrates a bipartisan consensus that the current order is illegitimate. The essay predicts a reversion to savage, pre-modern tactics (siege, famine, ethnic cleansing) executed with modern civilian tools, concluding that prevention is impossible and society must prepare to endure the collapse.
+
+Rating: 3
+Type: article
+Tags: politics, war
+Date: 22 Nov 2023
+Source: https://www.mdpi.com/2076-0760/12/12/646
+
+---
+
+### **1. Introduction: The Wellsian Divergence**
+*   **The H.G. Wells Paradigm:**
+    *   Betz anchors his argument in H.G. Wells’ *Anticipations* (1902). Wells proposed two methods for predicting the future of war:
+        1.  **Technological:** Focusing on "continually more potent appliances" (weapons).
+        2.  **Societal:** Focusing on "broad issues" like demography and social structure.
+    *   *The Scorecard:* Wells failed on technology (predicting aerial rams and balloons, missing the Wright Brothers by one year). He succeeded on society, correctly identifying that the dominant nation of the 20th century would be the one that converted its "irresponsible adiposity" (wealth/fatness) into "social muscle" (cohesion/capacity for violence).
+*   **Betz’s Diagnosis:**
+    *   The modern West is defined by immense adiposity and severely atrophied social muscle. Therefore, looking at military gadgets (hypersonics/AI) to predict the future is a category error.
+    *   **The Thesis:** The future of war is not state-on-state high-tech conflict, but **Civil War**.
+*   **The Tipping Point:**
+    *   Betz asserts civil war is **inevitable**. The "tipping point" has passed; the kinetic energy is already in the system. The goal now is not prevention, but mitigation of the duration and horror.
+*   **Methodology (The Dark Corners):**
+    *   The paper is informed by 10 years of "lurking" in digital subcultures: 4Chan, 8Chan/pol, Telegram channels, and specifically the **user review sections of Amazon and Goodreads** for controversial books (where radicals speak freely about their preparations).
+
+### **2. "Things Fall Apart": Societal Indicators**
+*   **The Yeatsian Echo:**
+    *   Betz draws a parallel between 2023 and 1919 (the context of Yeats' *The Second Coming*): The Spanish Flu (Covid), the aftermath of a Great War, and the onset of the Irish Civil War. The "Centre Cannot Hold."
+*   **The Data of Fracture:**
+    *   **Polling:** A YouGov poll (Aug 2022) found **43% of all Americans** believe civil war is likely within a decade (53% of Republicans, 40% of Democrats).
+    *   **Elite Panic:** Betz cites specific warnings from the establishment: President Biden’s speech on "MAGA Extremism," UK Home Secretary Suella Braverman’s critique of "Hate Marches," and the open letter from 20 retired French Generals (2021) warning of disintegration.
+*   **The Failure of Multiculturalism:**
+    *   Betz cites the admission by Angela Merkel and David Cameron (c. 2010/2011) that multiculturalism has "utterly failed."
+    *   *The Result:* It has not created a melting pot but "ghettoized people into minority and majority groups with no common identity." This erosion of "Bridging Capital" (Putnam) is irreversible.
+*   **Marshall McLuhan’s "War of Icons":**
+    *   McLuhan predicted a conflict fought by "dunking entire populations in new imagery" to erode the "collective countenance."
+    *   *Realization:* This is no longer metaphorical. The "Culture War" has gone kinetic—statues are toppled, history is rewritten, and totems are smashed.
+*   **Accelerants:**
+    *   **Economic:** The end of the debt super-cycle, de-dollarization, and the inability of governments to borrow money to buy social peace (subsidies/welfare).
+    *   **Weapons Proliferation:** Not just the US 2nd Amendment; Betz notes the injection of high-grade military hardware (Javelins, MANPADS) into **Ukraine**, which is leaking through a porous border into the European black market.
+
+### **3. The Three Futurisms (Literature Review)**
+Betz categorizes "Future War" literature into three distinct buckets, arguing we focus on the wrong ones.
+
+*   **1. Military Futurism (The Technocratic View):**
+    *   *Examples:* F.X. Holden (*DMZ*), *Future War and the Defence of Europe*.
+    *   *Focus:* Near-term, weapons-centric, budget-oriented.
+    *   *Critique:* It ignores the social context. It assumes the state survives to fight the war.
+*   **2. Social Futurism (The Dystopian View):**
+    *   *Examples:* Orwell (*1984*), Huxley, Zamyatin (*We*), Jack London (*The Iron Heel*).
+    *   *Focus:* Totalitarian control and social engineering.
+    *   *Critique:* Often dismissed by military academies as "Sci-Fi" rather than political theory.
+*   **3. The "Unmentionables" (The Civil War Playbook):**
+    *   **Robert Heinlein:** The military reads *Starship Troopers* for the power armor suits. They *should* read *Revolt in 2100*, which depicts an insurgency against a theocracy—a far more relevant scenario for modern America.
+    *   **Adam Roberts (*New Model Army*):** A key text depicting a "Pantegral" army—a leaderless, democratic swarm using Wikipedia-style voting to make tactical decisions.
+    *   **The Literature of Hate/Anger:**
+        *   *The Turner Diaries:* Banned, racists, but the blueprint for white nationalist insurrection (leaderless resistance).
+        *   *The Camp of the Saints:* Jean Raspail’s novel about Western civilization collapsing under mass migration (mainstreamed by the Alt-Right).
+        *   *Amazon Intelligence:* Betz highlights reviews for Jim Goad’s *Whiteness: The Original Sin*. One review advises: **"Build yourself a physical library—they are more difficult to delete."** This indicates a population that has already psychologically seceded from the state and expects censorship/collapse.
+
+### **4. Strategy: Urbicide and the Rural Siege**
+*   **The Strategic Alignment:** Anti-status quo groups (both Far-Right and Anarchist Left) share a singular strategy: **Collapse the major cities** and wait out the chaos from the countryside.
+*   **Theoretical Irony:**
+    *   Right-wing 4Chan users quote **Murray Bookchin** (a Jewish Trotskyist/Ecologist).
+    *   *Bookchin’s Thesis:* The modern city "negates humanity" and becomes a "cemetery of freedom, culture, and the human spirit." The extremes meet on the idea that the "Global City" is an abomination.
+*   **The "Global City" Delusion:**
+    *   Betz mocks the post-Brexit suggestion (e.g., by Sadiq Khan) that London could secede from the UK.
+    *   *Reality:* Cities are artificial constructs requiring constant life support (food, power, water, labor) from the rural hinterlands they despise.
+*   **Defining "Urbicide":**
+    *   Origin: Martin Coward (regarding Bosnia).
+    *   *Definition:* Not just destroying buildings, but destroying "Urbanity"—the condition of **"agonistic heterogeneity"** (living together with differences).
+    *   *The Goal:* To transform mixed cities into **"antagonistic enclaves of homogeneity"** (warring ethno-tribal neighborhoods).
+    *   *Example:* **Leicester (UK), 2022**. Hindu mobs marching through Muslim neighborhoods chanting "Death to Pakistan." This is the future of the multicultural city.
+
+### **5. Tactics: System Disruption (The Soft Underbelly)**
+*   **The Philosophy:** Asymmetric "Judo" logic—finding points of extreme unbalance. The tools are civilian (bolt cutters, petrol, trucks), not military.
+*   **Target 1: Energy Infrastructure:**
+    *   **Gas Network:** High-pressure "Major Accident Hazard Pipelines" (MAHP) are buried only 1 meter deep. Their locations are public to prevent construction accidents.
+        *   *Compression Stations:* There are 24 in the UK. They maintain system pressure. Betz visited one near Duxford; it was unguarded, secured only by a chain-link fence.
+        *   *Vulnerability:* A few men with bolt cutters could depressurize the grid.
+    *   **Electrical Grid:** Pylons are widespread, mapped, and easy to topple with improvised explosives.
+    *   *The "Blackout" Scenario:* In a city like **Toronto** (where 44% of the population lives in apartments), a winter power/gas outage is lethal. Jury-rigged fires will burn down the high-rises. Chaos is immediate.
+*   **Target 2: Logistics & Transportation:**
+    *   **Chokepoints:** Bridges and tunnels (e.g., Manhattan) are indefensible against truck bombs or blockade.
+    *   **Just-in-Time:** Cities possess only ~3 days of food. Disruption leads to immediate hunger riots.
+*   **The Security Deficit:**
+    *   *The Math:* During the 2011 London Riots, ~2,000 rioters overwhelmed the police in a city of 9 million.
+    *   *The Threshold:* If just **1%** of the population (100,000) revolts, the security services will be instantly overrun.
+    *   *Loyalty:* Betz questions whether the military/police (who lean Right) would fire on a nativist uprising. He suggests many would remain neutral or defect.
+
+### **6. Information Warfare & The "Backbone"**
+*   **Physical Info-War:**
+    *   **Fibreoptic Cables:** A critical transatlantic cable lands in a Cornwall car park under an unlocked manhole cover (photos published in the *Daily Mail*).
+    *   **"Backbone" Towers:** The UK’s Cold War communications network (e.g., Stokenchurch Tower). Designed to survive a nuclear blast (concrete), but currently guarded by rusty fences. A few men with sledgehammers and petrol could destroy the equipment galleries.
+*   **Propaganda by Deed:**
+    *   The shift from debating opponents to eliminating them.
+    *   *Targeting:* The new revolutionaries focus on **social influencers and media figures** (the "priests" of the current order) rather than politicians (viewed as interchangeable puppets).
+    *   *Savagery:* Betz predicts a return to the cruelty of the Russian Civil War. He cites W. Bruce Lincoln’s description of "frozen corpses placed in obscene positions" and trains marked "Fresh Meat." The goal is terror and the enforcement of separation.
+
+### **7. Conclusion: The Convergence of Extremes**
+*   **Bipartisan Consensus:**
+    *   Betz notes that both the "Alt-Right" and the "Radical Left" agree the current system is beyond saving.
+    *   *The Invisible Committee:* A French anarchist group wrote *The Coming Insurrection* (2007).
+    *   *The Quote:* "The technical infrastructure of the metropolis is vulnerable... Information and energy circulate via wire networks, fibres and channels, and these can be attacked."
+    *   *The Verdict:* Right-wing militias and Left-wing anarchists are reading the same manuals and targeting the same pylons.
+*   **The Nature of the Conflict:**
+    *   It will be a "political war" (John Paul Vann).
+    *   Weapons: The gun, the knife, the bolt-cutter, the sledgehammer, the IED.
+    *   Outcome: "Compelled population movements" (ethnic cleansing) on the scale of the **Partition of India** (1947).
+*   **Final Warning:** The West has spent 30 years fighting "invertebrate" civil wars abroad (Iraq, Afghanistan). It has developed a language for "root causes" and "sectarian violence." It is now time to turn the mirror on ourselves. The "Rough Beast" is slouching towards Bethlehem.

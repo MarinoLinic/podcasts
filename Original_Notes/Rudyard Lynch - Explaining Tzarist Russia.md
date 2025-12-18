@@ -86,7 +86,8 @@ Source: https://www.youtube.com/watch?v=3ZX4rye0JBg
 *   **Submission to Authority:** The Russian peasantry endured centuries of abuse because the State/Church convinced them that suffering was holy and necessary to protect "Mother Russia" from the hostile world.
 
 ### **10. Book Recommendations**
-*   **"A History of Russia, Central Asia and Mongolia"** by *David Christian* (Lynch considers this the best, viewing Russia through the lens of Inner Eurasia).
-*   **"A People's Tragedy"** by *Orlando Figes* (Narrative history of the Revolution and the society that produced it).
-*   **"War and Peace and War"** by *Peter Turchin* (Structural-demographic theory applied to Russian expansion).
-*   **"The Rise of the West"** by *William H. McNeill* (Contextualizes the steppe frontier dynamics).
+- _**A History of Russia, Central Asia and Mongolia, Vol. 1: Inner Eurasia from Prehistory to the Mongol Empire**_ by *David Christian* (Lynch considers this the best, viewing Russia through the lens of Inner Eurasia).
+- _**A History of Russia, Central Asia and Mongolia, Vol. 2: Inner Eurasia from the Mongol Empire to Today, 1260 - 2000**_ by *David Christian*.
+- _**The Story of Russia**_ by *Orlando Figes* (Narrative history of the Revolution and the society that produced it).
+- _**War and Peace and War: The Rise and Fall of Empires**_ by *Peter Turchin* (Russian author; structural-demographic theory applied to Russian expansion).
+- _**The Rise of the West**_ by *William H. McNeill* (Contextualizes the steppe frontier dynamics).

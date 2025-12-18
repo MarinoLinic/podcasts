@@ -1,0 +1,149 @@
+Summary:
+Jacob Savage argues that white male millennials (born roughly 1981–1996) faced a unique "professional guillotine" around 2014 due to the institutionalization of DEI (Diversity, Equity, and Inclusion). Unlike Boomers and Gen X, who were already established, or Gen Z, who self-selected out of these fields, millennial white men were blindsided by a sudden shift from meritocracy to identity-based hiring. Through extensive data and interviews across media, academia, Hollywood, and corporate America, Savage illustrates how this cohort became a "lost generation," squeezed out by older white male gatekeepers who pulled the ladder up behind them to satisfy diversity mandates. The article posits that this was not a "gentle rebalancing" but a hard exclusion that fundamentally altered the life trajectories of thousands of men.
+
+Rating: 5
+Type: article
+Tags: politics
+Date: 15 Dec 2025
+Source: https://www.compactmag.com/article/the-lost-generation/
+
+---
+
+### **1. The Personal & The Universal: The 2016 Failure**
+*   **The Author's Story:**
+    *   **The Setup:** In Jan 2016, Savage (31 years old) and his writing partner had a pilot script loved by an executive. A veteran showrunner agreed to "come on" to the project.
+    *   **The Rejection:** The showrunner emailed apologetically that he couldn't hire them for the room.
+    *   **The Meeting:** Savage met the executive anyway. The executive (a Gen-X white guy) explicitly stated the room was small, the higher-level writers were all white men, and they "couldn't have an all-white-male room."
+    *   **The Room Itself:** Savage visited the room. It contained three older white men (the "Lifers") and two young women. The older men were debating a "Time Machine Paradox" (whether switching time machines in the future creates a paradox).
+    *   **The "Lifers" Resume:** The older white men had "IMDb bios from an alternate universe"—careers built on mediocre shows like *Martial Law*, *FreakyLinks*, *Roswell*, *John Doe*, and *LAX*. They were allowed to be average; Savage was not.
+    *   **The Result:** That meeting was the closest Savage ever got. He spent the next 15 years scalping tickets to pay bills.
+*   **The Statistical Cliff (The "Hinge" Year: 2014):**
+    *   **TV Writers:** In 2011, white men were **48%** of lower-level TV writers. By 2024, they were **11.9%**.
+    *   **Journalism (*The Atlantic*):** In 2013, staff was **53%** male / **89%** white. By 2024, **36%** male / **66%** white.
+    *   **Harvard Humanities:** White men fell from **39%** of tenure-track positions in 2014 to **18%** in 2023.
+    *   **The "Chainsaw" vs. "Benign" Narrative:** While the Trump administration (2025) attacks DEI, and liberals like Keeanga-Yamahtta Taylor defend it as "benign" or "ineffectual," Savage argues for the millennial male it was a "profound shift in how power and prestige were distributed."
+
+### **2. Sector Deep Dive: Media & Journalism**
+*   **The Pre-2014 Optimism:**
+    *   Critics in 2014 (NPR, Nate Silver) argued New Media (Vox, BuzzFeed, Politico) was too white/male. Silver noted only 15% of *FiveThirtyEight* applicants were women.
+    *   *Gawker* (57% male/79% white) and *Vice* (majority male/70% white) were still dominated by the "misfit young white man" archetype.
+*   **The Shift (Andrew's Story):**
+    *   **Profile:** Andrew, a left-leaning reporter, joined a New Media org in 2015. Initially successful with deep dives and scoops.
+    *   **The 2019 Pivot:** David Haskell (EIC of *New York* Mag) publicly apologized for being "another white man" and promised to use his power to "move the needle."
+    *   **The "No Backsliding" Rule:** If a woman or POC left a role, the replacement *must* be a woman or POC.
+    *   **The "Superstar" Trap:** A hiring editor noted that while they could find a "black woman at the beginning of her career," if she was any good, she would immediately be poached by the *NYT* or *WaPo*. White men, however, had to be generational talents to be considered.
+*   **The 2020 Acceleration (George Floyd):**
+    *   **New Pledges:** *NYT* promised "sweeping reforms"; *WaPo* aimed to be the "most diverse newsroom"; *Bon Appétit* confessed to "tokenizing" BIPOC staff; NPR called diversity its "North Star."
+    *   **Hiring Stats (2021):**
+        *   *Condé Nast:* New hires 25% male / 49% white.
+        *   *California Times (LA Times):* New hires 39% male / 31% white.
+        *   *ProPublica:* 66% women / 58% POC.
+        *   *NPR:* 78% of new hires were POC.
+    *   **The "Exclusion" Talk:** A hiring editor admitted, "It was a given that we weren’t gonna hire the best person… It was jarring how we would talk about excluding white guys." White men were ~50% of applicants but filled ~10% of roles.
+*   **The Culture of the Newsroom:**
+    *   **Union Radicalization:** Andrew’s union shifted from standard labor issues (pay/severance) to demanding racial quotas and "emergency hires of black people."
+    *   **Zoom Dynamics:** Andrew described a culture where "women would clap back" and others would "snap their fingers in the chat window," creating a hostile subcultural language.
+    *   **Performative Allyship:** A prominent Gen-X reporter noted that remaining white men adopted "protective coloration"—hyper-progressive allyship—to survive. Andrew noted he couldn't fake this: "There wasn’t much room for people who even speak in my timbre."
+*   **The Pipeline Collapse:**
+    *   **The Atlantic:** Jeffrey Goldberg (EIC) admitted in 2019 that while white men write the "10,000-word cover stories," he was "imagining their rise" differently to open leadership to others.
+        *   *Result:* Since 2020, 2/3rds of hires were women; in 2024, 75% of hires were women.
+    *   **NYT Magazine:** Leadership is Gen-X white men (Jake Silverstein, Bill Wasik). Below them? Of 9 millennial senior editors, only **1** is a white man (hired in 2012, grandfathered in).
+    *   **Internships:**
+        *   *LA Times:* Since 2020, only **7.7%** of interns were white men.
+        *   *WaPo:* 2018–2024, only 2-3 white men per year (out of ~30). In 2025, coincidental with political shifts, this number jumped back to 7.
+        *   *NYT Fellowship:* Only **10%** of nearly 220 fellows since 2018 have been white men.
+*   **The "Vox" Bellwether:**
+    *   *2013:* Vox Media was 82% male / 88% white.
+    *   *2022:* 37% male / 59% white.
+    *   *2025:* Leadership is 73% female.
+
+### **3. Sector Deep Dive: Academia**
+*   **The "David Austin Walsh" Case:**
+    *   Walsh (Yale Postdoc) tweeted: "I’m 35… 4+ years post-PhD… I’m also a white dude… I’m for all intents and purposes unemployable."
+    *   **Reaction:** Mockery from elites (Nikole Hannah-Jones) and tenured professors ("You are all just laughable"), despite data confirming his claim.
+*   **The Demographic Logjam:**
+    *   **The 1994 Law:** Congress ended the academic exemption for age discrimination. Boomers refused to retire.
+    *   **Harvard Arts & Sciences:** 55% white male faculty (legacy), but the pipeline is drying up.
+    *   **Yale History Dept:**
+        *   **Boomers:** 10 white male professors over age 70.
+        *   **Millennials:** 16 tenured/tenure-track professors. **Only 1** is a white man.
+        *   **Cold War Historian John Gaddis (84):** Admitted "remedial action was long overdue."
+*   **The Mechanisms of Exclusion:**
+    *   **The "Foreign Loophole":** European white men do not count as "white" in IPEDS federal data (they are "Non-Resident Aliens"). They also exist outside the US culture war.
+        *   *Stat:* Among new PhDs, white visa holders are **twice** as likely (61% vs 33%) to get tenure-track jobs compared to white US citizens.
+    *   **Cluster Hiring:** Used to bypass tenure review. Hiring for "Latinx Studies" or "Transgender Studies" guarantees non-white/non-male hires without explicit bans.
+    *   **The Invisible Curriculum:** James (Classics) anecdote about a student interested in "Roman military history." This topic is coded as "white/European/male/dead." The student who *did* get hired was "Gay, Asian-American, exceptionally conversant in critical theory."
+*   **Case Study: "Ethan" (Social Science):**
+    *   **The Expectation:** Entered academia to fight inequality, believing in the Obama-era "arc of history."
+    *   **Brown University (The "Locke" Era):**
+        *   Provost Richard Locke (Gen-X white man) pledged to double diversity.
+        *   *The Funnel (Humanities 2022):*
+            *   Applicants: 55% Male.
+            *   Long List: 48% Male.
+            *   Short List: 42% Male.
+            *   Interviews: 34% Male.
+            *   **Offers: 29% Male.**
+        *   *Result:* Since 2022, Brown hired 45 tenure-track professors in humanities/social sciences. **Only 3 (6.7%)** were white American men.
+    *   **The UC System (California):**
+        *   *AFD Program:* $8.5 million state program used DEI statements as a "first cut" to eliminate candidates before research was even reviewed.
+        *   *Berkeley:* White male hires dropped from 52.7% (2015) to 21.5% (2023).
+        *   *UC Irvine:* Since 2020, hired 64 professors. **3** were white men (4.7%).
+        *   *UC Santa Cruz:* 2020–2024, **2** white men out of 59 hires (3%).
+    *   **Ethan's Outcome:** Applied to 50 jobs, finalist 5 times. Rejected for not centering race. Remains in a "dead end," delaying children with his partner due to lack of tenure security.
+
+### **4. Sector Deep Dive: Hollywood ("Peak TV")**
+*   **The Whistleblower Evidence:**
+    *   **The "Needs Sheet" (2017):** An internal talent agency grid tracking staffing needs.
+    *   **The Mandates:**
+        *   *Noah Hawley:* "Prioritizing women."
+        *   *Dean Devlin:* "Ideally hire ethnic/African American."
+        *   *Ryan Murphy:* "Want female and diverse, emphasis on African American."
+        *   *Chicago Fire:* "UL [Upper Level] can be [anyone], but we need diverse SWs [Staff Writers]."
+*   **Institutional Barriers:**
+    *   **Fellowships:**
+        *   *Disney Writing Program:* 107 fellows in a decade. **0** white men. Bios emphasize identity ("Cuban, Puerto Rican, and New Mexican roots").
+        *   *Sundance Lab:* White male participation dropped from 27.5% of applicants (2016) to **5.8%** of fellows (post-2018). The few white men accepted usually had another marker (disabled, gay) or a diverse writing partner.
+*   **Case Study: "Matt" (Screenwriter):**
+    *   **Trajectory:** Moved to LA in 2011. Landed a network TV job in 2014. Earned a huge paycheck. Thought he was set.
+    *   **The Wall:** 2015 post-#OscarsSoWhite. Suddenly couldn't get a meeting.
+    *   **The Black List:** Wrote a script that made the "Black List" (top unproduced scripts). Got A-list showrunners attached. Still couldn't get staffed *on his own show*.
+    *   **The 2020 Block:** Agent submitted him for a prestige series. Showrunners liked the script. Offer pulled by a Gen-X white showrunner because "the room already has too many white guys."
+    *   **Current Status:** Works menial day job. Deep debt. Fantasizes about moving to Thailand to escape creditors ("Sweet one-bedroom, VPN... The Dream").
+*   **The Generational Divide (Oscars):**
+    *   *2004–2013:* **40+** Gen-X white men nominated for Screenwriting Oscars.
+    *   *2014–2023:* **50+** Gen-X white men nominated.
+    *   *Millennials:* Only **6** white male millennials nominated in the last decade.
+*   **Directing Stats:**
+    *   2014: White men directed 69% of TV episodes.
+    *   2021: White men directed 34%.
+    *   *Emmys:* Since 2021, 11 directors under 40 nominated. **0** white men.
+
+### **5. The Myth of the "Pivot" (Corporate, Med, Tech)**
+*   **The "Prestige" Drain:**
+    *   **MacArthur "Genius" Grants:** In 2013 alone, 7 Gen-X white men won. That is the same number as *all* millennial white men who have won since.
+    *   **National Book Awards:** 2014 had 2 white male millennial finalists. In the decade since, out of 70 nominees, only **3** were white men.
+    *   **Art World:**
+        *   "Big 4" Galleries represent 47 millennial artists; only **3** are white men.
+        *   Whitney Biennial 2024: 45 millennial artists, **0** white American men.
+*   **No Safe Harbor:**
+    *   **Medicine:** White men dropped from 31% of med students (2014) to **20.5%** (2025). A millennial oncologist noted that at every stage (residency, fellowship), the white man is the "token" to be discarded.
+    *   **Law:** White men matriculants dropped from 31.2% (2016) to 25.7% (2024).
+    *   **Tech (Google):** White male workforce dropped from ~50% (2014) to <30% (2024).
+    *   **Tech (Amazon):**
+        *   *2014 Entry Level:* 42.3% White Male.
+        *   *2024 Mid-Level (The Cohort Outcome):* 33.8% White Male. A massive attrition rate of nearly 40%.
+*   **The "Alternative" Economies:**
+    *   Young white men flocked to **Crypto, Podcasting, and Substack**.
+    *   *Reason:* Not because these fields were high-status, but because they had **no HR departments** to enforce the blockade. A film editor friend applied to Netflix 5 times, was rejected for being white, and pivoted to crypto out of necessity, not desire.
+
+### **6. Conclusion: The "Lost" Psychology**
+*   **The "Mediocrity" Argument:**
+    *   Liberals argue that only "mediocre" white men were hurt.
+    *   Savage counters: In "ordinary times," ordinary talent was enough for a middle-class life. The new system requires white men to be exceptional to survive, while allowing mediocrity for everyone else (including the older white men who implemented the system).
+*   **Political Consequences:**
+    *   **The "Josh Hawley Path":** Many thriving white millennial men have had to "leave liberal America" to succeed.
+    *   **The Betrayal:** Millennial men were "true believers" in the Obama-era meritocracy. The realization that "the world is not rooting for you—in fact, it’s deliberately rooting against you" has created deep cynicism and resentment toward the liberal project.
+*   **Final Reflection:**
+    *   Savage admits to "wounded pride." He wanted to take his two sons to film sets. Instead, he sits in his bedroom scrolling spreadsheets.
+    *   He acknowledges the women who got the jobs didn't "take" them; the system was rigged by the older generation. (**Marino's remark: _He's still buying into the very ideological system that did this to him. It's not just boomers—it's everything he believes about the world, and everyone who participates is COMPLICIT._**)
+    *   The psychological safety of the "Lost Generation": It is less painful to believe the game was rigged (which data suggests it was) than to believe they simply failed on the merits.
