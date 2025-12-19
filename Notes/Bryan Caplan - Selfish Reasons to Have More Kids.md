@@ -6,7 +6,7 @@ author: "Bryan Caplan"
 rating: 5
 date: 2012-05-08
 type: "book"
-tags: [parenting]
+tags: [life]
 ---
 
 Summary:
