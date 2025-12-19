@@ -53,7 +53,7 @@ Source: https://snowdentodd.substack.com/p/small-businesses-are-lowering-south
         *   **The Obsession:** The tutoring focuses on English and the college entrance exam (which is described as a 9-hour ordeal "more like the MCAT than the SAT").
         *   **Contrast:** Japan has no comparable infatuation with "weird Germanic languages" (English) to the same degree.
 *   **Cultural Nuance:**
-    *   Korea is notably more **collectivistic** than Japan (linguistic tendency to say "our wife/house" instead of "my").
+    *   Korea is notably more **collectivist** than Japan (linguistic tendency to say "our wife/house" instead of "my").
     *   While community is a good survival strategy for a peninsula "hemmed in by formidable empires," today it manifests as "keeping up with the Joneses," exacerbating the spending arms race on status and education.
 
 ### **3. Historical Context: Park Chung-hee’s "Entrepreneur-Manager" State**

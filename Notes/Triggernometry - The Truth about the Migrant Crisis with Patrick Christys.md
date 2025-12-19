@@ -1,8 +1,8 @@
 ---
 layout: default
-permalink: /notes/patrick-christys-the-truth-about-the-migrant-crisis/
-title: "The Truth about the Migrant Crisis"
-author: "Patrick Christys"
+permalink: /notes/triggernometry-the-truth-about-the-migrant-crisis-with-patrick-christys/
+title: "The Truth about the Migrant Crisis with Patrick Christys"
+author: "Triggernometry"
 rating: 3
 date: 2025-07-06
 type: "video"
