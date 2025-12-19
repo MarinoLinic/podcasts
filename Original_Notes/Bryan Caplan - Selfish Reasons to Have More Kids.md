@@ -3,7 +3,7 @@ Selfish Reasons to Have More Kids argues that modern parents are unnecessarily m
 
 Rating: 5
 Type: book
-Tags: parenting
+Tags: life
 Date: 08 May 2012
 Source: https://www.amazon.com/Selfish-Reasons-Have-More-Kids/dp/0465028616
 
