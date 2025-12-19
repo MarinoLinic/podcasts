@@ -1,0 +1,144 @@
+Summary:
+This article provides an exhaustive, data-heavy overview of global immigration, defining it as the international movement for permanent residence (distinct from temporary travel). It traces the demographic scale (304 million migrants in 2024), historical waves (from the Indo-European expansion to the post-2015 crises), and the complex web of drivers (economic arbitrage, conflict, demographics). The analysis bifurcates economic impacts by skill level—highlighting the net positive of high-skilled migration versus the fiscal costs and wage suppression associated with low-skilled flows. It details the strain on housing, education, and social cohesion (Putnam's thesis), and outlines the sharp policy pivots in 2024/2025 across the West, moving from expansive intake to restriction, border fortification, and selective visa systems in response to native backlash and integration failures.
+
+Rating: 3
+Type: article
+Tags: politics
+Date: 03 Dec 2025
+Source: https://grokipedia.com/page/Immigration
+
+---
+
+### **1. Definitions, Classifications & Terminology**
+*   **Core Concepts:**
+    *   **Immigration:** The movement of persons into a destination country for the purpose of permanent or long-term residence.
+    *   **Emigration:** The act of departing one's country of origin.
+    *   **Migration:** The umbrella term covering all forms of relocation (internal, international, seasonal).
+    *   **International Migrant (UN Definition):** Any individual who has changed their country of usual residence, regardless of legal status, motivation (economic vs. humanitarian), or duration.
+*   **Legal & Status Distinctions:**
+    *   **Regular (Authorized):** Occurs through legal channels (visas, residence permits).
+    *   **Irregular (Unauthorized):** Occurs without legal permission (clandestine border crossing, visa overstay, working without authorization). IOM estimates irregular flows constitute **10–30%** of global migration.
+    *   **Permanent vs. Temporary:** Indefinite settlement (often leading to naturalization) vs. time-limited specific purpose (students, seasonal agriculture).
+*   **Categories by Purpose:**
+    *   **Economic:**
+        *   *Skilled:* Targeting high-demand sectors (e.g., US **H-1B visas** for tech/healthcare).
+        *   *Low-Skilled:* Filling labor gaps in "3D" jobs (Dirty, Dangerous, Difficult). The IOM estimated **169 million** migrant workers globally in 2020.
+    *   **Family Reunification:** Sponsoring relatives. In the US, this accounts for **>60%** of green cards, functioning as "chain migration" that prioritizes relational ties over economic utility.
+    *   **Humanitarian:**
+        *   *Refugee:* A person outside their country fleeing persecution based on race, religion, nationality, or political opinion (1951 Convention).
+        *   *Asylum Seeker:* An individual seeking protection upon arrival whose status is not yet determined.
+        *   *Scale:* UNHCR recorded **36.8 million** refugees and **123.2 million** forcibly displaced persons by end-2024.
+    *   **Education:** 6.3 million international students in OECD nations (2020), often used as a pathway to permanent residency (e.g., Canada’s post-study work permits).
+    *   **Investor:** "Golden Visas" (e.g., US EB-5 requiring **$800k–$1.05m** investment; Portugal/Spain schemes).
+    *   **Diversity:** US Diversity Visa Lottery (55,000/year) selects from low-admission countries.
+
+### **2. Historical Trajectory**
+*   **Pre-Modern Movements:**
+    *   **Out of Africa (70k–100k years ago):** The initial dispersal of *Homo sapiens*.
+    *   **Indo-European Expansion (3000–2000 BCE):** Yamnaya pastoralists from the Pontic-Caspian steppe introduced wheeled vehicles and horses to Europe. Ancient DNA confirms they contributed up to **50%** of modern Northern European ancestry.
+    *   **Migration Period (300–700 CE):** The Völkerwanderung (Goths, Vandals, Franks) dismantled the Roman Empire, establishing successor kingdoms.
+*   **19th/Early 20th Century (The Great Atlantic Migration):**
+    *   **Scale:** **50–60 million** Europeans emigrated to the Americas and Oceania (1815–1930).
+    *   **US Waves:**
+        *   *Old Immigration (1840s–80s):* Northern/Western Europe (Irish fleeing the Potato Famine, Germans fleeing 1848 revolutions).
+        *   *New Immigration (1880s–1914):* Southern/Eastern Europe (Italians, Poles, Russian Jews). **12 million** arrived between 1870–1900 alone.
+    *   **The Closure:** Nativist backlash led to the **1882 Chinese Exclusion Act** and the **1924 National Origins Act** (quotas favoring Northern Europeans).
+*   **Post-WWII (1945–1990):**
+    *   **Europe's Reversal:** Western Europe transitioned from a net exporter to a net importer of people.
+    *   **Gastarbeiter (Guest Workers):** Germany recruited millions of Turks/Yugoslavs (1955–1973) for reconstruction. The 1973 Oil Crisis ended recruitment, but workers stayed via family reunification.
+    *   **Decolonization:** "Reverse migration" to imperial centers (Windrush to UK; *Pieds-Noirs* to France after Algerian independence).
+    *   **US Reform:** The **1965 Immigration and Nationality Act** abolished racial/national quotas, shifting the primary source of immigrants from Europe to Latin America and Asia.
+    *   **Settler Nations:** Australia ended the "White Australia" policy (1973); Canada adopted the points system (1967).
+*   **21st Century (2000–2025):**
+    *   **Growth:** Migrant stock nearly doubled from 173 million (2000) to **304 million** (2024).
+    *   **Crisis Points:**
+        *   *2015 EU Crisis:* >1 million irregular arrivals (Syria/Iraq/Afghanistan) via the Mediterranean.
+        *   *Ukraine (2022):* 6 million refugees displaced to Europe.
+        *   *US Border Surge (2021–23):* Record encounters exceeding **2.4 million** in FY2023.
+
+### **3. Demographics & Global Scale (2024/2025)**
+*   **Total Stock:** **304 million** (3.7% of the global population).
+*   **Regional Distribution:**
+    *   *Europe:* 87 million.
+    *   *Asia:* 86 million (largest origin region).
+    *   *North America:* 59 million.
+*   **Key Destination Metrics:**
+    *   **United States:** Hosts **51.6 million** (17% of global total; 15.3% of US pop).
+    *   **Germany:** 16 million (18% of pop).
+    *   **Gulf States:** Highest proportions due to temporary labor systems (*Kafala*). UAE (**88%** foreign-born), Qatar (**77%**).
+    *   **Settler Nations:** Australia (~30%), Canada (22%).
+    *   **Restrictive Nations:** Japan (<2%), prioritizing automation over immigration.
+*   **Forced Displacement:** Total displaced persons reached **123.2 million** (end-2024), driven by conflicts in Syria, Sudan, and Ukraine.
+
+### **4. Drivers: Push & Pull Dynamics**
+*   **Push Factors (Origin):**
+    *   **Economic:** GDP per capita in origin nations often <$2,000. Youth unemployment exceeds **20%** in Africa/MENA ("Youth Bulge").
+    *   **Conflict:** Syria (6.8m refugees), Afghanistan, Sudan.
+    *   **State Failure:** Venezuela's economic collapse drove **7 million** to emigrate.
+    *   **Environment:** Climate shocks in the Sahel intersect with conflict to drive displacement.
+*   **Pull Factors (Destination):**
+    *   **Wage Arbitrage:** Earnings in the US/EU are **5–10x higher** than in origin nations.
+    *   **Labor Demand:** Chronic shortages in "3D" jobs (construction, agriculture, care) in aging Western societies.
+    *   **Welfare Magnet:** Evidence suggests generous social benefits in Europe attract low-skilled migration (biasing flows toward the less skilled compared to the US).
+    *   **Network Effects:** Existing diasporas lower settlement costs (facilitating chain migration).
+*   **Policy & Externalities:**
+    *   **Smuggling:** Criminal networks industrialize routes (e.g., Central Mediterranean, Darién Gap).
+    *   **NGOs:** Role in search-and-rescue is contested; critics argue it reduces the cost/risk of irregular entry.
+
+### **5. Economic Impacts (Host Country)**
+*   **Labor Market Effects:**
+    *   **High-Skilled:** Generally complementary to natives; boosts innovation/productivity; wage effects are neutral or positive (**+1% to +3%**).
+    *   **Low-Skilled:** Substitutes for low-skilled natives. Borjas (US) found a 10% supply shock reduces native dropout wages by **3–5%**. In Europe, post-2004 inflows depressed low-skilled wages by **1–2%**.
+*   **Fiscal Impact (The Skill Dividend vs. Deficit):**
+    *   **EU Analysis:** A high-skilled migrant yields a net lifetime gain of **€154,000**. A low-skilled migrant imposes a net lifetime cost of **€11,000**.
+    *   **US Analysis:** A low-educated immigrant creates a lifetime fiscal deficit of **$300,000** (Manhattan Institute, 2025).
+    *   **Denmark Data:** Non-Western migrants are net fiscal drains (costing billions of kroner), while Western migrants are net contributors.
+    *   **Mechanism:** Low tax contributions + high consumption of public goods (education, health, welfare).
+*   **GDP Growth:** Immigration increases *aggregate* GDP (larger workforce) but effects on *per capita* GDP depend on the skill mix. In the US, it has prevented workforce stagnation.
+
+### **6. Economic Impacts (Origin Country)**
+*   **Remittances:**
+    *   **Volume:** **$656 billion** to low/middle-income countries in 2023 (projected $685bn in 2024). Exceeds FDI and ODA combined.
+    *   **Impact:** Reduces poverty, stabilizes exchange rates.
+    *   **Risk:** Can cause "Dutch Disease" (currency appreciation hurting exports) and dependency.
+*   **Brain Drain:**
+    *   **Healthcare Crisis:** Sub-Saharan Africa bears 25% of the global disease burden but has only **3%** of the health workforce. (e.g., Nigeria lost **1 million** people 2015–2023).
+    *   **Critical Shortages:** Low/Middle-Income Countries retain only **19%** of global surgeons.
+    *   **Tech:** Massive outflow of Indian engineers/scientists to the US (nearly 1 million residents).
+    *   **Net Effect:** Loss of human capital often outweighs remittance gains for small/developing states, creating a cycle of underdevelopment.
+
+### **7. Social & Institutional Effects**
+*   **Social Capital (The Putnam Thesis):**
+    *   **Trust Erosion:** Harvard sociologist Robert Putnam found that ethnic diversity correlates with lower interpersonal trust and civic engagement in the short/medium term. People "hunker down."
+    *   **European Confirmation:** Studies show diversity lowers both in-group and out-group trust, independent of economic factors.
+*   **Crime & Safety:**
+    *   **US:** Undocumented immigrants generally have lower incarceration rates than natives *overall* (selection bias of economic migrants), though specific subsets (e.g., drug offenses in border states) show higher rates.
+    *   **Europe:** Sharp overrepresentation. In Sweden (2022), foreigners were **2.5x** more likely to be crime suspects. In Germany (2023), non-Germans (13% of pop) accounted for **41%** of violent crime suspects.
+*   **Public Services:**
+    *   **Housing:** A 1% rise in immigrant population correlates with a **1–2% rise** in housing costs/rents. In Canada, immigration explained ~11% of price inflation; home prices rose **60%** over a decade.
+    *   **Education:** Immigrant students score significantly lower on PISA tests (40–50 point gap in science in US/EU), dragging down system averages. Overcrowding in classrooms (NYC/Chicago 2023–24).
+    *   **Health:** Increased wait times and emergency room usage, particularly by non-Western migrants in universal healthcare systems (UK/Scandinavia).
+
+### **8. Policy Responses & Legal Frameworks**
+*   **International Law:**
+    *   **1951 Refugee Convention:** Defines refugee status and *Non-Refoulement* (no return to persecution).
+    *   **Sovereignty:** No binding right to enter a foreign country exists under international law.
+*   **Recent Restrictive Shifts (2023–2025):**
+    *   **US (2025):** Post-election shift to aggressive enforcement. Border apprehensions dropped **94%** in early 2025 compared to prior year peaks due to end of "catch and release."
+    *   **EU (2024):** Adoption of the **Migration and Asylum Pact**: Mandatory border screening (7 days), accelerated asylum denial, detention, and rapid returns.
+    *   **UK (2025):** "Restoring Control" White Paper raised skilled worker salary thresholds to **£41,700** to cut net migration.
+    *   **Canada/Australia:** Slashed permanent resident intake targets (Canada to 395k) due to housing/infrastructure crises.
+*   **Enforcement Mechanisms:**
+    *   **Physical Barriers:** Hungary's border fence reduced illegal entries by **99%** (from 400k to <3k).
+    *   **Interior Enforcement:** Essential for deterrence; countries with mandatory ID/employer sanctions (Australia) have lower illegal populations than those without (US).
+
+### **9. Public Attitudes & Controversies**
+*   **Public Opinion Trends:**
+    *   **US:** Support for reducing immigration peaked at **55%** in 2024 (Gallup). Post-election optimism saw 79% viewing immigration as beneficial overall (July 2025).
+    *   **UK:** **70%** view immigration levels as too high (July 2025).
+    *   **Europe:** Majorities in France, Germany, and Italy view immigration negatively/excessive (YouGov Feb 2025).
+*   **Native Concerns:**
+    *   **Economic:** Wage suppression for the working class.
+    *   **Cultural:** Loss of social cohesion, formation of "parallel societies" (e.g., Neukölln, Berlin; Rosengård, Malmö).
+    *   **Fiscal:** Strain on the welfare state and infrastructure (schools, hospitals).
+    *   **Political:** Demographic shifts altering electoral landscapes (e.g., US Census apportionment debates).

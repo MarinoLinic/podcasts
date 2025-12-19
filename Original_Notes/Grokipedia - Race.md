@@ -1,0 +1,136 @@
+Summary:
+The article defines race scientifically as the categorization of human populations into distinct groups (e.g., sub-Saharan African, European, East Asian) based on shared genetic ancestry and physical morphology, a classification validated by genomic clustering analyses which show >99% accuracy in assigning continental ancestry.
+
+Rating: 3
+Type: article
+Tags: anthropology
+Date: 19 Dec 2025
+Source: https://grokipedia.com/page/Race
+
+---
+
+### **1. Definition & Core Concept**
+*   **Scientific Definition:** Race denotes the categorization of human populations into distinct groups sharing common genetic ancestry, physical morphology, and evolutionary adaptations to specific environments. It is often compared to the taxonomic category of "subspecies" in other mammals, though this comparison is debated due to continuous clinal variation in humans.
+*   **Genetic Reality & Clustering:**
+    *   **Multivariate Analysis:** Genome-wide analyses using methods like **Principal Component Analysis (PCA)** and **Bayesian clustering** (e.g., STRUCTURE software) consistently reveal structured clusters.
+    *   **The Clusters:** These align with major continental barriers:
+        1.  Sub-Saharan Africa
+        2.  Europe/West Asia (Caucasoid)
+        3.  East Asia
+        4.  Pacific/Oceania
+        5.  Americas
+    *   **Assignment Accuracy:** Individuals can be assigned to these ancestral groups with **>99% accuracy** using ancestry-informative markers (AIMs). Modern self-reported race correlates strongly with these genetic clusters (e.g., in the *All of Us* cohort, self-id Whites were 66.4% European ancestry, Blacks 19.5% African).
+*   **Differentiation Metrics:**
+    *   **Within vs. Between:** While **85–95%** of genetic variation occurs *within* populations (single-locus analysis), the remaining **5–15%** represents inter-group differences.
+    *   **Lewontin’s Fallacy:** The argument (popularized by Richard Lewontin, 1972) that "more variation exists within groups than between them" is mathematically true for single loci but is considered a fallacy (by A.W.F. Edwards, 2003) because it ignores **correlations** across thousands of loci. These multi-locus patterns contain sufficient information to distinguish populations with near certainty.
+
+### **2. Historical Development of Categorization**
+*   **Ancient & Medieval:**
+    *   **Herodotus (c. 440 BCE):** *Histories*. Distinguished groups (Egyptians, Scythians, Persians) by physical traits like skin color and hair texture.
+    *   **Biblical:** *Genesis 10 (Table of Nations)*. Categorized humanity into lineages of Noah’s sons: **Shem** (Semites/Asians), **Ham** (Africans), **Japheth** (Europeans).
+    *   **Medieval Europe:** Proto-racial concepts emerged via *Limpieza de sangre* (cleanliness of blood) statutes in Spain, excluding Jews and Moors based on "impure" lineage.
+*   **Enlightenment Systematics:**
+    *   **Carl Linnaeus (1735):** *Systema Naturae*. The first systematic taxonomy. Divided *Homo sapiens* into four varieties based on geography and humors:
+        *   *Europaeus:* Sanguine, inventive.
+        *   *Americanus:* Choleric, stubborn.
+        *   *Asiaticus:* Melancholic, greedy.
+        *   *Afer (African):* Phlegmatic, lazy.
+        *   *(Later added a "Monstrosus" category for aberrations).*
+    *   **Johann Blumenbach (1775):** *De Generis Humani Varietate Nativa*. Proposed the influential 5-race model based on skull morphology:
+        1.  **Caucasian** (White): Named after the Caucasus Mountains, considered the "original" and most beautiful form.
+        2.  **Mongolian** (Yellow): East Asian.
+        3.  **Ethiopian** (Black): African.
+        4.  **American** (Red): Indigenous.
+        5.  **Malayan** (Brown): Southeast Asian/Pacific.
+*   **19th Century Anthropometry & Polygenism:**
+    *   **Paul Broca (1859):** Established anthropometric labs in France to quantify racial differences via skull, limb, and stature measurements.
+    *   **Samuel Morton (1839):** *Crania Americana*. Collected >1,000 skulls. Argued for fixed cranial capacities: **Caucasian (87 in³) > Mongoloid > Negro (78 in³)**. Used to support **Polygenism** (separate creations).
+    *   **Louis Agassiz:** Promoted polygenism in the U.S., arguing races were distinct species created by God, influencing slavery debates.
+
+### **3. Biological & Genetic Foundations**
+*   **Population Genetics Studies:**
+    *   **Rosenberg et al. (2002):** A landmark study using 377 autosomal microsatellite loci across 1,056 individuals from 52 populations. At **K=5**, clusters mapped perfectly to the five major continents.
+    *   **ADMIXTURE Analysis:** Replicates these findings in larger datasets (HGDP, 1000 Genomes), showing that while admixture exists (gradients), the core ancestral nodes are robust.
+*   **FST (Fixation Index):**
+    *   A measure of population differentiation.
+    *   Global inter-continental FST is **0.10–0.15**.
+    *   **Specific Pairwise FST:**
+        *   European vs. East Asian: ~0.106.
+        *   European vs. West African: ~0.139.
+*   **Ancestry Informative Markers (AIMs):**
+    *   Forensic panels of 20–100 AIMs (SNPs or insertion-deletions) can predict biogeographic ancestry with **90–99% accuracy**.
+*   **Specific Evolutionary Adaptations:**
+    *   **Skin Pigmentation:**
+        *   **SLC24A5:** The light-skin variant is fixed (**>98%**) in Europeans but rare (**<1%**) in sub-Saharan Africans. Evolved ~10-20k years ago for Vitamin D synthesis.
+        *   **SLC45A2:** Another key light-skin variant in Eurasians.
+    *   **Dietary:**
+        *   **Lactase Persistence (LCT):** Variants (-13910*T) prevalent (**70–90%**) in Northern Europeans and pastoralist East Africans. Near absent in East Asians and West Africans.
+    *   **Disease Resistance:**
+        *   **Duffy Null Allele (FY0):** Near-fixed (**90–100%**) in West Africans (confers resistance to *P. vivax* malaria); absent (<1%) in Europeans.
+        *   **Sickle Cell Trait (HbS):** 10-20% frequency in malaria-endemic African populations; rare elsewhere.
+    *   **High Altitude:**
+        *   **EPAS1:** Variant found in Tibetans (inherited from **Denisovans**) prevents polycythemia (thick blood) at high altitudes.
+
+### **4. Phenotypic & Physiological Variations**
+*   **Morphology (Ecogeographic Rules):**
+    *   **Bergmann’s Rule:** Populations in cold climates (e.g., Inuit, N. Europeans) have larger body mass/volume to conserve heat.
+    *   **Allen’s Rule:** Cold-adapted groups have shorter limbs/appendages. Tropical groups (e.g., Nilotic Africans) have linear, tall builds with long limbs to dissipate heat.
+*   **Specific Physical Traits:**
+    *   **Hair:**
+        *   *African:* Elliptical follicles produce tightly coiled hair (aids heat dissipation/scalp protection).
+        *   *East Asian:* Round follicles, thick shafts (linked to **EDAR** gene).
+    *   **Eyes:** **Epicanthic folds** are highly frequent (>90%) in East Asians, protecting against wind/glare.
+*   **Physiology & Medicine:**
+    *   **Muscle Fiber Composition:** West African ancestry correlates with a higher proportion of **fast-twitch (Type II)** fibers (anaerobic power/sprinting). East Africans show efficiency in oxygen processing (endurance).
+    *   **Drug Metabolism:** Pharmacogenomics relies on race/ancestry. E.g., Warfarin dosing requires adjustment based on **VKORC1** polymorphisms, which vary by continent.
+    *   **Disease Susceptibility:**
+        *   *Cystic Fibrosis:* Higher carrier rate in Europeans (~1/25).
+        *   *Hypertension:* Higher risk in African Americans (linked to **APOL1** variants, risk allele freq ~0.3).
+        *   *Osteoporosis:* Higher risk in Asians.
+
+### **5. Cognitive & Behavioral Differences**
+*   **The IQ Gap:**
+    *   **Global Averages:**
+        *   **East Asians:** ~105–108.
+        *   **Europeans/Whites:** ~100.
+        *   **Hispanics (US):** ~90–95.
+        *   **African Americans:** ~85.
+        *   **Sub-Saharan Africans:** ~70–80 (estimates vary by source/adjustments).
+    *   **Key Researchers:**
+        *   **Arthur Jensen (1969):** Argued gaps were not fully environmental.
+        *   **Herrnstein & Murray (1994):** *The Bell Curve*. Documented the predictive power of IQ and the persistence of the gap.
+        *   **Rushton (1995):** *Race, Evolution, and Behavior*. Proposed **r/K Selection Theory** (Asians=K, Africans=r) to explain the suite of traits (IQ, brain size, maturation speed).
+        *   **Lynn & Vanhanen:** *IQ and the Wealth of Nations*. Correlated national IQ with GDP.
+    *   **Stability:** The ~1 SD gap (15 points) in the US has remained stable for decades despite educational interventions (Head Start, No Child Left Behind).
+*   **Heritability & Genetics:**
+    *   **Within-Group:** Heritability of adult IQ is **0.5–0.8** for all racial groups.
+    *   **Adoption Studies:**
+        *   *Minnesota Transracial Adoption Study:* Black children adopted by high-SES White families scored **~89** at age 17, while White adoptees scored **~106**.
+    *   **Brain Size:** MRI studies confirm correlations between brain volume and intelligence ($r \approx 0.3-0.4$). Racial averages follow the IQ hierarchy: **East Asian > European > African**.
+    *   **Chronometrics:** Reaction time/inspection time tasks (culture-reduced) replicate the racial hierarchy.
+*   **Behavioral Genetics & Crime:**
+    *   **Androgen Receptor (AR):** CAG repeat lengths regulate testosterone sensitivity. Shorter = higher sensitivity/impulsivity.
+        *   *African (non-admixed):* **<19 repeats**.
+        *   *European:* **21–22 repeats**.
+        *   *East Asian:* **22–23 repeats**.
+    *   **MAOA Gene:** "Warrior Gene." Low-activity variants (linked to aggression under provocation) have different frequencies across populations (2R/3R alleles).
+    *   **Crime Statistics:** Disparities are stark. In the US, Blacks (13% of population) commit **>50% of homicides**. This pattern aligns with trait differences in impulsivity/aggression and persists after controlling for poverty.
+
+### **6. Social Constructs & Cultural Identity**
+*   **Classification Systems:**
+    *   **US Hypodescent:** The **"One-Drop Rule"** (codified in laws like the **1924 Racial Integrity Act** in Virginia) classified anyone with *any* African ancestry as Black.
+    *   **Latin America:** A "Continuum Model" based on phenotype + class ("Money whitens"). Categories include *Mestizo*, *Mulato*, and *Pardo*.
+        *   *Brazil:* In 2010, **43%** identified as *Pardo*. Identity is fluid compared to the US binary.
+*   **Anthropological Shift:**
+    *   **Franz Boas (20th C):** Pioneered the critique of biological race, shifting focus to culture.
+    *   **Current Consensus:** Sociology/Anthropology largely view race as a social construct, while Forensic Anthropology relies on biological reality (cranial metrics) for identification (**80–95% accuracy**).
+
+### **7. Debates: Realism vs. Constructivism**
+*   **Race Realism:**
+    *   **Position:** Biological races are real, evolved lineages with average differences in morphology, physiology, and cognition.
+    *   **Evidence:** Genomic clustering (K=5), predictive validity in medicine (pharmacogenomics), heritable group differences, stability of traits over time.
+    *   **Political Implications:** Challenges egalitarian assumptions. Suggests that outcome disparities (wealth, education) may be partly genetic rather than solely due to systemic discrimination. Critiques Affirmative Action for causing "Mismatch" (setting students up for failure).
+*   **Social Constructivism:**
+    *   **Position:** Race is a social fiction/ideological tool created to justify hierarchy/colonialism.
+    *   **Evidence:** Lewontin’s apportionment (85% variance within groups), the existence of clines (gradients) rather than sharp boundaries, historical fluidity (e.g., Irish/Italians "becoming White").
+    *   **Political Implications:** Advocates for environmentalism, reparations, and diversity initiatives. Attributes all disparities to racism/poverty.
