@@ -6,7 +6,7 @@ author: "Wikipedia"
 rating: 3
 date: 2025-12-17
 type: "article"
-tags: [anthropology]
+tags: [history]
 ---
 
 Summary:

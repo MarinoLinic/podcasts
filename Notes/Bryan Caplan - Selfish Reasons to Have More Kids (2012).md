@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /notes/bryan-caplan-selfish-reasons-to-have-more-kids/
-title: "Selfish Reasons to Have More Kids"
+permalink: /notes/bryan-caplan-selfish-reasons-to-have-more-kids-2012/
+title: "Selfish Reasons to Have More Kids (2012)"
 author: "Bryan Caplan"
 rating: 5
 date: 2012-05-08

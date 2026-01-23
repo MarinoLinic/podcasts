@@ -1,17 +1,10 @@
----
-layout: default
-permalink: /notes/triggernometry-the-real-history-of-islam-with-raymond-ibrahim/
-title: "The Real History of Islam with Raymond Ibrahim"
-author: "Triggernometry"
-rating: 3
-date: 2025-12-14
-type: "video"
-tags: [history, anthropology]
----
-
 Summary:
 Raymond Ibrahim presents a historical analysis of Islam, arguing that the religion's rapid expansion was driven by a unique fusion of Arab tribalism and theology ("sanctified violence"). He contends that the "Golden Age" of Islam was actually powered by conquered non-Muslim subjects, and that the Crusades were a delayed defensive reaction to centuries of Islamic aggression (including the severing of Mediterranean trade routes which caused Europe's "Dark Ages"). The interview transitions to modern geopolitics, where Ibrahim argues that the West's "Islam problem" is a self-inflicted wound caused by leaders engaging in "White Guilt" and enabling mass migration. He contrasts the "Doormat Christianity" of today with the "Warrior Monk" ethos of the past.
 
+Rating: 5
+Type: video
+Tags: history, anthropology
+Date: 14 Dec 2025
 Source: https://www.youtube.com/watch?v=Y64jGdPHDmM
 
 ---

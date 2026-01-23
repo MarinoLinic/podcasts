@@ -6,7 +6,7 @@ author: "Joel F. Harrington"
 rating: 3
 date: 2013-12-31
 type: "book"
-tags: [history, life]
+tags: [history]
 ---
 
 Summary:

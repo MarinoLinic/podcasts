@@ -3,7 +3,7 @@ Summarized Wikipedia article about Islam.
 
 Rating: 3
 Type: article
-Tags: anthropology
+Tags: history
 Date: 17 Dec 2025
 Source: https://en.wikipedia.org/wiki/Islam
 

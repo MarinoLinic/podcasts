@@ -3,7 +3,7 @@ The text chronicles the early life and training of Frantz Schmidt, a 16th-centur
 
 Rating: 3
 Type: book
-Tags: history, life
+Tags: history
 Date: 31 Dec 2013
 Source: https://www.amazon.com/Faithful-Executioner-Turbulent-Sixteenth-Century/dp/1250043611
 
