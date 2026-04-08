@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /notes/stewart-brand-maintenance-of-everything-part-one/
-title: "Maintenance of Everything, Part One"
+permalink: /notes/stewart-brand-maintenance-of-everything-part-one-2026/
+title: "Maintenance of Everything, Part One (2026)"
 author: "Stewart Brand"
 rating: 4
 date: 2026-01-20

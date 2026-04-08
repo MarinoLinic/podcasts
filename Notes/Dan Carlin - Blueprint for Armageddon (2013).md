@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /notes/dan-carlin-blueprint-for-armageddon/
-title: "Blueprint for Armageddon"
+permalink: /notes/dan-carlin-blueprint-for-armageddon-2013/
+title: "Blueprint for Armageddon (2013)"
 author: "Dan Carlin"
 rating: 5
 date: 2013-10-01

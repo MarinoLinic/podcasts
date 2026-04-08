@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /notes/philip-pilkington-the-collapse-of-global-liberalism-and-the-emergence-of-the-post-liberal-world-order/
-title: "The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order"
+permalink: /notes/philip-pilkington-the-collapse-of-global-liberalism-and-the-emergence-of-the-post-liberal-world-order-2025/
+title: "The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025)"
 author: "Philip Pilkington"
 rating: 5
 date: 2025-11-04

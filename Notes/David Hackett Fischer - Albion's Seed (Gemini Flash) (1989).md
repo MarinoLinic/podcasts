@@ -1,7 +1,7 @@
 ---
 layout: default
-permalink: /notes/david-hackett-fischer-albion-s-seed-gemini-flash/
-title: "Albion's Seed (Gemini Flash)"
+permalink: /notes/david-hackett-fischer-albion-s-seed-gemini-flash-1989/
+title: "Albion's Seed (Gemini Flash) (1989)"
 author: "David Hackett Fischer"
 rating: 5
 date: 1989-03-14
