@@ -315,13 +315,95 @@
     line-height: 1.5;
   }
 
+  /* ─── MOBILE TOC BAR ─── */
+  #mobile-toc {
+    display: none;
+    position: fixed;
+    bottom: 0; left: 0; right: 0;
+    z-index: 300;
+    font-family: var(--font-mono);
+  }
+  #mobile-toc-bar {
+    background: var(--paper-warm);
+    border-top: 1px solid var(--rule);
+    padding: 10px 16px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #mobile-toc-bar:active { background: var(--rule-light); }
+  #mobile-toc-current {
+    flex: 1;
+    font-size: 0.72rem;
+    color: var(--ink-light);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  #mobile-toc-chevron {
+    color: var(--ink-faint);
+    font-size: 0.7rem;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+  }
+  #mobile-toc.open #mobile-toc-chevron { transform: rotate(180deg); }
+  #mobile-toc-label {
+    font-size: 0.6rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--accent);
+    flex-shrink: 0;
+  }
+  #mobile-toc-drawer {
+    background: var(--paper);
+    border-top: 1px solid var(--rule);
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.28s ease;
+  }
+  #mobile-toc.open #mobile-toc-drawer {
+    max-height: 60vh;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  #mobile-toc-drawer ul {
+    list-style: none;
+    padding: 8px 0 calc(env(safe-area-inset-bottom, 0px) + 8px);
+    margin: 0;
+  }
+  #mobile-toc-drawer li a {
+    display: block;
+    padding: 7px 16px 7px 20px;
+    font-size: 0.78rem;
+    color: var(--ink-light);
+    text-decoration: none;
+    border-left: 2px solid transparent;
+    font-family: var(--font-body);
+  }
+  #mobile-toc-drawer li.toc-sub a {
+    padding-left: 32px;
+    font-size: 0.72rem;
+    color: var(--ink-faint);
+  }
+  #mobile-toc-drawer li a.active {
+    color: var(--accent);
+    border-left-color: var(--accent);
+    font-weight: 600;
+    background: rgba(139,58,42,0.04);
+  }
+
   /* ─── RESPONSIVE ─── */
   @media (max-width: 900px) {
     .site-wrap { padding: 0 20px; flex-direction: column; }
-    #toc-sidebar { width: 100%; padding: 40px 0 0; display: none; }
-    main { padding: 0; border-left: none; }
+    #toc-sidebar { display: none; }
+    main { padding: 0 0 80px; border-left: none; }
+    #mobile-toc { display: block; }
+    #scroll-top { bottom: 72px; }
   }
   @media (max-width: 600px) {
+    .site-wrap { padding: 0 16px; }
     h1 { font-size: 1.8rem; }
     h2 { font-size: 1.3rem; }
   }
@@ -387,7 +469,7 @@
       <h1>Intelligence Is a Distribution, Not a Number</h1>
       <p class="essay-lede">Why some people are dramatically better at things than others — a four-layer model of cognitive performance, from genetics to environmental amplification.</p>
       <div class="essay-meta">
-        <span>32,038 words</span>
+        <span>32,033 words</span>
         <span class="sep">·</span>
         <span>139 min read</span>
         <span class="sep">·</span>
@@ -395,7 +477,7 @@
       </div>
     </header>
 
-    <p>I know a five-year-old who multiplies large numbers in his head. Not as a party trick — he just does it constantly, the way other kids narrate whatever they're doing. 768 times 24. He wanders around producing these. He's five. And the temptation, when you see it, is to say: this kid is a genius. He has the gift.</p>
+    <p>I know of a five-year-old who multiplies large numbers in his head. He just does it constantly, the way other kids narrate whatever they're doing. 768 times 24. He wanders around producing these. He's five. And the temptation, when you see it, is to say: this kid is a genius. He has the gift.</p>
     <p>That's not wrong. But it flattens something. The "gift" is at minimum two things tangled together: a brain that finds arithmetic cheap and fast, and a reward system that makes it feel <em>good</em>. He isn't practicing. He's doing what feels like messing around. These are different things, and the difference matters more than people usually think.</p>
     <p>The larger question this kid raises has been argued about forever: what actually explains why some people are dramatically better at things than others? Is it intelligence? Practice? Some mix? And what do we even mean by "better"? Not money, not status, not career outcomes — those are downstream of too many other things to be useful here. We mean performance. The actual ability to do the thing.</p>
     <p>This question gets especially sharp in narrow domains. The person who solves in ten minutes what you couldn't crack in three days. The student who seems to operate on a different plane despite studying less. The chess player whose advantage looks like a different species rather than a better version of the same thing. These gaps feel qualitatively different from ordinary variation, and people's intuitions about why they exist are almost always wrong in some instructive way — usually by overcrediting either raw intelligence or hard work, and missing the structure underneath both.</p>
@@ -2248,8 +2330,51 @@
   </main>
 </div>
 
-<script>
-  // ── READING PROGRESS ──
+<nav id="mobile-toc" aria-label="Table of contents">
+  <div id="mobile-toc-drawer">
+    <ul id="mobile-toc-drawer-list">
+      <li><a href="#the-four-layers">The Four Layers</a></li>
+        <li><a href="#layer-1-architecture">Layer 1: Architecture</a></li>
+        <li class="toc-sub"><a href="#it-starts-with-genetics-but-not-the-way-people-think">It Starts With Genetics, But Not the Way People Think <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li class="toc-sub"><a href="#what-actually-varies">What Actually Varies</a></li>
+        <li class="toc-sub"><a href="#under-the-hood">Under the Hood</a></li>
+        <li class="toc-sub"><a href="#why-_g_-works">Why <em>g</em> Works</a></li>
+        <li class="toc-sub"><a href="#iq-the-measurement-and-what-it-means">IQ: The Measurement and What It Means <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li class="toc-sub"><a href="#how-people-think-differently">How People Think Differently</a></li>
+        <li class="toc-sub"><a href="#when-domains-narrow-architecture-becomes-visible">When Domains Narrow, Architecture Becomes Visible <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li><a href="#layer-2-motivational-reinforcement">Layer 2: Motivational Reinforcement</a></li>
+        <li class="toc-sub"><a href="#the-interest-loop">The Interest Loop <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li class="toc-sub"><a href="#hard-work-is-not-what-people-think">Hard Work Is Not What People Think</a></li>
+        <li class="toc-sub"><a href="#personality-has-the-same-shape">Personality Has the Same Shape <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li><a href="#layer-3-accumulated-compression">Layer 3: Accumulated Compression</a></li>
+        <li class="toc-sub"><a href="#fluid-and-crystallized-intelligence">Fluid and Crystallized Intelligence</a></li>
+        <li class="toc-sub"><a href="#the-mit-story-and-whats-actually-happening">The MIT Story, and What's Actually Happening</a></li>
+        <li class="toc-sub"><a href="#the-polgár-case">The Polgár Case</a></li>
+        <li><a href="#layer-4-environmental-amplification">Layer 4: Environmental Amplification <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li class="toc-sub"><a href="#what-the-environment-actually-does">What the Environment Actually Does</a></li>
+        <li class="toc-sub"><a href="#bell-curves-log-normals-and-why-outcomes-look-different-from-biology">Bell Curves, Log-Normals, and Why Outcomes Look Different From Biology <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li class="toc-sub"><a href="#why-maximum-intelligence-was-never-selected-for">Why Maximum Intelligence Was Never Selected For</a></li>
+        <li class="toc-sub"><a href="#the-modern-environment-is-genuinely-unprecedented">The Modern Environment Is Genuinely Unprecedented</a></li>
+        <li class="toc-sub"><a href="#assortative-mating-and-the-concentration-of-traits">Assortative Mating and the Concentration of Traits</a></li>
+        <li><a href="#a-note-on-profile-differences-across-groups">A Note on Profile Differences Across Groups</a></li>
+        <li class="toc-sub"><a href="#sex-differences">Sex Differences <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li class="toc-sub"><a href="#racial-and-ethnic-group-differences">Racial and Ethnic Group Differences <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li><a href="#good-profile-for-what-environment">"Good" Profile: For What Environment?</a></li>
+        <li><a href="#two-profiles-in-detail-adhd-and-autism">Two Profiles in Detail: ADHD and Autism</a></li>
+        <li class="toc-sub"><a href="#adhd">ADHD</a></li>
+        <li class="toc-sub"><a href="#autism-spectrum">Autism Spectrum</a></li>
+        <li><a href="#the-model-put-together">The Model, Put Together <span class="toc-viz-icon" title="Contains visualizations">◉</span></a></li>
+        <li><a href="#what-an-iq-test-actually-tells-you">What an IQ Test Actually Tells You</a></li>
+        <li><a href="#a-missing-variable-coordination-and-collective-cognition">A Missing Variable: Coordination and Collective Cognition</a></li>
+      <li><a href="#notes">Notes &amp; References</a></li>
+    </ul>
+  </div>
+  <div id="mobile-toc-bar" onclick="toggleMobileToc()" role="button" aria-expanded="false" aria-controls="mobile-toc-drawer">
+    <span id="mobile-toc-label">§</span>
+    <span id="mobile-toc-current">Contents</span>
+    <span id="mobile-toc-chevron">▲</span>
+  </div>
+</nav>
   const progress = document.getElementById('reading-progress');
   window.addEventListener('scroll', () => {
     const pct = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight) * 100;
@@ -2262,23 +2387,54 @@
     scrollBtn.classList.toggle('visible', window.scrollY > 600);
   }, { passive: true });
 
-  // ── TOC ACTIVE STATE ──
+  // ── TOC ACTIVE STATE (desktop + mobile) ──
   const headings = Array.from(document.querySelectorAll('h2[id], h3[id]'));
   const tocLinks = Array.from(document.querySelectorAll('#toc-list a'));
+  const mobileTocLinks = Array.from(document.querySelectorAll('#mobile-toc-drawer-list a'));
+  const mobileCurrent = document.getElementById('mobile-toc-current');
 
   function updateToc() {
     let current = '';
+    let currentText = 'Contents';
     const scrollY = window.scrollY + 100;
     for (const h of headings) {
-      if (h.offsetTop <= scrollY) current = h.id;
+      if (h.offsetTop <= scrollY) {
+        current = h.id;
+        currentText = h.textContent.replace(/◉/g, '').trim();
+      }
     }
     tocLinks.forEach(a => {
       const href = a.getAttribute('href').slice(1);
       a.classList.toggle('active', href === current);
     });
+    mobileTocLinks.forEach(a => {
+      const href = a.getAttribute('href').slice(1);
+      a.classList.toggle('active', href === current);
+    });
+    if (mobileCurrent) mobileCurrent.textContent = currentText;
   }
   window.addEventListener('scroll', updateToc, { passive: true });
   updateToc();
+
+  // ── MOBILE TOC TOGGLE ──
+  const mobileToc = document.getElementById('mobile-toc');
+  const mobileTocBar = document.getElementById('mobile-toc-bar');
+
+  window.toggleMobileToc = function() {
+    const isOpen = mobileToc.classList.toggle('open');
+    mobileTocBar.setAttribute('aria-expanded', String(isOpen));
+    if (isOpen) {
+      const active = document.querySelector('#mobile-toc-drawer-list a.active');
+      if (active) setTimeout(() => active.scrollIntoView({block: 'nearest'}), 50);
+    }
+  };
+
+  mobileTocLinks.forEach(a => {
+    a.addEventListener('click', () => {
+      mobileToc.classList.remove('open');
+      mobileTocBar.setAttribute('aria-expanded', 'false');
+    });
+  });
 </script>
 </body>
 </html>
