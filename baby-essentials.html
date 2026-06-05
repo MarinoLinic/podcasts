@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Baby Essentials Checklist</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;1,400&family=DM+Sans:wght@300;400;500&display=swap');
+
+  :root {
+    --sage: #7a9e7e;
+    --amber: #c8956c;
+    --amber-light: #f5ede5;
+    --sage-light: #eef3ee;
+    --text: #2d3527;
+    --text-muted: #7a7e72;
+    --text-light: #a8ac9f;
+    --border: #d8ddd2;
+    --bg: #fafaf8;
+    --optional-text: #b07040;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html {
+    background: #e8e8e4;
+    min-height: 100%;
+  }
+
+  body {
+    background: #e8e8e4;
+    font-family: 'DM Sans', sans-serif;
+    color: var(--text);
+    font-size: 10pt;
+    line-height: 1.4;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 0 40px;
+    min-height: 100vh;
+  }
+
+  @page {
+    size: A4;
+    margin: 12mm 14mm;
+  }
+
+  @media print {
+    html { background: white; }
+    body { padding: 0; background: white; display: block; }
+    .page { box-shadow: none; }
+    .print-btn { display: none !important; }
+    .tooltip { display: none !important; }
+  }
+
+  /*
+   * A4 print layout (210 × 297 mm).
+   * overflow: hidden keeps decorative blobs inside the page boundary so
+   * they don't bleed into printer margins or onto a second sheet.
+   */
+  .page {
+    width: 210mm;
+    min-height: 297mm;
+    padding: 12mm 14mm;
+    background: white;
+    box-shadow: 0 4px 32px rgba(0,0,0,0.13);
+    position: relative;
+    overflow: hidden;
+  }
+
+  /* Decorative blobs — kept fully inside the page with overflow: hidden above */
+  .blob-tl {
+    position: absolute;
+    top: -20px; left: -20px;
+    width: 80px; height: 80px;
+    border-radius: 50%;
+    background: var(--sage-light);
+    opacity: 0.75;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .blob-br {
+    position: absolute;
+    bottom: -20px; right: -20px;
+    width: 90px; height: 90px;
+    border-radius: 50%;
+    background: var(--amber-light);
+    opacity: 0.65;
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  /* ── HEADER ── */
+  .header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-bottom: 9px;
+    padding-bottom: 8px;
+    border-bottom: 1.5px solid var(--border);
+    position: relative;
+    z-index: 2;
+  }
+  .header-left h1 {
+    font-family: 'Lora', serif;
+    font-size: 22pt;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 1.1;
+    letter-spacing: -0.3px;
+  }
+  .header-left p {
+    font-size: 8.5pt;
+    color: var(--text-muted);
+    margin-top: 2px;
+    font-weight: 300;
+  }
+  .legend {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 5px;
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 7.5pt;
+    color: var(--text-muted);
+  }
+  .legend-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+  }
+  .legend-dot.essential { background: var(--sage); }
+  .legend-dot.optional  { background: var(--amber); }
+
+  .print-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 12px;
+    background: var(--sage);
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 8pt;
+    font-family: 'DM Sans', sans-serif;
+    cursor: pointer;
+    font-weight: 500;
+    white-space: nowrap;
+    margin-top: 3px;
+    flex-shrink: 0;
+  }
+  .print-btn:hover { background: #6a8e6e; }
+
+  /* ── MAIN GRID — 3 columns ── */
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0 14px;
+    align-items: start;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* ── SECTION ── */
+  .section {
+    break-inside: avoid;
+    margin-bottom: 4px;
+  }
+
+  .section-title {
+    font-family: 'Lora', serif;
+    font-size: 10.5pt;
+    font-weight: 600;
+    color: var(--text);
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 5px;
+    margin-top: 8px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  /* ── OPTIONAL divider ── */
+  .optional-label {
+    font-size: 7pt;
+    font-weight: 500;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+    color: var(--amber);
+    margin: 5px 0 3px 0;
+  }
+
+  /* ── ITEM ── */
+  .item {
+    display: flex;
+    align-items: flex-start;
+    gap: 5px;
+    margin-bottom: 3px;
+    position: relative;
+    cursor: default;
+  }
+  .item input[type="checkbox"] {
+    width: 9px; height: 9px;
+    margin-top: 2.5px;
+    accent-color: var(--sage);
+    flex-shrink: 0;
+    cursor: pointer;
+  }
+  .item.opt input[type="checkbox"] {
+    accent-color: var(--amber);
+  }
+  .item-body { flex: 1; }
+  .item-name {
+    font-size: 8.5pt;
+    font-weight: 400;
+    color: var(--text);
+    line-height: 1.3;
+  }
+  .item.opt .item-name { color: var(--optional-text); }
+
+  .item-note {
+    font-size: 7pt;
+    color: var(--text-muted);
+    line-height: 1.3;
+    font-style: italic;
+  }
+  .item.opt .item-note { color: var(--text-light); }
+
+  /* ── TOOLTIP — triggered on .item hover ── */
+  .item .tooltip {
+    position: absolute;
+    left: 0;
+    top: calc(100% + 5px);
+    background: #2d3527;
+    color: #f0f0ec;
+    font-size: 7.5pt;
+    font-style: normal;
+    font-weight: 400;
+    padding: 6px 9px;
+    border-radius: 6px;
+    width: 170px;
+    line-height: 1.45;
+    z-index: 200;
+    pointer-events: none;
+    box-shadow: 0 3px 12px rgba(0,0,0,0.28);
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.15s ease, visibility 0s linear 1.4s;
+  }
+  .item .tooltip::before {
+    content: '';
+    position: absolute;
+    top: -4px; left: 12px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-bottom: 4px solid #2d3527;
+  }
+  .item:hover .tooltip {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.18s ease 1.3s, visibility 0s linear 1.3s;
+  }
+
+  /* Tooltip hint via cursor only — no underline */
+  .item:has(.tooltip) .item-name {
+    cursor: help;
+  }
+
+  /* ── REGRET BOX ── */
+  .regret-box {
+    grid-column: 1 / -1;
+    margin-top: 10px;
+    border: 1px solid #f0c8a8;
+    border-radius: 7px;
+    background: var(--amber-light);
+    padding: 7px 10px;
+  }
+  .regret-title {
+    font-size: 7.5pt;
+    font-weight: 500;
+    color: var(--amber);
+    margin-bottom: 5px;
+  }
+  .regret-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+  }
+  .regret-tag {
+    background: white;
+    border: 1px solid #e8c0a0;
+    border-radius: 20px;
+    padding: 2px 9px;
+    font-size: 7.5pt;
+    color: var(--optional-text);
+  }
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="blob-tl"></div>
+  <div class="blob-br"></div>
+
+  <!-- HEADER -->
+  <div class="header">
+    <div class="header-left">
+      <h1>Baby Essentials</h1>
+      <p>A practical checklist for the first weeks. Essentials first, optionals in amber.</p>
+      <div class="legend">
+        <div class="legend-item"><span class="legend-dot essential"></span> Essential</div>
+        <div class="legend-item"><span class="legend-dot optional"></span> Optional / Nice-to-have</div>
+      </div>
+    </div>
+    <button class="print-btn" onclick="window.print()">🖨 Print</button>
+  </div>
+
+  <!-- GRID -->
+  <div class="grid">
+
+    <!-- COL 1: Sleep -->
+    <div class="section">
+      <div class="section-title">🌙 Sleep</div>
+
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Crib</div>
+          <div class="item-note">Bassinet useful for first weeks; fits in parents&apos; room</div>
+          <span class="tooltip">A full-size crib is the long-term sleep space. For the first weeks, a bassinet is a handy addition: smaller, easier to position beside the bed for nighttime nursing.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Firm crib mattress</div>
+          <div class="item-note">Soft surfaces increase SIDS risk</div>
+          <span class="tooltip">Firmness is a safety requirement, not a comfort preference. Soft mattresses, pillows, and loose bedding are all SIDS risk factors. Stick to a firm, flat surface with a fitted sheet only.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Waterproof mattress pad</div>
+          <span class="tooltip">Goes under the fitted sheet to protect the mattress from blowouts and leaks. You'll be glad you have it at 3am when you're already doing a sheet change.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">2–4 fitted sheets</div>
+          <span class="tooltip">Blowouts and spit-up happen at night too. Having several sheets ready means you can do a quick swap and get back to sleep without hunting for clean laundry.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">3 swaddles or sleep sacks</div>
+          <div class="item-note">Baby will have opinions; don't over-stock one type</div>
+          <span class="tooltip">Swaddles mimic the womb and help suppress the startle reflex that wakes newborns. Sleep sacks work better once babies can break free of swaddles. Babies often reject particular styles, so start with a variety before buying in bulk.</span>
+        </div>
+      </div>
+
+      <div class="optional-label">Optional</div>
+
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Bassinet or Moses basket</div>
+          <span class="tooltip">Smaller than a crib and easier to fit in the parents' room for the first weeks. Some have a drop side for easier nighttime access without fully getting out of bed.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Baby monitor</div>
+          <span class="tooltip">Audio or video check on the baby without entering the room. More useful once baby moves to their own room. Less useful if you're all sleeping in the same space.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">White noise machine</div>
+          <span class="tooltip">Masks household sounds like doors, conversations, or traffic that can startle a sleeping baby. Many parents find it extends sleep stretches noticeably. A phone app or smart speaker works just as well.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Night light</div>
+          <span class="tooltip">Dim enough not to fully wake the baby during night feeds or nappy changes, but bright enough to see what you're doing. Warm amber tones are less disruptive to sleep than white or blue light.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- COL 2: Feeding -->
+    <div class="section">
+      <div class="section-title">🍼 Feeding</div>
+
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Nursing bras &amp; nursing pads</div>
+          <div class="item-note">If breastfeeding</div>
+          <span class="tooltip">Nursing bras open at the front for easier access without removing the bra. Nursing pads (disposable or reusable) absorb leaks between feeds, as breasts often let down on both sides at once.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">6–8 bottles and nipples</div>
+          <div class="item-note">More bottles means fewer washes; get dishwasher-safe ones</div>
+          <span class="tooltip">Newborns feed every 2 to 3 hours, so bottles pile up fast. Having 6 to 8 means you can let them accumulate and run one dishwasher cycle at the end of the day rather than hand-washing after every single feed. Fewer interruptions overnight. Don't stock up on one nipple brand; some babies are picky about flow and shape.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Burp cloths</div>
+          <span class="tooltip">Newborns spit up frequently, sometimes after almost every feed.. Drape over your shoulder while burping and keep several within reach at all times. Cloth nappies double up well here.</span>
+        </div>
+      </div>
+
+      <div class="optional-label">Optional</div>
+
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Bottle sterilizer</div>
+          <div class="item-note">Dishwasher works just as well</div>
+          <span class="tooltip">A dishwasher on a hot cycle sterilizes bottles just as effectively. A dedicated sterilizer is only worth it if you don't have a dishwasher or want extra reassurance; it is otherwise a common regret purchase.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Bottle warmer</div>
+          <span class="tooltip">Many babies accept milk at whatever temperature it comes out: room temp or straight from the fridge. Worth trying cold/room-temp first before buying, since a bowl of warm water works just as well if warming is needed.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Breast pump</div>
+          <span class="tooltip">Useful for building a milk supply, relieving engorgement, and enabling someone else to feed. Manual pumps are quiet and portable; electric pumps are faster for regular use. Often covered by health insurance. Worth checking before buying.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Milk storage bags</div>
+          <span class="tooltip">Flat, freezer-safe bags designed for breast milk. More space-efficient than bottles in the freezer. Label with date and volume; frozen milk keeps for around 6 months.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">High chair</div>
+          <div class="item-note">~6 months</div>
+          <span class="tooltip">Only needed when solids start, usually around 6 months. No rush to buy early; it's a bulky item and babies shouldn't sit in one unsupported before they're ready.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- COL 3: Diapering -->
+    <div class="section">
+      <div class="section-title">🔑 Diapering</div>
+
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Diapers (multiple sizes)</div>
+          <span class="tooltip">Stock a small amount of newborn size and more of size 1; many babies skip newborn entirely or outgrow it within weeks. Avoid buying huge quantities of any single size in advance.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Baby wipes</div>
+          <span class="tooltip">Used at every nappy change. Fragrance-free and alcohol-free formulas are gentler on newborn skin. Unscented water wipes are a safe choice for the first weeks when skin is most sensitive.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Diaper rash cream</div>
+          <span class="tooltip">A zinc oxide barrier cream (like Sudocrem or Desitin) prevents and treats nappy rash by protecting skin from moisture. Apply at the first sign of redness; easier to prevent than to clear up.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Changing mat or pad</div>
+          <span class="tooltip">A waterproof, wipe-clean surface for nappy changes. Doesn't need to be a dedicated changing unit. A mat on the floor works fine and eliminates any fall risk.</span>
+        </div>
+      </div>
+
+      <div class="optional-label">Optional</div>
+
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Portable changing pad</div>
+          <span class="tooltip">A foldable version that fits in the nappy bag. Useful for changing on the go without having to use surfaces of unknown cleanliness.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Nappy disposal system</div>
+          <span class="tooltip">A dedicated diaper pail with odour-sealing mechanism. Regular bins work fine if emptied daily; the main advantage of a dedicated system is not having to take out the bag after every change.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- COL 1 cont: Clothing -->
+    <div class="section">
+      <div class="section-title">👕 Clothing</div>
+
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">12+ sleepers / pyjamas per size</div>
+          <div class="item-note">Footed + hand mitts built in; newborns outgrow quickly</div>
+          <span class="tooltip">Newborns can go through multiple outfits a night due to blowouts. Sleepers with built-in feet mean no separate socks, and fold-over hand mitts prevent self-scratching. Buy mostly 0–3m and 3–6m sizes; newborn size is outgrown very quickly.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">2 outfits (onesies)</div>
+          <span class="tooltip">For when you want something a bit more put-together than a sleeper. Make sure tops are actually onesies that snap at the crotch; regular tops ride up constantly and aren't practical on newborns.</span>
+        </div>
+      </div>
+
+      <div class="optional-label">Optional</div>
+
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Socks</div>
+          <div class="item-note">Mostly unneeded with footed sleepers</div>
+          <span class="tooltip">Mostly redundant if you're using footed sleepers, which keep feet covered and warm without the effort. Useful for warmer weather when sleepers without feet are more comfortable.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">2–3 hats</div>
+          <div class="item-note">Essential early; newborns lose heat fast</div>
+          <span class="tooltip">Newborns lose a disproportionate amount of body heat through their heads and can't regulate temperature well. Hats are especially important in the first few weeks and in cooler environments.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Mittens</div>
+          <span class="tooltip">Prevents babies from scratching their own faces with their sharp new nails. Many sleepers have fold-over cuffs that do the same job. Check before buying separate mittens.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Jackets / outdoor suits</div>
+          <span class="tooltip">Weather and season dependent. Note: bulky coats should not be worn in car seats; use a thin layer under the harness and a blanket over the top instead.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- COL 2 cont: Bathing -->
+    <div class="section">
+      <div class="section-title">🛁 Bathing</div>
+
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Baby bathtub or bath support</div>
+          <span class="tooltip">Keeps a newborn secure and at a safe depth in the water. Full-size baths are too deep and slippery. A small baby tub or a reclining seat insert gives you control with both hands.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Baby soap / shampoo</div>
+          <div class="item-note">Fragrance-free, tear-free</div>
+          <span class="tooltip">Newborn skin is delicate and absorbs more than adult skin. Fragrance-free, tear-free formulas minimise irritation. In the first few weeks, plain warm water is enough; soap isn't necessary at every bath.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">2–3 soft towels / washcloths</div>
+          <span class="tooltip">Regular towels work fine; hooded baby towels are cute but unnecessary. The key is having enough to rotate through without doing laundry after every bath.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Bath water thermometer</div>
+          <div class="item-note">Target 37 °C; kitchen thermometer works</div>
+          <span class="tooltip">Babies can't tell you the water is too hot, and their skin burns more easily than adults'. The target is around 37 °C (98 °F), slightly warm to the touch. An elbow dip is a rough check, but a thermometer removes the guesswork. A regular kitchen thermometer works perfectly.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- COL 3 cont: Transportation -->
+    <div class="section">
+      <div class="section-title">🚗 Transportation</div>
+
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Car seat</div>
+          <div class="item-note">Infant (detachable) or convertible; both fine from birth</div>
+          <span class="tooltip">Infant seats are rear-facing only, have a detachable base and carry handle, and are convenient for moving a sleeping baby. Convertible seats grow with the child (rear- then forward-facing) but stay in the car. Either works from birth; choose based on lifestyle.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Stroller</div>
+          <span class="tooltip">Check compatibility with your car seat if you want a travel system (seat clicks directly onto the pushchair frame). A flat recline is important for newborns who can't yet support their head.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Baby carrier or wrap</div>
+          <span class="tooltip">Keeps baby close and soothed while freeing both hands. Wraps (stretchy fabric) suit newborns well; structured carriers are easier to use as babies get heavier. Finding the right fit is often trial and error; many libraries and groups offer rental or demo days.</span>
+        </div>
+      </div>
+
+      <div class="optional-label">Optional</div>
+
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Second carrier</div>
+          <span class="tooltip">Different carriers suit different ages, activities, and body types. A stretchy wrap for a newborn and a structured carrier for a heavier older baby is a common combination for parents who carry a lot.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Stroller accessories</div>
+          <span class="tooltip">A rain cover is worth having if you walk in variable weather; most strollers don't include one. Snack trays, footmuffs, and sun shades add convenience depending on your climate and habits.</span>
+        </div>
+      </div>
+      <div class="item opt">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Car seat base</div>
+          <span class="tooltip">Stays permanently installed in the car; the infant seat clicks in and out in seconds. Avoids re-threading the seat belt every time. Very convenient for one car; less practical if you switch cars often.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- COL 1 cont: Health -->
+    <div class="section">
+      <div class="section-title">🩺 Health</div>
+
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Thermometer (temporal/forehead)</div>
+          <span class="tooltip">A temporal (forehead) thermometer is fast, non-invasive, and works on a sleeping baby. Rectal thermometers are most accurate for newborns but require more care. Avoid ear thermometers for babies under 6 months; ear canals are too small for reliable readings.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Nasal aspirator</div>
+          <div class="item-note">Frida NoseFrida style is more effective</div>
+          <span class="tooltip">Newborns are obligate nose breathers and can't blow their noses. A blocked nose makes feeding difficult. The NoseFrida (mouth-operated suction tube) is significantly more effective than bulb syringes; there is a filter, you don't actually suck snot.</span>
+        </div>
+      </div>
+      <div class="item">
+        <input type="checkbox">
+        <div class="item-body">
+          <div class="item-name">Baby nail clippers</div>
+          <span class="tooltip">Newborn nails grow surprisingly fast and are sharp enough to scratch their own face. Clip after a bath when nails are softer, or while baby is asleep. Baby scissors with rounded tips work well too.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- COL 2+3 cont: Home -->
+    <div class="section" style="grid-column: 2 / 4;">
+      <div class="section-title">🏠 Home</div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px;">
+        <div>
+          <div class="item">
+            <input type="checkbox">
+            <div class="item-body">
+              <div class="item-name">Pacifiers</div>
+              <div class="item-note">Reduces SIDS risk; don't stock one shape</div>
+              <span class="tooltip">Pacifiers are linked to reduced SIDS risk and soothe babies between feeds. Many babies refuse them or have strong shape preferences. Buy a couple of different types before committing to one. If breastfeeding, some guidelines suggest waiting until feeding is established (around 3–4 weeks).</span>
+            </div>
+          </div>
+          <div class="optional-label">Optional</div>
+          <div class="item opt">
+            <input type="checkbox">
+            <div class="item-body">
+              <div class="item-name">Changing table / dresser</div>
+              <span class="tooltip">A dedicated surface at waist height makes changes easier on your back. A chest of drawers with a changing topper works just as well and is more versatile long-term. A mat on the floor is the safest option, with no fall risk.</span>
+            </div>
+          </div>
+          <div class="item opt">
+            <input type="checkbox">
+            <div class="item-body">
+              <div class="item-name">Rocking chair or glider</div>
+              <span class="tooltip">You'll spend hours in this chair, for feeds, settling, and soothing. The gentle motion helps calm babies and keeps you comfortable during long nights. Worth investing in if you plan to use it regularly.</span>
+            </div>
+          </div>
+          <div class="item opt">
+            <input type="checkbox">
+            <div class="item-body">
+              <div class="item-name">Nursing pillow</div>
+              <span class="tooltip">Wraps around the waist to bring baby to the right height for breastfeeding without straining your arms and back. Also useful later for propping a baby during tummy time or supporting them as they learn to sit.</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="optional-label" style="margin-top: 0; visibility: hidden;">Optional</div>
+          <div class="item opt" style="margin-top: 0;">
+            <input type="checkbox">
+            <div class="item-body">
+              <div class="item-name">Bouncer or baby swing</div>
+              <span class="tooltip">Soothes and occupies baby hands-free, which is genuinely useful. Bouncers are compact and portable; swings have more motion settings. Many babies have strong preferences; borrow or buy second-hand before committing to an expensive model.</span>
+            </div>
+          </div>
+          <div class="item opt">
+            <input type="checkbox">
+            <div class="item-body">
+              <div class="item-name">Pack-and-play / travel crib</div>
+              <span class="tooltip">Portable and versatile; useful as a backup sleeping space, a safe play zone, or for overnight trips. Many include a bassinet insert for newborns that can be removed as baby grows.</span>
+            </div>
+          </div>
+          <div class="item opt">
+            <input type="checkbox">
+            <div class="item-body">
+              <div class="item-name">Diaper bag + caddy</div>
+              <span class="tooltip">A diaper bag organises nappies, wipes, a change of clothes, and feeding supplies for outings. A caddy (open-top portable tray) lets you move your changing essentials from room to room without a fixed changing station.</span>
+            </div>
+          </div>
+          <div class="item opt">
+            <input type="checkbox">
+            <div class="item-body">
+              <div class="item-name">Baby activity gym</div>
+              <span class="tooltip">A padded mat with hanging toys and a play arch. Used for tummy time and supervised back play; the hanging objects encourage babies to track, bat, and eventually grab. One of the few early toys that actually gets used regularly.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- REGRET BOX: full width -->
+    <div style="grid-column: 1 / -1; margin-top: 8px;">
+      <div class="regret-box">
+        <div class="regret-title">⚠️ Often bought, often regretted</div>
+        <div class="regret-tags">
+          <span class="regret-tag">Wipe warmers</span>
+          <span class="regret-tag">Smart bassinets &amp; fancy gadgets</span>
+          <span class="regret-tag">Elaborate nursery décor</span>
+          <span class="regret-tag">Too many newborn-size clothes</span>
+          <span class="regret-tag">Expensive toys in first 3 months</span>
+          <span class="regret-tag">Bottle sterilizer (dishwasher is fine)</span>
+        </div>
+      </div>
+    </div>
+
+  </div><!-- /grid -->
+</div><!-- /page -->
+</body>
+</html>
