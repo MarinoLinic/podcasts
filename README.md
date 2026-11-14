@@ -1,4 +1,4 @@
-# Marino's Notes
+# Marino's Podcast Notes
 
 <img src="favicon.svg" width="48" height="48" alt="" />
 
@@ -10,7 +10,11 @@ A searchable library of 113 notes on podcasts, articles, and books. Original Mar
 
 | Note reader | Phone library |
 | --- | --- |
-| ![Note reader with both copy actions](docs/screenshots/note-desktop.png) | ![Phone library](docs/screenshots/library-phone.png) |
+| ![Note reader with copy and download controls](docs/screenshots/note-desktop.png) | ![Phone library](docs/screenshots/library-phone.png) |
+
+| Optional note navigation | Source transcript |
+| --- | --- |
+| ![Full author navigation drawer](docs/screenshots/navigation-desktop.png) | ![Timed source transcript](docs/screenshots/transcript-desktop.png) |
 
 ## Edit or add a note
 
@@ -36,11 +40,11 @@ Type accepts `video`, `article`, or `book`. Metadata is optional; unknown dates 
 
 ## Read and copy
 
-Search titles, people, summaries and topics. Filter by source type, person, topic or rating; sort by date, title, person or rating. The library renders 24 results per page. Filters/page numbers survive reload through the URL. Notes have local contents lists instead of a sidebar listing every note.
+Search titles, people, summaries and topics. Filters let you narrow source type, author, topic or rating. All nine recorded tags, including TFR, are available. The homepage keeps the exact original sidebar order: authors alphabetically, with each author's five-star articles first and both rating groups ordered by source date. All matching articles appear under their authors without pagination. Filters survive reload through the URL. **Menu** opens optional full note navigation in the same order; each note also has a local contents list.
 
-- **Copy text** gives readable plain text for a Facebook post, message or document, retaining the title and source links.
-- **Copy Markdown** gives the exact original source text, including metadata and formatting.
-- **Download .md** preserves original bytes. Denied clipboard access opens a selectable-text fallback.
+- **Copy text** and **Download text** give readable plain text for a Facebook post, message or document, retaining the title and source links.
+- **Copy Markdown** and **Download Markdown** give the original source, including metadata and formatting. Markdown downloads preserve original bytes. Denied clipboard access opens a selectable-text fallback.
+- **Read transcript** opens retained captions when available. Note metadata shows source type, author, date, rating and body word count.
 
 Original note wording is retained. Notes are curated by Marino and largely written with Gemini; they are not independently verified source records.
 
@@ -53,7 +57,7 @@ npm ci --ignore-scripts
 npm run dev
 ```
 
-Open `http://127.0.0.1:4175/podcasts/`. The preview rebuilds when notes, site assets or the caption catalog change. Stop with Ctrl+C. After installation, **Open Notes.cmd** starts or reuses that preview, then opens the browser when ready. Restart the preview after changing build scripts.
+Open `http://127.0.0.1:4175/podcasts/`. The preview rebuilds when notes, site assets or the caption catalog change. It reuses the matching server on port 4175. Page/source requests, actual browser interaction and real source changes count as activity; health checks and file-watcher polling do not. It stops automatically after two hours without meaningful activity. Stop manually with `node scripts/serve.mjs --stop` or Ctrl+C. After installation, **Open Notes.cmd** starts or reuses that preview, then opens the browser when ready. Restart the preview after changing build scripts.
 
 ```powershell
 npm run check
@@ -72,7 +76,7 @@ sources/youtube/
     transcript.md              Unchanged caption Markdown returned by yt
     segments.json              Unchanged metadata and timed segments from yt
     source.json                Identity, caption type, language, dates and hashes
-site/                          CSS and small browser interactions
+site/                          Original-style CSS, local fonts, navigation order and interactions
 scripts/                       Build, checks, preview and caption import
 legacy/2026-11-14/              Previous Jekyll pages, exports, transcripts and tools
 docs/preservation-manifest.json Original/retained paths, byte sizes and SHA-256

@@ -1,0 +1,684 @@
+{
+  "schema": 1,
+  "basis": "Exact original sidebar ordering, derived from preserved Jekyll metadata. Only navigation order is frozen; original note text and displayed metadata remain authoritative. New files use their own metadata.",
+  "entries": [
+    {
+      "filename": "Bryan Caplan - Selfish Reasons to Have More Kids (2012).md",
+      "author": "Bryan Caplan",
+      "rating": 5,
+      "date": "2012-05-08"
+    },
+    {
+      "filename": "Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.md",
+      "author": "Curtis Yarvin",
+      "rating": 5,
+      "date": "2025-10-14"
+    },
+    {
+      "filename": "Curtis Yarvin - An Open Letter for Open-Minded Progressives (2008).md",
+      "author": "Curtis Yarvin",
+      "rating": 5,
+      "date": "2008-04-17"
+    },
+    {
+      "filename": "Curtis Yarvin - Plan for Britain.md",
+      "author": "Curtis Yarvin",
+      "rating": 1,
+      "date": "2025-09-29"
+    },
+    {
+      "filename": "Curtis Yarvin - Empire of Love.md",
+      "author": "Curtis Yarvin",
+      "rating": 3,
+      "date": "2025-07-11"
+    },
+    {
+      "filename": "Dan Carlin - Blueprint for Armageddon (2013).md",
+      "author": "Dan Carlin",
+      "rating": 5,
+      "date": "2013-10-01"
+    },
+    {
+      "filename": "Dan Carlin - Prophets of Doom (2013).md",
+      "author": "Dan Carlin",
+      "rating": 5,
+      "date": "2013-04-22"
+    },
+    {
+      "filename": "Dan Carlin - Wrath of the Khans (2012).md",
+      "author": "Dan Carlin",
+      "rating": 5,
+      "date": "2012-06-01"
+    },
+    {
+      "filename": "Dan Carlin - Death Throes of the Republic (2010).md",
+      "author": "Dan Carlin",
+      "rating": 5,
+      "date": "2010-06-01"
+    },
+    {
+      "filename": "Daniel Hess - We Need a Pronatal Culture.md",
+      "author": "Daniel Hess",
+      "rating": 3,
+      "date": "2026-01-16"
+    },
+    {
+      "filename": "Daniel Hess - The Fertility Collapse.md",
+      "author": "Daniel Hess",
+      "rating": 3,
+      "date": "2025-01-29"
+    },
+    {
+      "filename": "Daniel Hess - Talk with Robin Hanson 2.md",
+      "author": "Daniel Hess",
+      "rating": 3,
+      "date": "2024-10-20"
+    },
+    {
+      "filename": "David Betz - Will Civil Unrest Come to the West.md",
+      "author": "David Betz",
+      "rating": 5,
+      "date": "2025-10-28"
+    },
+    {
+      "filename": "David Betz - Are We Headed for Civil War.md",
+      "author": "David Betz",
+      "rating": 5,
+      "date": "2025-07-20"
+    },
+    {
+      "filename": "David Betz - What Britain Will Look And Feel Like When Things Get Nasty.md",
+      "author": "David Betz",
+      "rating": 3,
+      "date": "2025-11-14"
+    },
+    {
+      "filename": "David Betz - Reflections on Homeland Insecurity.md",
+      "author": "David Betz",
+      "rating": 3,
+      "date": "2025-09-25"
+    },
+    {
+      "filename": "David Betz - The Coming Civil War.md",
+      "author": "David Betz",
+      "rating": 3,
+      "date": "2025-04-16"
+    },
+    {
+      "filename": "David Betz - The Coming British Civil War.md",
+      "author": "David Betz",
+      "rating": 3,
+      "date": "2025-02-12"
+    },
+    {
+      "filename": "David Betz - War and Stupid War.md",
+      "author": "David Betz",
+      "rating": 3,
+      "date": "2024-02-21"
+    },
+    {
+      "filename": "David Betz - The Future of War Is Civil War.md",
+      "author": "David Betz",
+      "rating": 3,
+      "date": "2023-11-22"
+    },
+    {
+      "filename": "David Betz - Civil War Comes to the West.md",
+      "author": "David Betz",
+      "rating": 3,
+      "date": "2023-06-01"
+    },
+    {
+      "filename": "David Betz - Warfare in the Digital Age.md",
+      "author": "David Betz",
+      "rating": 3,
+      "date": "2022-09-05"
+    },
+    {
+      "filename": "David Hackett Fischer - Albion's Seed (Gemini Pro) (1989).md",
+      "author": "David Hackett Fischer",
+      "rating": 5,
+      "date": "1989-03-14"
+    },
+    {
+      "filename": "David Hackett Fischer - Albion's Seed (Gemini Flash) (1989).md",
+      "author": "David Hackett Fischer",
+      "rating": 5,
+      "date": "1989-03-14"
+    },
+    {
+      "filename": "Eliezer Yudkowsky - Inadequate Equilibria (2017).md",
+      "author": "Eliezer Yudkowsky",
+      "rating": 5,
+      "date": "2017-11-16"
+    },
+    {
+      "filename": "Eugene Lyons - The Red Decade (1941).md",
+      "author": "Eugene Lyons",
+      "rating": 1,
+      "date": "1941-08-01"
+    },
+    {
+      "filename": "Geoffrey Miller - Virtue Signaling (2019).md",
+      "author": "Geoffrey Miller",
+      "rating": 5,
+      "date": "2019-10-27"
+    },
+    {
+      "filename": "Geoffrey Miller - Broken Dating Markets.md",
+      "author": "Geoffrey Miller",
+      "rating": 3,
+      "date": "2025-08-01"
+    },
+    {
+      "filename": "Grokipedia - Race.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-19"
+    },
+    {
+      "filename": "Grokipedia - Race and intelligence.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-11"
+    },
+    {
+      "filename": "Grokipedia - Islam.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-03"
+    },
+    {
+      "filename": "Grokipedia - Intelligence.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-03"
+    },
+    {
+      "filename": "Grokipedia - Immigration.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-03"
+    },
+    {
+      "filename": "Grokipedia - Immigration to Sweden.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-03"
+    },
+    {
+      "filename": "Grokipedia - Immigration to Denmark.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-03"
+    },
+    {
+      "filename": "Grokipedia - Illegal immigration to the United Kingdom.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-03"
+    },
+    {
+      "filename": "Grokipedia - History of Islam.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-03"
+    },
+    {
+      "filename": "Grokipedia - Evolutionary psychology.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-12-03"
+    },
+    {
+      "filename": "Grokipedia - Rotherham child sexual exploitation scandal.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-11-27"
+    },
+    {
+      "filename": "Grokipedia - Mass Immigration Initiatives.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-11-27"
+    },
+    {
+      "filename": "Grokipedia - Great Replacement theory in the United States.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-11-27"
+    },
+    {
+      "filename": "Grokipedia - Illegal immigration.md",
+      "author": "Grokipedia",
+      "rating": 3,
+      "date": "2025-11-26"
+    },
+    {
+      "filename": "Grooming Gang Scandal - Rotherham 2017 (2).md",
+      "author": "Grooming Gang Scandal",
+      "rating": 3,
+      "date": "2017-01-01"
+    },
+    {
+      "filename": "Grooming Gang Scandal - Rotherham 2017 (1).md",
+      "author": "Grooming Gang Scandal",
+      "rating": 3,
+      "date": "2017-01-01"
+    },
+    {
+      "filename": "Grooming Gang Scandal - Rotherham 2016.md",
+      "author": "Grooming Gang Scandal",
+      "rating": 3,
+      "date": "2016-02-26"
+    },
+    {
+      "filename": "Grooming Gang Scandal - Oxford 2013.md",
+      "author": "Grooming Gang Scandal",
+      "rating": 3,
+      "date": "2013-01-01"
+    },
+    {
+      "filename": "Jacob Savage - The Lost Generation.md",
+      "author": "Jacob Savage",
+      "rating": 5,
+      "date": "2025-12-15"
+    },
+    {
+      "filename": "Joel F. Harrington - The Faithful Executioner (2013).md",
+      "author": "Joel F. Harrington",
+      "rating": 3,
+      "date": "2013-12-31"
+    },
+    {
+      "filename": "John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.md",
+      "author": "John Gillam",
+      "rating": 5,
+      "date": "2026-01-23"
+    },
+    {
+      "filename": "John Gillam - Reverse Colonization in France with Driss Ghali.md",
+      "author": "John Gillam",
+      "rating": 5,
+      "date": "2025-12-12"
+    },
+    {
+      "filename": "Jordan Lasker (Cremieux) - Gypsies and Jews.md",
+      "author": "Jordan Lasker (Cremieux)",
+      "rating": 3,
+      "date": "2025-11-27"
+    },
+    {
+      "filename": "Jordan Lasker (Cremieux) - National IQs Are Valid.md",
+      "author": "Jordan Lasker (Cremieux)",
+      "rating": 3,
+      "date": "2025-01-16"
+    },
+    {
+      "filename": "Joseph Henrich - Humans defeated smarter species with cultural evolution.md",
+      "author": "Joseph Henrich",
+      "rating": 5,
+      "date": "2025-03-12"
+    },
+    {
+      "filename": "Joseph Henrich - The WEIRDest People in the World (2020).md",
+      "author": "Joseph Henrich",
+      "rating": 5,
+      "date": "2020-09-08"
+    },
+    {
+      "filename": "Lotus Eaters - Europe Is Turning Into a Powderkeg.md",
+      "author": "Lotus Eaters",
+      "rating": 3,
+      "date": "2025-12-02"
+    },
+    {
+      "filename": "Malcolm-Simone Collins - How Religions Rank Competence.md",
+      "author": "Malcolm-Simone Collins",
+      "rating": 5,
+      "date": "2023-07-13"
+    },
+    {
+      "filename": "Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.md",
+      "author": "Malcolm-Simone Collins",
+      "rating": 3,
+      "date": "2025-11-27"
+    },
+    {
+      "filename": "Marcus Gallo - You DON’T Descend From All Your Ancestors.md",
+      "author": "Marcus Gallo",
+      "rating": 5,
+      "date": "2024-07-18"
+    },
+    {
+      "filename": "Michael O. Church - The 3-ladder system of social class in the U.S..md",
+      "author": "Michael O. Church",
+      "rating": 4,
+      "date": "2012-09-09"
+    },
+    {
+      "filename": "Nate Friedman - I Exposed the Islamic Takeover of the UK.md",
+      "author": "Nate Friedman",
+      "rating": 3,
+      "date": "2025-12-07"
+    },
+    {
+      "filename": "Nathan Cofnas - Beating Woke with Facts and Logic.md",
+      "author": "Nathan Cofnas",
+      "rating": 5,
+      "date": "2025-10-09"
+    },
+    {
+      "filename": "Nathan Cofnas - Podcast Bros and Brain Rot.md",
+      "author": "Nathan Cofnas",
+      "rating": 2,
+      "date": "2025-05-05"
+    },
+    {
+      "filename": "Nathan Cofnas - A Guide for the Hereditarian Revolution.md",
+      "author": "Nathan Cofnas",
+      "rating": 1,
+      "date": "2024-02-05"
+    },
+    {
+      "filename": "Nathan Cofnas - The Right’s Stupidity Problem.md",
+      "author": "Nathan Cofnas",
+      "rating": 3,
+      "date": "2024-01-02"
+    },
+    {
+      "filename": "Nathan Cofnas - Twilight of the Liberal Jew.md",
+      "author": "Nathan Cofnas",
+      "rating": 4,
+      "date": "2023-09-20"
+    },
+    {
+      "filename": "Nathan Cofnas - Judaism as a Group Evolutionary Strategy.md",
+      "author": "Nathan Cofnas",
+      "rating": 3,
+      "date": "2018-03-10"
+    },
+    {
+      "filename": "Nick Pardini - Global Class Hierarchies Explained.md",
+      "author": "Nick Pardini",
+      "rating": 5,
+      "date": "2025-11-26"
+    },
+    {
+      "filename": "Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.md",
+      "author": "Nick Pardini",
+      "rating": 4,
+      "date": "2026-01-22"
+    },
+    {
+      "filename": "Noah Smith - Can a Nation Plunder Its Way to Wealth.md",
+      "author": "Noah Smith",
+      "rating": 5,
+      "date": "2024-01-15"
+    },
+    {
+      "filename": "OpenAI ChatGPT - Truth-Maximizing.md",
+      "author": "OpenAI ChatGPT",
+      "rating": 3,
+      "date": "2025-12-03"
+    },
+    {
+      "filename": "Philip Pilkington - The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025).md",
+      "author": "Philip Pilkington",
+      "rating": 5,
+      "date": "2025-11-04"
+    },
+    {
+      "filename": "Philip Pilkington - The Collapse of Global Liberalism.md",
+      "author": "Philip Pilkington",
+      "rating": 5,
+      "date": "2025-05-30"
+    },
+    {
+      "filename": "Raymond Ibrahim - The Real History of Islam.md",
+      "author": "Raymond Ibrahim",
+      "rating": 5,
+      "date": "2025-12-14"
+    },
+    {
+      "filename": "Raymond Ibrahim - The Islamic Conquest Of Europe.md",
+      "author": "Raymond Ibrahim",
+      "rating": 4,
+      "date": "2025-05-10"
+    },
+    {
+      "filename": "Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.md",
+      "author": "Razib Khan",
+      "rating": 3,
+      "date": "2025-12-02"
+    },
+    {
+      "filename": "Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.md",
+      "author": "Ross Douthat",
+      "rating": 3,
+      "date": "2026-01-22"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining Ancient Israel.md",
+      "author": "Rudyard Lynch",
+      "rating": 5,
+      "date": "2025-01-07"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining the Fall of Rome.md",
+      "author": "Rudyard Lynch",
+      "rating": 5,
+      "date": "2024-02-27"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining the Mongol Empire.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2025-08-08"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining the English Civil War.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-11-18"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining 17th Century Western Europe.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-11-07"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining 17th Century Eastern Europe.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-10-11"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining the Industrial Revolution.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-09-30"
+    },
+    {
+      "filename": "Rudyard Lynch - Civilizational Differences with Samo Burja.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-09-19"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining Ancient Greece.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-08-14"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining Tzarist Russia.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-07-31"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining the Rise of Christianity.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-07-18"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining Africa's Slave Trades.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-07-11"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining the Rise of Islam.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-06-19"
+    },
+    {
+      "filename": "Rudyard Lynch - Explaining the Rise of Rome.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2024-04-26"
+    },
+    {
+      "filename": "Rudyard Lynch - The 7 Emotions That Push Civilization.md",
+      "author": "Rudyard Lynch",
+      "rating": 3,
+      "date": "2023-01-29"
+    },
+    {
+      "filename": "Samo Burja - How to Prevent Civilizational Collapse.md",
+      "author": "Samo Burja",
+      "rating": 5,
+      "date": "2024-05-29"
+    },
+    {
+      "filename": "Samo Burja - Why Europe Matters for America’s Future.md",
+      "author": "Samo Burja",
+      "rating": 3,
+      "date": "2025-02-23"
+    },
+    {
+      "filename": "Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.md",
+      "author": "Samo Burja",
+      "rating": 2,
+      "date": "2025-01-31"
+    },
+    {
+      "filename": "Samo Burja - How 1% of People Control Civilization with Auren Hoffman.md",
+      "author": "Samo Burja",
+      "rating": 3,
+      "date": "2025-01-24"
+    },
+    {
+      "filename": "Samo Burja - Why Populists WIN Elections But Fail to Govern.md",
+      "author": "Samo Burja",
+      "rating": 1,
+      "date": "2024-11-15"
+    },
+    {
+      "filename": "Samo Burja - The Possibility of Human Extinction.md",
+      "author": "Samo Burja",
+      "rating": 3,
+      "date": "2024-10-04"
+    },
+    {
+      "filename": "Samo Burja - Mass Immigration Won't Save Europe.md",
+      "author": "Samo Burja",
+      "rating": 3,
+      "date": "2024-08-21"
+    },
+    {
+      "filename": "Samo Burja - The Eastern European Experiment.md",
+      "author": "Samo Burja",
+      "rating": 3,
+      "date": "2024-08-14"
+    },
+    {
+      "filename": "Samo Burja - How to Find the Frontiers of Knowledge.md",
+      "author": "Samo Burja",
+      "rating": 3,
+      "date": "2024-05-25"
+    },
+    {
+      "filename": "Samo Burja - The Politicization of History.md",
+      "author": "Samo Burja",
+      "rating": 3,
+      "date": "2023-12-27"
+    },
+    {
+      "filename": "Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.md",
+      "author": "Samo Burja",
+      "rating": 3,
+      "date": "2023-12-06"
+    },
+    {
+      "filename": "Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.md",
+      "author": "Samo Burja",
+      "rating": 3,
+      "date": "2023-11-29"
+    },
+    {
+      "filename": "Scott Alexander - Meditations on Moloch.md",
+      "author": "Scott Alexander",
+      "rating": 5,
+      "date": "2014-07-30"
+    },
+    {
+      "filename": "Snowden Todd - Small Businesses Are Lowering South Korean Fertility.md",
+      "author": "Snowden Todd",
+      "rating": 3,
+      "date": "2024-05-31"
+    },
+    {
+      "filename": "Stewart Brand - Maintenance of Everything, Part One (2026).md",
+      "author": "Stewart Brand",
+      "rating": 4,
+      "date": "2026-01-20"
+    },
+    {
+      "filename": "Tommy Robinson - Exposing the Islamic Takeover of Britain.md",
+      "author": "Tommy Robinson",
+      "rating": 5,
+      "date": "2025-12-15"
+    },
+    {
+      "filename": "Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.md",
+      "author": "Triggernometry",
+      "rating": 5,
+      "date": "2025-02-05"
+    },
+    {
+      "filename": "Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.md",
+      "author": "Triggernometry",
+      "rating": 3,
+      "date": "2025-07-06"
+    },
+    {
+      "filename": "Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.md",
+      "author": "Triggernometry",
+      "rating": 3,
+      "date": "2023-05-28"
+    },
+    {
+      "filename": "Wikipedia - Islam.md",
+      "author": "Wikipedia",
+      "rating": 3,
+      "date": "2025-12-17"
+    },
+    {
+      "filename": "Wikipedia - History of Islam.md",
+      "author": "Wikipedia",
+      "rating": 3,
+      "date": "2025-12-17"
+    },
+    {
+      "filename": "Williamson Chris - Alison Armstrong (How to Treat Men Better).md",
+      "author": "Williamson Chris",
+      "rating": 3,
+      "date": "2025-11-29"
+    }
+  ]
+}

@@ -5,12 +5,30 @@ export const escapeHtml = (value = '') => String(value).replace(/[&<>"']/g, c =>
 export const slugify = value => value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');
 export const videoIds = value => [...new Set([...value.matchAll(/(?:youtube\.com\/watch\?[^\s<>)]*?v=|youtu\.be\/)([\w-]{11})/g)].map(m => m[1]))];
 
+// Same order as the original Liquid sidebar: author ascending; five-star notes
+// first, then the others; each subset sorted by date and reversed.
+export function navigationOrder(a, b) {
+  if (a.author !== b.author) return a.author < b.author ? -1 : 1;
+  const favorite = Number((b.navigationRating ?? b.rating) === 5) - Number((a.navigationRating ?? a.rating) === 5);
+  if (favorite) return favorite;
+  const date = (b.navigationDate || b.date || '1970-01-01').localeCompare(a.navigationDate || a.date || '1970-01-01');
+  if (date) return date;
+  return a.filename === b.filename ? 0 : a.filename < b.filename ? 1 : -1;
+}
+
 export function parseNote(filename, raw) {
   const stem = filename.replace(/\.md$/i, '');
   const separator = stem.indexOf(' - ');
   const author = separator < 0 ? 'Other notes' : stem.slice(0, separator);
   const title = separator < 0 ? stem : stem.slice(separator + 3);
-  const metadata = Object.fromEntries([...raw.matchAll(/^(Rating|Date|Type|Tags|Source|Video URL):[ \t]*(.*)$/gmi)].map(m => [m[1].toLowerCase(), m[2].trim()]));
+  const normalized = raw.replace(/^\uFEFF/, '');
+  const boundary = normalized.search(/^(?:---+[ \t]*|#{1,6}[ \t]+.*)\r?$/m);
+  const header = boundary < 0 ? normalized : normalized.slice(0,boundary);
+  const metadata = {};
+  for (const match of header.matchAll(/^(Rating|Date|Type|Tags|Source|Video URL):[ \t]*(.*)$/gmi)) {
+    const key = match[1].toLowerCase();
+    if (!(key in metadata)) metadata[key] = match[2].trim();
+  }
   const dateInput = (metadata.date || '').replaceAll('`', '');
   const dateMatch = dateInput.match(/^(\d{1,2})\s+([A-Za-z]+)\s+(\d{4})$/);
   const months = ['jan','feb','mar','apr','may','jun','jul','aug','sep','oct','nov','dec'];
@@ -20,7 +38,7 @@ export function parseNote(filename, raw) {
   const rating = /^[1-5]$/.test(metadata.rating) ? Number(metadata.rating) : null;
   const type = ['video','article','book'].includes(metadata.type?.toLowerCase()) ? metadata.type.toLowerCase() : 'other';
   const tags = [...new Set((metadata.tags || '').split(',').map(x => x.trim()).filter(Boolean))];
-  const body = raw.replace(/^\uFEFF/, '').replace(/^(Rating|Date|Type|Tags|Source|Video URL):[^\r\n]*(?:\r?\n|$)/gmi, '').replace(/^\s*Summary:[ \t]*(?:\r?\n)?/i, '').trim();
+  const body = (header.replace(/^(Rating|Date|Type|Tags|Source|Video URL):[^\r\n]*(?:\r?\n|$)/gmi, '')+(boundary < 0 ? '' : normalized.slice(boundary))).replace(/^\s*Summary:[ \t]*(?:\r?\n)?/i, '').trim();
   const summary = body.split(/\r?\n\s*\r?\n/)[0].replace(/[*_#`]/g, '').replace(/\[([^\]]+)\]\([^)]+\)/g, '$1');
   const urls = [...new Set([...raw.matchAll(/https?:\/\/[^\s<>)\]]+/g)].map(m => m[0].replace(/[.,;]+$/, '')))];
   const sources = (metadata.source || metadata['video url']) ? urls.filter(url => (metadata.source || metadata['video url']).includes(url)) : urls.filter(url => /youtube\.com|youtu\.be/.test(url));

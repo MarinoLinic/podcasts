@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
-import { parseNote, readableText, renderMarkdown, videoIds, captionParagraphs } from '../scripts/content.mjs';
+import { parseNote, readableText, renderMarkdown, videoIds, captionParagraphs, navigationOrder } from '../scripts/content.mjs';
 
 test('original metadata, Unicode titles, source IDs, and historical slugs remain separate from the rendered body', () => {
   const raw = 'Summary:\nA short summary.\n\nRating: 4\nType: video\nTags: history, politics\nDate: 2 February 2025\nSource: https://youtu.be/abcdefghijk\n\n## Topic\nA **claim**.';
@@ -20,6 +20,20 @@ test('unknown dates and ratings stay unknown; multi-part videos remain distinct'
   const note = parseNote('Unattributed.md', 'Type: article\nDate: unknown\nRating: 8\n\nText.');
   assert.equal(note.date, null); assert.equal(note.rating, null);
   assert.deepEqual(videoIds('https://youtube.com/watch?v=abcdefghijk&x=1 https://youtu.be/123456789_0 https://youtu.be/abcdefghijk'), ['abcdefghijk','123456789_0']);
+});
+
+test('body fields do not replace leading note metadata or disappear from the rendered note', () => {
+  const raw = 'Summary:\nA summary.\n\nRating: 3\nType: video\nDate: 21 Aug 2024\n\n---\n\n## Discussion\nRating: 5\nSource: a cited passage';
+  const note = parseNote('Author - Title.md',raw);
+  assert.equal(note.rating,3);
+  assert.ok(note.body.includes('Rating: 5'));
+  assert.ok(note.body.includes('Source: a cited passage'));
+  assert.equal(note.raw,raw);
+});
+
+test('duplicate leading header keys use the first value, matching the old processor', () => {
+  const note=parseNote('Author - Title.md','Summary:\nA summary.\n\nRating: 3\nRating: 5\nType: book\nDate: 21 Aug 2024\n\n---\n\nContent.');
+  assert.equal(note.rating,3); assert.equal(note.type,'book');
 });
 
 test('rendered imported Markdown cannot execute scripts or unsafe URLs; heading IDs are unique', () => {
@@ -62,4 +76,26 @@ test('transcript paragraphs retain every cue in order and original starting time
   const paragraphs = captionParagraphs(cues);
   assert.deepEqual(paragraphs.map(p => p.start),[0,30]);
   assert.equal(paragraphs.map(p => p.text).join(' '),cues.map(c => c.text).join(' '));
+});
+
+test('homepage order exactly matches the preserved old Liquid author/sidebar ordering', async () => {
+  const old = [];
+  for (const filename of (await fs.readdir('legacy/2026-11-14/Notes')).filter(n=>n.endsWith('.md')).sort()) {
+    const text = await fs.readFile(path.join('legacy/2026-11-14/Notes',filename),'utf8');
+    const frontmatter = text.split('---')[1];
+    const value = field => frontmatter.match(new RegExp(`^${field}:\\s*(.*)$`,'m'))?.[1].trim().replace(/^"|"$/g,'');
+    old.push({filename,author:value('author'),date:value('date'),rating:Number(value('rating'))});
+  }
+  const expected = [...new Set(old.map(n=>n.author))].sort().flatMap(author => {
+    const items = old.filter(n=>n.author===author);
+    const byDate = group => group.sort((a,b)=>a.date.localeCompare(b.date)).reverse();
+    return [...byDate(items.filter(n=>n.rating===5)),...byDate(items.filter(n=>n.rating!==5))];
+  });
+  const current = await Promise.all(old.map(async n=>parseNote(n.filename,await fs.readFile(path.join('notes',n.filename),'utf8'))));
+  const snapshot = JSON.parse(await fs.readFile('site/library-order.json','utf8'));
+  for (const note of current) {
+    const historical = snapshot.entries.find(entry=>entry.filename===note.filename);
+    Object.assign(note,{navigationRating:historical.rating,navigationDate:historical.date});
+  }
+  assert.deepEqual(current.sort(navigationOrder).map(n=>n.filename),expected.map(n=>n.filename));
 });
