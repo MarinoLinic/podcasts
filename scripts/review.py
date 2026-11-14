@@ -54,6 +54,8 @@ with sync_playwright() as p:
         expected = [re.sub('[^a-z0-9]+','-',name).strip('-') for name in expected]
         actual = page.locator('.note-title').evaluate_all('(links)=>links.map(link=>new URL(link.href).pathname.split("/").filter(Boolean).at(-1))')
         assert actual == expected, 'Homepage differs from the original sidebar order'
+        drawer_order = page.locator('.drawer-note').evaluate_all('(links)=>links.map(link=>new URL(link.href).pathname.split("/").filter(Boolean).at(-1))')
+        assert drawer_order == expected, 'Full drawer differs from the original sidebar order'
         page.locator('#search').fill('Burja')
         assert 'Samo Burja' in page.locator('.author-heading').all_text_contents()
         page.reload()
@@ -72,6 +74,8 @@ with sync_playwright() as p:
         assert page.locator('h1').count() == 1
         assert page.locator('.article-type-icon').get_attribute('aria-label')=='video'
         assert re.fullmatch(r'[\d,]+ words',page.locator('[data-word-count]').inner_text())
+        body_words = len(re.findall(r'\S+',page.locator('.note-body').inner_text()))
+        assert int(page.locator('[data-word-count]').inner_text().split()[0].replace(',','')) == body_words
         for name in ['Copy text','Copy Markdown']:
             assert page.get_by_role('button',name=name,exact=True).is_visible()
         for name in ['Download text','Download Markdown','Read transcript']:
@@ -104,6 +108,8 @@ with sync_playwright() as p:
             output=args.out/f'{label}-{filename}'
             pending_download.value.save_as(output)
             assert output.read_text(encoding='utf-8')==expected
+            if name=='Download Markdown':
+                assert output.read_bytes()==next((root/'notes').glob('Samo Burja - Why Europe Matters*')).read_bytes()
         # Replace the method inside our own stub, never the system clipboard.
         page.evaluate("() => { navigator.clipboard.writeText=async()=>{throw Error('denied')}; }")
         page.get_by_role('button',name='Copy Markdown',exact=True).click()
