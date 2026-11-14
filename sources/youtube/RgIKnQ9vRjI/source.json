@@ -1,0 +1,33 @@
+{
+  "video_id": "RgIKnQ9vRjI",
+  "url": "https://www.youtube.com/watch?v=RgIKnQ9vRjI",
+  "notes": [
+    "Rudyard Lynch - Explaining Ancient Greece.md"
+  ],
+  "title": "Explaining Ancient Greece",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.021Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20240813",
+  "duration": "1:00:10",
+  "duration_seconds": 3610,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:23+00:00",
+  "segment_count": 1442,
+  "files": [
+    {
+      "path": "RgIKnQ9vRjI/transcript.md",
+      "bytes": 143156,
+      "sha256": "ae921b5504bc73b813030cb726bbdb7c3a8c4bbfa39d0d9fe468aaadfb1e510d"
+    },
+    {
+      "path": "RgIKnQ9vRjI/segments.json",
+      "bytes": 167724,
+      "sha256": "6466431d06f80a130a9e75f4c1ce344890bfefc5fbff48964de8fca65f158272"
+    }
+  ]
+}

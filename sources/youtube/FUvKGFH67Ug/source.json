@@ -1,0 +1,33 @@
+{
+  "video_id": "FUvKGFH67Ug",
+  "url": "https://www.youtube.com/watch?v=FUvKGFH67Ug",
+  "notes": [
+    "Rudyard Lynch - Explaining Africa's Slave Trades.md"
+  ],
+  "title": "Explaining Africa's Slave Trades",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.012Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20240711",
+  "duration": "58:42",
+  "duration_seconds": 3522,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:21+00:00",
+  "segment_count": 1338,
+  "files": [
+    {
+      "path": "FUvKGFH67Ug/transcript.md",
+      "bytes": 131356,
+      "sha256": "087aae3a06736bd55eff36af341c98e81e2f7491c4c74caf7b14e82a7e6725b2"
+    },
+    {
+      "path": "FUvKGFH67Ug/segments.json",
+      "bytes": 153868,
+      "sha256": "b9b930f19d121a548ceb23d4f481768ac99f22a7f1a3e937fae78dac951907fb"
+    }
+  ]
+}

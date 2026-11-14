@@ -1,0 +1,33 @@
+{
+  "video_id": "y0SwVCWPinw",
+  "url": "https://www.youtube.com/watch?v=y0SwVCWPinw",
+  "notes": [
+    "Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.md"
+  ],
+  "title": "Live players: Sam Altman, Peter Thiel, Elon Musk, George Soros",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.328Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20231129",
+  "duration": "54:51",
+  "duration_seconds": 3291,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:33+00:00",
+  "segment_count": 1341,
+  "files": [
+    {
+      "path": "y0SwVCWPinw/transcript.md",
+      "bytes": 135232,
+      "sha256": "adfe6ab4e3a1d7705d3af6b295815d6249980c7dd7a60f4b9284a4c8969702e5"
+    },
+    {
+      "path": "y0SwVCWPinw/segments.json",
+      "bytes": 157960,
+      "sha256": "317e39212e3195f22ea0f703908b8669009ab55bba3ab273b6c6c2f44de6e8a9"
+    }
+  ]
+}

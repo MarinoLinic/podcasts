@@ -1,0 +1,33 @@
+{
+  "video_id": "SwaI9dmk22o",
+  "url": "https://www.youtube.com/watch?v=SwaI9dmk22o",
+  "notes": [
+    "Lotus Eaters - Europe Is Turning Into a Powderkeg.md"
+  ],
+  "title": "Europe Is Turning Into a Powderkeg",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.802Z",
+  "uploader": "The Podcast of the Lotus Eaters",
+  "channel_url": "https://www.youtube.com/channel/UC7edjYPNhTm5LYJMT7UMt0Q",
+  "upload_date": "20251202",
+  "duration": "1:23:34",
+  "duration_seconds": 5014,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:32+00:00",
+  "segment_count": 2244,
+  "files": [
+    {
+      "path": "SwaI9dmk22o/transcript.md",
+      "bytes": 220493,
+      "sha256": "af9e238cecf4f63043c78134378536937c32cd43664b5e61bcd616556fbaa46f"
+    },
+    {
+      "path": "SwaI9dmk22o/segments.json",
+      "bytes": 256464,
+      "sha256": "3b032ede2eec984d652e7ea3886fdc75de43a46cbce7243edb352fd4ae3cdfad"
+    }
+  ]
+}

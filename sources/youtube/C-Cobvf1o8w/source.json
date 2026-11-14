@@ -1,0 +1,33 @@
+{
+  "video_id": "C-Cobvf1o8w",
+  "url": "https://www.youtube.com/watch?v=C-Cobvf1o8w",
+  "notes": [
+    "Nathan Cofnas - Twilight of the Liberal Jew.md"
+  ],
+  "title": "Talkline With Zev Brenner With Nathan Cofnas on the vanishing Liberal Jew",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.866Z",
+  "uploader": "Zev Brenner",
+  "channel_url": "https://www.youtube.com/channel/UCK95KM1EYo4IWerozYZdffg",
+  "upload_date": "20230921",
+  "duration": "33:10",
+  "duration_seconds": 1990,
+  "language": "en-uYU-mmqFLq8",
+  "transcript_source": "manual",
+  "downloaded_at": "2026-11-14T11:04:45+00:00",
+  "segment_count": 961,
+  "files": [
+    {
+      "path": "C-Cobvf1o8w/transcript.md",
+      "bytes": 86573,
+      "sha256": "f20dd318be5e7920f053665bc8466574912b873fabfe9a3dd678bc7f86be1526"
+    },
+    {
+      "path": "C-Cobvf1o8w/segments.json",
+      "bytes": 104624,
+      "sha256": "766b0ab8aaaec460019bc0eafad423f69a10c5f586fa079dc9928e1c9651abdf"
+    }
+  ]
+}

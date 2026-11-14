@@ -1,0 +1,33 @@
+{
+  "video_id": "KdFGw2pWrlw",
+  "url": "https://www.youtube.com/watch?v=KdFGw2pWrlw",
+  "notes": [
+    "Rudyard Lynch - Explaining 17th Century Western Europe.md"
+  ],
+  "title": "Explaining 17th Century Western Europe",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.002Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20241107",
+  "duration": "1:04:04",
+  "duration_seconds": 3844,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:19+00:00",
+  "segment_count": 1586,
+  "files": [
+    {
+      "path": "KdFGw2pWrlw/transcript.md",
+      "bytes": 156261,
+      "sha256": "4f6b7d8ab4634fd69a1f0e2e1a5775303f7fb157d5912ae146a5ef8c36d7c54d"
+    },
+    {
+      "path": "KdFGw2pWrlw/segments.json",
+      "bytes": 182695,
+      "sha256": "b0ecc9d921eba012439af1ea60d6b7ea464e11c880a4e57e4a3322f3e937c465"
+    }
+  ]
+}

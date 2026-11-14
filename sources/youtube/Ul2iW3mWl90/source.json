@@ -1,0 +1,33 @@
+{
+  "video_id": "Ul2iW3mWl90",
+  "url": "https://www.youtube.com/watch?v=Ul2iW3mWl90",
+  "notes": [
+    "Rudyard Lynch - The 7 Emotions That Push Civilization.md"
+  ],
+  "title": "The 7 Emotions that Push Civilization",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.163Z",
+  "uploader": "Whatifalthist",
+  "channel_url": "https://www.youtube.com/channel/UC5Dw9TFdbPJoTDMSiJdIQTA",
+  "upload_date": "20230128",
+  "duration": "49:11",
+  "duration_seconds": 2951,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:06+00:00",
+  "segment_count": 1372,
+  "files": [
+    {
+      "path": "Ul2iW3mWl90/transcript.md",
+      "bytes": 136221,
+      "sha256": "7d5fbbb878a6009afffe37d3c4da31699e7803465aa452a00f5a9a2d354be962"
+    },
+    {
+      "path": "Ul2iW3mWl90/segments.json",
+      "bytes": 159211,
+      "sha256": "b8c988994bc91be4c44f53d67204fb5d3dc623490b260338cd31dca004b267a6"
+    }
+  ]
+}

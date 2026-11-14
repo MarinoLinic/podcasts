@@ -1,0 +1,33 @@
+{
+  "video_id": "EOcQGAYMdbs",
+  "url": "https://www.youtube.com/watch?v=EOcQGAYMdbs",
+  "notes": [
+    "Samo Burja - The Eastern European Experiment.md"
+  ],
+  "title": "The Eastern European Experiment",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.370Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20240814",
+  "duration": "56:32",
+  "duration_seconds": 3392,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:41+00:00",
+  "segment_count": 1322,
+  "files": [
+    {
+      "path": "EOcQGAYMdbs/transcript.md",
+      "bytes": 133692,
+      "sha256": "303916c15c7556ad5dc58fb4fab2b63de0e0d0015b1b5fe96d0738d11d25f53a"
+    },
+    {
+      "path": "EOcQGAYMdbs/segments.json",
+      "bytes": 156122,
+      "sha256": "aa03ef6c6dcf45d7be4d947eaa3e4c042ed8731cf2b7fc7fc69e7e393a49f39c"
+    }
+  ]
+}

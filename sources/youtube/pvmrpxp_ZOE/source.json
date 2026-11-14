@@ -1,0 +1,33 @@
+{
+  "video_id": "pvmrpxp_ZOE",
+  "url": "https://www.youtube.com/watch?v=pvmrpxp_ZOE",
+  "notes": [
+    "Malcolm-Simone Collins - How Religions Rank Competence.md"
+  ],
+  "title": "Based Camp: How Religions Rank Competence (A Comparison of Cross Cultural Meritocratic Assessments)",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.839Z",
+  "uploader": "Based Camp with Simone & Malcolm Collins",
+  "channel_url": "https://www.youtube.com/channel/UCKl1rNF6tE8waTadKDiYKmg",
+  "upload_date": "20230713",
+  "duration": "38:34",
+  "duration_seconds": 2314,
+  "language": "en",
+  "transcript_source": "manual",
+  "downloaded_at": "2026-11-14T11:04:36+00:00",
+  "segment_count": 715,
+  "files": [
+    {
+      "path": "pvmrpxp_ZOE/transcript.md",
+      "bytes": 84694,
+      "sha256": "9c2458a61c5b63a432d291d906492f0ea3ae6476b7584ac2f7343e23009634b7"
+    },
+    {
+      "path": "pvmrpxp_ZOE/segments.json",
+      "bytes": 97178,
+      "sha256": "c3a1807761052b0255dc9d24d70805945d54ec404bc1d95df0dd7d343d56f138"
+    }
+  ]
+}

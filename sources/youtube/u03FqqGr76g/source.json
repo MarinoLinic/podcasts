@@ -1,0 +1,33 @@
+{
+  "video_id": "u03FqqGr76g",
+  "url": "https://www.youtube.com/watch?v=u03FqqGr76g",
+  "notes": [
+    "Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.md"
+  ],
+  "title": "Zineb Riboua: Zohran Mamdani and Third-Worldism ascendent",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.946Z",
+  "uploader": "Razib Khan's Unsupervised Learning",
+  "channel_url": "https://www.youtube.com/channel/UCggqJq2YjrkuClFAQCXd4Jg",
+  "upload_date": "20251202",
+  "duration": "1:04:51",
+  "duration_seconds": 3891,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:09+00:00",
+  "segment_count": 1609,
+  "files": [
+    {
+      "path": "u03FqqGr76g/transcript.md",
+      "bytes": 160202,
+      "sha256": "297cf089ade58010170c2c8f4a6998f6131943cca1f64f39a7062c9beeb147f2"
+    },
+    {
+      "path": "u03FqqGr76g/segments.json",
+      "bytes": 186841,
+      "sha256": "f61f939dacbe9b09a89d721479794d9b9479811350f436e06a4989f8ef112a25"
+    }
+  ]
+}

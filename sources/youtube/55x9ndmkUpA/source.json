@@ -1,0 +1,33 @@
+{
+  "video_id": "55x9ndmkUpA",
+  "url": "https://www.youtube.com/watch?v=55x9ndmkUpA",
+  "notes": [
+    "Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.md"
+  ],
+  "title": "Ex-Muslim: This is a Difficult Conversation | Sarah Haider",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.460Z",
+  "uploader": "Triggernometry",
+  "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+  "upload_date": "20230528",
+  "duration": "1:21:14",
+  "duration_seconds": 4874,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:58+00:00",
+  "segment_count": 1978,
+  "files": [
+    {
+      "path": "55x9ndmkUpA/transcript.md",
+      "bytes": 197566,
+      "sha256": "27a3b1a65307af968a009abd7ca9a82a35d3ec3472e84991fee676d75cb6afcd"
+    },
+    {
+      "path": "55x9ndmkUpA/segments.json",
+      "bytes": 229705,
+      "sha256": "e132db2b18497f1be5ed3f0aff6f48346e5c2da65287e0588c945da3e7cad223"
+    }
+  ]
+}

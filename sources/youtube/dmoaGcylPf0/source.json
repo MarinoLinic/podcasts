@@ -1,0 +1,33 @@
+{
+  "video_id": "dmoaGcylPf0",
+  "url": "https://www.youtube.com/watch?v=dmoaGcylPf0",
+  "notes": [
+    "Daniel Hess - Talk with Robin Hanson 2.md"
+  ],
+  "title": "Daniel Hess & Robin Hanson Talk Fertility Again",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.605Z",
+  "uploader": "Robin Hanson",
+  "channel_url": "https://www.youtube.com/channel/UC03gepY3d8nZz3kGHa6DJgQ",
+  "upload_date": "20241020",
+  "duration": "1:12:44",
+  "duration_seconds": 4364,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:03:51+00:00",
+  "segment_count": 1821,
+  "files": [
+    {
+      "path": "dmoaGcylPf0/transcript.md",
+      "bytes": 179621,
+      "sha256": "8836d6af277caeeec8ec9b095af95535c62d0cd2a56cabb0f7190cbddc0b9a6b"
+    },
+    {
+      "path": "dmoaGcylPf0/segments.json",
+      "bytes": 209594,
+      "sha256": "47f1a3d5775d5fc086b6a6421f80821853293fe1c9135ec15abba663f6f5fc5b"
+    }
+  ]
+}

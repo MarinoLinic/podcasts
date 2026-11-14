@@ -1,0 +1,33 @@
+{
+  "video_id": "Gid48FgiHho",
+  "url": "https://www.youtube.com/watch?v=Gid48FgiHho",
+  "notes": [
+    "David Betz - The Coming British Civil War.md"
+  ],
+  "title": "The Coming British Civil War - David Betz | Maiden Mother Matriarch Episode 124",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.664Z",
+  "uploader": "Maiden Mother Matriarch with Louise Perry ",
+  "channel_url": "https://www.youtube.com/channel/UCkx-68_4dAkCHMtbOo7PwJQ",
+  "upload_date": "20250212",
+  "duration": "1:29:05",
+  "duration_seconds": 5345,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:00+00:00",
+  "segment_count": 1994,
+  "files": [
+    {
+      "path": "Gid48FgiHho/transcript.md",
+      "bytes": 198046,
+      "sha256": "dabd932c18b0fb69f0003288577f0c582ef2aceb82aa21172961285da1344a07"
+    },
+    {
+      "path": "Gid48FgiHho/segments.json",
+      "bytes": 230033,
+      "sha256": "6a0ebf3b7fb522ee3b5c9a64513139a35f6c0146c9e7d6657476c13a019f7c1c"
+    }
+  ]
+}

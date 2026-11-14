@@ -1,0 +1,33 @@
+{
+  "video_id": "TL6w6YytCxg",
+  "url": "https://www.youtube.com/watch?v=TL6w6YytCxg",
+  "notes": [
+    "Rudyard Lynch - Explaining the Fall of Rome.md"
+  ],
+  "title": "Explaining the Fall of Rome",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.057Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20240227",
+  "duration": "52:29",
+  "duration_seconds": 3149,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:35+00:00",
+  "segment_count": 1271,
+  "files": [
+    {
+      "path": "TL6w6YytCxg/transcript.md",
+      "bytes": 125331,
+      "sha256": "073dd69688bfe3d2dfe23862107542aac04f1ba566bd9491537210a1c678637d"
+    },
+    {
+      "path": "TL6w6YytCxg/segments.json",
+      "bytes": 146807,
+      "sha256": "50aebb5cda6f774cf52f5ee8e1237a58cea9e7f855e11184baa8009723a1d344"
+    }
+  ]
+}

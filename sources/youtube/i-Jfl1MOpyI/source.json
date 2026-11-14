@@ -1,0 +1,33 @@
+{
+  "video_id": "i-Jfl1MOpyI",
+  "url": "https://www.youtube.com/watch?v=i-Jfl1MOpyI",
+  "notes": [
+    "Samo Burja - Why Populists WIN Elections But Fail to Govern.md"
+  ],
+  "title": "Why Populists WIN Elections But Fail to Govern",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.443Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20241115",
+  "duration": "54:55",
+  "duration_seconds": 3295,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:51+00:00",
+  "segment_count": 1318,
+  "files": [
+    {
+      "path": "i-Jfl1MOpyI/transcript.md",
+      "bytes": 132583,
+      "sha256": "0e75513dac31444a352d5207cf78ab3f070611b82e5bb1bea7e603c626e65c19"
+    },
+    {
+      "path": "i-Jfl1MOpyI/segments.json",
+      "bytes": 155045,
+      "sha256": "74fc4309300225e219d2ecf29192370a374322819c7def7e08f8f93e31fdd011"
+    }
+  ]
+}

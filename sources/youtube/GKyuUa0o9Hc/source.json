@@ -1,0 +1,33 @@
+{
+  "video_id": "GKyuUa0o9Hc",
+  "url": "https://www.youtube.com/watch?v=GKyuUa0o9Hc",
+  "notes": [
+    "Nick Pardini - Global Class Hierarchies Explained.md"
+  ],
+  "title": "Global Class Hierarchies Explained",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.874Z",
+  "uploader": "Analyzing Finance with Nick",
+  "channel_url": "https://www.youtube.com/channel/UC7TEgC3UwJ2wI6m40rJOAFA",
+  "upload_date": "20251126",
+  "duration": "56:51",
+  "duration_seconds": 3411,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:49+00:00",
+  "segment_count": 1321,
+  "files": [
+    {
+      "path": "GKyuUa0o9Hc/transcript.md",
+      "bytes": 132005,
+      "sha256": "5857fa48430ef0c6feb4c7605cf1d4e9d8d68e391b1075044fda684982158239"
+    },
+    {
+      "path": "GKyuUa0o9Hc/segments.json",
+      "bytes": 154155,
+      "sha256": "bb84a973e6a3fc16c9e274c2bcd7cfe40a38278095036a74cdadd13be19d140a"
+    }
+  ]
+}

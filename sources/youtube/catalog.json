@@ -1,0 +1,2123 @@
+{
+  "schema": 1,
+  "checked_at": "2026-11-14T11:13:28.533Z",
+  "method": "Installed youtube-tools yt transcript; caption retrieval only, no media or paid transcription.",
+  "requested": 64,
+  "saved": 64,
+  "unavailable": 0,
+  "failed": 0,
+  "videos": [
+    {
+      "video_id": "fSWKrxuHQN8",
+      "url": "https://www.youtube.com/watch?v=fSWKrxuHQN8",
+      "notes": [
+        "Curtis Yarvin - Empire of Love.md"
+      ],
+      "title": "Curtis Yarvin: The Empire of Love (Part 1)",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.544Z",
+      "uploader": "Stimson Center",
+      "channel_url": "https://www.youtube.com/channel/UCMzl-NrhN_SuBYJho4UEx9Q",
+      "upload_date": "20250711",
+      "duration": "45:15",
+      "duration_seconds": 2715,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:03:41+00:00",
+      "segment_count": 1107,
+      "files": [
+        {
+          "path": "fSWKrxuHQN8/transcript.md",
+          "bytes": 110322,
+          "sha256": "71a58b9082b529866ab96188d728ea07d89172810ea9ef5b317b5ad198e02085"
+        },
+        {
+          "path": "fSWKrxuHQN8/segments.json",
+          "bytes": 129031,
+          "sha256": "46462b62d59f8d5a0a4e86c3571fc8b8972c5d0c4905c7afb49cb8df19140e0f"
+        }
+      ]
+    },
+    {
+      "video_id": "LdWxBdgWtrs",
+      "url": "https://www.youtube.com/watch?v=LdWxBdgWtrs",
+      "notes": [
+        "Curtis Yarvin - Empire of Love.md"
+      ],
+      "title": "Curtis Yarvin (Part 2): The Empire of Love",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.554Z",
+      "uploader": "Stimson Center",
+      "channel_url": "https://www.youtube.com/channel/UCMzl-NrhN_SuBYJho4UEx9Q",
+      "upload_date": "20250802",
+      "duration": "39:09",
+      "duration_seconds": 2349,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:03:43+00:00",
+      "segment_count": 972,
+      "files": [
+        {
+          "path": "LdWxBdgWtrs/transcript.md",
+          "bytes": 97056,
+          "sha256": "457430b506846284f8c77393cbcce962e2e06bf761e6790e4f230ccdb8fd2008"
+        },
+        {
+          "path": "LdWxBdgWtrs/segments.json",
+          "bytes": 113564,
+          "sha256": "62db121ef3b8db4ac928424298febdfa35be0a525ff564a2c8c5ada6aaf5492f"
+        }
+      ]
+    },
+    {
+      "video_id": "-4evSKxZvOA",
+      "url": "https://www.youtube.com/watch?v=-4evSKxZvOA",
+      "notes": [
+        "Curtis Yarvin - Plan for Britain.md"
+      ],
+      "title": "Curtis Yarvin's Plan for Britain",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.586Z",
+      "uploader": "Anglofuturism",
+      "channel_url": "https://www.youtube.com/channel/UCy62u5-djfViOzFZ4UzLrnw",
+      "upload_date": "20250929",
+      "duration": "1:54:38",
+      "duration_seconds": 6878,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:03:45+00:00",
+      "segment_count": 2936,
+      "files": [
+        {
+          "path": "-4evSKxZvOA/transcript.md",
+          "bytes": 288237,
+          "sha256": "8bc6507780b76051e68954da1f40a56ce5635b8ad0223f438a984e044e5be9b5"
+        },
+        {
+          "path": "-4evSKxZvOA/segments.json",
+          "bytes": 334599,
+          "sha256": "8485a90a47a15f01b222b0d2c9884291e2d700d8e4301ab7cb782f477fee48a3"
+        }
+      ]
+    },
+    {
+      "video_id": "47yObVOJciw",
+      "url": "https://www.youtube.com/watch?v=47yObVOJciw",
+      "notes": [
+        "Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.md"
+      ],
+      "title": "The Case for Monarchy | Curtis Yarvin",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.594Z",
+      "uploader": "The Peter McCormack Show",
+      "channel_url": "https://www.youtube.com/channel/UCzrWKkFIRS0kjZf7x24GdGg",
+      "upload_date": "20251014",
+      "duration": "2:06:39",
+      "duration_seconds": 7599,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:03:47+00:00",
+      "segment_count": 3509,
+      "files": [
+        {
+          "path": "47yObVOJciw/transcript.md",
+          "bytes": 348209,
+          "sha256": "82f8ab0bb289b7d21bf7d42c3e2c54ce86d26f53ae1568439002c289040ab3ab"
+        },
+        {
+          "path": "47yObVOJciw/segments.json",
+          "bytes": 402961,
+          "sha256": "ff10f4a5417369e0323929a74987aa17a2ab1a63c064884fc4d940e8440da2a7"
+        }
+      ]
+    },
+    {
+      "video_id": "dmoaGcylPf0",
+      "url": "https://www.youtube.com/watch?v=dmoaGcylPf0",
+      "notes": [
+        "Daniel Hess - Talk with Robin Hanson 2.md"
+      ],
+      "title": "Daniel Hess & Robin Hanson Talk Fertility Again",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.605Z",
+      "uploader": "Robin Hanson",
+      "channel_url": "https://www.youtube.com/channel/UC03gepY3d8nZz3kGHa6DJgQ",
+      "upload_date": "20241020",
+      "duration": "1:12:44",
+      "duration_seconds": 4364,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:03:51+00:00",
+      "segment_count": 1821,
+      "files": [
+        {
+          "path": "dmoaGcylPf0/transcript.md",
+          "bytes": 179621,
+          "sha256": "8836d6af277caeeec8ec9b095af95535c62d0cd2a56cabb0f7190cbddc0b9a6b"
+        },
+        {
+          "path": "dmoaGcylPf0/segments.json",
+          "bytes": 209594,
+          "sha256": "47f1a3d5775d5fc086b6a6421f80821853293fe1c9135ec15abba663f6f5fc5b"
+        }
+      ]
+    },
+    {
+      "video_id": "Vk0xSpJICtU",
+      "url": "https://www.youtube.com/watch?v=Vk0xSpJICtU",
+      "notes": [
+        "Daniel Hess - The Fertility Collapse.md"
+      ],
+      "title": "Dan Hess: the fertility collapse",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.615Z",
+      "uploader": "Razib Khan's Unsupervised Learning",
+      "channel_url": "https://www.youtube.com/channel/UCggqJq2YjrkuClFAQCXd4Jg",
+      "upload_date": "20250129",
+      "duration": "1:44:33",
+      "duration_seconds": 6273,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:03:53+00:00",
+      "segment_count": 2650,
+      "files": [
+        {
+          "path": "Vk0xSpJICtU/transcript.md",
+          "bytes": 266786,
+          "sha256": "b7f06dcbb85e72994dba8d202bd17c0c744029bc967c219ee4133f49044c8181"
+        },
+        {
+          "path": "Vk0xSpJICtU/segments.json",
+          "bytes": 309205,
+          "sha256": "ced82fedd81e634d41d55922868e2589d93e74318267d3fe1979d36ada9bfb6e"
+        }
+      ]
+    },
+    {
+      "video_id": "9pn5Gqh2jME",
+      "url": "https://www.youtube.com/watch?v=9pn5Gqh2jME",
+      "notes": [
+        "Daniel Hess - We Need a Pronatal Culture.md"
+      ],
+      "title": "Daniel Hess: We need a pro-natal culture",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.625Z",
+      "uploader": "The Macdonald-Laurier Institute",
+      "channel_url": "https://www.youtube.com/channel/UCYIUCRQV5-QU2df5HaOgY_g",
+      "upload_date": "20260115",
+      "duration": "57:28",
+      "duration_seconds": 3448,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:03:55+00:00",
+      "segment_count": 1395,
+      "files": [
+        {
+          "path": "9pn5Gqh2jME/transcript.md",
+          "bytes": 137445,
+          "sha256": "c23507028d547af76117278ba6466b655e79af09b8ec64d599f4b80fe3a19e71"
+        },
+        {
+          "path": "9pn5Gqh2jME/segments.json",
+          "bytes": 160745,
+          "sha256": "6ab42eb710685984c0ed79c0b1d86d7c21d861f57b20df531eb4b9aed1218f6c"
+        }
+      ]
+    },
+    {
+      "video_id": "3h49O0AGxx0",
+      "url": "https://www.youtube.com/watch?v=3h49O0AGxx0",
+      "notes": [
+        "David Betz - Are We Headed for Civil War.md"
+      ],
+      "title": "Are We Headed for Civil War? - David Betz",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.634Z",
+      "uploader": "Triggernometry",
+      "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+      "upload_date": "20250720",
+      "duration": "1:36:27",
+      "duration_seconds": 5787,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:03:58+00:00",
+      "segment_count": 2204,
+      "files": [
+        {
+          "path": "3h49O0AGxx0/transcript.md",
+          "bytes": 217435,
+          "sha256": "f8aec8ec2738c002786429a95573b10a9fa7d546cb876962334881ac87f46afe"
+        },
+        {
+          "path": "3h49O0AGxx0/segments.json",
+          "bytes": 252705,
+          "sha256": "926ee99e46de0dca26740c615ace8cff5bbe424795067431b0e60c988bb91ce2"
+        }
+      ]
+    },
+    {
+      "video_id": "Gid48FgiHho",
+      "url": "https://www.youtube.com/watch?v=Gid48FgiHho",
+      "notes": [
+        "David Betz - The Coming British Civil War.md"
+      ],
+      "title": "The Coming British Civil War - David Betz | Maiden Mother Matriarch Episode 124",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.664Z",
+      "uploader": "Maiden Mother Matriarch with Louise Perry ",
+      "channel_url": "https://www.youtube.com/channel/UCkx-68_4dAkCHMtbOo7PwJQ",
+      "upload_date": "20250212",
+      "duration": "1:29:05",
+      "duration_seconds": 5345,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:00+00:00",
+      "segment_count": 1994,
+      "files": [
+        {
+          "path": "Gid48FgiHho/transcript.md",
+          "bytes": 198046,
+          "sha256": "dabd932c18b0fb69f0003288577f0c582ef2aceb82aa21172961285da1344a07"
+        },
+        {
+          "path": "Gid48FgiHho/segments.json",
+          "bytes": 230033,
+          "sha256": "6a0ebf3b7fb522ee3b5c9a64513139a35f6c0146c9e7d6657476c13a019f7c1c"
+        }
+      ]
+    },
+    {
+      "video_id": "uG_5dFaTje8",
+      "url": "https://www.youtube.com/watch?v=uG_5dFaTje8",
+      "notes": [
+        "David Betz - The Coming Civil War.md"
+      ],
+      "title": "\"The coming civil war with David Betz\"",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.672Z",
+      "uploader": "Brussels Signal",
+      "channel_url": "https://www.youtube.com/channel/UCXALyWMoZSw0bGcUp0UHNhg",
+      "upload_date": "20250416",
+      "duration": "1:19:07",
+      "duration_seconds": 4747,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:03+00:00",
+      "segment_count": 1698,
+      "files": [
+        {
+          "path": "uG_5dFaTje8/transcript.md",
+          "bytes": 167689,
+          "sha256": "9448c3ac93c54459c769e8d1fa54b1275fb0f46c2709c832113f3386b0711d2b"
+        },
+        {
+          "path": "uG_5dFaTje8/segments.json",
+          "bytes": 195355,
+          "sha256": "99c7a67ca96dfb2b5b9d5d37882ef94f32ee51c29b3da1ac4d0a0c0a6d436ded"
+        }
+      ]
+    },
+    {
+      "video_id": "9T14MOEuDwU",
+      "url": "https://www.youtube.com/watch?v=9T14MOEuDwU",
+      "notes": [
+        "David Betz - War and Stupid War.md"
+      ],
+      "title": "Dr  David Betz Lecture, “War and Stupid War”",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.680Z",
+      "uploader": "Danube Institute",
+      "channel_url": "https://www.youtube.com/channel/UCqaco3WuAaf6wlhaeh0CsbQ",
+      "upload_date": "20240221",
+      "duration": "1:36:12",
+      "duration_seconds": 5772,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:05+00:00",
+      "segment_count": 1939,
+      "files": [
+        {
+          "path": "9T14MOEuDwU/transcript.md",
+          "bytes": 189272,
+          "sha256": "aea36c380f93446b51426cf27055428f5d22012a16a1f871a0df46d225d7dcdf"
+        },
+        {
+          "path": "9T14MOEuDwU/segments.json",
+          "bytes": 219883,
+          "sha256": "170884ac020e6bba2c27f0b966619d1dc758a4c22f4776fd7a117bacac205cef"
+        }
+      ]
+    },
+    {
+      "video_id": "cCdLUV7Vyi0",
+      "url": "https://www.youtube.com/watch?v=cCdLUV7Vyi0",
+      "notes": [
+        "David Betz - Warfare in the Digital Age.md"
+      ],
+      "title": "David Betz: Warfare in the digital age",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.689Z",
+      "uploader": "Alexander von Humboldt Institut for internet and society",
+      "channel_url": "https://www.youtube.com/channel/UC0ABcC5DGx2J7YGkGQtgZEw",
+      "upload_date": "20220905",
+      "duration": "1:54:27",
+      "duration_seconds": 6867,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:07+00:00",
+      "segment_count": 2975,
+      "files": [
+        {
+          "path": "cCdLUV7Vyi0/transcript.md",
+          "bytes": 282313,
+          "sha256": "d44ade22112232d9a02333537646407f13f5db99bca3210550a38d067ef5486e"
+        },
+        {
+          "path": "cCdLUV7Vyi0/segments.json",
+          "bytes": 328828,
+          "sha256": "70a11437af8ac890fcd21f977a82099ba1628558c2d577bcca9afc999d91b5cf"
+        }
+      ]
+    },
+    {
+      "video_id": "gUtltMklkcM",
+      "url": "https://www.youtube.com/watch?v=gUtltMklkcM",
+      "notes": [
+        "David Betz - What Britain Will Look And Feel Like When Things Get Nasty.md"
+      ],
+      "title": "What Will Britain Look And Feel Like When Its Deepest Divisions Erupt?",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.698Z",
+      "uploader": "Thinking Class",
+      "channel_url": "https://www.youtube.com/channel/UCd-S_3PAZp428pP5-mJB8ng",
+      "upload_date": "20251114",
+      "duration": "1:18:03",
+      "duration_seconds": 4683,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:12+00:00",
+      "segment_count": 1584,
+      "files": [
+        {
+          "path": "gUtltMklkcM/transcript.md",
+          "bytes": 156979,
+          "sha256": "e084ff48d89d1815795cb068a2e7faee38f79760916fbaa96ec93fbd360f1e7a"
+        },
+        {
+          "path": "gUtltMklkcM/segments.json",
+          "bytes": 182974,
+          "sha256": "aa0573cccb29ca8bbf06addae92406467c1796ed1c6d35746503cc0575352c7a"
+        }
+      ]
+    },
+    {
+      "video_id": "5ioTSLpPuME",
+      "url": "https://www.youtube.com/watch?v=5ioTSLpPuME",
+      "notes": [
+        "David Betz - Will Civil Unrest Come to the West.md"
+      ],
+      "title": "David Betz: Will Civil Unrest come to the West? | Danube Seminars",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.707Z",
+      "uploader": "Danube Institute",
+      "channel_url": "https://www.youtube.com/channel/UCqaco3WuAaf6wlhaeh0CsbQ",
+      "upload_date": "20251028",
+      "duration": "1:12:40",
+      "duration_seconds": 4360,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:14+00:00",
+      "segment_count": 1618,
+      "files": [
+        {
+          "path": "5ioTSLpPuME/transcript.md",
+          "bytes": 158602,
+          "sha256": "e3a4762a7fd7de8d9c69ff29ffed8acd227f8f8888ba4894c4b2ec4b7c901ef5"
+        },
+        {
+          "path": "5ioTSLpPuME/segments.json",
+          "bytes": 185285,
+          "sha256": "536d90a78967bc6e6290544aa9cc5c94849ae9b56638fa93a87a6f3ae48feae6"
+        }
+      ]
+    },
+    {
+      "video_id": "nw7Pt3k6tj4",
+      "url": "https://www.youtube.com/watch?v=nw7Pt3k6tj4",
+      "notes": [
+        "Geoffrey Miller - Broken Dating Markets.md"
+      ],
+      "title": "An Evolutionary Psychologist's Take On Broken Dating Markets (Ft Geoffrey Miller)",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.714Z",
+      "uploader": "Based Camp with Simone & Malcolm Collins",
+      "channel_url": "https://www.youtube.com/channel/UCKl1rNF6tE8waTadKDiYKmg",
+      "upload_date": "20250801",
+      "duration": "58:41",
+      "duration_seconds": 3521,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:17+00:00",
+      "segment_count": 1605,
+      "files": [
+        {
+          "path": "nw7Pt3k6tj4/transcript.md",
+          "bytes": 156990,
+          "sha256": "689c989a3f8ea6961baea7e5533d319115f37187d2b72172f473b126a30c4cfc"
+        },
+        {
+          "path": "nw7Pt3k6tj4/segments.json",
+          "bytes": 184063,
+          "sha256": "f04659d50553c921bb4575b412e932c28df357908682dd9b7fc8226aec289c60"
+        }
+      ]
+    },
+    {
+      "video_id": "KMOwGx9ZtMI",
+      "url": "https://www.youtube.com/watch?v=KMOwGx9ZtMI",
+      "notes": [
+        "John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.md"
+      ],
+      "title": "Britain Is Being Hollowed Out — A Geopolitical Analyst Explains Why Nobody In Power Will Say It",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.741Z",
+      "uploader": "Thinking Class",
+      "channel_url": "https://www.youtube.com/channel/UCd-S_3PAZp428pP5-mJB8ng",
+      "upload_date": "20260123",
+      "duration": "1:20:20",
+      "duration_seconds": 4820,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:21+00:00",
+      "segment_count": 2032,
+      "files": [
+        {
+          "path": "KMOwGx9ZtMI/transcript.md",
+          "bytes": 189267,
+          "sha256": "a65c58b9de2afbbd23ff96e0b4fb228b3d04d454c0d6cd01edcb603a5d7bd64c"
+        },
+        {
+          "path": "KMOwGx9ZtMI/segments.json",
+          "bytes": 220737,
+          "sha256": "14a9fe67027a51f7aeea8db60afea690e2c7f9b2652049c4c907a8cc5b628270"
+        }
+      ]
+    },
+    {
+      "video_id": "Y2hS_7WkkDA",
+      "url": "https://www.youtube.com/watch?v=Y2hS_7WkkDA",
+      "notes": [
+        "John Gillam - Reverse Colonization in France with Driss Ghali.md"
+      ],
+      "title": "Reverse Colonisation: France Is Suffering Rising Violence, Fighting Islamism And Fearing Civil War",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.774Z",
+      "uploader": "Thinking Class",
+      "channel_url": "https://www.youtube.com/channel/UCd-S_3PAZp428pP5-mJB8ng",
+      "upload_date": "20251212",
+      "duration": "1:17:29",
+      "duration_seconds": 4649,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:25+00:00",
+      "segment_count": 1695,
+      "files": [
+        {
+          "path": "Y2hS_7WkkDA/transcript.md",
+          "bytes": 169003,
+          "sha256": "2496936e85943d25f4f06f18e84f89e3f5186ed13c36ec491e7ef3a066599e0a"
+        },
+        {
+          "path": "Y2hS_7WkkDA/segments.json",
+          "bytes": 196737,
+          "sha256": "20e7d763faf8665c01051da7c23aa97530c3ec24d3693ceca8c8af865f052372"
+        }
+      ]
+    },
+    {
+      "video_id": "TcfhrThp1OU",
+      "url": "https://www.youtube.com/watch?v=TcfhrThp1OU",
+      "notes": [
+        "Joseph Henrich - Humans defeated smarter species with cultural evolution.md"
+      ],
+      "title": "Joseph Henrich — Humans defeated smarter species with cultural evolution",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.785Z",
+      "uploader": "Dwarkesh Patel",
+      "channel_url": "https://www.youtube.com/channel/UCXl4i9dYBrFOabk0xGmbkRA",
+      "upload_date": "20250312",
+      "duration": "1:53:51",
+      "duration_seconds": 6831,
+      "language": "en",
+      "transcript_source": "manual",
+      "downloaded_at": "2026-11-14T11:04:28+00:00",
+      "segment_count": 1277,
+      "files": [
+        {
+          "path": "TcfhrThp1OU/transcript.md",
+          "bytes": 199512,
+          "sha256": "5833f06266720f15613adbff9c99bec8af55746ec765a390eecd84ac64e44b09"
+        },
+        {
+          "path": "TcfhrThp1OU/segments.json",
+          "bytes": 218611,
+          "sha256": "53fdc2b26dd74f51a47bc046963b747cd34ec2f32ed86721146a83b4c67f8c66"
+        }
+      ]
+    },
+    {
+      "video_id": "SwaI9dmk22o",
+      "url": "https://www.youtube.com/watch?v=SwaI9dmk22o",
+      "notes": [
+        "Lotus Eaters - Europe Is Turning Into a Powderkeg.md"
+      ],
+      "title": "Europe Is Turning Into a Powderkeg",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.802Z",
+      "uploader": "The Podcast of the Lotus Eaters",
+      "channel_url": "https://www.youtube.com/channel/UC7edjYPNhTm5LYJMT7UMt0Q",
+      "upload_date": "20251202",
+      "duration": "1:23:34",
+      "duration_seconds": 5014,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:32+00:00",
+      "segment_count": 2244,
+      "files": [
+        {
+          "path": "SwaI9dmk22o/transcript.md",
+          "bytes": 220493,
+          "sha256": "af9e238cecf4f63043c78134378536937c32cd43664b5e61bcd616556fbaa46f"
+        },
+        {
+          "path": "SwaI9dmk22o/segments.json",
+          "bytes": 256464,
+          "sha256": "3b032ede2eec984d652e7ea3886fdc75de43a46cbce7243edb352fd4ae3cdfad"
+        }
+      ]
+    },
+    {
+      "video_id": "14CKaQHrw6w",
+      "url": "https://www.youtube.com/watch?v=14CKaQHrw6w",
+      "notes": [
+        "Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.md"
+      ],
+      "title": "Even the Poor are Spoiled Rotten & It Disgusts Us (Thanksgiving Special!)",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.828Z",
+      "uploader": "Based Camp with Simone & Malcolm Collins",
+      "channel_url": "https://www.youtube.com/channel/UCKl1rNF6tE8waTadKDiYKmg",
+      "upload_date": "20251127",
+      "duration": "56:09",
+      "duration_seconds": 3369,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:34+00:00",
+      "segment_count": 1536,
+      "files": [
+        {
+          "path": "14CKaQHrw6w/transcript.md",
+          "bytes": 155455,
+          "sha256": "a5f9e6463744bd00ff84f630728e899f2bec721df8f84ebe5298dedd88402b8b"
+        },
+        {
+          "path": "14CKaQHrw6w/segments.json",
+          "bytes": 181396,
+          "sha256": "8df7f763b97c0e5720ce5cb8b80714890bd8f866db4f8a6cc41ce704a356b9f9"
+        }
+      ]
+    },
+    {
+      "video_id": "pvmrpxp_ZOE",
+      "url": "https://www.youtube.com/watch?v=pvmrpxp_ZOE",
+      "notes": [
+        "Malcolm-Simone Collins - How Religions Rank Competence.md"
+      ],
+      "title": "Based Camp: How Religions Rank Competence (A Comparison of Cross Cultural Meritocratic Assessments)",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.839Z",
+      "uploader": "Based Camp with Simone & Malcolm Collins",
+      "channel_url": "https://www.youtube.com/channel/UCKl1rNF6tE8waTadKDiYKmg",
+      "upload_date": "20230713",
+      "duration": "38:34",
+      "duration_seconds": 2314,
+      "language": "en",
+      "transcript_source": "manual",
+      "downloaded_at": "2026-11-14T11:04:36+00:00",
+      "segment_count": 715,
+      "files": [
+        {
+          "path": "pvmrpxp_ZOE/transcript.md",
+          "bytes": 84694,
+          "sha256": "9c2458a61c5b63a432d291d906492f0ea3ae6476b7584ac2f7343e23009634b7"
+        },
+        {
+          "path": "pvmrpxp_ZOE/segments.json",
+          "bytes": 97178,
+          "sha256": "c3a1807761052b0255dc9d24d70805945d54ec404bc1d95df0dd7d343d56f138"
+        }
+      ]
+    },
+    {
+      "video_id": "HclD2E_3rhI",
+      "url": "https://www.youtube.com/watch?v=HclD2E_3rhI",
+      "notes": [
+        "Marcus Gallo - You DON’T Descend From All Your Ancestors.md"
+      ],
+      "title": "You DON’T Descend From All Your Ancestors",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.851Z",
+      "uploader": "Marcus Gallo",
+      "channel_url": "https://www.youtube.com/channel/UC6hMjfcgFLuWtO7RUyzy2Mw",
+      "upload_date": "20240718",
+      "duration": "12:45",
+      "duration_seconds": 765,
+      "language": "en-US",
+      "transcript_source": "manual",
+      "downloaded_at": "2026-11-14T11:04:38+00:00",
+      "segment_count": 154,
+      "files": [
+        {
+          "path": "HclD2E_3rhI/transcript.md",
+          "bytes": 22351,
+          "sha256": "45a9530f7072607dbd566e15d7716be874d4bee8597ab72398ef8caba93dda63"
+        },
+        {
+          "path": "HclD2E_3rhI/segments.json",
+          "bytes": 24903,
+          "sha256": "9ce36fad4763c6c5edeae9e7a15e3c7b27964cf3a4084e099731bd63967422b6"
+        }
+      ]
+    },
+    {
+      "video_id": "T19NRaNEM8o",
+      "url": "https://www.youtube.com/watch?v=T19NRaNEM8o",
+      "notes": [
+        "Nate Friedman - I Exposed the Islamic Takeover of the UK.md"
+      ],
+      "title": "I Exposed the Islamic Takeover of London",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.858Z",
+      "uploader": "Nate Friedman",
+      "channel_url": "https://www.youtube.com/channel/UCkZPmCUf37R_DZgKYH3duPg",
+      "upload_date": "20251207",
+      "duration": "27:45",
+      "duration_seconds": 1665,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:40+00:00",
+      "segment_count": 861,
+      "files": [
+        {
+          "path": "T19NRaNEM8o/transcript.md",
+          "bytes": 81040,
+          "sha256": "75a58e4bb8edc173fb275ddd2deadd394a1e55ed219628a1d45e8efdb2912603"
+        },
+        {
+          "path": "T19NRaNEM8o/segments.json",
+          "bytes": 95589,
+          "sha256": "fed2b521588654998626f2ff561ea2ab42dc14776219b4240f6608272351ad32"
+        }
+      ]
+    },
+    {
+      "video_id": "C-Cobvf1o8w",
+      "url": "https://www.youtube.com/watch?v=C-Cobvf1o8w",
+      "notes": [
+        "Nathan Cofnas - Twilight of the Liberal Jew.md"
+      ],
+      "title": "Talkline With Zev Brenner With Nathan Cofnas on the vanishing Liberal Jew",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.866Z",
+      "uploader": "Zev Brenner",
+      "channel_url": "https://www.youtube.com/channel/UCK95KM1EYo4IWerozYZdffg",
+      "upload_date": "20230921",
+      "duration": "33:10",
+      "duration_seconds": 1990,
+      "language": "en-uYU-mmqFLq8",
+      "transcript_source": "manual",
+      "downloaded_at": "2026-11-14T11:04:45+00:00",
+      "segment_count": 961,
+      "files": [
+        {
+          "path": "C-Cobvf1o8w/transcript.md",
+          "bytes": 86573,
+          "sha256": "f20dd318be5e7920f053665bc8466574912b873fabfe9a3dd678bc7f86be1526"
+        },
+        {
+          "path": "C-Cobvf1o8w/segments.json",
+          "bytes": 104624,
+          "sha256": "766b0ab8aaaec460019bc0eafad423f69a10c5f586fa079dc9928e1c9651abdf"
+        }
+      ]
+    },
+    {
+      "video_id": "GKyuUa0o9Hc",
+      "url": "https://www.youtube.com/watch?v=GKyuUa0o9Hc",
+      "notes": [
+        "Nick Pardini - Global Class Hierarchies Explained.md"
+      ],
+      "title": "Global Class Hierarchies Explained",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.874Z",
+      "uploader": "Analyzing Finance with Nick",
+      "channel_url": "https://www.youtube.com/channel/UC7TEgC3UwJ2wI6m40rJOAFA",
+      "upload_date": "20251126",
+      "duration": "56:51",
+      "duration_seconds": 3411,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:49+00:00",
+      "segment_count": 1321,
+      "files": [
+        {
+          "path": "GKyuUa0o9Hc/transcript.md",
+          "bytes": 132005,
+          "sha256": "5857fa48430ef0c6feb4c7605cf1d4e9d8d68e391b1075044fda684982158239"
+        },
+        {
+          "path": "GKyuUa0o9Hc/segments.json",
+          "bytes": 154155,
+          "sha256": "bb84a973e6a3fc16c9e274c2bcd7cfe40a38278095036a74cdadd13be19d140a"
+        }
+      ]
+    },
+    {
+      "video_id": "RQV5zWjibe4",
+      "url": "https://www.youtube.com/watch?v=RQV5zWjibe4",
+      "notes": [
+        "Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.md"
+      ],
+      "title": "Personal Agency: The Real Divide Between Social Classes",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.884Z",
+      "uploader": "Analyzing Finance with Nick",
+      "channel_url": "https://www.youtube.com/channel/UC7TEgC3UwJ2wI6m40rJOAFA",
+      "upload_date": "20260122",
+      "duration": "16:17",
+      "duration_seconds": 977,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:53+00:00",
+      "segment_count": 380,
+      "files": [
+        {
+          "path": "RQV5zWjibe4/transcript.md",
+          "bytes": 40089,
+          "sha256": "1c51f6771a7ed196d081f89ed5bd4f489dbfb8d4648ff663b22b340bc8fca145"
+        },
+        {
+          "path": "RQV5zWjibe4/segments.json",
+          "bytes": 46750,
+          "sha256": "ce5a03f10e452720291664ac2eb06a62717141063f94e6d4f1ed6c4ffb6357a9"
+        }
+      ]
+    },
+    {
+      "video_id": "XJctvnB9_Kk",
+      "url": "https://www.youtube.com/watch?v=XJctvnB9_Kk",
+      "notes": [
+        "Noah Smith - Can a Nation Plunder Its Way to Wealth.md"
+      ],
+      "title": "Can a Nation Plunder Its Way to Wealth (with Noah Smith) 1/15/24",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.891Z",
+      "uploader": "EconTalk",
+      "channel_url": "https://www.youtube.com/channel/UCKAu-mTq7iZtKHK6QiBqKPA",
+      "upload_date": "20240115",
+      "duration": "1:09:05",
+      "duration_seconds": 4145,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:56+00:00",
+      "segment_count": 1681,
+      "files": [
+        {
+          "path": "XJctvnB9_Kk/transcript.md",
+          "bytes": 166175,
+          "sha256": "546543fd36b13b09973e672908e1a29616d09472359354c645900453065161b9"
+        },
+        {
+          "path": "XJctvnB9_Kk/segments.json",
+          "bytes": 194024,
+          "sha256": "d337e2c6822e6e2a3816a7feb10185d941b94cd1ed769bbd4c883a4ecae15ff1"
+        }
+      ]
+    },
+    {
+      "video_id": "TsrwaYQUGkM",
+      "url": "https://www.youtube.com/watch?v=TsrwaYQUGkM",
+      "notes": [
+        "Philip Pilkington - The Collapse of Global Liberalism.md"
+      ],
+      "title": "The Collapse of Global Liberalism with Philip Pilkington",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.899Z",
+      "uploader": "Pickthall House",
+      "channel_url": "https://www.youtube.com/channel/UCDcwyANEoG-R5RuaFjut0LA",
+      "upload_date": "20250530",
+      "duration": "1:18:19",
+      "duration_seconds": 4699,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:04:58+00:00",
+      "segment_count": 2303,
+      "files": [
+        {
+          "path": "TsrwaYQUGkM/transcript.md",
+          "bytes": 224283,
+          "sha256": "e24e4791725f6782dd734ff37a25987b41aeda63202c0aa17165c7ec33b574cd"
+        },
+        {
+          "path": "TsrwaYQUGkM/segments.json",
+          "bytes": 259750,
+          "sha256": "e345e0e82775d4af6f14e2d2be2b79f824a39194c32977b3d039d3c119cf7626"
+        }
+      ]
+    },
+    {
+      "video_id": "RLk4MnWtQ4U",
+      "url": "https://www.youtube.com/watch?v=RLk4MnWtQ4U",
+      "notes": [
+        "Raymond Ibrahim - The Islamic Conquest Of Europe.md"
+      ],
+      "title": "The Islamic Conquest Of Europe & Why It Was COVERED UP! w/ Raymond Ibrahim",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.922Z",
+      "uploader": "Winston Marshall",
+      "channel_url": "https://www.youtube.com/channel/UC1B4F0eOVEq_NK7k5dNLlFg",
+      "upload_date": "20250510",
+      "duration": "1:56:45",
+      "duration_seconds": 7005,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:02+00:00",
+      "segment_count": 3473,
+      "files": [
+        {
+          "path": "RLk4MnWtQ4U/transcript.md",
+          "bytes": 347387,
+          "sha256": "4cdb30fd87a8bfed35d7935298c831da696202006cfe775eebb5fab22b99e121"
+        },
+        {
+          "path": "RLk4MnWtQ4U/segments.json",
+          "bytes": 401828,
+          "sha256": "3de81c550b050ac7eb5a83bacf8cc92e7792116f17b6dec6b0a870d09b5dc500"
+        }
+      ]
+    },
+    {
+      "video_id": "Y64jGdPHDmM",
+      "url": "https://www.youtube.com/watch?v=Y64jGdPHDmM",
+      "notes": [
+        "Raymond Ibrahim - The Real History of Islam.md"
+      ],
+      "title": "The Real History of Islam with Raymond Ibrahim",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.936Z",
+      "uploader": "Triggernometry",
+      "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+      "upload_date": "20251214",
+      "duration": "2:02:06",
+      "duration_seconds": 7326,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:04+00:00",
+      "segment_count": 3476,
+      "files": [
+        {
+          "path": "Y64jGdPHDmM/transcript.md",
+          "bytes": 347992,
+          "sha256": "79b1030649667ace900da8ef7702caa8456bfcd98886388e6ae317ff27faab5e"
+        },
+        {
+          "path": "Y64jGdPHDmM/segments.json",
+          "bytes": 402009,
+          "sha256": "27570ee0ae0bf20d718314d4e4a1b06d4bd66e999beb821416a27bf55c582c21"
+        }
+      ]
+    },
+    {
+      "video_id": "u03FqqGr76g",
+      "url": "https://www.youtube.com/watch?v=u03FqqGr76g",
+      "notes": [
+        "Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.md"
+      ],
+      "title": "Zineb Riboua: Zohran Mamdani and Third-Worldism ascendent",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.946Z",
+      "uploader": "Razib Khan's Unsupervised Learning",
+      "channel_url": "https://www.youtube.com/channel/UCggqJq2YjrkuClFAQCXd4Jg",
+      "upload_date": "20251202",
+      "duration": "1:04:51",
+      "duration_seconds": 3891,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:09+00:00",
+      "segment_count": 1609,
+      "files": [
+        {
+          "path": "u03FqqGr76g/transcript.md",
+          "bytes": 160202,
+          "sha256": "297cf089ade58010170c2c8f4a6998f6131943cca1f64f39a7062c9beeb147f2"
+        },
+        {
+          "path": "u03FqqGr76g/segments.json",
+          "bytes": 186841,
+          "sha256": "f61f939dacbe9b09a89d721479794d9b9479811350f436e06a4989f8ef112a25"
+        }
+      ]
+    },
+    {
+      "video_id": "KmTgEnE6oLs",
+      "url": "https://www.youtube.com/watch?v=KmTgEnE6oLs",
+      "notes": [
+        "Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.md"
+      ],
+      "title": "No, Young Men Are Not Returning To Church. | Interesting Times with Ross Douthat",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.974Z",
+      "uploader": "Interesting Times",
+      "channel_url": "https://www.youtube.com/channel/UCJugC7hlL5uNoii46ICyUvw",
+      "upload_date": "20260122",
+      "duration": "59:39",
+      "duration_seconds": 3579,
+      "language": "en",
+      "transcript_source": "manual",
+      "downloaded_at": "2026-11-14T11:05:12+00:00",
+      "segment_count": 1504,
+      "files": [
+        {
+          "path": "KmTgEnE6oLs/transcript.md",
+          "bytes": 156414,
+          "sha256": "3dcaa294a6af3be21544ff1871e8fc5ff33ceec930eeae4ba9a6cd0387915d6d"
+        },
+        {
+          "path": "KmTgEnE6oLs/segments.json",
+          "bytes": 181009,
+          "sha256": "9c3b3e46ea762438496b7fef5a1b41083f24f68228cfb682c5db3aa031293a44"
+        }
+      ]
+    },
+    {
+      "video_id": "fW3hQ1xYPUc",
+      "url": "https://www.youtube.com/watch?v=fW3hQ1xYPUc",
+      "notes": [
+        "Rudyard Lynch - Civilizational Differences with Samo Burja.md"
+      ],
+      "title": "Civilizational Differences",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.985Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20240919",
+      "duration": "57:52",
+      "duration_seconds": 3472,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:14+00:00",
+      "segment_count": 1420,
+      "files": [
+        {
+          "path": "fW3hQ1xYPUc/transcript.md",
+          "bytes": 143572,
+          "sha256": "8c29b8aad3922e172fce5b1c4dc8fd0e4258c8715998f222c6b13b90911d8fe7"
+        },
+        {
+          "path": "fW3hQ1xYPUc/segments.json",
+          "bytes": 167609,
+          "sha256": "79869bb843acdf63e8841b84dc42723587b878541cb699e57f44e117ab5ba0d3"
+        }
+      ]
+    },
+    {
+      "video_id": "uMi1v9V7A-o",
+      "url": "https://www.youtube.com/watch?v=uMi1v9V7A-o",
+      "notes": [
+        "Rudyard Lynch - Explaining 17th Century Eastern Europe.md"
+      ],
+      "title": "Explaining 17th Century Eastern Europe",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:27.994Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20241011",
+      "duration": "1:03:46",
+      "duration_seconds": 3826,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:16+00:00",
+      "segment_count": 1521,
+      "files": [
+        {
+          "path": "uMi1v9V7A-o/transcript.md",
+          "bytes": 149523,
+          "sha256": "0fc0bfc930040cf11de815de07bc2eb9c46eb1581cb6b07125e22c8660a34096"
+        },
+        {
+          "path": "uMi1v9V7A-o/segments.json",
+          "bytes": 174868,
+          "sha256": "988627018db8937a076bf6cde448fb13ca44ccd02dde730f2c8e57ec948d09fe"
+        }
+      ]
+    },
+    {
+      "video_id": "KdFGw2pWrlw",
+      "url": "https://www.youtube.com/watch?v=KdFGw2pWrlw",
+      "notes": [
+        "Rudyard Lynch - Explaining 17th Century Western Europe.md"
+      ],
+      "title": "Explaining 17th Century Western Europe",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.002Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20241107",
+      "duration": "1:04:04",
+      "duration_seconds": 3844,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:19+00:00",
+      "segment_count": 1586,
+      "files": [
+        {
+          "path": "KdFGw2pWrlw/transcript.md",
+          "bytes": 156261,
+          "sha256": "4f6b7d8ab4634fd69a1f0e2e1a5775303f7fb157d5912ae146a5ef8c36d7c54d"
+        },
+        {
+          "path": "KdFGw2pWrlw/segments.json",
+          "bytes": 182695,
+          "sha256": "b0ecc9d921eba012439af1ea60d6b7ea464e11c880a4e57e4a3322f3e937c465"
+        }
+      ]
+    },
+    {
+      "video_id": "FUvKGFH67Ug",
+      "url": "https://www.youtube.com/watch?v=FUvKGFH67Ug",
+      "notes": [
+        "Rudyard Lynch - Explaining Africa's Slave Trades.md"
+      ],
+      "title": "Explaining Africa's Slave Trades",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.012Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20240711",
+      "duration": "58:42",
+      "duration_seconds": 3522,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:21+00:00",
+      "segment_count": 1338,
+      "files": [
+        {
+          "path": "FUvKGFH67Ug/transcript.md",
+          "bytes": 131356,
+          "sha256": "087aae3a06736bd55eff36af341c98e81e2f7491c4c74caf7b14e82a7e6725b2"
+        },
+        {
+          "path": "FUvKGFH67Ug/segments.json",
+          "bytes": 153868,
+          "sha256": "b9b930f19d121a548ceb23d4f481768ac99f22a7f1a3e937fae78dac951907fb"
+        }
+      ]
+    },
+    {
+      "video_id": "RgIKnQ9vRjI",
+      "url": "https://www.youtube.com/watch?v=RgIKnQ9vRjI",
+      "notes": [
+        "Rudyard Lynch - Explaining Ancient Greece.md"
+      ],
+      "title": "Explaining Ancient Greece",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.021Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20240813",
+      "duration": "1:00:10",
+      "duration_seconds": 3610,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:23+00:00",
+      "segment_count": 1442,
+      "files": [
+        {
+          "path": "RgIKnQ9vRjI/transcript.md",
+          "bytes": 143156,
+          "sha256": "ae921b5504bc73b813030cb726bbdb7c3a8c4bbfa39d0d9fe468aaadfb1e510d"
+        },
+        {
+          "path": "RgIKnQ9vRjI/segments.json",
+          "bytes": 167724,
+          "sha256": "6466431d06f80a130a9e75f4c1ce344890bfefc5fbff48964de8fca65f158272"
+        }
+      ]
+    },
+    {
+      "video_id": "WBIsDV5qSMQ",
+      "url": "https://www.youtube.com/watch?v=WBIsDV5qSMQ",
+      "notes": [
+        "Rudyard Lynch - Explaining Ancient Israel.md"
+      ],
+      "title": "Explaining Ancient Israel",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.029Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20250107",
+      "duration": "1:40:21",
+      "duration_seconds": 6021,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:27+00:00",
+      "segment_count": 2691,
+      "files": [
+        {
+          "path": "WBIsDV5qSMQ/transcript.md",
+          "bytes": 258221,
+          "sha256": "7aedf3c745cf3f504b1d6f4050c73b23fe13eedb42c5db9440a25aea7ead1323"
+        },
+        {
+          "path": "WBIsDV5qSMQ/segments.json",
+          "bytes": 300061,
+          "sha256": "cd25fe316ed2c4e1f8771ae5eab131fcb78fdf08e23bc08dedb59615272910c1"
+        }
+      ]
+    },
+    {
+      "video_id": "3ZX4rye0JBg",
+      "url": "https://www.youtube.com/watch?v=3ZX4rye0JBg",
+      "notes": [
+        "Rudyard Lynch - Explaining Tzarist Russia.md"
+      ],
+      "title": "Explaining Tzarist Russia",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.038Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20240730",
+      "duration": "56:08",
+      "duration_seconds": 3368,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:03+00:00",
+      "segment_count": 1301,
+      "files": [
+        {
+          "path": "3ZX4rye0JBg/transcript.md",
+          "bytes": 128527,
+          "sha256": "84a6af099de6a1689e4f7fa943c40015e05a49765c7b20be3bd8a1a7ce97c2ef"
+        },
+        {
+          "path": "3ZX4rye0JBg/segments.json",
+          "bytes": 150522,
+          "sha256": "e84d170ee462f678e0109208307d5c78e0505de6e8cd82405de1f57dad3937ba"
+        }
+      ]
+    },
+    {
+      "video_id": "2QGiLhuOp4s",
+      "url": "https://www.youtube.com/watch?v=2QGiLhuOp4s",
+      "notes": [
+        "Rudyard Lynch - Explaining the English Civil War.md"
+      ],
+      "title": "Explaining the English Civil War",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.047Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20241118",
+      "duration": "1:07:30",
+      "duration_seconds": 4050,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:31+00:00",
+      "segment_count": 1760,
+      "files": [
+        {
+          "path": "2QGiLhuOp4s/transcript.md",
+          "bytes": 169203,
+          "sha256": "b535ca20054d32ca516659987b586ab2914b6c5da5f9478152ed92eb1635ae25"
+        },
+        {
+          "path": "2QGiLhuOp4s/segments.json",
+          "bytes": 197073,
+          "sha256": "642cdce906254c5ec4814b92ad5b9af17b06c7c00d9dd6f4bbac687988b6b398"
+        }
+      ]
+    },
+    {
+      "video_id": "TL6w6YytCxg",
+      "url": "https://www.youtube.com/watch?v=TL6w6YytCxg",
+      "notes": [
+        "Rudyard Lynch - Explaining the Fall of Rome.md"
+      ],
+      "title": "Explaining the Fall of Rome",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.057Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20240227",
+      "duration": "52:29",
+      "duration_seconds": 3149,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:35+00:00",
+      "segment_count": 1271,
+      "files": [
+        {
+          "path": "TL6w6YytCxg/transcript.md",
+          "bytes": 125331,
+          "sha256": "073dd69688bfe3d2dfe23862107542aac04f1ba566bd9491537210a1c678637d"
+        },
+        {
+          "path": "TL6w6YytCxg/segments.json",
+          "bytes": 146807,
+          "sha256": "50aebb5cda6f774cf52f5ee8e1237a58cea9e7f855e11184baa8009723a1d344"
+        }
+      ]
+    },
+    {
+      "video_id": "YK3VZ9Jwn0w",
+      "url": "https://www.youtube.com/watch?v=YK3VZ9Jwn0w",
+      "notes": [
+        "Rudyard Lynch - Explaining the Industrial Revolution.md"
+      ],
+      "title": "Explaining the Industrial Revolution",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.079Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20240930",
+      "duration": "47:55",
+      "duration_seconds": 2875,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:40+00:00",
+      "segment_count": 1170,
+      "files": [
+        {
+          "path": "YK3VZ9Jwn0w/transcript.md",
+          "bytes": 115256,
+          "sha256": "2d606eddbaf7ea421c694a32757c40af63d3fb8a03637955d4a30894efe8ff28"
+        },
+        {
+          "path": "YK3VZ9Jwn0w/segments.json",
+          "bytes": 135126,
+          "sha256": "76792d3da2345a5d9a5718ffa067cd9849241a6d92bdaf8c67b818a2619f5b85"
+        }
+      ]
+    },
+    {
+      "video_id": "O0EZOtrqE5I",
+      "url": "https://www.youtube.com/watch?v=O0EZOtrqE5I",
+      "notes": [
+        "Rudyard Lynch - Explaining the Mongol Empire.md"
+      ],
+      "title": "Explaining the Mongol Empire",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.087Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20250808",
+      "duration": "2:13:16",
+      "duration_seconds": 7996,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:43+00:00",
+      "segment_count": 3280,
+      "files": [
+        {
+          "path": "O0EZOtrqE5I/transcript.md",
+          "bytes": 323013,
+          "sha256": "684fe0a20ed5816b04ff677c33244382d9efdb2c2d508f870937ef29a31beb17"
+        },
+        {
+          "path": "O0EZOtrqE5I/segments.json",
+          "bytes": 374283,
+          "sha256": "ac07c181979fa8c639a4cbbe65b53b6bd17356b6252893deec8ec0465e99aaaf"
+        }
+      ]
+    },
+    {
+      "video_id": "gsEGn8TBDDs",
+      "url": "https://www.youtube.com/watch?v=gsEGn8TBDDs",
+      "notes": [
+        "Rudyard Lynch - Explaining the Rise of Christianity.md"
+      ],
+      "title": "Explaining the Rise of Christianity",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.101Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20240718",
+      "duration": "55:26",
+      "duration_seconds": 3326,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:46+00:00",
+      "segment_count": 1354,
+      "files": [
+        {
+          "path": "gsEGn8TBDDs/transcript.md",
+          "bytes": 133729,
+          "sha256": "e14b8e9913b9f3e96fad31a54fc06fe933a3c8cb0762d10c4ea1e460ddb6687f"
+        },
+        {
+          "path": "gsEGn8TBDDs/segments.json",
+          "bytes": 156588,
+          "sha256": "220af6454d72a5e204404ea4ebbaec985bbe3895b61e60f8ae40c98246bd0aab"
+        }
+      ]
+    },
+    {
+      "video_id": "TvgDkIqYaWQ",
+      "url": "https://www.youtube.com/watch?v=TvgDkIqYaWQ",
+      "notes": [
+        "Rudyard Lynch - Explaining the Rise of Islam.md"
+      ],
+      "title": "Explaining the Rise of Islam",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.112Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20240619",
+      "duration": "51:21",
+      "duration_seconds": 3081,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:50+00:00",
+      "segment_count": 1198,
+      "files": [
+        {
+          "path": "TvgDkIqYaWQ/transcript.md",
+          "bytes": 118002,
+          "sha256": "034fc7af688dd133b94d4b766dfbcdf5e1b75bf7ae0e5c91b4803b1c8219ca25"
+        },
+        {
+          "path": "TvgDkIqYaWQ/segments.json",
+          "bytes": 138275,
+          "sha256": "7c6c91008bebc26710fe1d31fa08b2763aadc51ee84e97846b81cee381ca2deb"
+        }
+      ]
+    },
+    {
+      "video_id": "m5eBFtX0Yf4",
+      "url": "https://www.youtube.com/watch?v=m5eBFtX0Yf4",
+      "notes": [
+        "Rudyard Lynch - Explaining the Rise of Rome.md"
+      ],
+      "title": "Explaining the Rise of Rome",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.137Z",
+      "uploader": "History102",
+      "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+      "upload_date": "20240425",
+      "duration": "56:47",
+      "duration_seconds": 3407,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:05:56+00:00",
+      "segment_count": 1365,
+      "files": [
+        {
+          "path": "m5eBFtX0Yf4/transcript.md",
+          "bytes": 134884,
+          "sha256": "3ba8f53008b9ccf285521ce35a1426c690f21cc4b55b740285a4c05dcd5cad27"
+        },
+        {
+          "path": "m5eBFtX0Yf4/segments.json",
+          "bytes": 158098,
+          "sha256": "ed2b31a0dc75fccc01ac3a0f375c45b7b9a649c0725a3daecdc88570371168a0"
+        }
+      ]
+    },
+    {
+      "video_id": "Ul2iW3mWl90",
+      "url": "https://www.youtube.com/watch?v=Ul2iW3mWl90",
+      "notes": [
+        "Rudyard Lynch - The 7 Emotions That Push Civilization.md"
+      ],
+      "title": "The 7 Emotions that Push Civilization",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.163Z",
+      "uploader": "Whatifalthist",
+      "channel_url": "https://www.youtube.com/channel/UC5Dw9TFdbPJoTDMSiJdIQTA",
+      "upload_date": "20230128",
+      "duration": "49:11",
+      "duration_seconds": 2951,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:06+00:00",
+      "segment_count": 1372,
+      "files": [
+        {
+          "path": "Ul2iW3mWl90/transcript.md",
+          "bytes": 136221,
+          "sha256": "7d5fbbb878a6009afffe37d3c4da31699e7803465aa452a00f5a9a2d354be962"
+        },
+        {
+          "path": "Ul2iW3mWl90/segments.json",
+          "bytes": 159211,
+          "sha256": "b8c988994bc91be4c44f53d67204fb5d3dc623490b260338cd31dca004b267a6"
+        }
+      ]
+    },
+    {
+      "video_id": "-T_YD-4SzUI",
+      "url": "https://www.youtube.com/watch?v=-T_YD-4SzUI",
+      "notes": [
+        "Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.md"
+      ],
+      "title": "Curtis Yarvin and the Evolution of American Political Thought",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.178Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20250131",
+      "duration": "55:15",
+      "duration_seconds": 3315,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:09+00:00",
+      "segment_count": 1345,
+      "files": [
+        {
+          "path": "-T_YD-4SzUI/transcript.md",
+          "bytes": 135893,
+          "sha256": "dd828ec0c333a50d89d201bdb1743f941c7e20b60f7bf427e49d602a4d31b2af"
+        },
+        {
+          "path": "-T_YD-4SzUI/segments.json",
+          "bytes": 158682,
+          "sha256": "ffe4bbc7d994c9c460d6b0d7342b29749bea3c6e95362311facd5700583365d9"
+        }
+      ]
+    },
+    {
+      "video_id": "6k-eFlkIsS0",
+      "url": "https://www.youtube.com/watch?v=6k-eFlkIsS0",
+      "notes": [
+        "Samo Burja - How 1% of People Control Civilization with Auren Hoffman.md"
+      ],
+      "title": "How 1% of People Control Civilization with Auren Hoffman",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.208Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20250124",
+      "duration": "1:18:51",
+      "duration_seconds": 4731,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:11+00:00",
+      "segment_count": 2067,
+      "files": [
+        {
+          "path": "6k-eFlkIsS0/transcript.md",
+          "bytes": 208730,
+          "sha256": "84551f1b80e8558cdb28791fcdc344fb830cb1f32a8a98e45a1b35772f5ef5fd"
+        },
+        {
+          "path": "6k-eFlkIsS0/segments.json",
+          "bytes": 242437,
+          "sha256": "477ddde185e91a34e4e5d5f4e7b107292c8f93cc7eb0653b9d95300d38bcb286"
+        }
+      ]
+    },
+    {
+      "video_id": "5C6qlq1y_HA",
+      "url": "https://www.youtube.com/watch?v=5C6qlq1y_HA",
+      "notes": [
+        "Samo Burja - How to Find the Frontiers of Knowledge.md"
+      ],
+      "title": "How to Find the Frontiers of Knowledge",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.282Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20240525",
+      "duration": "57:00",
+      "duration_seconds": 3420,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:24+00:00",
+      "segment_count": 1436,
+      "files": [
+        {
+          "path": "5C6qlq1y_HA/transcript.md",
+          "bytes": 141828,
+          "sha256": "6b9761c58acb4d5719489ee3ba6ee7e4bf6e616290bd3d06303d968aca1b8d57"
+        },
+        {
+          "path": "5C6qlq1y_HA/segments.json",
+          "bytes": 166123,
+          "sha256": "edf385a1df2e98966f1954497d97ecc24e51c74dd131aa37ccc373276f70a77f"
+        }
+      ]
+    },
+    {
+      "video_id": "A3Zd2K0BJoI",
+      "url": "https://www.youtube.com/watch?v=A3Zd2K0BJoI",
+      "notes": [
+        "Samo Burja - How to Prevent Civilizational Collapse.md"
+      ],
+      "title": "How to Prevent Civilizational Collapse | Samo Burja | Win-Win Podcast",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.318Z",
+      "uploader": "Liv Boeree",
+      "channel_url": "https://www.youtube.com/channel/UC09fp6hZ2RHiUYwY8hNCirA",
+      "upload_date": "20240529",
+      "duration": "1:59:43",
+      "duration_seconds": 7183,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:31+00:00",
+      "segment_count": 2979,
+      "files": [
+        {
+          "path": "A3Zd2K0BJoI/transcript.md",
+          "bytes": 298327,
+          "sha256": "05c4e5c1f246d5b4f66e0334b1131e7896622648705e1ed3b37743c3852fdaf4"
+        },
+        {
+          "path": "A3Zd2K0BJoI/segments.json",
+          "bytes": 345020,
+          "sha256": "e95834f00ddb13290dce62485352f6a720f1e48515bbde8b9691d5835243f67c"
+        }
+      ]
+    },
+    {
+      "video_id": "y0SwVCWPinw",
+      "url": "https://www.youtube.com/watch?v=y0SwVCWPinw",
+      "notes": [
+        "Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.md"
+      ],
+      "title": "Live players: Sam Altman, Peter Thiel, Elon Musk, George Soros",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.328Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20231129",
+      "duration": "54:51",
+      "duration_seconds": 3291,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:33+00:00",
+      "segment_count": 1341,
+      "files": [
+        {
+          "path": "y0SwVCWPinw/transcript.md",
+          "bytes": 135232,
+          "sha256": "adfe6ab4e3a1d7705d3af6b295815d6249980c7dd7a60f4b9284a4c8969702e5"
+        },
+        {
+          "path": "y0SwVCWPinw/segments.json",
+          "bytes": 157960,
+          "sha256": "317e39212e3195f22ea0f703908b8669009ab55bba3ab273b6c6c2f44de6e8a9"
+        }
+      ]
+    },
+    {
+      "video_id": "1zDATt_4dVk",
+      "url": "https://www.youtube.com/watch?v=1zDATt_4dVk",
+      "notes": [
+        "Samo Burja - Mass Immigration Won't Save Europe.md"
+      ],
+      "title": "Live Players   Mass Immigration Won't Save Europe",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.336Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20240821",
+      "duration": "49:17",
+      "duration_seconds": 2957,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:36+00:00",
+      "segment_count": 1183,
+      "files": [
+        {
+          "path": "1zDATt_4dVk/transcript.md",
+          "bytes": 118537,
+          "sha256": "cfa020354693fbf9549014a98388c7dc4461580ea1d320d792d605a9ad01c35c"
+        },
+        {
+          "path": "1zDATt_4dVk/segments.json",
+          "bytes": 138509,
+          "sha256": "9ef7b9d8a61230f1109975bc1536114f157d03db99a1377343d573ed731f80db"
+        }
+      ]
+    },
+    {
+      "video_id": "kXYCpHBchII",
+      "url": "https://www.youtube.com/watch?v=kXYCpHBchII",
+      "notes": [
+        "Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.md"
+      ],
+      "title": "On Nuclear Weapons, e/acc, and Global Energy Supply",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.361Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20231206",
+      "duration": "58:20",
+      "duration_seconds": 3500,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:39+00:00",
+      "segment_count": 1390,
+      "files": [
+        {
+          "path": "kXYCpHBchII/transcript.md",
+          "bytes": 138979,
+          "sha256": "ead2eb55c5aa8a7fa12a3d292e344aa73345c9dbae08c69817ae4b632290424a"
+        },
+        {
+          "path": "kXYCpHBchII/segments.json",
+          "bytes": 162465,
+          "sha256": "18e07bddf2939428ab5233e176d7f648073601db0e5fe31065dc47e5b695a362"
+        }
+      ]
+    },
+    {
+      "video_id": "EOcQGAYMdbs",
+      "url": "https://www.youtube.com/watch?v=EOcQGAYMdbs",
+      "notes": [
+        "Samo Burja - The Eastern European Experiment.md"
+      ],
+      "title": "The Eastern European Experiment",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.370Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20240814",
+      "duration": "56:32",
+      "duration_seconds": 3392,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:41+00:00",
+      "segment_count": 1322,
+      "files": [
+        {
+          "path": "EOcQGAYMdbs/transcript.md",
+          "bytes": 133692,
+          "sha256": "303916c15c7556ad5dc58fb4fab2b63de0e0d0015b1b5fe96d0738d11d25f53a"
+        },
+        {
+          "path": "EOcQGAYMdbs/segments.json",
+          "bytes": 156122,
+          "sha256": "aa03ef6c6dcf45d7be4d947eaa3e4c042ed8731cf2b7fc7fc69e7e393a49f39c"
+        }
+      ]
+    },
+    {
+      "video_id": "0XX1kv--lB8",
+      "url": "https://www.youtube.com/watch?v=0XX1kv--lB8",
+      "notes": [
+        "Samo Burja - The Politicization of History.md"
+      ],
+      "title": "The Politicization of History",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.378Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20231227",
+      "duration": "1:01:33",
+      "duration_seconds": 3693,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:43+00:00",
+      "segment_count": 1475,
+      "files": [
+        {
+          "path": "0XX1kv--lB8/transcript.md",
+          "bytes": 148643,
+          "sha256": "1dfe9e7c9f405aa0f44a2c4a799844c9704c0849253535bd83e591a593a4d44e"
+        },
+        {
+          "path": "0XX1kv--lB8/segments.json",
+          "bytes": 173674,
+          "sha256": "d32796e57de55c212d9deb380469905ad031f7e6f41a99be7fc4b899532bd6ae"
+        }
+      ]
+    },
+    {
+      "video_id": "mEQEMpxLnGA",
+      "url": "https://www.youtube.com/watch?v=mEQEMpxLnGA",
+      "notes": [
+        "Samo Burja - The Possibility of Human Extinction.md"
+      ],
+      "title": "The Possibility of Human Extinction",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.387Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20241004",
+      "duration": "1:01:20",
+      "duration_seconds": 3680,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:46+00:00",
+      "segment_count": 1535,
+      "files": [
+        {
+          "path": "mEQEMpxLnGA/transcript.md",
+          "bytes": 153879,
+          "sha256": "15a567ab61121fe3a9ceecb4c06837de4c75db9370bd5e122cb048b4284c1cdb"
+        },
+        {
+          "path": "mEQEMpxLnGA/segments.json",
+          "bytes": 179797,
+          "sha256": "950b1441142102d92fe284bd50a91a4357640ad513708fdf96b166290f2b380d"
+        }
+      ]
+    },
+    {
+      "video_id": "bxDmHvGZtPQ",
+      "url": "https://www.youtube.com/watch?v=bxDmHvGZtPQ",
+      "notes": [
+        "Samo Burja - Why Europe Matters for America’s Future.md"
+      ],
+      "title": "Why Europe Matters for America’s Future w/ Samo Burja",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.412Z",
+      "uploader": "Upstream with Erik Torenberg",
+      "channel_url": "https://www.youtube.com/channel/UCoPTBQlwUm0m7gSbBW9wN6A",
+      "upload_date": "20250223",
+      "duration": "58:22",
+      "duration_seconds": 3502,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:49+00:00",
+      "segment_count": 1378,
+      "files": [
+        {
+          "path": "bxDmHvGZtPQ/transcript.md",
+          "bytes": 138553,
+          "sha256": "77949b3c801296c9c066a3a46955fe183a7137a0a247d9232bdb8e52c7b798bd"
+        },
+        {
+          "path": "bxDmHvGZtPQ/segments.json",
+          "bytes": 161867,
+          "sha256": "c28a519058a577270def68f5294603ba0841c82a4f867df093f054c5a98800f8"
+        }
+      ]
+    },
+    {
+      "video_id": "i-Jfl1MOpyI",
+      "url": "https://www.youtube.com/watch?v=i-Jfl1MOpyI",
+      "notes": [
+        "Samo Burja - Why Populists WIN Elections But Fail to Govern.md"
+      ],
+      "title": "Why Populists WIN Elections But Fail to Govern",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.443Z",
+      "uploader": "Live Players with Samo Burja",
+      "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+      "upload_date": "20241115",
+      "duration": "54:55",
+      "duration_seconds": 3295,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:51+00:00",
+      "segment_count": 1318,
+      "files": [
+        {
+          "path": "i-Jfl1MOpyI/transcript.md",
+          "bytes": 132583,
+          "sha256": "0e75513dac31444a352d5207cf78ab3f070611b82e5bb1bea7e603c626e65c19"
+        },
+        {
+          "path": "i-Jfl1MOpyI/segments.json",
+          "bytes": 155045,
+          "sha256": "74fc4309300225e219d2ecf29192370a374322819c7def7e08f8f93e31fdd011"
+        }
+      ]
+    },
+    {
+      "video_id": "kM6hqIGWgd4",
+      "url": "https://www.youtube.com/watch?v=kM6hqIGWgd4",
+      "notes": [
+        "Tommy Robinson - Exposing the Islamic Takeover of Britain.md"
+      ],
+      "title": "Tommy Robinson Exposes the Islamic Takeover of the UK",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.451Z",
+      "uploader": "Nate Friedman",
+      "channel_url": "https://www.youtube.com/channel/UCkZPmCUf37R_DZgKYH3duPg",
+      "upload_date": "20251215",
+      "duration": "1:14:48",
+      "duration_seconds": 4488,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:53+00:00",
+      "segment_count": 2398,
+      "files": [
+        {
+          "path": "kM6hqIGWgd4/transcript.md",
+          "bytes": 233916,
+          "sha256": "f66b684648ec5dd16e2c81ac6d2385b23e6fe80ddb3cd02a654ef3f11bb4c62b"
+        },
+        {
+          "path": "kM6hqIGWgd4/segments.json",
+          "bytes": 271363,
+          "sha256": "43460bf93470ed96eb2c6bef47b304776427957ab4e6e7d1bad49d9776787fa1"
+        }
+      ]
+    },
+    {
+      "video_id": "55x9ndmkUpA",
+      "url": "https://www.youtube.com/watch?v=55x9ndmkUpA",
+      "notes": [
+        "Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.md"
+      ],
+      "title": "Ex-Muslim: This is a Difficult Conversation | Sarah Haider",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.460Z",
+      "uploader": "Triggernometry",
+      "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+      "upload_date": "20230528",
+      "duration": "1:21:14",
+      "duration_seconds": 4874,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:06:58+00:00",
+      "segment_count": 1978,
+      "files": [
+        {
+          "path": "55x9ndmkUpA/transcript.md",
+          "bytes": 197566,
+          "sha256": "27a3b1a65307af968a009abd7ca9a82a35d3ec3472e84991fee676d75cb6afcd"
+        },
+        {
+          "path": "55x9ndmkUpA/segments.json",
+          "bytes": 229705,
+          "sha256": "e132db2b18497f1be5ed3f0aff6f48346e5c2da65287e0588c945da3e7cad223"
+        }
+      ]
+    },
+    {
+      "video_id": "n_fhx4FP77Y",
+      "url": "https://www.youtube.com/watch?v=n_fhx4FP77Y",
+      "notes": [
+        "Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.md"
+      ],
+      "title": "The Truth about the Migrant Crisis - Patrick Christys",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.485Z",
+      "uploader": "Triggernometry",
+      "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+      "upload_date": "20250706",
+      "duration": "1:23:51",
+      "duration_seconds": 5031,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:07:01+00:00",
+      "segment_count": 2429,
+      "files": [
+        {
+          "path": "n_fhx4FP77Y/transcript.md",
+          "bytes": 244641,
+          "sha256": "c2bdcb9817a2525808efee48979b05058dfc9ff6504169d98261ef89c0cbaeaf"
+        },
+        {
+          "path": "n_fhx4FP77Y/segments.json",
+          "bytes": 283746,
+          "sha256": "3ed4ddc99dac359428aea33cccfb5001e98a736da8e0cc4dc1c647e4fbed7501"
+        }
+      ]
+    },
+    {
+      "video_id": "lBkX-M0SRPc",
+      "url": "https://www.youtube.com/watch?v=lBkX-M0SRPc",
+      "notes": [
+        "Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.md"
+      ],
+      "title": "The UNCENSORED Truth About Grooming Gangs - Charlie Peters",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.495Z",
+      "uploader": "Triggernometry",
+      "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+      "upload_date": "20250205",
+      "duration": "1:27:28",
+      "duration_seconds": 5248,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:07:04+00:00",
+      "segment_count": 2434,
+      "files": [
+        {
+          "path": "lBkX-M0SRPc/transcript.md",
+          "bytes": 242940,
+          "sha256": "8c7576a2793fb2669844486ef0f13d3dedbb39e2edd3501a93d7b79eb17c5a98"
+        },
+        {
+          "path": "lBkX-M0SRPc/segments.json",
+          "bytes": 281980,
+          "sha256": "cf0c5440fd60380126abaf84833000df0189f92f4cbf03613f03ecda5f818d5a"
+        }
+      ]
+    },
+    {
+      "video_id": "4hibdmZkOIE",
+      "url": "https://www.youtube.com/watch?v=4hibdmZkOIE",
+      "notes": [
+        "Williamson Chris - Alison Armstrong (How to Treat Men Better).md"
+      ],
+      "title": "How to Treat Men Better - Alison Armstrong",
+      "acquisition_status": "saved",
+      "status": "available",
+      "error": "",
+      "acquired_at": "2026-11-14T11:13:28.503Z",
+      "uploader": "Chris Williamson",
+      "channel_url": "https://www.youtube.com/channel/UCIaH-gZIVC432YRjNVvnyCA",
+      "upload_date": "20251129",
+      "duration": "2:58:05",
+      "duration_seconds": 10685,
+      "language": "en",
+      "transcript_source": "auto-generated",
+      "downloaded_at": "2026-11-14T11:07:07+00:00",
+      "segment_count": 4080,
+      "files": [
+        {
+          "path": "4hibdmZkOIE/transcript.md",
+          "bytes": 384204,
+          "sha256": "a3192e7af428697262e12198627562c57e93a4af7f16d27a38431428843a4f12"
+        },
+        {
+          "path": "4hibdmZkOIE/segments.json",
+          "bytes": 446643,
+          "sha256": "e9553cfd2d69966bba03aa5de46040d01c5708f4d08928c3ee5b7ea8c639ca97"
+        }
+      ]
+    }
+  ]
+}

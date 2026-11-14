@@ -1,0 +1,33 @@
+{
+  "video_id": "4hibdmZkOIE",
+  "url": "https://www.youtube.com/watch?v=4hibdmZkOIE",
+  "notes": [
+    "Williamson Chris - Alison Armstrong (How to Treat Men Better).md"
+  ],
+  "title": "How to Treat Men Better - Alison Armstrong",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.503Z",
+  "uploader": "Chris Williamson",
+  "channel_url": "https://www.youtube.com/channel/UCIaH-gZIVC432YRjNVvnyCA",
+  "upload_date": "20251129",
+  "duration": "2:58:05",
+  "duration_seconds": 10685,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:07:07+00:00",
+  "segment_count": 4080,
+  "files": [
+    {
+      "path": "4hibdmZkOIE/transcript.md",
+      "bytes": 384204,
+      "sha256": "a3192e7af428697262e12198627562c57e93a4af7f16d27a38431428843a4f12"
+    },
+    {
+      "path": "4hibdmZkOIE/segments.json",
+      "bytes": 446643,
+      "sha256": "e9553cfd2d69966bba03aa5de46040d01c5708f4d08928c3ee5b7ea8c639ca97"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "video_id": "-T_YD-4SzUI",
+  "url": "https://www.youtube.com/watch?v=-T_YD-4SzUI",
+  "notes": [
+    "Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.md"
+  ],
+  "title": "Curtis Yarvin and the Evolution of American Political Thought",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.178Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20250131",
+  "duration": "55:15",
+  "duration_seconds": 3315,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:09+00:00",
+  "segment_count": 1345,
+  "files": [
+    {
+      "path": "-T_YD-4SzUI/transcript.md",
+      "bytes": 135893,
+      "sha256": "dd828ec0c333a50d89d201bdb1743f941c7e20b60f7bf427e49d602a4d31b2af"
+    },
+    {
+      "path": "-T_YD-4SzUI/segments.json",
+      "bytes": 158682,
+      "sha256": "ffe4bbc7d994c9c460d6b0d7342b29749bea3c6e95362311facd5700583365d9"
+    }
+  ]
+}

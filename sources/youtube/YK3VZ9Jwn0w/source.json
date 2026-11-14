@@ -1,0 +1,33 @@
+{
+  "video_id": "YK3VZ9Jwn0w",
+  "url": "https://www.youtube.com/watch?v=YK3VZ9Jwn0w",
+  "notes": [
+    "Rudyard Lynch - Explaining the Industrial Revolution.md"
+  ],
+  "title": "Explaining the Industrial Revolution",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.079Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20240930",
+  "duration": "47:55",
+  "duration_seconds": 2875,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:40+00:00",
+  "segment_count": 1170,
+  "files": [
+    {
+      "path": "YK3VZ9Jwn0w/transcript.md",
+      "bytes": 115256,
+      "sha256": "2d606eddbaf7ea421c694a32757c40af63d3fb8a03637955d4a30894efe8ff28"
+    },
+    {
+      "path": "YK3VZ9Jwn0w/segments.json",
+      "bytes": 135126,
+      "sha256": "76792d3da2345a5d9a5718ffa067cd9849241a6d92bdaf8c67b818a2619f5b85"
+    }
+  ]
+}

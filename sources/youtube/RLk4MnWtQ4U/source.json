@@ -1,0 +1,33 @@
+{
+  "video_id": "RLk4MnWtQ4U",
+  "url": "https://www.youtube.com/watch?v=RLk4MnWtQ4U",
+  "notes": [
+    "Raymond Ibrahim - The Islamic Conquest Of Europe.md"
+  ],
+  "title": "The Islamic Conquest Of Europe & Why It Was COVERED UP! w/ Raymond Ibrahim",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.922Z",
+  "uploader": "Winston Marshall",
+  "channel_url": "https://www.youtube.com/channel/UC1B4F0eOVEq_NK7k5dNLlFg",
+  "upload_date": "20250510",
+  "duration": "1:56:45",
+  "duration_seconds": 7005,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:02+00:00",
+  "segment_count": 3473,
+  "files": [
+    {
+      "path": "RLk4MnWtQ4U/transcript.md",
+      "bytes": 347387,
+      "sha256": "4cdb30fd87a8bfed35d7935298c831da696202006cfe775eebb5fab22b99e121"
+    },
+    {
+      "path": "RLk4MnWtQ4U/segments.json",
+      "bytes": 401828,
+      "sha256": "3de81c550b050ac7eb5a83bacf8cc92e7792116f17b6dec6b0a870d09b5dc500"
+    }
+  ]
+}

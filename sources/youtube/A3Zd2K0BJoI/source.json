@@ -1,0 +1,33 @@
+{
+  "video_id": "A3Zd2K0BJoI",
+  "url": "https://www.youtube.com/watch?v=A3Zd2K0BJoI",
+  "notes": [
+    "Samo Burja - How to Prevent Civilizational Collapse.md"
+  ],
+  "title": "How to Prevent Civilizational Collapse | Samo Burja | Win-Win Podcast",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.318Z",
+  "uploader": "Liv Boeree",
+  "channel_url": "https://www.youtube.com/channel/UC09fp6hZ2RHiUYwY8hNCirA",
+  "upload_date": "20240529",
+  "duration": "1:59:43",
+  "duration_seconds": 7183,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:31+00:00",
+  "segment_count": 2979,
+  "files": [
+    {
+      "path": "A3Zd2K0BJoI/transcript.md",
+      "bytes": 298327,
+      "sha256": "05c4e5c1f246d5b4f66e0334b1131e7896622648705e1ed3b37743c3852fdaf4"
+    },
+    {
+      "path": "A3Zd2K0BJoI/segments.json",
+      "bytes": 345020,
+      "sha256": "e95834f00ddb13290dce62485352f6a720f1e48515bbde8b9691d5835243f67c"
+    }
+  ]
+}

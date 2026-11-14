@@ -1,0 +1,33 @@
+{
+  "video_id": "5ioTSLpPuME",
+  "url": "https://www.youtube.com/watch?v=5ioTSLpPuME",
+  "notes": [
+    "David Betz - Will Civil Unrest Come to the West.md"
+  ],
+  "title": "David Betz: Will Civil Unrest come to the West? | Danube Seminars",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.707Z",
+  "uploader": "Danube Institute",
+  "channel_url": "https://www.youtube.com/channel/UCqaco3WuAaf6wlhaeh0CsbQ",
+  "upload_date": "20251028",
+  "duration": "1:12:40",
+  "duration_seconds": 4360,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:14+00:00",
+  "segment_count": 1618,
+  "files": [
+    {
+      "path": "5ioTSLpPuME/transcript.md",
+      "bytes": 158602,
+      "sha256": "e3a4762a7fd7de8d9c69ff29ffed8acd227f8f8888ba4894c4b2ec4b7c901ef5"
+    },
+    {
+      "path": "5ioTSLpPuME/segments.json",
+      "bytes": 185285,
+      "sha256": "536d90a78967bc6e6290544aa9cc5c94849ae9b56638fa93a87a6f3ae48feae6"
+    }
+  ]
+}

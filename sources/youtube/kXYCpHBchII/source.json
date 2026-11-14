@@ -1,0 +1,33 @@
+{
+  "video_id": "kXYCpHBchII",
+  "url": "https://www.youtube.com/watch?v=kXYCpHBchII",
+  "notes": [
+    "Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.md"
+  ],
+  "title": "On Nuclear Weapons, e/acc, and Global Energy Supply",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.361Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20231206",
+  "duration": "58:20",
+  "duration_seconds": 3500,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:39+00:00",
+  "segment_count": 1390,
+  "files": [
+    {
+      "path": "kXYCpHBchII/transcript.md",
+      "bytes": 138979,
+      "sha256": "ead2eb55c5aa8a7fa12a3d292e344aa73345c9dbae08c69817ae4b632290424a"
+    },
+    {
+      "path": "kXYCpHBchII/segments.json",
+      "bytes": 162465,
+      "sha256": "18e07bddf2939428ab5233e176d7f648073601db0e5fe31065dc47e5b695a362"
+    }
+  ]
+}

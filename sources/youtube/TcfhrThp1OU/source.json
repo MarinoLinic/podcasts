@@ -1,0 +1,33 @@
+{
+  "video_id": "TcfhrThp1OU",
+  "url": "https://www.youtube.com/watch?v=TcfhrThp1OU",
+  "notes": [
+    "Joseph Henrich - Humans defeated smarter species with cultural evolution.md"
+  ],
+  "title": "Joseph Henrich — Humans defeated smarter species with cultural evolution",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.785Z",
+  "uploader": "Dwarkesh Patel",
+  "channel_url": "https://www.youtube.com/channel/UCXl4i9dYBrFOabk0xGmbkRA",
+  "upload_date": "20250312",
+  "duration": "1:53:51",
+  "duration_seconds": 6831,
+  "language": "en",
+  "transcript_source": "manual",
+  "downloaded_at": "2026-11-14T11:04:28+00:00",
+  "segment_count": 1277,
+  "files": [
+    {
+      "path": "TcfhrThp1OU/transcript.md",
+      "bytes": 199512,
+      "sha256": "5833f06266720f15613adbff9c99bec8af55746ec765a390eecd84ac64e44b09"
+    },
+    {
+      "path": "TcfhrThp1OU/segments.json",
+      "bytes": 218611,
+      "sha256": "53fdc2b26dd74f51a47bc046963b747cd34ec2f32ed86721146a83b4c67f8c66"
+    }
+  ]
+}

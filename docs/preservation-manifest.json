@@ -1,0 +1,3332 @@
+{
+  "migrated_at": "2026-11-14",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 5,
+      "sha256": "0cb0666303e235e87b9633f40c77b715c5f42b267748fb6be08bf3f0df861dc0",
+      "preserved_path": "legacy/2026-11-14/.gitignore",
+      "git_tracked_before": true
+    },
+    {
+      "path": "baby-essentials.html",
+      "bytes": 32022,
+      "sha256": "4e4cd58515c52d1edf32018f1e953968b3728138f7f68a3601dc9909ce4c9109",
+      "preserved_path": "legacy/2026-11-14/baby-essentials.html",
+      "git_tracked_before": true
+    },
+    {
+      "path": "favicon.svg",
+      "bytes": 471,
+      "sha256": "8d468fcd0e7487d4b782613d3a5afebbed354cc160eec8fd94d5e90f75027bcd",
+      "preserved_path": "favicon.svg",
+      "git_tracked_before": true
+    },
+    {
+      "path": "font.ttf",
+      "bytes": 343972,
+      "sha256": "ceec73bdfc78d352bcc222b9ac28e752a20b4a339daefc69bc67f49380425c0c",
+      "preserved_path": "legacy/2026-11-14/font.ttf",
+      "git_tracked_before": false
+    },
+    {
+      "path": "index.html",
+      "bytes": 770,
+      "sha256": "41a79c0792afa4b298418259b5682397f2588cf4d126f75ca5c628bdf9a68979",
+      "preserved_path": "legacy/2026-11-14/index.html",
+      "git_tracked_before": true
+    },
+    {
+      "path": "intelligence.html",
+      "bytes": 384964,
+      "sha256": "741d1f8c691d75ebc3095330057002ab521117c9c7a80f6cfde82ab59295c70a",
+      "preserved_path": "legacy/2026-11-14/intelligence.html",
+      "git_tracked_before": true
+    },
+    {
+      "path": "process_notes.py",
+      "bytes": 11586,
+      "sha256": "840c4d79274cada56f53425c93c9b391bb151c93b1cbc354461c5148ed8b1ba5",
+      "preserved_path": "legacy/2026-11-14/process_notes.py",
+      "git_tracked_before": true
+    },
+    {
+      "path": "README.md",
+      "bytes": 2686,
+      "sha256": "276347d663ad9a19dc84ffae234a184a2560871611ecb235b6032c7fd6b38a61",
+      "preserved_path": "legacy/2026-11-14/README.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "_config.yml",
+      "bytes": 239,
+      "sha256": "f93c527b810e422613951833e17ba18aaa1787b1f2aac61fcb3f09b2407a9728",
+      "preserved_path": "legacy/2026-11-14/_config.yml",
+      "git_tracked_before": true
+    },
+    {
+      "path": "docs/workflow.svg",
+      "bytes": 2214,
+      "sha256": "ddf2368e45246d111aecfcbe98159d80b1b8618fe465ab404cef514becca4db8",
+      "preserved_path": "legacy/2026-11-14/docs/workflow.svg",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Bryan Caplan - Selfish Reasons to Have More Kids (2012).md",
+      "bytes": 107045,
+      "sha256": "71d2133e85ad8a9e19275b7e4520c4f3fa0299f8c8055034ec6b76357248d273",
+      "preserved_path": "legacy/2026-11-14/Notes/Bryan Caplan - Selfish Reasons to Have More Kids (2012).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Curtis Yarvin - An Open Letter for Open-Minded Progressives (2008).md",
+      "bytes": 72419,
+      "sha256": "bb7c8020d48ca0e208912f269bfa3773ca617d42577085ff82a93ab18fa6c0de",
+      "preserved_path": "legacy/2026-11-14/Notes/Curtis Yarvin - An Open Letter for Open-Minded Progressives (2008).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Curtis Yarvin - Empire of Love.md",
+      "bytes": 15709,
+      "sha256": "ee74f76400515f71536c557b72f9390e1676f56c3245cd7628592a84a9a2a912",
+      "preserved_path": "legacy/2026-11-14/Notes/Curtis Yarvin - Empire of Love.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Curtis Yarvin - Plan for Britain.md",
+      "bytes": 12590,
+      "sha256": "46550b27342ca790efa4a6deec103437f5af057340f5a949d7a170d0dfb4a96a",
+      "preserved_path": "legacy/2026-11-14/Notes/Curtis Yarvin - Plan for Britain.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.md",
+      "bytes": 8538,
+      "sha256": "e22b4faf91b074eacadaafc4036fb57da6c38fd94af354c38e910ed454ee5c1b",
+      "preserved_path": "legacy/2026-11-14/Notes/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Dan Carlin - Blueprint for Armageddon (2013).md",
+      "bytes": 73871,
+      "sha256": "0d9a095e6ec814597050299e1a7350e212cdbcdd6dea1762cef12714957b2db5",
+      "preserved_path": "legacy/2026-11-14/Notes/Dan Carlin - Blueprint for Armageddon (2013).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Dan Carlin - Death Throes of the Republic (2010).md",
+      "bytes": 89859,
+      "sha256": "1d7aad134d93be471165ab8a586e99d661801dfd793b654fad81673e2891110c",
+      "preserved_path": "legacy/2026-11-14/Notes/Dan Carlin - Death Throes of the Republic (2010).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Dan Carlin - Prophets of Doom (2013).md",
+      "bytes": 17729,
+      "sha256": "d2c2b8310a1436a9d783529aacf61fe5f049ed04920913505c7987670a63e13f",
+      "preserved_path": "legacy/2026-11-14/Notes/Dan Carlin - Prophets of Doom (2013).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Dan Carlin - Wrath of the Khans (2012).md",
+      "bytes": 67222,
+      "sha256": "9f157705de4cbe201e22b29a2de59deaa2f113b7aa9b2a52927a7c50cc6abf6a",
+      "preserved_path": "legacy/2026-11-14/Notes/Dan Carlin - Wrath of the Khans (2012).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Daniel Hess - Talk with Robin Hanson 2.md",
+      "bytes": 10517,
+      "sha256": "8cd538fa397152fba2206cd9bce7dd8db951d4f2d6a82e0984a81f070bc4c251",
+      "preserved_path": "legacy/2026-11-14/Notes/Daniel Hess - Talk with Robin Hanson 2.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Daniel Hess - The Fertility Collapse.md",
+      "bytes": 11091,
+      "sha256": "c04b5f836e3a6ec9996f240fdbfc8f3993e1a1c002f0e91c48c415bfd6180846",
+      "preserved_path": "legacy/2026-11-14/Notes/Daniel Hess - The Fertility Collapse.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Daniel Hess - We Need a Pronatal Culture.md",
+      "bytes": 11111,
+      "sha256": "bebdff8ad093834be0a110c56e9aa76d76bf2a5d93149bef325cc24f301638a9",
+      "preserved_path": "legacy/2026-11-14/Notes/Daniel Hess - We Need a Pronatal Culture.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - Are We Headed for Civil War.md",
+      "bytes": 12128,
+      "sha256": "b38fedd59d3e469880517f3dee3936e97194b3f9b4b4cbae27b2989c0608e653",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - Are We Headed for Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - Civil War Comes to the West.md",
+      "bytes": 20332,
+      "sha256": "659161cd1b2dbdcc40855973d42eb713a5a1687ddbb8f7068971b7ec094660fd",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - Civil War Comes to the West.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - Reflections on Homeland Insecurity.md",
+      "bytes": 12665,
+      "sha256": "e331ae55dab395618c549a12158bc94af2687c5698196ff0ea7b868138a5fef8",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - Reflections on Homeland Insecurity.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - The Coming British Civil War.md",
+      "bytes": 12800,
+      "sha256": "11263123e3880746bb4cb9841a270697fe35bc84c286a18ec1832905e613a58a",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - The Coming British Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - The Coming Civil War.md",
+      "bytes": 13700,
+      "sha256": "1eed6e2d50c6e7db5f7699f2c48d44df2c124948e8b2ee55616b61278e45219c",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - The Coming Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - The Future of War Is Civil War.md",
+      "bytes": 12078,
+      "sha256": "bd91e4bb377e2cdb601f4c6a41861cea87dcd56d961db20affc608ea8b86489e",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - The Future of War Is Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - War and Stupid War.md",
+      "bytes": 13963,
+      "sha256": "12655a136007d8501849194b68eb88c87e5ee9d42ebd68fd930bd6f1cfc783b4",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - War and Stupid War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - Warfare in the Digital Age.md",
+      "bytes": 13979,
+      "sha256": "22399dd751cf852a0cf15929331407828ad6ae7f6c4dd65603ee178d349873d5",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - Warfare in the Digital Age.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - What Britain Will Look And Feel Like When Things Get Nasty.md",
+      "bytes": 12262,
+      "sha256": "3dc93bdbbdb32815cec47d9fb228e70770261aef002a5c2eff5905a9d5404cf7",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - What Britain Will Look And Feel Like When Things Get Nasty.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Betz - Will Civil Unrest Come to the West.md",
+      "bytes": 10459,
+      "sha256": "59fbac247375f8d4acd616083f1a7899328df2aa01f3f6fabfaf05a2fa9fc908",
+      "preserved_path": "legacy/2026-11-14/Notes/David Betz - Will Civil Unrest Come to the West.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Hackett Fischer - Albion's Seed (Gemini Flash) (1989).md",
+      "bytes": 92110,
+      "sha256": "bd65f3254e5772aa156385b56533e83f7237d9a203529c8028018cd5f240da55",
+      "preserved_path": "legacy/2026-11-14/Notes/David Hackett Fischer - Albion's Seed (Gemini Flash) (1989).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/David Hackett Fischer - Albion's Seed (Gemini Pro) (1989).md",
+      "bytes": 69450,
+      "sha256": "cef33133e4c0e8ac3ee68236f6d987225087f606599b1d991947964794d508d7",
+      "preserved_path": "legacy/2026-11-14/Notes/David Hackett Fischer - Albion's Seed (Gemini Pro) (1989).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Eliezer Yudkowsky - Inadequate Equilibria (2017).md",
+      "bytes": 77208,
+      "sha256": "181fb57fbc53cf486170ac0f02ceffa7362fd0103caf56046b75f779ce665ac0",
+      "preserved_path": "legacy/2026-11-14/Notes/Eliezer Yudkowsky - Inadequate Equilibria (2017).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Eugene Lyons - The Red Decade (1941).md",
+      "bytes": 64750,
+      "sha256": "29d3b6edf2b8e1fde7a7a500562e7e8c1acbefac5410f5d9e97f6cfb46e6ecf5",
+      "preserved_path": "legacy/2026-11-14/Notes/Eugene Lyons - The Red Decade (1941).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Geoffrey Miller - Broken Dating Markets.md",
+      "bytes": 13022,
+      "sha256": "fddedf3e29cfa5eae040323681a9ccd96b9bfd62b33f8a5c7a3c8cfec5d721ed",
+      "preserved_path": "legacy/2026-11-14/Notes/Geoffrey Miller - Broken Dating Markets.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Geoffrey Miller - Virtue Signaling (2019).md",
+      "bytes": 56635,
+      "sha256": "f51f29ad42ecba1e46bb592fddc2502203ba86116942bae0f5237db73471fca0",
+      "preserved_path": "legacy/2026-11-14/Notes/Geoffrey Miller - Virtue Signaling (2019).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Evolutionary psychology.md",
+      "bytes": 13983,
+      "sha256": "a837e44e3b7da69bac3152db0aba51800c0c7eb60507b99bf7d3ef3745a3fde6",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Evolutionary psychology.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Great Replacement theory in the United States.md",
+      "bytes": 13104,
+      "sha256": "797667c44e77502933ef457ca46ec9a57bedb1f70ecb6393216cbb158f336877",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Great Replacement theory in the United States.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - History of Islam.md",
+      "bytes": 19499,
+      "sha256": "9e0011e5c2c8254e4104479a4ac7d4de097400c0c977c7c0051d32f948c69c96",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - History of Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Illegal immigration to the United Kingdom.md",
+      "bytes": 10846,
+      "sha256": "c60ac4febb59d85f60f2723671aa346589fd8e2f3843e46c15535655e171f0a1",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Illegal immigration to the United Kingdom.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Illegal immigration.md",
+      "bytes": 13274,
+      "sha256": "be078a9b0e2f6b9106d79222b3d43c291953329ad1f2335a77c78e53c2eccfd2",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Illegal immigration.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Immigration to Denmark.md",
+      "bytes": 11539,
+      "sha256": "8eee3f8b17e1d6f327c8b4c05594c66883efa5e177036ee266226b7c0a08c13e",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Immigration to Denmark.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Immigration to Sweden.md",
+      "bytes": 11779,
+      "sha256": "a81ebf89c51a4279edf3c23ee6399b346b1d25c69870c8e5d8f8f2ac517729d4",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Immigration to Sweden.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Immigration.md",
+      "bytes": 13968,
+      "sha256": "e24c7cf76be2273eed7fa6b188460eb3c173ad815a907f959b9c3eb4066e6faf",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Immigration.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Intelligence.md",
+      "bytes": 14147,
+      "sha256": "01200bfe335ee55829e7f72e9aa8dc6f3c34b367b75199c84bb6d44d7c9f7b19",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Intelligence.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Islam.md",
+      "bytes": 14552,
+      "sha256": "98d4ed88de6d310980347762f4ebcad8afac3bb4e79e69b5b788eaf5abf54625",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Mass Immigration Initiatives.md",
+      "bytes": 12681,
+      "sha256": "c35442d8aeb2e94bac0f763f4ec1311b07350b77d5afecf1880e3182a5110d24",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Mass Immigration Initiatives.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Race and intelligence.md",
+      "bytes": 13328,
+      "sha256": "d44e48031f11753b20d40a153ca0f3ed757893cf3f00cea2783a0767cc1bc313",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Race and intelligence.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Race.md",
+      "bytes": 12349,
+      "sha256": "227f79465c9bf20d1bb79a289a59bd544ec51407f50a71cc6eb749905d74d380",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Race.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grokipedia - Rotherham child sexual exploitation scandal.md",
+      "bytes": 9633,
+      "sha256": "20b16570267f0b32dadb875c72bb0f2865f067ddb7056b633e77e8500423c179",
+      "preserved_path": "legacy/2026-11-14/Notes/Grokipedia - Rotherham child sexual exploitation scandal.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grooming Gang Scandal - Oxford 2013.md",
+      "bytes": 7957,
+      "sha256": "7bbb12bc8d2efe79675e33282170a968b4ef6d60c687a25588f674e277b5e994",
+      "preserved_path": "legacy/2026-11-14/Notes/Grooming Gang Scandal - Oxford 2013.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grooming Gang Scandal - Rotherham 2016.md",
+      "bytes": 7740,
+      "sha256": "402d2a774ac20d84921ef14731998259dd3b1aca545ab26c68a7bb6039d8bad3",
+      "preserved_path": "legacy/2026-11-14/Notes/Grooming Gang Scandal - Rotherham 2016.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grooming Gang Scandal - Rotherham 2017 (1).md",
+      "bytes": 6586,
+      "sha256": "948db647ffb71434e5194967c1e94572d9bdeef2543aaad092e7a8970ea0ad9f",
+      "preserved_path": "legacy/2026-11-14/Notes/Grooming Gang Scandal - Rotherham 2017 (1).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Grooming Gang Scandal - Rotherham 2017 (2).md",
+      "bytes": 5349,
+      "sha256": "f2a1d998ad320164e9566c921ba8d8ac86c99786d87fd8ab636741b3d127a0a9",
+      "preserved_path": "legacy/2026-11-14/Notes/Grooming Gang Scandal - Rotherham 2017 (2).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Jacob Savage - The Lost Generation.md",
+      "bytes": 15012,
+      "sha256": "d335ea1acc3079e9c7ee5ca65538fc3b401574e06e8857cc7fcaa028edb3b180",
+      "preserved_path": "legacy/2026-11-14/Notes/Jacob Savage - The Lost Generation.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Joel F. Harrington - The Faithful Executioner (2013).md",
+      "bytes": 12261,
+      "sha256": "dda22e034306c6b68f318243239ea33d53e21cf0918d80749ecc1731f7428e3f",
+      "preserved_path": "legacy/2026-11-14/Notes/Joel F. Harrington - The Faithful Executioner (2013).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.md",
+      "bytes": 11150,
+      "sha256": "5f70503cb8a777665c0e38d07a315af73d6959228c9bcd26b775ff3738b90dfc",
+      "preserved_path": "legacy/2026-11-14/Notes/John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/John Gillam - Reverse Colonization in France with Driss Ghali.md",
+      "bytes": 14794,
+      "sha256": "725e6f1ea9f7979c3ec06feda45fded7b393a14a52edae253cdccc4bb6c75b74",
+      "preserved_path": "legacy/2026-11-14/Notes/John Gillam - Reverse Colonization in France with Driss Ghali.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Jordan Lasker (Cremieux) - Gypsies and Jews.md",
+      "bytes": 5698,
+      "sha256": "4288e00bff2fac51650377915d0d9d29ffc4f7fe0f76cb2af98b63ced0b8d99a",
+      "preserved_path": "legacy/2026-11-14/Notes/Jordan Lasker (Cremieux) - Gypsies and Jews.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Jordan Lasker (Cremieux) - National IQs Are Valid.md",
+      "bytes": 15340,
+      "sha256": "b8b0bf0306381189501c2e8a40fa37f67d9c6cc0318e2175d1756ebe9232a9a4",
+      "preserved_path": "legacy/2026-11-14/Notes/Jordan Lasker (Cremieux) - National IQs Are Valid.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Joseph Henrich - Humans defeated smarter species with cultural evolution.md",
+      "bytes": 13363,
+      "sha256": "4516756f9354a58ea345884d403a1162d2c10269c0619be6d806fd304286cc1d",
+      "preserved_path": "legacy/2026-11-14/Notes/Joseph Henrich - Humans defeated smarter species with cultural evolution.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Joseph Henrich - The WEIRDest People in the World (2020).md",
+      "bytes": 179258,
+      "sha256": "c0022dd5ac080c92086ecac58ea27972a78c2b58e5d3a22135ba8e9c5870d65d",
+      "preserved_path": "legacy/2026-11-14/Notes/Joseph Henrich - The WEIRDest People in the World (2020).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Lotus Eaters - Europe Is Turning Into a Powderkeg.md",
+      "bytes": 13337,
+      "sha256": "99849b1d623f1e4c72fddfc2101fd1247719c49c842065470e6dd04480790750",
+      "preserved_path": "legacy/2026-11-14/Notes/Lotus Eaters - Europe Is Turning Into a Powderkeg.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.md",
+      "bytes": 9466,
+      "sha256": "5153bcd32e142610c8b9ffb0365e9c6c9285fd5ed6860a7efc523e9a9a42e299",
+      "preserved_path": "legacy/2026-11-14/Notes/Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Malcolm-Simone Collins - How Religions Rank Competence.md",
+      "bytes": 11239,
+      "sha256": "46484c488579d6da6f239f449b5d38ea697a66a8134e035ed93789c8f393a01b",
+      "preserved_path": "legacy/2026-11-14/Notes/Malcolm-Simone Collins - How Religions Rank Competence.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Marcus Gallo - You DON’T Descend From All Your Ancestors.md",
+      "bytes": 6654,
+      "sha256": "860bd3d3efa0f3d8686012c655ed100f98ea1f930f730173e4b697352c691c7d",
+      "preserved_path": "legacy/2026-11-14/Notes/Marcus Gallo - You DON’T Descend From All Your Ancestors.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Michael O. Church - The 3-ladder system of social class in the U.S..md",
+      "bytes": 7341,
+      "sha256": "896200c5e10d13afba48166383ad704340b71126ee4c1ac2b1c2f3c10e755e7e",
+      "preserved_path": "legacy/2026-11-14/Notes/Michael O. Church - The 3-ladder system of social class in the U.S..md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Nate Friedman - I Exposed the Islamic Takeover of the UK.md",
+      "bytes": 11566,
+      "sha256": "a00cb86f0729de3fd86f11d85221ab63c1406695a21a1d285b634f6c197fb4d8",
+      "preserved_path": "legacy/2026-11-14/Notes/Nate Friedman - I Exposed the Islamic Takeover of the UK.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Nathan Cofnas - A Guide for the Hereditarian Revolution.md",
+      "bytes": 7107,
+      "sha256": "78d84308275fe4902556792a3e75285eb4056fe17edddc8459e3527867632ead",
+      "preserved_path": "legacy/2026-11-14/Notes/Nathan Cofnas - A Guide for the Hereditarian Revolution.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Nathan Cofnas - Beating Woke with Facts and Logic.md",
+      "bytes": 8162,
+      "sha256": "99951d96fbbd23f7f9a67af19783e3bda7a9005a47b343672ff85bb9394ce698",
+      "preserved_path": "legacy/2026-11-14/Notes/Nathan Cofnas - Beating Woke with Facts and Logic.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Nathan Cofnas - Judaism as a Group Evolutionary Strategy.md",
+      "bytes": 13846,
+      "sha256": "a6967f58c73b628ddfe443132d763271ed0d4932c99297fe3d39ffea4204ac30",
+      "preserved_path": "legacy/2026-11-14/Notes/Nathan Cofnas - Judaism as a Group Evolutionary Strategy.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Nathan Cofnas - Podcast Bros and Brain Rot.md",
+      "bytes": 9003,
+      "sha256": "a014c658268f6156ee4b3490aa6ed11ba43da19f957cee18da5dd6f0df95aba6",
+      "preserved_path": "legacy/2026-11-14/Notes/Nathan Cofnas - Podcast Bros and Brain Rot.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Nathan Cofnas - The Right’s Stupidity Problem.md",
+      "bytes": 13085,
+      "sha256": "181af09ef50b2341ea54fd1479456381467e051f650663ebb41d5c5aec543ab4",
+      "preserved_path": "legacy/2026-11-14/Notes/Nathan Cofnas - The Right’s Stupidity Problem.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Nathan Cofnas - Twilight of the Liberal Jew.md",
+      "bytes": 6947,
+      "sha256": "c36a24140598128aa44397b0ee6fc3affa9b11c0c97062f98580fc5a3a64cd26",
+      "preserved_path": "legacy/2026-11-14/Notes/Nathan Cofnas - Twilight of the Liberal Jew.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Nick Pardini - Global Class Hierarchies Explained.md",
+      "bytes": 11086,
+      "sha256": "13104f65c465f0b13927a0a0508a666b5880d1a2e534c312cda5a8195d67f806",
+      "preserved_path": "legacy/2026-11-14/Notes/Nick Pardini - Global Class Hierarchies Explained.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.md",
+      "bytes": 6870,
+      "sha256": "e0c8460fadb539fa757ae998f853cf9a3dcf29977a3368b595d1611bfa2d2923",
+      "preserved_path": "legacy/2026-11-14/Notes/Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Noah Smith - Can a Nation Plunder Its Way to Wealth.md",
+      "bytes": 8505,
+      "sha256": "ddc93ab3b98de2f7d0054bebfecb78dbf81ee5e60973027d96d27c5a6414f52e",
+      "preserved_path": "legacy/2026-11-14/Notes/Noah Smith - Can a Nation Plunder Its Way to Wealth.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/OpenAI ChatGPT - Truth-Maximizing.md",
+      "bytes": 12105,
+      "sha256": "8bf46656f6a322a7b77728a12f492fe4092a9ce178bea5b60907f4a25b68189d",
+      "preserved_path": "legacy/2026-11-14/Notes/OpenAI ChatGPT - Truth-Maximizing.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Philip Pilkington - The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025).md",
+      "bytes": 43796,
+      "sha256": "eea5c7504752b6a89fb24c4854fa2d55539f7a5a0a1fff0f892b3bf0520e6f97",
+      "preserved_path": "legacy/2026-11-14/Notes/Philip Pilkington - The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Philip Pilkington - The Collapse of Global Liberalism.md",
+      "bytes": 12856,
+      "sha256": "9a772ca2a6c206d2fcf07db945f95ec3bd616be7b2b1aac166bc60837448b648",
+      "preserved_path": "legacy/2026-11-14/Notes/Philip Pilkington - The Collapse of Global Liberalism.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Raymond Ibrahim - The Islamic Conquest Of Europe.md",
+      "bytes": 13501,
+      "sha256": "4b86bd2a9a86d9ebb2fc94542c749a905ed6cbb985ea6cd0783d50ec5c6d4082",
+      "preserved_path": "legacy/2026-11-14/Notes/Raymond Ibrahim - The Islamic Conquest Of Europe.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Raymond Ibrahim - The Real History of Islam.md",
+      "bytes": 13327,
+      "sha256": "dc18f177ec35b3298d8e8ccf604895f6728508edd3321acb4b9249797f8c8008",
+      "preserved_path": "legacy/2026-11-14/Notes/Raymond Ibrahim - The Real History of Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.md",
+      "bytes": 12355,
+      "sha256": "f633b7124de51e9ec51732d5aab5a22b2ffc51f05f09df743a7f40fad7416f6e",
+      "preserved_path": "legacy/2026-11-14/Notes/Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.md",
+      "bytes": 13127,
+      "sha256": "b74a12906a6672c5d5f843034a1486573e009c9eb0dc28238de6d1cf41966cbe",
+      "preserved_path": "legacy/2026-11-14/Notes/Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Civilizational Differences with Samo Burja.md",
+      "bytes": 10810,
+      "sha256": "c7fafca7dfadc9c8aa74590ca2d438c43c18d14ecd13efdab0e03606f46f8a2b",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Civilizational Differences with Samo Burja.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining 17th Century Eastern Europe.md",
+      "bytes": 13430,
+      "sha256": "46d3a1a1245badb49e1a29f0d9a422ac406d9a4551f541a2abc66ec40e21f826",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining 17th Century Eastern Europe.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining 17th Century Western Europe.md",
+      "bytes": 13130,
+      "sha256": "2ed245e13ffa957cfda9658674b38e9477e878539d9c8585a431b9a9d08b8432",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining 17th Century Western Europe.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining Africa's Slave Trades.md",
+      "bytes": 12942,
+      "sha256": "497693afd1b997da4c966b9ed8dfc634931876dab468e21195fd80e641e1c363",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining Africa's Slave Trades.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining Ancient Greece.md",
+      "bytes": 15673,
+      "sha256": "2e05c387b11ed14d143bf1e5ffacfcd635d6df02f30835a403a18b57bb8026b2",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining Ancient Greece.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining Ancient Israel.md",
+      "bytes": 16809,
+      "sha256": "bb7e1ec8cb30ae05d9ac96bdca6f28ec4fef03fdc40d1199120b505cb6c1f9e8",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining Ancient Israel.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining the English Civil War.md",
+      "bytes": 13035,
+      "sha256": "550f286b19c5fac3ac4efe34648d68dcc49fa9836668f9cc4a4b309f8c9cf675",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining the English Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining the Fall of Rome.md",
+      "bytes": 13524,
+      "sha256": "d46fd7623c4e7d4991b8f4abe7300d1c901311bd8f90b7042b2212ce8a6c8c5d",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining the Fall of Rome.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining the Industrial Revolution.md",
+      "bytes": 12388,
+      "sha256": "9e5275032ab21a4fda08d89c13d1a3a5e21b4ff6092c093230b42b4732171794",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining the Industrial Revolution.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining the Mongol Empire.md",
+      "bytes": 16425,
+      "sha256": "d851bb153ad2cb85b1649ae8a53e7b92cf481222aeba030e4b496c956c0452e2",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining the Mongol Empire.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining the Rise of Christianity.md",
+      "bytes": 13898,
+      "sha256": "f3639daa7fe55b1fd9ce69715d8f9f061c1d4ce9bc2885a597ce48c579107e84",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining the Rise of Christianity.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining the Rise of Islam.md",
+      "bytes": 13164,
+      "sha256": "792aae1dfec024cc86899e76b5e71ec37922464d4f5d70454dadeb5b053ae92f",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining the Rise of Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining the Rise of Rome.md",
+      "bytes": 10204,
+      "sha256": "a984780fe85054160820dbb6c6fdf3cbb32569dd94360f2987d914c79b0a68f8",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining the Rise of Rome.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - Explaining Tzarist Russia.md",
+      "bytes": 12447,
+      "sha256": "f7cf569bd5ccd8733567c1ae70c8930d31c8a65762dc5a8ef91f54c3ecf36804",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - Explaining Tzarist Russia.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Rudyard Lynch - The 7 Emotions That Push Civilization.md",
+      "bytes": 9288,
+      "sha256": "a9c7c0827def9504fa025509a98bb282c2d970e3930b6604e36ef3b2210f7528",
+      "preserved_path": "legacy/2026-11-14/Notes/Rudyard Lynch - The 7 Emotions That Push Civilization.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.md",
+      "bytes": 10698,
+      "sha256": "54370eae4384fb90006f8ae963d332041ffb55e0930e94eabb4ca6a3273a1ef1",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - How 1% of People Control Civilization with Auren Hoffman.md",
+      "bytes": 12542,
+      "sha256": "c1dca91eec187b69782ef76c7e03131f0bf84a4adb1497d7d77cd17a6fcba4bb",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - How 1% of People Control Civilization with Auren Hoffman.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - How to Find the Frontiers of Knowledge.md",
+      "bytes": 13205,
+      "sha256": "1d21824d35e8f297ae535fd46eeae6fba776792c8971c41432988b8cea6a89a0",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - How to Find the Frontiers of Knowledge.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - How to Prevent Civilizational Collapse.md",
+      "bytes": 11487,
+      "sha256": "1be233231a05a4013747bed568db8135fa86bdfcf874acbb49cdd9c38e2402b0",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - How to Prevent Civilizational Collapse.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.md",
+      "bytes": 14479,
+      "sha256": "cc68f151945ae7455d5217318066a7c2294d55fd362e239a733b2ae7aa2e2003",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - Mass Immigration Won't Save Europe.md",
+      "bytes": 13696,
+      "sha256": "7c39ee242af956e2bc28511f749645ab6650f2efa7e3b7886eaa6a4aae0073a5",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - Mass Immigration Won't Save Europe.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.md",
+      "bytes": 13244,
+      "sha256": "5437772930163e595055ba65d0590e5e2a08eb564d640e87e5af88a1b4667d42",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - The Eastern European Experiment.md",
+      "bytes": 11128,
+      "sha256": "ee0e465d84dbf8ca9e439433c67f8f9af19c106b8aef551c702c9e7702c9da09",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - The Eastern European Experiment.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - The Politicization of History.md",
+      "bytes": 12112,
+      "sha256": "211af215c8d65bf12b221b0116cb2b06468c09c79baff540a13da2790d827944",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - The Politicization of History.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - The Possibility of Human Extinction.md",
+      "bytes": 11921,
+      "sha256": "9efadf15ffe00bd7764f852768a8fd926be5b9746290aafebaa0c13f2627a0e4",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - The Possibility of Human Extinction.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - Why Europe Matters for America’s Future.md",
+      "bytes": 10920,
+      "sha256": "571cca242a4d5cd6fc2b325ef7c6052c84d04e3192a50d865d59eab20284a020",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - Why Europe Matters for America’s Future.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Samo Burja - Why Populists WIN Elections But Fail to Govern.md",
+      "bytes": 7512,
+      "sha256": "5cdc264ce0feeeb3f07ea7fdb0a9231e7cd9bddd8c225ba562ac4cf99ed49aa2",
+      "preserved_path": "legacy/2026-11-14/Notes/Samo Burja - Why Populists WIN Elections But Fail to Govern.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Scott Alexander - Meditations on Moloch.md",
+      "bytes": 14520,
+      "sha256": "dffd775295dd70ebee58f3dbb251287c29cc2abf3c61cd53b6ec69bdbbadd621",
+      "preserved_path": "legacy/2026-11-14/Notes/Scott Alexander - Meditations on Moloch.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Snowden Todd - Small Businesses Are Lowering South Korean Fertility.md",
+      "bytes": 12870,
+      "sha256": "33aa227b2500bdf67cc3471237f2fb515d12d80e1a0201ce04c25c71c167f2b5",
+      "preserved_path": "legacy/2026-11-14/Notes/Snowden Todd - Small Businesses Are Lowering South Korean Fertility.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Stewart Brand - Maintenance of Everything, Part One (2026).md",
+      "bytes": 67612,
+      "sha256": "1e36fe1bf8a8240b175d79bc11b188342268e89013743253d77067686fa1bed8",
+      "preserved_path": "legacy/2026-11-14/Notes/Stewart Brand - Maintenance of Everything, Part One (2026).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Tommy Robinson - Exposing the Islamic Takeover of Britain.md",
+      "bytes": 13089,
+      "sha256": "c21d3cd4bd9d37a9f89003aeda6955f6e2d4692a9dd13f989d207c810c9189b5",
+      "preserved_path": "legacy/2026-11-14/Notes/Tommy Robinson - Exposing the Islamic Takeover of Britain.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.md",
+      "bytes": 9509,
+      "sha256": "5696e015b4050745231a59f4027e64e5d5fd389c783c67f101dc8ea569c40c29",
+      "preserved_path": "legacy/2026-11-14/Notes/Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.md",
+      "bytes": 12220,
+      "sha256": "b3509de85c2d38f76ab3cb3080b889644c207742e20788ab951ce3628522c895",
+      "preserved_path": "legacy/2026-11-14/Notes/Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.md",
+      "bytes": 10892,
+      "sha256": "51c594b23ccf8224edf2a6bd859ed27071a26c331f070eef9b8295303dfc982e",
+      "preserved_path": "legacy/2026-11-14/Notes/Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Wikipedia - History of Islam.md",
+      "bytes": 15047,
+      "sha256": "86d6e1e664ad23c49d4941febc30c39c9cb1985de2c048cc27e7b33c732cc050",
+      "preserved_path": "legacy/2026-11-14/Notes/Wikipedia - History of Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Wikipedia - Islam.md",
+      "bytes": 14809,
+      "sha256": "94a1916f01aa5ae72fe213d230e5d6f6784193c8ae2f9f63bb176cc57a9fce29",
+      "preserved_path": "legacy/2026-11-14/Notes/Wikipedia - Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes/Williamson Chris - Alison Armstrong (How to Treat Men Better).md",
+      "bytes": 15322,
+      "sha256": "72dd5f03f889db6eadcac7c956504de5789ffad09b0a33ba593343057f30c234",
+      "preserved_path": "legacy/2026-11-14/Notes/Williamson Chris - Alison Armstrong (How to Treat Men Better).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Bryan Caplan - Selfish Reasons to Have More Kids (2012).txt",
+      "bytes": 101147,
+      "sha256": "e6aeb55987fce973551d21cb0c2381ad0a0b4f3017be04d5fe9319535c5fa9f9",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Bryan Caplan - Selfish Reasons to Have More Kids (2012).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Curtis Yarvin - An Open Letter for Open-Minded Progressives (2008).txt",
+      "bytes": 67689,
+      "sha256": "e45100257f9b746c82c96aadf61af926fb7b8ff0c9a0a7d5dc4fc9689b3320d0",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Curtis Yarvin - An Open Letter for Open-Minded Progressives (2008).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Curtis Yarvin - Empire of Love.txt",
+      "bytes": 14622,
+      "sha256": "fe5c9f6224db42c100478777aa34e8eece569fad80d0272f69dfa681003ff563",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Curtis Yarvin - Empire of Love.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Curtis Yarvin - Plan for Britain.txt",
+      "bytes": 11617,
+      "sha256": "86cd3a501362a4a1ac7c7206a8bfe66bc0a14242eb4704bc4f17267ed34a85c1",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Curtis Yarvin - Plan for Britain.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.txt",
+      "bytes": 7857,
+      "sha256": "f073b7f156b97996c49fbcc2a1275e8d1b5b7e7a0017074b42fecc32938e98cd",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Dan Carlin - Blueprint for Armageddon (2013).txt",
+      "bytes": 70068,
+      "sha256": "5ef67171a5a52e2ddd64a6dd8ce8a98d8958da2bc713041c95f920d6d67bd56d",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Dan Carlin - Blueprint for Armageddon (2013).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Dan Carlin - Death Throes of the Republic (2010).txt",
+      "bytes": 85184,
+      "sha256": "f80fd9a058fb38fc4bae3bfd04948b9a97f003fc002ad37c2f9441d7fbe74166",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Dan Carlin - Death Throes of the Republic (2010).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Dan Carlin - Prophets of Doom (2013).txt",
+      "bytes": 16767,
+      "sha256": "205cc75241babf1e57ff42d3886c0a5f465c6e848d505f3d588cf9f3f2d9f701",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Dan Carlin - Prophets of Doom (2013).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Dan Carlin - Wrath of the Khans (2012).txt",
+      "bytes": 63956,
+      "sha256": "f972eeaafecb3c1197717c7a4886b7118390100b2662eef10bb128cb5d133b75",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Dan Carlin - Wrath of the Khans (2012).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Daniel Hess - Talk with Robin Hanson 2.txt",
+      "bytes": 9791,
+      "sha256": "20a98586b4c472f27de72614ebb093339bc35dfa417c017b4f39e96f7fa2412e",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Daniel Hess - Talk with Robin Hanson 2.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Daniel Hess - The Fertility Collapse.txt",
+      "bytes": 10280,
+      "sha256": "3325ee4cf1f34ce2c040c870d9f6c389e3f451b2c65d922974bc8488de393f60",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Daniel Hess - The Fertility Collapse.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Daniel Hess - We Need a Pronatal Culture.txt",
+      "bytes": 10231,
+      "sha256": "353efa7a614edcb3866eb54a45916799eff9bdde809bc26340062fb5bff8ace4",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Daniel Hess - We Need a Pronatal Culture.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - Are We Headed for Civil War.txt",
+      "bytes": 11372,
+      "sha256": "8093f7c53627a9293c3f5ef0dd157272cf8e40e519487339823b8ab9e6c10ca5",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - Are We Headed for Civil War.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - Civil War Comes to the West.txt",
+      "bytes": 18871,
+      "sha256": "b73c17a7354ca3fa2d352c889c92a378167ae47c1ea0770cf735a427ffad2bb7",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - Civil War Comes to the West.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - Reflections on Homeland Insecurity.txt",
+      "bytes": 11705,
+      "sha256": "6e3d5414ad6dbb0bdd675e698e2ae3921cf9ff79b5c7dbfbbfd7b910672fb460",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - Reflections on Homeland Insecurity.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - The Coming British Civil War.txt",
+      "bytes": 11854,
+      "sha256": "0cf77a5632c69f6d48f5a6c978ca03cf9c861d51749a226a1bee8ecf8d5849bf",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - The Coming British Civil War.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - The Coming Civil War.txt",
+      "bytes": 12749,
+      "sha256": "0b20eb61faf6c83009129d5c0b674f09d9c2f39cbcfb3cdf8fda2202b156d5a0",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - The Coming Civil War.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - The Future of War Is Civil War.txt",
+      "bytes": 11180,
+      "sha256": "8b70fe6f6886d9055182eb314a9f117a12f4e00e405a30e35e8df16d83d5f024",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - The Future of War Is Civil War.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - War and Stupid War.txt",
+      "bytes": 12960,
+      "sha256": "21c5b0e06f4dac05589578ab82e7562c6863ae891c82e8889489a3b2f52ac96c",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - War and Stupid War.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - Warfare in the Digital Age.txt",
+      "bytes": 13002,
+      "sha256": "a34848df3cd6ddcafd2983da8e192b05deb8b1f266399fcd7b15256dac97f732",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - Warfare in the Digital Age.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - What Britain Will Look And Feel Like When Things Get Nasty.txt",
+      "bytes": 11418,
+      "sha256": "ac6381ecc5011a4d7232bf47748be8d98744639af7d41e9e4bd5b6e63e670b8f",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - What Britain Will Look And Feel Like When Things Get Nasty.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Betz - Will Civil Unrest Come to the West.txt",
+      "bytes": 9721,
+      "sha256": "fb6dc33ff09a04847da19a85e4ece6e3a944273c111745b5dc8577820c794395",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Betz - Will Civil Unrest Come to the West.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Hackett Fischer - Albion's Seed (Gemini Flash) (1989).txt",
+      "bytes": 87391,
+      "sha256": "b8e1d98da3437bd905d79a6998e6f5ddedad454db7deaa84c6091e639bffe130",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Hackett Fischer - Albion's Seed (Gemini Flash) (1989).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/David Hackett Fischer - Albion's Seed (Gemini Pro) (1989).txt",
+      "bytes": 65732,
+      "sha256": "fa404a3e98253302fa7d8e3ba5e95d52dfd384035b675ca4f22af1a101def6b4",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/David Hackett Fischer - Albion's Seed (Gemini Pro) (1989).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Eliezer Yudkowsky - Inadequate Equilibria (2017).txt",
+      "bytes": 73023,
+      "sha256": "4446ddcf46be636a6768002cdf2b48a334fe8928d7ef8edbd536f24661d5c500",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Eliezer Yudkowsky - Inadequate Equilibria (2017).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Eugene Lyons - The Red Decade (1941).txt",
+      "bytes": 60192,
+      "sha256": "d5fe547b11c4e4dac33b291f3da410670e63934f39f76f798fced224f383b76b",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Eugene Lyons - The Red Decade (1941).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Geoffrey Miller - Broken Dating Markets.txt",
+      "bytes": 12173,
+      "sha256": "e1533ccf7edfac6f339c71c11aeaa2f4c1c87ede1411905ad1367cba491b4803",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Geoffrey Miller - Broken Dating Markets.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Geoffrey Miller - Virtue Signaling (2019).txt",
+      "bytes": 53587,
+      "sha256": "d4912d195dc0c691a7fa5bd4c311511774a63f381d9201ba7d56d4accf960c41",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Geoffrey Miller - Virtue Signaling (2019).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Evolutionary psychology.txt",
+      "bytes": 12886,
+      "sha256": "2a929300d994758c3af2b90a9863f6cc9b5c0f2b275c1fa4180983ff7b063f76",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Evolutionary psychology.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Great Replacement theory in the United States.txt",
+      "bytes": 12105,
+      "sha256": "59f33ddf40ed02e79a87457990aac96f1be5e31b1e8d3ec193f4f85e1083905c",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Great Replacement theory in the United States.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - History of Islam.txt",
+      "bytes": 17420,
+      "sha256": "9513eb61541466c6ca80775d98bc16ea22510dfcbe6d025409f9b49ed94ed072",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - History of Islam.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Illegal immigration to the United Kingdom.txt",
+      "bytes": 9690,
+      "sha256": "341a735393ed12f4059aee57350924b9ec77ef9897a4484ade027f13e6ba548f",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Illegal immigration to the United Kingdom.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Illegal immigration.txt",
+      "bytes": 12175,
+      "sha256": "dae2d3167e37afaca45aaa65f092a0571593a6130a51d7b1ab6b16a348e23eb7",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Illegal immigration.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Immigration to Denmark.txt",
+      "bytes": 10477,
+      "sha256": "1727d5f58078a1eaeed316c0b853d86f31e6ccdaaa9b297b91fc060eb76d56e2",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Immigration to Denmark.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Immigration to Sweden.txt",
+      "bytes": 10594,
+      "sha256": "61c6f1d59a51e2549d222531a2befadb7d48494dd3950c6e33836fcbdee05602",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Immigration to Sweden.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Immigration.txt",
+      "bytes": 12585,
+      "sha256": "c73fe87c109d47c778d5cf141c547c1c29a60bb1dd62bedab812a835082ff561",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Immigration.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Intelligence.txt",
+      "bytes": 12948,
+      "sha256": "39b0b0105a58175f4fc16359bab2fd56ed10d6af7bd62c3a55a4cb6a3fc5dc93",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Intelligence.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Islam.txt",
+      "bytes": 12935,
+      "sha256": "424ddf5d4f607338175850891ad9e2fb2a6225cca51a16be20fc05faaf5be486",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Islam.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Mass Immigration Initiatives.txt",
+      "bytes": 11377,
+      "sha256": "4b3eddac4dbccf0d46dcca293d76df5371ac7365578ffbbcb86e226c899d1ed9",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Mass Immigration Initiatives.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Race and intelligence.txt",
+      "bytes": 11985,
+      "sha256": "dc53ec5f98c0047f5b2f7e50c207a06b109d83757d4145636f7c207c2ca4e671",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Race and intelligence.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Race.txt",
+      "bytes": 11000,
+      "sha256": "f74db19e74f04263fb049ca5dc8d5a894d809c6d33eb68f52c6c68d94e208594",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Race.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grokipedia - Rotherham child sexual exploitation scandal.txt",
+      "bytes": 8578,
+      "sha256": "c198fabe7807ac5699b45463459d48c7ab289f256788193a37ba7aafaea71552",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grokipedia - Rotherham child sexual exploitation scandal.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grooming Gang Scandal - Oxford 2013.txt",
+      "bytes": 7587,
+      "sha256": "4a8b1c886144c6e9f218a154e2324b1afc85041b46213c5e5588d67bd9000c6c",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grooming Gang Scandal - Oxford 2013.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grooming Gang Scandal - Rotherham 2016.txt",
+      "bytes": 7407,
+      "sha256": "ec1e17f061680bf92e375f751b4e9a12004f0576508433462c888084fec2f9b0",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grooming Gang Scandal - Rotherham 2016.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grooming Gang Scandal - Rotherham 2017 (1).txt",
+      "bytes": 6272,
+      "sha256": "e0e157166d5a6daff28c9e10e9683bf904ddf9f812ef23d0311b22c8021ed93f",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grooming Gang Scandal - Rotherham 2017 (1).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Grooming Gang Scandal - Rotherham 2017 (2).txt",
+      "bytes": 5054,
+      "sha256": "88e43c075aa3ba8b3f31f0813f5a4e9e6de1ad0d8eb009fdbba8a5313902d52b",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Grooming Gang Scandal - Rotherham 2017 (2).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Jacob Savage - The Lost Generation.txt",
+      "bytes": 13532,
+      "sha256": "2d9c849c080fda9433c1d1af217c7c0f305fd2893a356e9ba9b3239c96b3d550",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Jacob Savage - The Lost Generation.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Joel F. Harrington - The Faithful Executioner (2013).txt",
+      "bytes": 11376,
+      "sha256": "cda3b9bfd54f6d7aa3005de41efd959916ddcc90068b8fca90cc1b30221a6bd1",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Joel F. Harrington - The Faithful Executioner (2013).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.txt",
+      "bytes": 10341,
+      "sha256": "566c7721b543824ec15d3981699fc75311e7235350b8e085369e21caf8f9674d",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/John Gillam - Reverse Colonization in France with Driss Ghali.txt",
+      "bytes": 13851,
+      "sha256": "33120157a05e43b1b405b9a510b5312ad899ebb983a45ead32699361daae0c47",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/John Gillam - Reverse Colonization in France with Driss Ghali.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Jordan Lasker (Cremieux) - Gypsies and Jews.txt",
+      "bytes": 5156,
+      "sha256": "7137a3e181890ea06e01d9b218fee63f70e8e8b0679fd012d8062398fc97706b",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Jordan Lasker (Cremieux) - Gypsies and Jews.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Jordan Lasker (Cremieux) - National IQs Are Valid.txt",
+      "bytes": 14368,
+      "sha256": "f38bbdf08cd4e4eedcd58989acf8fd6d159af7f6ddee70ec4ecde0d2f7801223",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Jordan Lasker (Cremieux) - National IQs Are Valid.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Joseph Henrich - Humans defeated smarter species with cultural evolution.txt",
+      "bytes": 12562,
+      "sha256": "582d01306fba842425b75b75b1f96cd013201965d58a4758a693a45a3b54e70c",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Joseph Henrich - Humans defeated smarter species with cultural evolution.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Joseph Henrich - The WEIRDest People in the World (2020).txt",
+      "bytes": 169176,
+      "sha256": "deadee0b460714f1c4e0ba33ebd65b797d0cca7e19ddacc37411fa6ceceb1052",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Joseph Henrich - The WEIRDest People in the World (2020).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Lotus Eaters - Europe Is Turning Into a Powderkeg.txt",
+      "bytes": 12472,
+      "sha256": "53c7fc6bb2ede23245414a721bb5e7d2622d4f1278a54d5d74c53aa42a92de45",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Lotus Eaters - Europe Is Turning Into a Powderkeg.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.txt",
+      "bytes": 8576,
+      "sha256": "8d447903a716ce015ec64ada93671be5eceffea3bb3e4e3870adcfb489ef93ba",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Malcolm-Simone Collins - How Religions Rank Competence.txt",
+      "bytes": 10356,
+      "sha256": "de7afd9c9f658c582326439949b3b0583f79bc98ef5733ff112b032acf1a1f27",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Malcolm-Simone Collins - How Religions Rank Competence.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Marcus Gallo - You DON’T Descend From All Your Ancestors.txt",
+      "bytes": 5884,
+      "sha256": "2fe016b1c7ca2dd22835fa02f6c71d8a120542ba9c4bd924b3b6aa1dd6baa21c",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Marcus Gallo - You DON’T Descend From All Your Ancestors.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Michael O. Church - The 3-ladder system of social class in the U.S..txt",
+      "bytes": 6531,
+      "sha256": "7391fb734b8f26a7b2e991d85f318302b670152ae1e384e52200614ae41f33b4",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Michael O. Church - The 3-ladder system of social class in the U.S..txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Nate Friedman - I Exposed the Islamic Takeover of the UK.txt",
+      "bytes": 10574,
+      "sha256": "8b69f02954b1e63fb9078ce5da63aafcbd456ca5ffc345ee5fb2faf74d59ffb1",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Nate Friedman - I Exposed the Islamic Takeover of the UK.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Nathan Cofnas - A Guide for the Hereditarian Revolution.txt",
+      "bytes": 6484,
+      "sha256": "ad827dca2f0f476bc97cbc5f5927f9a8ae153e6913787cbc8c865b4a207e80b9",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Nathan Cofnas - A Guide for the Hereditarian Revolution.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Nathan Cofnas - Beating Woke with Facts and Logic.txt",
+      "bytes": 7529,
+      "sha256": "4b018a1a3329110e1eeec92e887abbf774c3f4afed7a9f1ffb579014cee2a84e",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Nathan Cofnas - Beating Woke with Facts and Logic.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Nathan Cofnas - Judaism as a Group Evolutionary Strategy.txt",
+      "bytes": 12920,
+      "sha256": "9db6afd631985e7d869416185d06501b62072e6facb4a50948ce0ff35676d477",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Nathan Cofnas - Judaism as a Group Evolutionary Strategy.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Nathan Cofnas - Podcast Bros and Brain Rot.txt",
+      "bytes": 8335,
+      "sha256": "a35d7b3a95af9234457c7ee3b8b6c45754f1fd48655ae937d4aeb3faff6305f8",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Nathan Cofnas - Podcast Bros and Brain Rot.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Nathan Cofnas - The Right’s Stupidity Problem.txt",
+      "bytes": 12170,
+      "sha256": "08218ab0cf28d0d3545b875b2ae51107a2b282877b4f7152956232567c2dc68e",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Nathan Cofnas - The Right’s Stupidity Problem.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Nathan Cofnas - Twilight of the Liberal Jew.txt",
+      "bytes": 6384,
+      "sha256": "62e16d72bf66b2f3f51fcfcb3d7a302ffd7a8fdeaa1858580cabb3d9ad355d01",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Nathan Cofnas - Twilight of the Liberal Jew.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Nick Pardini - Global Class Hierarchies Explained.txt",
+      "bytes": 10187,
+      "sha256": "9d43b662e74ebeeb0deeeb151035e3d41ea428d1b9a79b08e176a10e89fffeb6",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Nick Pardini - Global Class Hierarchies Explained.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.txt",
+      "bytes": 6292,
+      "sha256": "762112e3aca8d323a040cb9919c1db6ccf7188d9edc22fdd2b7bcf313ba90379",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Noah Smith - Can a Nation Plunder Its Way to Wealth.txt",
+      "bytes": 7768,
+      "sha256": "b54a3a17a466d9758bd2930099e76ae7d99b90c25f96f703e3428d084aafd914",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Noah Smith - Can a Nation Plunder Its Way to Wealth.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/OpenAI ChatGPT - Truth-Maximizing.txt",
+      "bytes": 11366,
+      "sha256": "5a5acc38e593115a109081925f749b4c979c22b771e1c3fd5e0ef34240201b87",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/OpenAI ChatGPT - Truth-Maximizing.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Philip Pilkington - The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025).txt",
+      "bytes": 42232,
+      "sha256": "4e174ae9539918bbe59207d73ecc7b636e037199321f0703fd0fb66d5c8f19dc",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Philip Pilkington - The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Philip Pilkington - The Collapse of Global Liberalism.txt",
+      "bytes": 11905,
+      "sha256": "948abab7cee177cce83fb7238ee77253150098b5ac6240d0af426dea87fe04ed",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Philip Pilkington - The Collapse of Global Liberalism.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Raymond Ibrahim - The Islamic Conquest Of Europe.txt",
+      "bytes": 12745,
+      "sha256": "f5440876d2bad92ff9d8919395fa8c050127a12fa2e0f1edce8500c9698400e9",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Raymond Ibrahim - The Islamic Conquest Of Europe.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Raymond Ibrahim - The Real History of Islam.txt",
+      "bytes": 12484,
+      "sha256": "ffde5f9be1516aa91b710f84c9fc5bd643564165d56ef81ae9f90c4c85d4ea1f",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Raymond Ibrahim - The Real History of Islam.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.txt",
+      "bytes": 11526,
+      "sha256": "fadc00252315e4875c96707d2721bef3685379a7e586146e22a518c32212908c",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.txt",
+      "bytes": 12197,
+      "sha256": "1cdd93a670b7d13eef8a28cf25791c031ca75f3b1627e24d61460dd18eeaec7f",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Civilizational Differences with Samo Burja.txt",
+      "bytes": 10066,
+      "sha256": "cd21076db64c69253542c6a6ac8c8782573a4612bd30cd7625d23c6148e7f6f7",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Civilizational Differences with Samo Burja.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining 17th Century Eastern Europe.txt",
+      "bytes": 12690,
+      "sha256": "edb1cd5839bdb38b6f469e0ffb8356f099ec51c74a368d3fe4b3d54e830652ac",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining 17th Century Eastern Europe.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining 17th Century Western Europe.txt",
+      "bytes": 12398,
+      "sha256": "a08f7a15f761b3a379b52dcfc50ea514100e0c5b2418f64002a6dcf80936e6c7",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining 17th Century Western Europe.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining Africa's Slave Trades.txt",
+      "bytes": 12082,
+      "sha256": "5e342631fcba3f5c840bbe853f920face7fd26f3ea2f1466bdcf26c2c458b9dc",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining Africa's Slave Trades.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining Ancient Greece.txt",
+      "bytes": 14766,
+      "sha256": "de4a358dd96cc6a5ec5b50ede151f88ec9919611638cb031b8dc0e3bad5b6284",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining Ancient Greece.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining Ancient Israel.txt",
+      "bytes": 15698,
+      "sha256": "9935763a414e2bbaacfe95ccee6c4050dc6795da160a7253a4dc5b562ff08323",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining Ancient Israel.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining the English Civil War.txt",
+      "bytes": 12198,
+      "sha256": "1bd9377975ef1ac5240a340b72deb55b6898cf86e51bcb6932c60fba2e075d52",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining the English Civil War.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining the Fall of Rome.txt",
+      "bytes": 12742,
+      "sha256": "f58aac5f2910bc5cf85327b7e9aa87fdac1c17b8f777217b4161a3899b2d8307",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining the Fall of Rome.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining the Industrial Revolution.txt",
+      "bytes": 11639,
+      "sha256": "095ce9f3226017f8aa3c50c6b560742c4680e87c8f8a5b4dcbf6a8d9113894ef",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining the Industrial Revolution.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining the Mongol Empire.txt",
+      "bytes": 15334,
+      "sha256": "992f7b54a5ae3dd9cc3761725e0810de425e60bf1b8a59d1df210a2b89d6432a",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining the Mongol Empire.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining the Rise of Christianity.txt",
+      "bytes": 13041,
+      "sha256": "2bac77055948c6909998eabc74c1243b2621d69f4391120ace0a9d18f2c7224b",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining the Rise of Christianity.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining the Rise of Islam.txt",
+      "bytes": 12389,
+      "sha256": "38c478ef6e0b9673303cf64ed59b47ac172ce7172d485b29e500fd4b47c189c3",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining the Rise of Islam.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining the Rise of Rome.txt",
+      "bytes": 9622,
+      "sha256": "876a16c53a48c996bac8e22d27a30e6abe0d703cdc357b5279ad6b79bfe5546a",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining the Rise of Rome.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - Explaining Tzarist Russia.txt",
+      "bytes": 11754,
+      "sha256": "2f9e60b1c44fe9c3b9ae523284d8a0ec71dea45ceb385b7c84df373edbc870ce",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - Explaining Tzarist Russia.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Rudyard Lynch - The 7 Emotions That Push Civilization.txt",
+      "bytes": 8602,
+      "sha256": "d7c64f7f37f406efe096cd235caf0313ff479a0ed18fb32f4311121df53a86a3",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Rudyard Lynch - The 7 Emotions That Push Civilization.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.txt",
+      "bytes": 9963,
+      "sha256": "920eca55a1fc70c390f53709a1a533a7c4ea6b32923beff4acf6d5d8d31c8352",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - How 1% of People Control Civilization with Auren Hoffman.txt",
+      "bytes": 11690,
+      "sha256": "0f1cbd8d528005d2183e9d3cc80537b48b9d62335e278f285042cec5b2e7374e",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - How 1% of People Control Civilization with Auren Hoffman.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - How to Find the Frontiers of Knowledge.txt",
+      "bytes": 12431,
+      "sha256": "32b821ee80cd6f6e28062c1f976267a6a80af5d7c520f1c53e82eb6a275f3bd6",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - How to Find the Frontiers of Knowledge.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - How to Prevent Civilizational Collapse.txt",
+      "bytes": 10577,
+      "sha256": "ae367026ba22cab8a14f3166408846f53e75b8837e544e2292e0b0374aea7d7a",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - How to Prevent Civilizational Collapse.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.txt",
+      "bytes": 13436,
+      "sha256": "db0069d332fbe84285310f2e8026038fb5f15c310f1381b5808e0847d7e4fb65",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - Mass Immigration Won't Save Europe.txt",
+      "bytes": 12859,
+      "sha256": "977b7cf03476bbf2be96da7d70c05543f3b7622e8c4c76458a2585fa3ddcf8c4",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - Mass Immigration Won't Save Europe.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.txt",
+      "bytes": 12379,
+      "sha256": "355797cb28d88ad0d9dafd726a6a972b306227dfea723cff80250ac06da1e28e",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - The Eastern European Experiment.txt",
+      "bytes": 10429,
+      "sha256": "3852677c731d4ec4572d5415a9f92cd5473c74c4100edb5616b746110bcf110f",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - The Eastern European Experiment.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - The Politicization of History.txt",
+      "bytes": 11241,
+      "sha256": "dab42d24ca5d0d543f24b67b860218f2f992b31e84f4b28b4c15235071387779",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - The Politicization of History.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - The Possibility of Human Extinction.txt",
+      "bytes": 11113,
+      "sha256": "c4219dfab44a6bd5dcaca3f0bf613e97900530f608ce39a0c447110349069a5a",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - The Possibility of Human Extinction.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - Why Europe Matters for America’s Future.txt",
+      "bytes": 10235,
+      "sha256": "4b004798c58d8480b01686484f01d7350dca4765e60111649f6d3b814ec89a35",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - Why Europe Matters for America’s Future.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Samo Burja - Why Populists WIN Elections But Fail to Govern.txt",
+      "bytes": 6884,
+      "sha256": "f750864f3a6ef8e4567e00d2bf4e51fb9d574143cd1ffdfe50cde5ff12e57fdd",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Samo Burja - Why Populists WIN Elections But Fail to Govern.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Scott Alexander - Meditations on Moloch.txt",
+      "bytes": 13533,
+      "sha256": "19006d323f486d0355278a7bd982d3eb65fb6454803ea01028d6f746449e00bc",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Scott Alexander - Meditations on Moloch.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Snowden Todd - Small Businesses Are Lowering South Korean Fertility.txt",
+      "bytes": 11770,
+      "sha256": "5ab0303736e59494128f0e2f613507af3666ccc7c8fee2829335b3f23722d686",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Snowden Todd - Small Businesses Are Lowering South Korean Fertility.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Stewart Brand - Maintenance of Everything, Part One (2026).txt",
+      "bytes": 65967,
+      "sha256": "232dbc5604f84f6ea466598e12789b5831177f54f74b5af4eb7ae395d5d4a570",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Stewart Brand - Maintenance of Everything, Part One (2026).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Tommy Robinson - Exposing the Islamic Takeover of Britain.txt",
+      "bytes": 12252,
+      "sha256": "55776b69fbe50a6bc3bfa2d17d34b9df2a2b1a8a04a8b57220f50f17f560d9f8",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Tommy Robinson - Exposing the Islamic Takeover of Britain.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.txt",
+      "bytes": 8865,
+      "sha256": "cb3bd54662a04add61037b6c164556b4706847832adafe8a816ecc806669446f",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.txt",
+      "bytes": 11436,
+      "sha256": "1d3082333be679042464d5fd283f1c4c598b0397aed0bd90f9746e18c9820efb",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.txt",
+      "bytes": 10159,
+      "sha256": "12c0682f8a8213996d2d243941eb8678dcae5c45d25a3f4f8ea2bb099047dafd",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Wikipedia - History of Islam.txt",
+      "bytes": 13585,
+      "sha256": "62aa9e009a9db0a196152990d5b6d078b6dcd7b80cc2500e883cd0f8af2ef563",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Wikipedia - History of Islam.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Wikipedia - Islam.txt",
+      "bytes": 13163,
+      "sha256": "6c49588aa4ef5041ed206545eee3f30618865f13fa8b869003255e40fd683f5b",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Wikipedia - Islam.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Notes_Text/Williamson Chris - Alison Armstrong (How to Treat Men Better).txt",
+      "bytes": 14250,
+      "sha256": "4d743b5b774751ed70ac92de48c2bb4115d605bc0cd56df1d2ae2fd2b9537cec",
+      "preserved_path": "legacy/2026-11-14/Notes_Text/Williamson Chris - Alison Armstrong (How to Treat Men Better).txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Bryan Caplan - Selfish Reasons to Have More Kids (2012).md",
+      "bytes": 105876,
+      "sha256": "13b6e0fc31bac0f94c4dd9e9ca46cb07031c73e7aba0520ea5a4a673ff85686c",
+      "preserved_path": "notes/Bryan Caplan - Selfish Reasons to Have More Kids (2012).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Curtis Yarvin - An Open Letter for Open-Minded Progressives (2008).md",
+      "bytes": 71418,
+      "sha256": "07cc76db6ff8f55fcb4462937adcb60ac5f5bfb9c85baf8c90b03e1ecb9647ab",
+      "preserved_path": "notes/Curtis Yarvin - An Open Letter for Open-Minded Progressives (2008).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Curtis Yarvin - Empire of Love.md",
+      "bytes": 15405,
+      "sha256": "b9bf54d9b082aa081183cb3b5a62ce0a08a912a4f2323bcf2c41696c9d1b3dd8",
+      "preserved_path": "notes/Curtis Yarvin - Empire of Love.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Curtis Yarvin - Plan for Britain.md",
+      "bytes": 12322,
+      "sha256": "0b043e65a6b7c28e467837597a715f2044cfca361f6b62fa23a581659ef48500",
+      "preserved_path": "notes/Curtis Yarvin - Plan for Britain.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.md",
+      "bytes": 8253,
+      "sha256": "37e5f21229daa37b552c03970312b58121511a50909dbdd1552f9cb46c4377c2",
+      "preserved_path": "notes/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Dan Carlin - Blueprint for Armageddon (2013).md",
+      "bytes": 73150,
+      "sha256": "4f1f15be2a52503f0f50bcb43a4fb90d0a522aaeabceeb15396295c44a90f543",
+      "preserved_path": "notes/Dan Carlin - Blueprint for Armageddon (2013).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Dan Carlin - Death Throes of the Republic (2010).md",
+      "bytes": 88987,
+      "sha256": "8915c81c9afb33d795fe23d5c7be40735104653b4b4998bcb21b3a8a74189212",
+      "preserved_path": "notes/Dan Carlin - Death Throes of the Republic (2010).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Dan Carlin - Prophets of Doom (2013).md",
+      "bytes": 17468,
+      "sha256": "d39d5936ff83d9527e4e9f3732fef09cffd1c953a5bb83c85814bd05428055ad",
+      "preserved_path": "notes/Dan Carlin - Prophets of Doom (2013).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Dan Carlin - Wrath of the Khans (2012).md",
+      "bytes": 66578,
+      "sha256": "abf92473105300f83c565ed8f07dbdb81a404d17604611426c43e075e9800554",
+      "preserved_path": "notes/Dan Carlin - Wrath of the Khans (2012).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Daniel Hess - Talk with Robin Hanson 2.md",
+      "bytes": 10293,
+      "sha256": "727061a59c597791d9d5e02c43c0da8775e99d2068348467ba53142ac9a2f218",
+      "preserved_path": "notes/Daniel Hess - Talk with Robin Hanson 2.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Daniel Hess - The Fertility Collapse.md",
+      "bytes": 10844,
+      "sha256": "d7c3bbd01c5ba642d8a39bfaa78bc44cb9adf2f294d7e33060fb16b5e1888b65",
+      "preserved_path": "notes/Daniel Hess - The Fertility Collapse.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Daniel Hess - We Need a Pronatal Culture.md",
+      "bytes": 10868,
+      "sha256": "68e3e866c6169149fb1f0eca0fca7f4620614e2e874597a0e60b5d8212e4b9a2",
+      "preserved_path": "notes/Daniel Hess - We Need a Pronatal Culture.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - Are We Headed for Civil War.md",
+      "bytes": 11879,
+      "sha256": "31b6597b65217e60e912a16e570640bf4191d33d08178fb7803df632923d4f26",
+      "preserved_path": "notes/David Betz - Are We Headed for Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - Civil War Comes to the West.md",
+      "bytes": 19982,
+      "sha256": "b05f48b6165d21f0a73be95bef9c7526cc01b20bcc531e93c40366edc0b5c799",
+      "preserved_path": "notes/David Betz - Civil War Comes to the West.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - Reflections on Homeland Insecurity.md",
+      "bytes": 12385,
+      "sha256": "e02d99a9e85ee05bf34706f6f6f6285dfe40a52d594775c066435a84c5ae3307",
+      "preserved_path": "notes/David Betz - Reflections on Homeland Insecurity.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - The Coming British Civil War.md",
+      "bytes": 12533,
+      "sha256": "c8b3efa185d97e44ca070d79c10a3d43589db317a57fda10f570f64bef659369",
+      "preserved_path": "notes/David Betz - The Coming British Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - The Coming Civil War.md",
+      "bytes": 13448,
+      "sha256": "2be1fa2dedd7f0ac2c8f5128f0f534e4c24d2fd64bfda02181ac214d88e85534",
+      "preserved_path": "notes/David Betz - The Coming Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - The Future of War Is Civil War.md",
+      "bytes": 11812,
+      "sha256": "6fcfeeb51d43e469cbc15570481b56e0171cb6aa517ba2c1f891a94729afe509",
+      "preserved_path": "notes/David Betz - The Future of War Is Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - War and Stupid War.md",
+      "bytes": 13711,
+      "sha256": "c952a29ebe597d6248bcc1f33cf13df7860aa7254bc3294a2b1ca9e47d6633cb",
+      "preserved_path": "notes/David Betz - War and Stupid War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - Warfare in the Digital Age.md",
+      "bytes": 13710,
+      "sha256": "fbfa6727d870db98eeb3ec33a885bbec8215825342a63e02591f34e607b258bf",
+      "preserved_path": "notes/David Betz - Warfare in the Digital Age.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - What Britain Will Look And Feel Like When Things Get Nasty.md",
+      "bytes": 11953,
+      "sha256": "40f680ba6367b4d1e7be67bb8a31d9e3b2ff90d710bc5871aa73f0bb1b0d0dcd",
+      "preserved_path": "notes/David Betz - What Britain Will Look And Feel Like When Things Get Nasty.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Betz - Will Civil Unrest Come to the West.md",
+      "bytes": 10196,
+      "sha256": "372ef8c4fbc4a244754733ad8b85db49ad30ba0a98142583af0264be26402549",
+      "preserved_path": "notes/David Betz - Will Civil Unrest Come to the West.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Hackett Fischer - Albion's Seed (Gemini Flash) (1989).md",
+      "bytes": 91058,
+      "sha256": "2137458f2521bc347df07067b22d27474c9cad6de47e806cddede93eb404a7f8",
+      "preserved_path": "notes/David Hackett Fischer - Albion's Seed (Gemini Flash) (1989).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/David Hackett Fischer - Albion's Seed (Gemini Pro) (1989).md",
+      "bytes": 68616,
+      "sha256": "b640c6cc50e58ae0d763a09635fa06b6eda9ba7ab35fd48b26be1e6dc18afeb0",
+      "preserved_path": "notes/David Hackett Fischer - Albion's Seed (Gemini Pro) (1989).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Eliezer Yudkowsky - Inadequate Equilibria (2017).md",
+      "bytes": 76376,
+      "sha256": "6f2931239b08e9f883ca5942ca8d20e17c76a257aafa6a5f19f1e556caf2f646",
+      "preserved_path": "notes/Eliezer Yudkowsky - Inadequate Equilibria (2017).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Eugene Lyons - The Red Decade (1941).md",
+      "bytes": 64088,
+      "sha256": "6f5c9e79ad1551ce2f99e74b1335853cf32fd949c277f393a3131b4137f68950",
+      "preserved_path": "notes/Eugene Lyons - The Red Decade (1941).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Geoffrey Miller - Broken Dating Markets.md",
+      "bytes": 12773,
+      "sha256": "fb9f6f3079570cf68add489066d8a69957b43c1f98be9a3b9d8b241fb832b48c",
+      "preserved_path": "notes/Geoffrey Miller - Broken Dating Markets.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Geoffrey Miller - Virtue Signaling (2019).md",
+      "bytes": 56027,
+      "sha256": "87fc41b13ab53c44a90c910087833b6ddefe59594a2e3ee0a8b05e1f99d8b27e",
+      "preserved_path": "notes/Geoffrey Miller - Virtue Signaling (2019).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Evolutionary psychology.md",
+      "bytes": 13716,
+      "sha256": "b9b665598ca5ae54ad586dde6a2d8d8a930f8bed77bd69a83d43f3cf5da08ab4",
+      "preserved_path": "notes/Grokipedia - Evolutionary psychology.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Great Replacement theory in the United States.md",
+      "bytes": 12809,
+      "sha256": "7fb3cd30d38448282e0b95bd0293f365b9756e1408516f43a450e7e8987c8052",
+      "preserved_path": "notes/Grokipedia - Great Replacement theory in the United States.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - History of Islam.md",
+      "bytes": 19161,
+      "sha256": "beac1d328e5435b2562489398a87e78e2465aed88f704c51cd202e9fe40048e3",
+      "preserved_path": "notes/Grokipedia - History of Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Illegal immigration to the United Kingdom.md",
+      "bytes": 10551,
+      "sha256": "72d0a02b4ce35750ff7a4e4c85a6cb7478d94c41d524aa5710e796a061aba39f",
+      "preserved_path": "notes/Grokipedia - Illegal immigration to the United Kingdom.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Illegal immigration.md",
+      "bytes": 13017,
+      "sha256": "5528f5f26330fa78bc400c1ba6fcc5ac749e4cac1b90d45ab904a2d363131b01",
+      "preserved_path": "notes/Grokipedia - Illegal immigration.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Immigration to Denmark.md",
+      "bytes": 11284,
+      "sha256": "43ce2c4a6e2e5deb9c6e83b5549051da4aa13428cb652d391be67b4271e4232c",
+      "preserved_path": "notes/Grokipedia - Immigration to Denmark.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Immigration to Sweden.md",
+      "bytes": 11521,
+      "sha256": "bdb5b94109bf97c3f9f09a9833bf9826ec4b0a0c11e0e6d44d4eb6beb3052dab",
+      "preserved_path": "notes/Grokipedia - Immigration to Sweden.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Immigration.md",
+      "bytes": 13706,
+      "sha256": "586d33e67873a6b088593d52ec793a42c164ddff2e8572cb470715cbc05f558c",
+      "preserved_path": "notes/Grokipedia - Immigration.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Intelligence.md",
+      "bytes": 13899,
+      "sha256": "8cd086bb478ac32fccf69d756a81d8bde6522c1f327a4ee124ed9047f297868f",
+      "preserved_path": "notes/Grokipedia - Intelligence.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Islam.md",
+      "bytes": 14250,
+      "sha256": "975a5349a7f283cc6795112e2af0729fabe9981a3cb28828088691dd6e7a39e1",
+      "preserved_path": "notes/Grokipedia - Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Mass Immigration Initiatives.md",
+      "bytes": 12403,
+      "sha256": "3c62529ff97fe9cc9d827ead5fc5876004aebb405f46d0de6b27fddfc1c67402",
+      "preserved_path": "notes/Grokipedia - Mass Immigration Initiatives.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Race and intelligence.md",
+      "bytes": 13047,
+      "sha256": "230b5ec15efa9f243f330f664130fbd7a7057b9226a6cdf35b50013bf3f94983",
+      "preserved_path": "notes/Grokipedia - Race and intelligence.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Race.md",
+      "bytes": 12109,
+      "sha256": "913f2b79658b3b0ca1067e14f87b004930c13579946ecd8628866dee55f880f5",
+      "preserved_path": "notes/Grokipedia - Race.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grokipedia - Rotherham child sexual exploitation scandal.md",
+      "bytes": 9342,
+      "sha256": "c34ee8ffa42e09d222647c60d98c91eea0af8c4037f0fc3e009bb3241b74ae40",
+      "preserved_path": "notes/Grokipedia - Rotherham child sexual exploitation scandal.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grooming Gang Scandal - Oxford 2013.md",
+      "bytes": 7761,
+      "sha256": "3ee1eff64d3daa3ba260f71043ff5ee0a0eebc5db3c2e2c56ebf5193986f03f9",
+      "preserved_path": "notes/Grooming Gang Scandal - Oxford 2013.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grooming Gang Scandal - Rotherham 2016.md",
+      "bytes": 7548,
+      "sha256": "390595f45633f7d948db537232d1fbb134a74c743401dd9ab7209ca6e4bb8e1e",
+      "preserved_path": "notes/Grooming Gang Scandal - Rotherham 2016.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grooming Gang Scandal - Rotherham 2017 (1).md",
+      "bytes": 6397,
+      "sha256": "3bc62f181d9d03e6a1914c64b707206a9af6cb8956f259de2a3fd155ef654b83",
+      "preserved_path": "notes/Grooming Gang Scandal - Rotherham 2017 (1).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Grooming Gang Scandal - Rotherham 2017 (2).md",
+      "bytes": 5170,
+      "sha256": "c1d0760ffc915cf071ce59ae03f098f14b1c535287565703573d1a2cd98bd1a8",
+      "preserved_path": "notes/Grooming Gang Scandal - Rotherham 2017 (2).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Jacob Savage - The Lost Generation.md",
+      "bytes": 14725,
+      "sha256": "308aba5cd1e01eb99b03b2feb9d139eb4365ab57930a4ff3ad8752221bb888e4",
+      "preserved_path": "notes/Jacob Savage - The Lost Generation.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Joel F. Harrington - The Faithful Executioner (2013).md",
+      "bytes": 11995,
+      "sha256": "907d898f529ae136ea9bb73e7f2d655759ab570319b422e563ca58d5d1bd4934",
+      "preserved_path": "notes/Joel F. Harrington - The Faithful Executioner (2013).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.md",
+      "bytes": 10837,
+      "sha256": "a2ca8c436fdffcd42be5d775bfff710c9a1b18b3e542c9c3e30bbfe4c55425d9",
+      "preserved_path": "notes/John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/John Gillam - Reverse Colonization in France with Driss Ghali.md",
+      "bytes": 14484,
+      "sha256": "189b2e0170f5bb7d444808070a49c70853d38d06b2a40f223c18dc4cb2adce02",
+      "preserved_path": "notes/John Gillam - Reverse Colonization in France with Driss Ghali.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Jordan Lasker (Cremieux) - Gypsies and Jews.md",
+      "bytes": 5484,
+      "sha256": "41f8e1cf0126f32de957fabe6dcfd4298ce52d1926432ce557dd190b0e7d8a1e",
+      "preserved_path": "notes/Jordan Lasker (Cremieux) - Gypsies and Jews.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Jordan Lasker (Cremieux) - National IQs Are Valid.md",
+      "bytes": 15064,
+      "sha256": "50218de9252fff566c7b086a1a8c87f68119e75e911edb5c975ea91ca9834934",
+      "preserved_path": "notes/Jordan Lasker (Cremieux) - National IQs Are Valid.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Joseph Henrich - Humans defeated smarter species with cultural evolution.md",
+      "bytes": 13045,
+      "sha256": "dea94fbb45ab3c59239ec705729f3a12f53b60214ee9ac069b13dbe41b1d8854",
+      "preserved_path": "notes/Joseph Henrich - Humans defeated smarter species with cultural evolution.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Joseph Henrich - The WEIRDest People in the World (2020).md",
+      "bytes": 177629,
+      "sha256": "f6f4e69b7761d8d539d42a62f2aa697d39e282b054d84a68097ea557fad346e6",
+      "preserved_path": "notes/Joseph Henrich - The WEIRDest People in the World (2020).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Lotus Eaters - Europe Is Turning Into a Powderkeg.md",
+      "bytes": 13068,
+      "sha256": "6faa68eee84161396198f759a3d86081d981144fdb3b7354f204ae7ae2ccb8b0",
+      "preserved_path": "notes/Lotus Eaters - Europe Is Turning Into a Powderkeg.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.md",
+      "bytes": 9169,
+      "sha256": "2e9f2fd2c5b67cf7ba8e62deea803eb4b72cf1e2a7fd6165f09fedc9cae72e0f",
+      "preserved_path": "notes/Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Malcolm-Simone Collins - How Religions Rank Competence.md",
+      "bytes": 10960,
+      "sha256": "51b741507da65eb3b9bf1c4a23110a696908a7843f09edfebf9675edf35370b4",
+      "preserved_path": "notes/Malcolm-Simone Collins - How Religions Rank Competence.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Marcus Gallo - You DON’T Descend From All Your Ancestors.md",
+      "bytes": 6398,
+      "sha256": "c94166ff961359de48e1469a44188ee2a48c0a4b3e13838c59cc566261da343d",
+      "preserved_path": "notes/Marcus Gallo - You DON’T Descend From All Your Ancestors.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Michael O. Church - The 3-ladder system of social class in the U.S..md",
+      "bytes": 7048,
+      "sha256": "badea0b8c41ae7f14891d7a478ef0e8e2632a7a2d61a1ba437bf92fcdf404ce0",
+      "preserved_path": "notes/Michael O. Church - The 3-ladder system of social class in the U.S..md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Nate Friedman - I Exposed the Islamic Takeover of the UK.md",
+      "bytes": 11307,
+      "sha256": "3a028fd59c50bc1d50f2dd2ff929aa98cd44e68cf071463d4711de6041684c7d",
+      "preserved_path": "notes/Nate Friedman - I Exposed the Islamic Takeover of the UK.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Nathan Cofnas - A Guide for the Hereditarian Revolution.md",
+      "bytes": 6859,
+      "sha256": "cd6cc9bae7ff0957627afef655a261c78b2fac58cc5122d0a5a176390620d83b",
+      "preserved_path": "notes/Nathan Cofnas - A Guide for the Hereditarian Revolution.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Nathan Cofnas - Beating Woke with Facts and Logic.md",
+      "bytes": 7915,
+      "sha256": "1b4b39c3fd2d9c3e14d91ea7b571a48f38a57bc6a0c9e864c3ec75033ac66ea9",
+      "preserved_path": "notes/Nathan Cofnas - Beating Woke with Facts and Logic.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Nathan Cofnas - Judaism as a Group Evolutionary Strategy.md",
+      "bytes": 13503,
+      "sha256": "dabdf73f740047003f8a3ba6d37330401f92ec16265c921a0e6c43a734bac07f",
+      "preserved_path": "notes/Nathan Cofnas - Judaism as a Group Evolutionary Strategy.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Nathan Cofnas - Podcast Bros and Brain Rot.md",
+      "bytes": 8758,
+      "sha256": "28add6123ca19ff925c76444f4ecb73c48499439427bbfb1c7e5bfd60fe87a56",
+      "preserved_path": "notes/Nathan Cofnas - Podcast Bros and Brain Rot.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Nathan Cofnas - The Right’s Stupidity Problem.md",
+      "bytes": 12785,
+      "sha256": "de7c2630f86d2e46b93df88481b130cc4cb57d6e51bc788799eab8490169460c",
+      "preserved_path": "notes/Nathan Cofnas - The Right’s Stupidity Problem.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Nathan Cofnas - Twilight of the Liberal Jew.md",
+      "bytes": 6716,
+      "sha256": "5b801f8f636a9600d3585c6daf8b2a1cc111ea3aae6235325b5ac2b5d5846eee",
+      "preserved_path": "notes/Nathan Cofnas - Twilight of the Liberal Jew.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Nick Pardini - Global Class Hierarchies Explained.md",
+      "bytes": 10753,
+      "sha256": "70e1a90b100d50a5e956deb58d71fb9c0ebd9b354508faed7140b9ac1aabffa1",
+      "preserved_path": "notes/Nick Pardini - Global Class Hierarchies Explained.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.md",
+      "bytes": 6590,
+      "sha256": "a334778615b350c413606668e1133a8a394e7f1eccfe8e179c0f8833b5bccbae",
+      "preserved_path": "notes/Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Noah Smith - Can a Nation Plunder Its Way to Wealth.md",
+      "bytes": 8249,
+      "sha256": "a1a5d8a52c481a9bab64428d5c0a56c2266a54011dd93a41400071ce2cb872dd",
+      "preserved_path": "notes/Noah Smith - Can a Nation Plunder Its Way to Wealth.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/OpenAI ChatGPT - Truth-Maximizing.md",
+      "bytes": 11868,
+      "sha256": "e525cab898d4fe559600552636fbce166f733cf246c0a763b46666f88ddef208",
+      "preserved_path": "notes/OpenAI ChatGPT - Truth-Maximizing.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Philip Pilkington - The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025).md",
+      "bytes": 43265,
+      "sha256": "aba05d72c939523bc0627c924cd0f83805ef526b83b91aca756e0da2607f52ae",
+      "preserved_path": "notes/Philip Pilkington - The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Philip Pilkington - The Collapse of Global Liberalism.md",
+      "bytes": 12566,
+      "sha256": "33dac368979d20deea1595c8bb622c1f47bb681ca8a1594ce850ae7418099dbd",
+      "preserved_path": "notes/Philip Pilkington - The Collapse of Global Liberalism.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Raymond Ibrahim - The Islamic Conquest Of Europe.md",
+      "bytes": 13233,
+      "sha256": "69af64ea9528faa62ce4b08d21488fe801cbcdb1579d850e4eb529332bc5319e",
+      "preserved_path": "notes/Raymond Ibrahim - The Islamic Conquest Of Europe.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Raymond Ibrahim - The Real History of Islam.md",
+      "bytes": 13069,
+      "sha256": "08a6a16f2e6761247b780d1406857651fbcce8925630788bd1bfa4f144997466",
+      "preserved_path": "notes/Raymond Ibrahim - The Real History of Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.md",
+      "bytes": 12052,
+      "sha256": "c46f1ee4cd258b97ee6fb6ffebb8826eee34696fd16a2d340a2a740da5a553d0",
+      "preserved_path": "notes/Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.md",
+      "bytes": 12803,
+      "sha256": "711b1cc6e82693af06df7e9f58aa041c1773513cb8f123b177b274e4310ab666",
+      "preserved_path": "notes/Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Civilizational Differences with Samo Burja.md",
+      "bytes": 10534,
+      "sha256": "0051a1d12b56b489ef613634c1ee663f957dc2167a4a1fa3db0fff8d5cab3c1f",
+      "preserved_path": "notes/Rudyard Lynch - Civilizational Differences with Samo Burja.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining 17th Century Eastern Europe.md",
+      "bytes": 13167,
+      "sha256": "d867073adf1468f504bd876c9a36c8f7dcfca4fb10572c60ebfcff743621abf5",
+      "preserved_path": "notes/Rudyard Lynch - Explaining 17th Century Eastern Europe.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining 17th Century Western Europe.md",
+      "bytes": 12859,
+      "sha256": "605c65c80fe49059e621f2a0af8506d0a61f5c46e65730f557ee005835c81f79",
+      "preserved_path": "notes/Rudyard Lynch - Explaining 17th Century Western Europe.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining Africa's Slave Trades.md",
+      "bytes": 12659,
+      "sha256": "5dfdd3804ba412a6f250613c896fddbb5b78591dc30024ea022239d11f8f2bba",
+      "preserved_path": "notes/Rudyard Lynch - Explaining Africa's Slave Trades.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining Ancient Greece.md",
+      "bytes": 15398,
+      "sha256": "bece6f72ebf933cbd7b9542a6649be08977041378f0e948f608f216f55728984",
+      "preserved_path": "notes/Rudyard Lynch - Explaining Ancient Greece.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining Ancient Israel.md",
+      "bytes": 16520,
+      "sha256": "463e887a91e885bca159cce10faf369666621fd336da63e9ae730f060be0cd32",
+      "preserved_path": "notes/Rudyard Lynch - Explaining Ancient Israel.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining the English Civil War.md",
+      "bytes": 12762,
+      "sha256": "54abb55059b4086c505ee4debdeee839c5758e2b74a5e2f518e925a2196f4e64",
+      "preserved_path": "notes/Rudyard Lynch - Explaining the English Civil War.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining the Fall of Rome.md",
+      "bytes": 13266,
+      "sha256": "c41685481efb79b70864610a55596fad570a5c28190fe6a08ced140f26b85f2e",
+      "preserved_path": "notes/Rudyard Lynch - Explaining the Fall of Rome.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining the Industrial Revolution.md",
+      "bytes": 12111,
+      "sha256": "0eae51553c2726b1c7d8b13bcaaa6df78f1112e91c5928bdc632618818e7bf6d",
+      "preserved_path": "notes/Rudyard Lynch - Explaining the Industrial Revolution.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining the Mongol Empire.md",
+      "bytes": 16118,
+      "sha256": "f908e77e3807364cfe156e3af5f29e54321e2db7452b7b345a640a0b99d1cf16",
+      "preserved_path": "notes/Rudyard Lynch - Explaining the Mongol Empire.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining the Rise of Christianity.md",
+      "bytes": 13608,
+      "sha256": "94820519beb2c8a9d8fe870e2da257185928e74d0fdbae0c8fe02d5d947de7b2",
+      "preserved_path": "notes/Rudyard Lynch - Explaining the Rise of Christianity.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining the Rise of Islam.md",
+      "bytes": 12911,
+      "sha256": "ecb7e1088bab7599463c0e89d33b260449e257beb73a3ec8b5c80e03ee496b1c",
+      "preserved_path": "notes/Rudyard Lynch - Explaining the Rise of Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining the Rise of Rome.md",
+      "bytes": 9980,
+      "sha256": "cc73901e90420fa5082f3dd14cff9544c264e4943b25b8419acd668dc3d79415",
+      "preserved_path": "notes/Rudyard Lynch - Explaining the Rise of Rome.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - Explaining Tzarist Russia.md",
+      "bytes": 12202,
+      "sha256": "8bbb68f8e22bdd12c73d5e8c3eae5656a26af6ace6b684f3f2c7357b35a7ec44",
+      "preserved_path": "notes/Rudyard Lynch - Explaining Tzarist Russia.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Rudyard Lynch - The 7 Emotions That Push Civilization.md",
+      "bytes": 9018,
+      "sha256": "4ae90d9e2e5e0664d4a4d5f7be6e708f48dd6a142014b89a6e7088b86df4ea32",
+      "preserved_path": "notes/Rudyard Lynch - The 7 Emotions That Push Civilization.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.md",
+      "bytes": 10391,
+      "sha256": "0977630173b0a3513b12c985f6adea0b125d4b5772899fd31dee8d053a8d848e",
+      "preserved_path": "notes/Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - How 1% of People Control Civilization with Auren Hoffman.md",
+      "bytes": 12232,
+      "sha256": "2c0c67f96dc7c2eb55de0d8ff1f096d763cb7ceb37ebcf8cb421d90819514477",
+      "preserved_path": "notes/Samo Burja - How 1% of People Control Civilization with Auren Hoffman.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - How to Find the Frontiers of Knowledge.md",
+      "bytes": 12948,
+      "sha256": "48986f3cfdfe2c55f423fcf547679295514a228ea354bd8a6fb818b4eec69716",
+      "preserved_path": "notes/Samo Burja - How to Find the Frontiers of Knowledge.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - How to Prevent Civilizational Collapse.md",
+      "bytes": 11197,
+      "sha256": "1b531ad9b84c1782fff7ac86fb9a22539870b82d154a58cd81c28dacc3d5b724",
+      "preserved_path": "notes/Samo Burja - How to Prevent Civilizational Collapse.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.md",
+      "bytes": 14131,
+      "sha256": "ff45eb2cd171b67d04b991b47ff4523049b8c31a28d45f5e55b07ba980b1113f",
+      "preserved_path": "notes/Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - Mass Immigration Won't Save Europe.md",
+      "bytes": 13443,
+      "sha256": "90e49be6b35f80a77df8a3ada3c2d70de783fd107cd6cb0ba6257f9d9222831a",
+      "preserved_path": "notes/Samo Burja - Mass Immigration Won't Save Europe.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.md",
+      "bytes": 12943,
+      "sha256": "3fb69cbc36a68551f6404dd307e2e728781f9d9e1db3cfd09793b3f5a1a9efac",
+      "preserved_path": "notes/Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - The Eastern European Experiment.md",
+      "bytes": 10884,
+      "sha256": "3399c6564253b25ae6f08b6dfe8f425075cea420833a1c3054117a913639e163",
+      "preserved_path": "notes/Samo Burja - The Eastern European Experiment.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - The Politicization of History.md",
+      "bytes": 11854,
+      "sha256": "37c07ca69bf5156640be11db8383889d20df81466097c91e05ea8606709497c7",
+      "preserved_path": "notes/Samo Burja - The Politicization of History.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - The Possibility of Human Extinction.md",
+      "bytes": 11648,
+      "sha256": "d5fd11f00c7dc7907defe49d0e95d0a2edb1e88d9eb0dcbda0e5f6a5eb5a2402",
+      "preserved_path": "notes/Samo Burja - The Possibility of Human Extinction.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - Why Europe Matters for America’s Future.md",
+      "bytes": 10662,
+      "sha256": "67d1ac4b25cadaa3c2e4dd744b1d5cec8a6fa993fdc3cff980bcc27aabff39ba",
+      "preserved_path": "notes/Samo Burja - Why Europe Matters for America’s Future.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Samo Burja - Why Populists WIN Elections But Fail to Govern.md",
+      "bytes": 7253,
+      "sha256": "b7e4a8915613ef964c34bc8608979593401bfe96621b5397bd9739f60e8d8be4",
+      "preserved_path": "notes/Samo Burja - Why Populists WIN Elections But Fail to Govern.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Scott Alexander - Meditations on Moloch.md",
+      "bytes": 14221,
+      "sha256": "9d2a6b9c8026d5ecb249c00ee8baa6d57bbb92fcaca1a7b5f85bb687ec961f8b",
+      "preserved_path": "notes/Scott Alexander - Meditations on Moloch.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Snowden Todd - Small Businesses Are Lowering South Korean Fertility.md",
+      "bytes": 12548,
+      "sha256": "db9e598cb67ef634d819962e0d7e145f7fc670ce90d5ff342e8170a879df773b",
+      "preserved_path": "notes/Snowden Todd - Small Businesses Are Lowering South Korean Fertility.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Stewart Brand - Maintenance of Everything, Part One (2026).md",
+      "bytes": 67152,
+      "sha256": "d786fb48b54508e36961c760c82d8ca99f0c3c32bae43b75db00e2d73b11ed36",
+      "preserved_path": "notes/Stewart Brand - Maintenance of Everything, Part One (2026).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Tommy Robinson - Exposing the Islamic Takeover of Britain.md",
+      "bytes": 12800,
+      "sha256": "18912bac174e856394f1e710486bfdb3ed0b36e21e230f76d74b42e5d5282f24",
+      "preserved_path": "notes/Tommy Robinson - Exposing the Islamic Takeover of Britain.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.md",
+      "bytes": 9209,
+      "sha256": "345caa8d664b3e41bb79d7d4c39ca0f6c512c1d978331f54fddb1edae776854a",
+      "preserved_path": "notes/Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.md",
+      "bytes": 11908,
+      "sha256": "b159ce9ede99f523e6e5e1c0609ef4f3f6af5d68344e3e168e3c3c249b6d7ea4",
+      "preserved_path": "notes/Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.md",
+      "bytes": 10579,
+      "sha256": "c59e097343755cff6f709445e14e09d90f41ba4c00f85834426841081ded29ae",
+      "preserved_path": "notes/Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Wikipedia - History of Islam.md",
+      "bytes": 14748,
+      "sha256": "628d0ff702c6fd513393a143ddaef4f1569064ebf93a0fde33063067477425be",
+      "preserved_path": "notes/Wikipedia - History of Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Wikipedia - Islam.md",
+      "bytes": 14517,
+      "sha256": "304c2bf371a503631b531f6fe38eab8ef4ad3ccbd912ab6447002396b6650651",
+      "preserved_path": "notes/Wikipedia - Islam.md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Original_Notes/Williamson Chris - Alison Armstrong (How to Treat Men Better).md",
+      "bytes": 14998,
+      "sha256": "7bd99c9208ce49a491a5791f3068c8b0ef6b1e25ab0034cce9c5bf551243df47",
+      "preserved_path": "notes/Williamson Chris - Alison Armstrong (How to Treat Men Better).md",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Transcripts/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.txt",
+      "bytes": 130377,
+      "sha256": "866d2123cae9854213923b4b851295f0828c32eb4447f6361a9ec591ecdfbb51",
+      "preserved_path": "legacy/2026-11-14/Transcripts/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Transcripts/David Betz - Will Civil Unrest Come to the West.txt",
+      "bytes": 60208,
+      "sha256": "05173d46afef2487fa2d4c507d98d60ecdee1ab88c84775aa466ccf929cf9e0d",
+      "preserved_path": "legacy/2026-11-14/Transcripts/David Betz - Will Civil Unrest Come to the West.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Transcripts/Geoffrey Miller - Broken Dating Markets.txt",
+      "bytes": 61181,
+      "sha256": "f1e379b5e23bfa1cea7bb4f9d86c7d583379f15634234357b91a8f69c319ef58",
+      "preserved_path": "legacy/2026-11-14/Transcripts/Geoffrey Miller - Broken Dating Markets.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Transcripts/Joseph Henrich - Humans defeated smarter species with cultural evolution.txt",
+      "bytes": 123192,
+      "sha256": "c81ab31fa6c2fc7e37585d9a4c82f2f0b3b1c90d599d85784b8c94d09a0d3d0f",
+      "preserved_path": "legacy/2026-11-14/Transcripts/Joseph Henrich - Humans defeated smarter species with cultural evolution.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Transcripts/Philip Pilkington - The Collapse of Global Liberalism.txt",
+      "bytes": 84007,
+      "sha256": "58762ca931d446fc4573835539a04234282c3ed94842d1e855eb73126fc9d62d",
+      "preserved_path": "legacy/2026-11-14/Transcripts/Philip Pilkington - The Collapse of Global Liberalism.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Transcripts/Rudyard Lynch - Explaining Ancient Greece.txt",
+      "bytes": 58563,
+      "sha256": "5ae84c479b9dcc39a76b73ffe2bac30cd55358dad37cba7f1750de8d433c67fc",
+      "preserved_path": "legacy/2026-11-14/Transcripts/Rudyard Lynch - Explaining Ancient Greece.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Transcripts/Samo Burja - How to Prevent Civilizational Collapse.txt",
+      "bytes": 113710,
+      "sha256": "75bd3902b862ee1e248f1dcf595ed8a11249dcec081e733c9d33d469f4347315",
+      "preserved_path": "legacy/2026-11-14/Transcripts/Samo Burja - How to Prevent Civilizational Collapse.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "Transcripts/Samo Burja - Why Populists WIN Elections But Fail to Govern.txt",
+      "bytes": 50646,
+      "sha256": "275cf2e3819baec92ab76a1b1932c516c846cb051e1a6165b2a5bd048da17621",
+      "preserved_path": "legacy/2026-11-14/Transcripts/Samo Burja - Why Populists WIN Elections But Fail to Govern.txt",
+      "git_tracked_before": true
+    },
+    {
+      "path": "_layouts/default.html",
+      "bytes": 28239,
+      "sha256": "a6675ba3832e28b93f0b1ccf3e089731abfb38f127949c1596e05e5a4e7832fc",
+      "preserved_path": "legacy/2026-11-14/_layouts/default.html",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/css/style.css",
+      "bytes": 17102,
+      "sha256": "442c9b6ed2764638fd101f152f54e08726a3f38377b12d3b9d935a44a4fe3205",
+      "preserved_path": "legacy/2026-11-14/assets/css/style.css",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/favicon.ico",
+      "bytes": 829,
+      "sha256": "3c7d5ec66e6204bd5c90cc041edbdce77cab4db3a5ed4d82c73430387d115b27",
+      "preserved_path": "legacy/2026-11-14/assets/img/favicon.ico",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Bryan Caplan - Selfish Reasons to Have More Kids (2012).png",
+      "bytes": 40149,
+      "sha256": "5b267f376501ce1e0dab45de94b3446dfcfeec544e40fac94d62329d461fc8f5",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Bryan Caplan - Selfish Reasons to Have More Kids (2012).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Curtis Yarvin - An Open Letter for Open-Minded Progressives (2008).png",
+      "bytes": 43003,
+      "sha256": "3a4a980ec42208d67d3600070e025337c58ca4fe9a2cca127089cbbc43fd9fb9",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Curtis Yarvin - An Open Letter for Open-Minded Progressives (2008).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Curtis Yarvin - Empire of Love.png",
+      "bytes": 23828,
+      "sha256": "69d5e60a082127e9cb1a0929837366e430908c0131baedf01a357447eb2d9e25",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Curtis Yarvin - Empire of Love.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Curtis Yarvin - Plan for Britain.png",
+      "bytes": 24129,
+      "sha256": "fc635be20418a781a25150c2660d5c0d2bd592774fde85bf31ca1423853dba46",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Curtis Yarvin - Plan for Britain.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.png",
+      "bytes": 38508,
+      "sha256": "22140b3dda6f54e1a528ac25be4e94a4c67f20ad6af21c2b502275dc69ac6a36",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Dan Carlin - Blueprint for Armageddon (2013).png",
+      "bytes": 34083,
+      "sha256": "d5504f247bbb8b345f4846ce2904cfb4a35a2e85b417ffb3998a29489c7660c6",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Dan Carlin - Blueprint for Armageddon (2013).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Dan Carlin - Death Throes of the Republic (2010).png",
+      "bytes": 33387,
+      "sha256": "e99c0dba8342876445425f7473d06a94b8d7a6674c2d8e9eb62fb3e630e98ae8",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Dan Carlin - Death Throes of the Republic (2010).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Dan Carlin - Prophets of Doom (2013).png",
+      "bytes": 30478,
+      "sha256": "ed3688550ca226a0e52a190a40fdc95872da356f2befd225f7ee2e94fbaa1ac1",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Dan Carlin - Prophets of Doom (2013).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Dan Carlin - Wrath of the Khans (2012).png",
+      "bytes": 29774,
+      "sha256": "6abf9dcdad7df5f0aa7dc6db911119a77b2949680f04c6ec2dcd7704090a7514",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Dan Carlin - Wrath of the Khans (2012).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Daniel Hess - Talk with Robin Hanson 2.png",
+      "bytes": 26465,
+      "sha256": "fc2fbe78b70aa962ea8ee354f05abe4ddb70ab59b8d1a901c7f147201744a1c4",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Daniel Hess - Talk with Robin Hanson 2.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Daniel Hess - The Fertility Collapse.png",
+      "bytes": 27283,
+      "sha256": "8c12d0c27b2d8f2ac83620011d3ba82bf6379d20ac8bd05bc3e19548a2c585c2",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Daniel Hess - The Fertility Collapse.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Daniel Hess - We Need a Pronatal Culture.png",
+      "bytes": 29754,
+      "sha256": "2b352d71c38cc5804c0a0f77ed84dc616112ee88cd4328940b8504cde2e66192",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Daniel Hess - We Need a Pronatal Culture.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - Are We Headed for Civil War.png",
+      "bytes": 31922,
+      "sha256": "f075c670e578344506194e3f409f4acb570b93a8af56a9a538729e6e701cf677",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - Are We Headed for Civil War.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - Civil War Comes to the West.png",
+      "bytes": 34216,
+      "sha256": "1282c2e7b423fac6102418ba055bb15b83fbd990174cdfe39966d3e97412d94a",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - Civil War Comes to the West.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - Reflections on Homeland Insecurity.png",
+      "bytes": 34768,
+      "sha256": "44ee6e35245e984f7abddb0356629b2427641de9a5cdc90784b68baa7050d624",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - Reflections on Homeland Insecurity.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - The Coming British Civil War.png",
+      "bytes": 31365,
+      "sha256": "28461905b68a8a832f6bcf41f401111eb6ec3b76291a7fc4ebf21483498ac8fc",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - The Coming British Civil War.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - The Coming Civil War.png",
+      "bytes": 29221,
+      "sha256": "821ab48e8eeed606d7cdc4133f3b325e52f717caf7905b756b2f9b6220e76497",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - The Coming Civil War.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - The Future of War Is Civil War.png",
+      "bytes": 31881,
+      "sha256": "d02d9c5fc3f29e062dcbd15b6c41f5740936b6c53930fe73e4bf66d313798882",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - The Future of War Is Civil War.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - War and Stupid War.png",
+      "bytes": 25662,
+      "sha256": "8753cb9b45fdb21f59cf8bacbde76977acec0bd3f326279339dd5671f814a097",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - War and Stupid War.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - Warfare in the Digital Age.png",
+      "bytes": 30662,
+      "sha256": "c82dc77a64fc9881c10be647b00cbf9773c40f21b35e2a15a56cb8f70f7f617d",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - Warfare in the Digital Age.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - What Britain Will Look And Feel Like When Things Get Nasty.png",
+      "bytes": 43041,
+      "sha256": "4465fa55d4d672e038d4e93f411677e83cc24efa3017b5c3f87099a35eaabcd3",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - What Britain Will Look And Feel Like When Things Get Nasty.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Betz - Will Civil Unrest Come to the West.png",
+      "bytes": 34487,
+      "sha256": "2dd51f07b080dcd9662b421a79ca68e4bbff0de4f5b608b3ef809bbfb5b643ec",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Betz - Will Civil Unrest Come to the West.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Hackett Fischer - Albion's Seed (Gemini Flash) (1989).png",
+      "bytes": 41488,
+      "sha256": "af3328591c894b3d25383bef2d8167478549059ee9931722a791b702a0f92db3",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Hackett Fischer - Albion's Seed (Gemini Flash) (1989).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/David Hackett Fischer - Albion's Seed (Gemini Pro) (1989).png",
+      "bytes": 40470,
+      "sha256": "6ec952a859d70da0902e5402cf3c69b0d62aace9c7fed8e9e98d11f9a9b41bd1",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/David Hackett Fischer - Albion's Seed (Gemini Pro) (1989).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Eliezer Yudkowsky - Inadequate Equilibria (2017).png",
+      "bytes": 31869,
+      "sha256": "bb830fbcbee58099d16213ddb4c579711f0482958af47cd00398afb1604cc0cf",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Eliezer Yudkowsky - Inadequate Equilibria (2017).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Eugene Lyons - The Red Decade (1941).png",
+      "bytes": 29481,
+      "sha256": "6618df32f99ccca484b6f976f4f58de9afd018d0e66f092cb790223705701511",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Eugene Lyons - The Red Decade (1941).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Geoffrey Miller - Broken Dating Markets.png",
+      "bytes": 29893,
+      "sha256": "72b8c361ba9761e7abcb20c0c54cfa458a4a8496fc1b63cab43091d41c5b1fbe",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Geoffrey Miller - Broken Dating Markets.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Geoffrey Miller - Virtue Signaling (2019).png",
+      "bytes": 32533,
+      "sha256": "9fcb34add401475ce4424224282ab60d93d17c9e17e87afee1eba4ea7dc56731",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Geoffrey Miller - Virtue Signaling (2019).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Evolutionary psychology.png",
+      "bytes": 29898,
+      "sha256": "6ae022d7f52dc223fa27486223bb5b5651842bba72c15f0ace027afe4eb4a413",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Evolutionary psychology.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Great Replacement theory in the United States.png",
+      "bytes": 38092,
+      "sha256": "81845e87d1a88c7c5d5fe410bca7529c853d1e86d9ef16a8d5e3a5b0dc63d396",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Great Replacement theory in the United States.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - History of Islam.png",
+      "bytes": 25558,
+      "sha256": "93a985145df35e5f7db1d61927999f00d57ae9f341e7d4faeabaeb1f8907c2d5",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - History of Islam.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Illegal immigration to the United Kingdom.png",
+      "bytes": 34677,
+      "sha256": "88b7948b4f5ba440d69f3eeaabc4cbc35bc105dc360f4f1fe2ac4ca224c3f400",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Illegal immigration to the United Kingdom.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Illegal immigration.png",
+      "bytes": 25689,
+      "sha256": "8d9bb75503c335c229bc6ae68f79f2d88d5aa2822068cddaea41fbead0abb0f8",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Illegal immigration.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Immigration to Denmark.png",
+      "bytes": 27404,
+      "sha256": "a0b015f7046cf1c63bd5d891ecc8816bfe91624abe3997e1ee2e64ed4575f109",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Immigration to Denmark.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Immigration to Sweden.png",
+      "bytes": 29444,
+      "sha256": "d3a3de789bdeddb9630cffdce618f1f29288b98d5d43b4c9aa05acddeaeeb0a7",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Immigration to Sweden.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Immigration.png",
+      "bytes": 24221,
+      "sha256": "5f6783d168a70be55ccf0f0abfafff2948569c499013a4a3aa273611bd7c4756",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Immigration.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Intelligence.png",
+      "bytes": 23538,
+      "sha256": "edad73b3f21a6430e32aded84c027187996915bbecc4acf05383f3131349a5d3",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Intelligence.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Islam.png",
+      "bytes": 21551,
+      "sha256": "756982639d4710c3156a368da8bae3cd0a0160a6e4ef611eacb02e2c6b4b2b5d",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Islam.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Mass Immigration Initiatives.png",
+      "bytes": 31999,
+      "sha256": "2ff52ee950fc490e6d25bb3e7cfa2e6cdd89165eac128f09666a90005c8c71f4",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Mass Immigration Initiatives.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Race and intelligence.png",
+      "bytes": 25968,
+      "sha256": "99d8a8014919016b0e2df1694190a8ee737ae5158cc00949789bdbe9aa23d48e",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Race and intelligence.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Race.png",
+      "bytes": 22543,
+      "sha256": "470c48f4dd2bc14a89f332e63b53a127ebc2a5ee6491a0f3b78df3bcec29254c",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Race.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grokipedia - Rotherham child sexual exploitation scandal.png",
+      "bytes": 39319,
+      "sha256": "df17318bfb7e1f2ce0964e8dad19a07617957cd112c0d8af426186de546040b7",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grokipedia - Rotherham child sexual exploitation scandal.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grooming Gang Scandal - Oxford 2013.png",
+      "bytes": 28947,
+      "sha256": "597e40c81f651c0408b34f727a5a90bbdce2ed987548c9d1a492d038ea785178",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grooming Gang Scandal - Oxford 2013.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grooming Gang Scandal - Rotherham 2016.png",
+      "bytes": 30126,
+      "sha256": "0640797eb331f13729f529ec59a8bcbf439e89a63ae7c8293a8469bc1ce1e388",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grooming Gang Scandal - Rotherham 2016.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grooming Gang Scandal - Rotherham 2017 (1).png",
+      "bytes": 30107,
+      "sha256": "5f0f2f60b438b74c67a3fcf19de307c4c5bbf36a16253322d0c5187bfe2c42f6",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grooming Gang Scandal - Rotherham 2017 (1).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Grooming Gang Scandal - Rotherham 2017 (2).png",
+      "bytes": 30251,
+      "sha256": "0353be79c6e4ae3b00ccc49989d161e8d598c1e5216cf8d200f691d787fd018d",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Grooming Gang Scandal - Rotherham 2017 (2).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Jacob Savage - The Lost Generation.png",
+      "bytes": 26712,
+      "sha256": "d4c077fa49ad7ae152c61018c94699358d3b07461a4bd140628e1a2685ad1bb0",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Jacob Savage - The Lost Generation.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Joel F. Harrington - The Faithful Executioner (2013).png",
+      "bytes": 31957,
+      "sha256": "df7575629efb3f78a4bb7fabf51eec96ea5cdba31846fa9c48a6c6b2200aac8e",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Joel F. Harrington - The Faithful Executioner (2013).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.png",
+      "bytes": 46970,
+      "sha256": "54c5b9e8c5dde0442063ee01ef44021b246f0e690430353b3f49663d9301b961",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/John Gillam - Reverse Colonization in France with Driss Ghali.png",
+      "bytes": 37040,
+      "sha256": "9e2b3099fffdbe90f0f9ea521843cbd7263ffca9796ef2be2199b83d0501f160",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/John Gillam - Reverse Colonization in France with Driss Ghali.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Jordan Lasker (Cremieux) - Gypsies and Jews.png",
+      "bytes": 31961,
+      "sha256": "491b33d35380c20e8a33a418f51353a7a945c05e518b2fd5f017a55968901233",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Jordan Lasker (Cremieux) - Gypsies and Jews.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Jordan Lasker (Cremieux) - National IQs Are Valid.png",
+      "bytes": 33733,
+      "sha256": "9bfcee3a3322e6f4c1f008d411faefb7d0fbd4ecfd37b32062caa3fa97770d7c",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Jordan Lasker (Cremieux) - National IQs Are Valid.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Joseph Henrich - Humans defeated smarter species with cultural evolution.png",
+      "bytes": 40551,
+      "sha256": "1ade57b35234ff70c84db702f8a1965f75093bd4c0dc22c45d40fa5388ee186e",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Joseph Henrich - Humans defeated smarter species with cultural evolution.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Joseph Henrich - The WEIRDest People in the World (2020).png",
+      "bytes": 39258,
+      "sha256": "c0e612b5ed3667905b6a57e82e4021a22dd963c37313a9ab71d5f40660d55696",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Joseph Henrich - The WEIRDest People in the World (2020).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Lotus Eaters - Europe Is Turning Into a Powderkeg.png",
+      "bytes": 33836,
+      "sha256": "9c3e8bc0f25176b644c60fb606ba6e55b421b2e6cc686cc8cf770c73db5878ba",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Lotus Eaters - Europe Is Turning Into a Powderkeg.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.png",
+      "bytes": 34607,
+      "sha256": "2f6f2eadfc8138e221f51c8ea84d3b09bfe151d756b3765f6f77b5353d4ea371",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Malcolm-Simone Collins - How Religions Rank Competence.png",
+      "bytes": 38066,
+      "sha256": "ac9e976a30c36a92f765253ae9cd7b275e605c0029625415fc1934133bda6fd6",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Malcolm-Simone Collins - How Religions Rank Competence.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Marcus Gallo - You DON’T Descend From All Your Ancestors.png",
+      "bytes": 39663,
+      "sha256": "2493c27ca80fb583fcb62834da6404f250a66a862bb022ace477be1565f4599b",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Marcus Gallo - You DON’T Descend From All Your Ancestors.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Michael O. Church - The 3-ladder system of social class in the U.S..png",
+      "bytes": 39328,
+      "sha256": "1a20f575ee3f6570aeb4d91bf98f2d6db48cf7f4e509031750a23d543886e4b6",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Michael O. Church - The 3-ladder system of social class in the U.S..png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Nate Friedman - I Exposed the Islamic Takeover of the UK.png",
+      "bytes": 36395,
+      "sha256": "4d86778a4208498b2d33eb7b97b938bb8763bbd4d3a5ed6906dd94bd017370ba",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Nate Friedman - I Exposed the Islamic Takeover of the UK.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Nathan Cofnas - A Guide for the Hereditarian Revolution.png",
+      "bytes": 34544,
+      "sha256": "e7d0493621cccb9d807e802e4229268689e7e2b17c2972c7f799b6189686249c",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Nathan Cofnas - A Guide for the Hereditarian Revolution.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Nathan Cofnas - Beating Woke with Facts and Logic.png",
+      "bytes": 38327,
+      "sha256": "147589cd2e6191f00879275dd89f07e578230013073b7d9bf8938c3988ed05b5",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Nathan Cofnas - Beating Woke with Facts and Logic.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Nathan Cofnas - Judaism as a Group Evolutionary Strategy.png",
+      "bytes": 39032,
+      "sha256": "c7502b2dd5997544867972aedf63a6fb00ef29014f8c7faaafd537011781e3a9",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Nathan Cofnas - Judaism as a Group Evolutionary Strategy.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Nathan Cofnas - Podcast Bros and Brain Rot.png",
+      "bytes": 29141,
+      "sha256": "a0819ee9925fb8b23aa7994e4202728b12f8c982e08bb44a9815ffa937973429",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Nathan Cofnas - Podcast Bros and Brain Rot.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Nathan Cofnas - The Right’s Stupidity Problem.png",
+      "bytes": 33746,
+      "sha256": "306b815e09a368b449c153b016cdfce8253ccc3657120960ba18675e19e97c7b",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Nathan Cofnas - The Right’s Stupidity Problem.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Nathan Cofnas - Twilight of the Liberal Jew.png",
+      "bytes": 30493,
+      "sha256": "33c6d353cafe8299375ae453255a940d658ae2d32af864dc973790369e2526b6",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Nathan Cofnas - Twilight of the Liberal Jew.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Nick Pardini - Global Class Hierarchies Explained.png",
+      "bytes": 35033,
+      "sha256": "bcf2dcff457343a2fadd94a4168253466fc42e703293a3a1152796fde5af7d20",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Nick Pardini - Global Class Hierarchies Explained.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.png",
+      "bytes": 49832,
+      "sha256": "07fdd0edec5558c20c8d6118865e75ca6ed53e4454292b9ddba58e2a1d3fdbc1",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Noah Smith - Can a Nation Plunder Its Way to Wealth.png",
+      "bytes": 35753,
+      "sha256": "8feafdf2f84bf4426db40f5cc24148c8ad22b80cd73ce9059a4a94f7fccc29b2",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Noah Smith - Can a Nation Plunder Its Way to Wealth.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/OpenAI ChatGPT - Truth-Maximizing.png",
+      "bytes": 27673,
+      "sha256": "382dacef69952841e375ca87fa5d2324f58b557b0f33acc3b2a545c01f120703",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/OpenAI ChatGPT - Truth-Maximizing.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Philip Pilkington - The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025).png",
+      "bytes": 60946,
+      "sha256": "49d4df742f734486a56fc1ba0c83ad6dd0051cd3673a22959458bbc1fb2a4de8",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Philip Pilkington - The Collapse of Global Liberalism And the Emergence of the Post Liberal World Order (2025).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Philip Pilkington - The Collapse of Global Liberalism.png",
+      "bytes": 33712,
+      "sha256": "6b0216c76e2ba50d28d01590236692813af3dce4f9ca3d009d193030128bb67f",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Philip Pilkington - The Collapse of Global Liberalism.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Raymond Ibrahim - The Islamic Conquest Of Europe.png",
+      "bytes": 34567,
+      "sha256": "2c10c1948cfb89c503f815ebad693c3f92534622baa295bb56236ce382117a3c",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Raymond Ibrahim - The Islamic Conquest Of Europe.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Raymond Ibrahim - The Real History of Islam.png",
+      "bytes": 27843,
+      "sha256": "cbb3b95faef060994b6d1b3c9b22eead8f05f613a6760792e98c1cc4ec1216be",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Raymond Ibrahim - The Real History of Islam.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.png",
+      "bytes": 42886,
+      "sha256": "ceb111d735e92fa21d11131d1d097929cf7dd29e9851386a4cf14b16da05437d",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Razib Khan - Zohran Mamdani and Third Worldism Ascendent with Zineb Ribou.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.png",
+      "bytes": 45967,
+      "sha256": "231070fe426b8bf05bbaf7a8e8e045374749766fd46c3675ea6aac3d77c566fb",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Civilizational Differences with Samo Burja.png",
+      "bytes": 39732,
+      "sha256": "22897aaa044ae4333777a43016ccaf0ff2d7f94407805a6fc29882e3455906c9",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Civilizational Differences with Samo Burja.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining 17th Century Eastern Europe.png",
+      "bytes": 35789,
+      "sha256": "7c0c86686477e9595f819a576b8135ea29a100dd96622560ddb44e549bdf2360",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining 17th Century Eastern Europe.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining 17th Century Western Europe.png",
+      "bytes": 36950,
+      "sha256": "79a4aa9d985b7a7f82c22da14aa0866640c493d1d8cebcb8da365c527640bdc2",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining 17th Century Western Europe.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining Africa's Slave Trades.png",
+      "bytes": 35564,
+      "sha256": "2c40b6f10244ecaa9e0aa79f99c54d6e7a942c53cb8b5e8c3c78aeccc9f1de62",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining Africa's Slave Trades.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining Ancient Greece.png",
+      "bytes": 29409,
+      "sha256": "13963d951fa6167d9eafccaa6fe5b226251d6b0dd9c221d7c304d4d50885ba0f",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining Ancient Greece.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining Ancient Israel.png",
+      "bytes": 28595,
+      "sha256": "395ccb3af04652fa29b42fc9950ea29cd54533ebb67a753b406d2db55b7a261a",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining Ancient Israel.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining the English Civil War.png",
+      "bytes": 32669,
+      "sha256": "9a57cb39d64b21e7ae0334a8b521449b7532707d44af309c543c9fb8c6c4124f",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining the English Civil War.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining the Fall of Rome.png",
+      "bytes": 29853,
+      "sha256": "dbac582e6ad3d298e0596b783e6b9d2196b1c72042e349156a2d5d96dc9d4087",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining the Fall of Rome.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining the Industrial Revolution.png",
+      "bytes": 34460,
+      "sha256": "a33e63d83a1446cc8d8ff027df29899518172a5483760e0877223cbedb2f355b",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining the Industrial Revolution.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining the Mongol Empire.png",
+      "bytes": 31153,
+      "sha256": "fafd396109179416eddf86a09d1608f37671b3ac9706f502ecec63f5c4a6b0d4",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining the Mongol Empire.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining the Rise of Christianity.png",
+      "bytes": 35542,
+      "sha256": "fdda794236ecf5a88def1a7a6b1117bfe6cde489b0be86db74b2297cdc533bed",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining the Rise of Christianity.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining the Rise of Islam.png",
+      "bytes": 32484,
+      "sha256": "f7fa2827a572d925e1aef0fb0c4c533b6e5dd832186601debd6df7cbdddca37f",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining the Rise of Islam.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining the Rise of Rome.png",
+      "bytes": 32284,
+      "sha256": "e00a3fa031df476d744a29af9546d3fc71aa7b626c053151a77e6c44ea3e8cb0",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining the Rise of Rome.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - Explaining Tzarist Russia.png",
+      "bytes": 27745,
+      "sha256": "8167f15be543a4f061b42f5df665b94891e39eb9037b62e272eecd518782f779",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - Explaining Tzarist Russia.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Rudyard Lynch - The 7 Emotions That Push Civilization.png",
+      "bytes": 33231,
+      "sha256": "2e5ce30da8d780cfb1c7243d5ca977ea509a1e015d1708a138a9b40b061d5537",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Rudyard Lynch - The 7 Emotions That Push Civilization.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.png",
+      "bytes": 44798,
+      "sha256": "d9c134c83b89d4bfe9e6779b56342075319297e78b52f79e19a662eb919dd660",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - Curtis Yarvin and the Evolution of American Political Thought.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - How 1% of People Control Civilization with Auren Hoffman.png",
+      "bytes": 43681,
+      "sha256": "3873df2898beee9e527c545e037b266abb8cba9fadb0cd8538a9daaf48e92986",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - How 1% of People Control Civilization with Auren Hoffman.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - How to Find the Frontiers of Knowledge.png",
+      "bytes": 33873,
+      "sha256": "0cacbec5c12d29fbaaaed170e5fd8becaf4e2d40f282447ff5b79d40ef096d74",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - How to Find the Frontiers of Knowledge.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - How to Prevent Civilizational Collapse.png",
+      "bytes": 35057,
+      "sha256": "732df665c62fca54a2b1e9824d0517543c0ec60e6a492055260b35c737049d5d",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - How to Prevent Civilizational Collapse.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.png",
+      "bytes": 47330,
+      "sha256": "b5626a7bac99c10fd466af873439b6df8454d1dd3c1446cac34dc310d290cdec",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - Live Players, Sam Altman, Peter Thiel, Elon Musk, George Soros.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - Mass Immigration Won't Save Europe.png",
+      "bytes": 36107,
+      "sha256": "9e0598e193b7f4b022c43ad238a1fc6f95d4276d3f983716c293036db439925c",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - Mass Immigration Won't Save Europe.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.png",
+      "bytes": 46982,
+      "sha256": "a32b35353855838231819fdd300aade31f6f809f0f929f754604102cf6e04d47",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - On Nuclear Weapons, e.acc, and Global Energy Supply.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - The Eastern European Experiment.png",
+      "bytes": 31067,
+      "sha256": "3406240cb61459d7912c532885b88b68b4158a634a7b2e6220de99cee76d5d34",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - The Eastern European Experiment.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - The Politicization of History.png",
+      "bytes": 29730,
+      "sha256": "d9998ba6b9eadad2cec63010f0004dd4b4cf0362601671871b423a5b95e98dec",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - The Politicization of History.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - The Possibility of Human Extinction.png",
+      "bytes": 32142,
+      "sha256": "22fa483f0c2871e0457c195d9a76636d53d77cbbd17cafa2514a9381bdf0cb99",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - The Possibility of Human Extinction.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - Why Europe Matters for America’s Future.png",
+      "bytes": 38167,
+      "sha256": "e8ecb1630c0c88658928a80f5b7f276f08fd8f5db7f7dd17a972c2f4f6ad71e7",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - Why Europe Matters for America’s Future.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Samo Burja - Why Populists WIN Elections But Fail to Govern.png",
+      "bytes": 41177,
+      "sha256": "b4154605247a51c035ecda64dab257140d38a40a09937e4cedb29d4dc8bc145a",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Samo Burja - Why Populists WIN Elections But Fail to Govern.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Scott Alexander - Meditations on Moloch.png",
+      "bytes": 29234,
+      "sha256": "f4038293d1e766551557e20f8419b9a8e465ae5ef6da756f362584c2440164c9",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Scott Alexander - Meditations on Moloch.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Snowden Todd - Small Businesses Are Lowering South Korean Fertility.png",
+      "bytes": 43216,
+      "sha256": "e1eb68aaa6c17964d3578b8e56329220567fdcd07dd27ad1f130ca0aa9b8d219",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Snowden Todd - Small Businesses Are Lowering South Korean Fertility.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Stewart Brand - Maintenance of Everything, Part One (2026).png",
+      "bytes": 41795,
+      "sha256": "37b952a7ffd6b5e8155aa8bd3a234480900144e0b9526792db9466db5beffce0",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Stewart Brand - Maintenance of Everything, Part One (2026).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Tommy Robinson - Exposing the Islamic Takeover of Britain.png",
+      "bytes": 36913,
+      "sha256": "520d47b97f79c6e4d8f181ea06cd6ccb6ff03f17ba06f38799e18571fc94b615",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Tommy Robinson - Exposing the Islamic Takeover of Britain.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.png",
+      "bytes": 45594,
+      "sha256": "1f5d82d48ff6ce5100ec6de4f3cd487521549fc263045f708c06836011e9f7d4",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Triggernometry - Ex Muslim - This is a Difficult Conversation with Sarah Haider.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.png",
+      "bytes": 43431,
+      "sha256": "de946db0a7f498fb458ef83aad9e89f2f89f5d2c37d82e077e3b983b340f59d3",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.png",
+      "bytes": 48679,
+      "sha256": "8edc12d07274ea6713939126d08cabdbc4378da0c87d680e5f090a8746683245",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Wikipedia - History of Islam.png",
+      "bytes": 24503,
+      "sha256": "17bc34e13a0a42110edc646c3c1e7ea0250fc991e0675c246b61ac99338d5d83",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Wikipedia - History of Islam.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Wikipedia - Islam.png",
+      "bytes": 20422,
+      "sha256": "597c3aa558f2782784e108d113c9d54d76033d2fa11ad4f963cd9d5e48fb23e6",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Wikipedia - Islam.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "assets/img/og/Williamson Chris - Alison Armstrong (How to Treat Men Better).png",
+      "bytes": 36261,
+      "sha256": "696a0ad0210f1b7df6d02a2482d0d8855dfe24058ab3a5a7eb54fb823f31737e",
+      "preserved_path": "legacy/2026-11-14/assets/img/og/Williamson Chris - Alison Armstrong (How to Treat Men Better).png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "docs/screenshots/article.png",
+      "bytes": 217455,
+      "sha256": "3cd3f5b46b03eb2a8f96fad43ec375772b5a1834eff0f98a61ab53bf9610783b",
+      "preserved_path": "legacy/2026-11-14/docs/screenshots/article.png",
+      "git_tracked_before": true
+    },
+    {
+      "path": "docs/screenshots/home.png",
+      "bytes": 108622,
+      "sha256": "08a672e995152c1bfccfd9a3e05d85f80b9456b562b937b237255554eedf471d",
+      "preserved_path": "legacy/2026-11-14/docs/screenshots/home.png",
+      "git_tracked_before": true
+    }
+  ],
+  "verified_files": 475,
+  "verified_bytes": 12344104
+}

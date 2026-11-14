@@ -1,0 +1,33 @@
+{
+  "video_id": "WBIsDV5qSMQ",
+  "url": "https://www.youtube.com/watch?v=WBIsDV5qSMQ",
+  "notes": [
+    "Rudyard Lynch - Explaining Ancient Israel.md"
+  ],
+  "title": "Explaining Ancient Israel",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.029Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20250107",
+  "duration": "1:40:21",
+  "duration_seconds": 6021,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:27+00:00",
+  "segment_count": 2691,
+  "files": [
+    {
+      "path": "WBIsDV5qSMQ/transcript.md",
+      "bytes": 258221,
+      "sha256": "7aedf3c745cf3f504b1d6f4050c73b23fe13eedb42c5db9440a25aea7ead1323"
+    },
+    {
+      "path": "WBIsDV5qSMQ/segments.json",
+      "bytes": 300061,
+      "sha256": "cd25fe316ed2c4e1f8771ae5eab131fcb78fdf08e23bc08dedb59615272910c1"
+    }
+  ]
+}

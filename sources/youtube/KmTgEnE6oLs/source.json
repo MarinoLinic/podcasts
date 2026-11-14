@@ -1,0 +1,33 @@
+{
+  "video_id": "KmTgEnE6oLs",
+  "url": "https://www.youtube.com/watch?v=KmTgEnE6oLs",
+  "notes": [
+    "Ross Douthat - No, Young Men Are Not Returning To Church with Ryan Burge.md"
+  ],
+  "title": "No, Young Men Are Not Returning To Church. | Interesting Times with Ross Douthat",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.974Z",
+  "uploader": "Interesting Times",
+  "channel_url": "https://www.youtube.com/channel/UCJugC7hlL5uNoii46ICyUvw",
+  "upload_date": "20260122",
+  "duration": "59:39",
+  "duration_seconds": 3579,
+  "language": "en",
+  "transcript_source": "manual",
+  "downloaded_at": "2026-11-14T11:05:12+00:00",
+  "segment_count": 1504,
+  "files": [
+    {
+      "path": "KmTgEnE6oLs/transcript.md",
+      "bytes": 156414,
+      "sha256": "3dcaa294a6af3be21544ff1871e8fc5ff33ceec930eeae4ba9a6cd0387915d6d"
+    },
+    {
+      "path": "KmTgEnE6oLs/segments.json",
+      "bytes": 181009,
+      "sha256": "9c3b3e46ea762438496b7fef5a1b41083f24f68228cfb682c5db3aa031293a44"
+    }
+  ]
+}

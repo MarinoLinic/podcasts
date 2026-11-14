@@ -1,0 +1,33 @@
+{
+  "video_id": "fW3hQ1xYPUc",
+  "url": "https://www.youtube.com/watch?v=fW3hQ1xYPUc",
+  "notes": [
+    "Rudyard Lynch - Civilizational Differences with Samo Burja.md"
+  ],
+  "title": "Civilizational Differences",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.985Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20240919",
+  "duration": "57:52",
+  "duration_seconds": 3472,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:14+00:00",
+  "segment_count": 1420,
+  "files": [
+    {
+      "path": "fW3hQ1xYPUc/transcript.md",
+      "bytes": 143572,
+      "sha256": "8c29b8aad3922e172fce5b1c4dc8fd0e4258c8715998f222c6b13b90911d8fe7"
+    },
+    {
+      "path": "fW3hQ1xYPUc/segments.json",
+      "bytes": 167609,
+      "sha256": "79869bb843acdf63e8841b84dc42723587b878541cb699e57f44e117ab5ba0d3"
+    }
+  ]
+}

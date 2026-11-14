@@ -1,0 +1,33 @@
+{
+  "video_id": "Y2hS_7WkkDA",
+  "url": "https://www.youtube.com/watch?v=Y2hS_7WkkDA",
+  "notes": [
+    "John Gillam - Reverse Colonization in France with Driss Ghali.md"
+  ],
+  "title": "Reverse Colonisation: France Is Suffering Rising Violence, Fighting Islamism And Fearing Civil War",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.774Z",
+  "uploader": "Thinking Class",
+  "channel_url": "https://www.youtube.com/channel/UCd-S_3PAZp428pP5-mJB8ng",
+  "upload_date": "20251212",
+  "duration": "1:17:29",
+  "duration_seconds": 4649,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:25+00:00",
+  "segment_count": 1695,
+  "files": [
+    {
+      "path": "Y2hS_7WkkDA/transcript.md",
+      "bytes": 169003,
+      "sha256": "2496936e85943d25f4f06f18e84f89e3f5186ed13c36ec491e7ef3a066599e0a"
+    },
+    {
+      "path": "Y2hS_7WkkDA/segments.json",
+      "bytes": 196737,
+      "sha256": "20e7d763faf8665c01051da7c23aa97530c3ec24d3693ceca8c8af865f052372"
+    }
+  ]
+}

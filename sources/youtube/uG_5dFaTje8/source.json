@@ -1,0 +1,33 @@
+{
+  "video_id": "uG_5dFaTje8",
+  "url": "https://www.youtube.com/watch?v=uG_5dFaTje8",
+  "notes": [
+    "David Betz - The Coming Civil War.md"
+  ],
+  "title": "\"The coming civil war with David Betz\"",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.672Z",
+  "uploader": "Brussels Signal",
+  "channel_url": "https://www.youtube.com/channel/UCXALyWMoZSw0bGcUp0UHNhg",
+  "upload_date": "20250416",
+  "duration": "1:19:07",
+  "duration_seconds": 4747,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:03+00:00",
+  "segment_count": 1698,
+  "files": [
+    {
+      "path": "uG_5dFaTje8/transcript.md",
+      "bytes": 167689,
+      "sha256": "9448c3ac93c54459c769e8d1fa54b1275fb0f46c2709c832113f3386b0711d2b"
+    },
+    {
+      "path": "uG_5dFaTje8/segments.json",
+      "bytes": 195355,
+      "sha256": "99c7a67ca96dfb2b5b9d5d37882ef94f32ee51c29b3da1ac4d0a0c0a6d436ded"
+    }
+  ]
+}

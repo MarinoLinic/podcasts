@@ -1,0 +1,33 @@
+{
+  "video_id": "2QGiLhuOp4s",
+  "url": "https://www.youtube.com/watch?v=2QGiLhuOp4s",
+  "notes": [
+    "Rudyard Lynch - Explaining the English Civil War.md"
+  ],
+  "title": "Explaining the English Civil War",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.047Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20241118",
+  "duration": "1:07:30",
+  "duration_seconds": 4050,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:31+00:00",
+  "segment_count": 1760,
+  "files": [
+    {
+      "path": "2QGiLhuOp4s/transcript.md",
+      "bytes": 169203,
+      "sha256": "b535ca20054d32ca516659987b586ab2914b6c5da5f9478152ed92eb1635ae25"
+    },
+    {
+      "path": "2QGiLhuOp4s/segments.json",
+      "bytes": 197073,
+      "sha256": "642cdce906254c5ec4814b92ad5b9af17b06c7c00d9dd6f4bbac687988b6b398"
+    }
+  ]
+}

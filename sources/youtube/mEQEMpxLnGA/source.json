@@ -1,0 +1,33 @@
+{
+  "video_id": "mEQEMpxLnGA",
+  "url": "https://www.youtube.com/watch?v=mEQEMpxLnGA",
+  "notes": [
+    "Samo Burja - The Possibility of Human Extinction.md"
+  ],
+  "title": "The Possibility of Human Extinction",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.387Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20241004",
+  "duration": "1:01:20",
+  "duration_seconds": 3680,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:46+00:00",
+  "segment_count": 1535,
+  "files": [
+    {
+      "path": "mEQEMpxLnGA/transcript.md",
+      "bytes": 153879,
+      "sha256": "15a567ab61121fe3a9ceecb4c06837de4c75db9370bd5e122cb048b4284c1cdb"
+    },
+    {
+      "path": "mEQEMpxLnGA/segments.json",
+      "bytes": 179797,
+      "sha256": "950b1441142102d92fe284bd50a91a4357640ad513708fdf96b166290f2b380d"
+    }
+  ]
+}

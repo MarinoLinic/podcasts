@@ -1,0 +1,33 @@
+{
+  "video_id": "HclD2E_3rhI",
+  "url": "https://www.youtube.com/watch?v=HclD2E_3rhI",
+  "notes": [
+    "Marcus Gallo - You DON’T Descend From All Your Ancestors.md"
+  ],
+  "title": "You DON’T Descend From All Your Ancestors",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.851Z",
+  "uploader": "Marcus Gallo",
+  "channel_url": "https://www.youtube.com/channel/UC6hMjfcgFLuWtO7RUyzy2Mw",
+  "upload_date": "20240718",
+  "duration": "12:45",
+  "duration_seconds": 765,
+  "language": "en-US",
+  "transcript_source": "manual",
+  "downloaded_at": "2026-11-14T11:04:38+00:00",
+  "segment_count": 154,
+  "files": [
+    {
+      "path": "HclD2E_3rhI/transcript.md",
+      "bytes": 22351,
+      "sha256": "45a9530f7072607dbd566e15d7716be874d4bee8597ab72398ef8caba93dda63"
+    },
+    {
+      "path": "HclD2E_3rhI/segments.json",
+      "bytes": 24903,
+      "sha256": "9ce36fad4763c6c5edeae9e7a15e3c7b27964cf3a4084e099731bd63967422b6"
+    }
+  ]
+}

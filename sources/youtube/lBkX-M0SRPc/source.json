@@ -1,0 +1,33 @@
+{
+  "video_id": "lBkX-M0SRPc",
+  "url": "https://www.youtube.com/watch?v=lBkX-M0SRPc",
+  "notes": [
+    "Triggernometry - The UNCENSORED Truth About Grooming Gangs with Charlie Peters.md"
+  ],
+  "title": "The UNCENSORED Truth About Grooming Gangs - Charlie Peters",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.495Z",
+  "uploader": "Triggernometry",
+  "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+  "upload_date": "20250205",
+  "duration": "1:27:28",
+  "duration_seconds": 5248,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:07:04+00:00",
+  "segment_count": 2434,
+  "files": [
+    {
+      "path": "lBkX-M0SRPc/transcript.md",
+      "bytes": 242940,
+      "sha256": "8c7576a2793fb2669844486ef0f13d3dedbb39e2edd3501a93d7b79eb17c5a98"
+    },
+    {
+      "path": "lBkX-M0SRPc/segments.json",
+      "bytes": 281980,
+      "sha256": "cf0c5440fd60380126abaf84833000df0189f92f4cbf03613f03ecda5f818d5a"
+    }
+  ]
+}

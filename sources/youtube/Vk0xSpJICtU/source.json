@@ -1,0 +1,33 @@
+{
+  "video_id": "Vk0xSpJICtU",
+  "url": "https://www.youtube.com/watch?v=Vk0xSpJICtU",
+  "notes": [
+    "Daniel Hess - The Fertility Collapse.md"
+  ],
+  "title": "Dan Hess: the fertility collapse",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.615Z",
+  "uploader": "Razib Khan's Unsupervised Learning",
+  "channel_url": "https://www.youtube.com/channel/UCggqJq2YjrkuClFAQCXd4Jg",
+  "upload_date": "20250129",
+  "duration": "1:44:33",
+  "duration_seconds": 6273,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:03:53+00:00",
+  "segment_count": 2650,
+  "files": [
+    {
+      "path": "Vk0xSpJICtU/transcript.md",
+      "bytes": 266786,
+      "sha256": "b7f06dcbb85e72994dba8d202bd17c0c744029bc967c219ee4133f49044c8181"
+    },
+    {
+      "path": "Vk0xSpJICtU/segments.json",
+      "bytes": 309205,
+      "sha256": "ced82fedd81e634d41d55922868e2589d93e74318267d3fe1979d36ada9bfb6e"
+    }
+  ]
+}

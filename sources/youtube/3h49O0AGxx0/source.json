@@ -1,0 +1,33 @@
+{
+  "video_id": "3h49O0AGxx0",
+  "url": "https://www.youtube.com/watch?v=3h49O0AGxx0",
+  "notes": [
+    "David Betz - Are We Headed for Civil War.md"
+  ],
+  "title": "Are We Headed for Civil War? - David Betz",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.634Z",
+  "uploader": "Triggernometry",
+  "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+  "upload_date": "20250720",
+  "duration": "1:36:27",
+  "duration_seconds": 5787,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:03:58+00:00",
+  "segment_count": 2204,
+  "files": [
+    {
+      "path": "3h49O0AGxx0/transcript.md",
+      "bytes": 217435,
+      "sha256": "f8aec8ec2738c002786429a95573b10a9fa7d546cb876962334881ac87f46afe"
+    },
+    {
+      "path": "3h49O0AGxx0/segments.json",
+      "bytes": 252705,
+      "sha256": "926ee99e46de0dca26740c615ace8cff5bbe424795067431b0e60c988bb91ce2"
+    }
+  ]
+}

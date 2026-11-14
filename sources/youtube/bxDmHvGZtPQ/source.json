@@ -1,0 +1,33 @@
+{
+  "video_id": "bxDmHvGZtPQ",
+  "url": "https://www.youtube.com/watch?v=bxDmHvGZtPQ",
+  "notes": [
+    "Samo Burja - Why Europe Matters for America’s Future.md"
+  ],
+  "title": "Why Europe Matters for America’s Future w/ Samo Burja",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.412Z",
+  "uploader": "Upstream with Erik Torenberg",
+  "channel_url": "https://www.youtube.com/channel/UCoPTBQlwUm0m7gSbBW9wN6A",
+  "upload_date": "20250223",
+  "duration": "58:22",
+  "duration_seconds": 3502,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:49+00:00",
+  "segment_count": 1378,
+  "files": [
+    {
+      "path": "bxDmHvGZtPQ/transcript.md",
+      "bytes": 138553,
+      "sha256": "77949b3c801296c9c066a3a46955fe183a7137a0a247d9232bdb8e52c7b798bd"
+    },
+    {
+      "path": "bxDmHvGZtPQ/segments.json",
+      "bytes": 161867,
+      "sha256": "c28a519058a577270def68f5294603ba0841c82a4f867df093f054c5a98800f8"
+    }
+  ]
+}

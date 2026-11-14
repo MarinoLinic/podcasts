@@ -1,0 +1,33 @@
+{
+  "video_id": "14CKaQHrw6w",
+  "url": "https://www.youtube.com/watch?v=14CKaQHrw6w",
+  "notes": [
+    "Malcolm-Simone Collins - Even the Poor are Spoiled Rotten.md"
+  ],
+  "title": "Even the Poor are Spoiled Rotten & It Disgusts Us (Thanksgiving Special!)",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.828Z",
+  "uploader": "Based Camp with Simone & Malcolm Collins",
+  "channel_url": "https://www.youtube.com/channel/UCKl1rNF6tE8waTadKDiYKmg",
+  "upload_date": "20251127",
+  "duration": "56:09",
+  "duration_seconds": 3369,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:34+00:00",
+  "segment_count": 1536,
+  "files": [
+    {
+      "path": "14CKaQHrw6w/transcript.md",
+      "bytes": 155455,
+      "sha256": "a5f9e6463744bd00ff84f630728e899f2bec721df8f84ebe5298dedd88402b8b"
+    },
+    {
+      "path": "14CKaQHrw6w/segments.json",
+      "bytes": 181396,
+      "sha256": "8df7f763b97c0e5720ce5cb8b80714890bd8f866db4f8a6cc41ce704a356b9f9"
+    }
+  ]
+}

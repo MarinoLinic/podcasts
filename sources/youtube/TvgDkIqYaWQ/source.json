@@ -1,0 +1,33 @@
+{
+  "video_id": "TvgDkIqYaWQ",
+  "url": "https://www.youtube.com/watch?v=TvgDkIqYaWQ",
+  "notes": [
+    "Rudyard Lynch - Explaining the Rise of Islam.md"
+  ],
+  "title": "Explaining the Rise of Islam",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.112Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20240619",
+  "duration": "51:21",
+  "duration_seconds": 3081,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:50+00:00",
+  "segment_count": 1198,
+  "files": [
+    {
+      "path": "TvgDkIqYaWQ/transcript.md",
+      "bytes": 118002,
+      "sha256": "034fc7af688dd133b94d4b766dfbcdf5e1b75bf7ae0e5c91b4803b1c8219ca25"
+    },
+    {
+      "path": "TvgDkIqYaWQ/segments.json",
+      "bytes": 138275,
+      "sha256": "7c6c91008bebc26710fe1d31fa08b2763aadc51ee84e97846b81cee381ca2deb"
+    }
+  ]
+}

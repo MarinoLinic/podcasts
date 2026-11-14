@@ -1,0 +1,33 @@
+{
+  "video_id": "RQV5zWjibe4",
+  "url": "https://www.youtube.com/watch?v=RQV5zWjibe4",
+  "notes": [
+    "Nick Pardini - The Agency Gap and How Some People Rise and Others Don’t.md"
+  ],
+  "title": "Personal Agency: The Real Divide Between Social Classes",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.884Z",
+  "uploader": "Analyzing Finance with Nick",
+  "channel_url": "https://www.youtube.com/channel/UC7TEgC3UwJ2wI6m40rJOAFA",
+  "upload_date": "20260122",
+  "duration": "16:17",
+  "duration_seconds": 977,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:53+00:00",
+  "segment_count": 380,
+  "files": [
+    {
+      "path": "RQV5zWjibe4/transcript.md",
+      "bytes": 40089,
+      "sha256": "1c51f6771a7ed196d081f89ed5bd4f489dbfb8d4648ff663b22b340bc8fca145"
+    },
+    {
+      "path": "RQV5zWjibe4/segments.json",
+      "bytes": 46750,
+      "sha256": "ce5a03f10e452720291664ac2eb06a62717141063f94e6d4f1ed6c4ffb6357a9"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "video_id": "kM6hqIGWgd4",
+  "url": "https://www.youtube.com/watch?v=kM6hqIGWgd4",
+  "notes": [
+    "Tommy Robinson - Exposing the Islamic Takeover of Britain.md"
+  ],
+  "title": "Tommy Robinson Exposes the Islamic Takeover of the UK",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.451Z",
+  "uploader": "Nate Friedman",
+  "channel_url": "https://www.youtube.com/channel/UCkZPmCUf37R_DZgKYH3duPg",
+  "upload_date": "20251215",
+  "duration": "1:14:48",
+  "duration_seconds": 4488,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:53+00:00",
+  "segment_count": 2398,
+  "files": [
+    {
+      "path": "kM6hqIGWgd4/transcript.md",
+      "bytes": 233916,
+      "sha256": "f66b684648ec5dd16e2c81ac6d2385b23e6fe80ddb3cd02a654ef3f11bb4c62b"
+    },
+    {
+      "path": "kM6hqIGWgd4/segments.json",
+      "bytes": 271363,
+      "sha256": "43460bf93470ed96eb2c6bef47b304776427957ab4e6e7d1bad49d9776787fa1"
+    }
+  ]
+}

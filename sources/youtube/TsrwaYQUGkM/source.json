@@ -1,0 +1,33 @@
+{
+  "video_id": "TsrwaYQUGkM",
+  "url": "https://www.youtube.com/watch?v=TsrwaYQUGkM",
+  "notes": [
+    "Philip Pilkington - The Collapse of Global Liberalism.md"
+  ],
+  "title": "The Collapse of Global Liberalism with Philip Pilkington",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.899Z",
+  "uploader": "Pickthall House",
+  "channel_url": "https://www.youtube.com/channel/UCDcwyANEoG-R5RuaFjut0LA",
+  "upload_date": "20250530",
+  "duration": "1:18:19",
+  "duration_seconds": 4699,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:58+00:00",
+  "segment_count": 2303,
+  "files": [
+    {
+      "path": "TsrwaYQUGkM/transcript.md",
+      "bytes": 224283,
+      "sha256": "e24e4791725f6782dd734ff37a25987b41aeda63202c0aa17165c7ec33b574cd"
+    },
+    {
+      "path": "TsrwaYQUGkM/segments.json",
+      "bytes": 259750,
+      "sha256": "e345e0e82775d4af6f14e2d2be2b79f824a39194c32977b3d039d3c119cf7626"
+    }
+  ]
+}

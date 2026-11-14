@@ -1,0 +1,130 @@
+---
+layout: default
+permalink: /notes/grokipedia-illegal-immigration/
+title: "Illegal immigration"
+author: "Grokipedia"
+rating: 3
+date: 2025-11-26
+type: "article"
+tags: [politics]
+---
+
+Summary:
+This article provides a global, systemic, and data-driven analysis of illegal immigration, defined as unauthorized entry or residence in violation of national sovereignty. It contrasts the vetted, capped mechanisms of legal migration with the unvetted, unlimited nature of illegal flows. The text details the "Asylum Loophole" (where economic migrants exploit humanitarian protections), the staggering fiscal costs (net lifetime deficits of up to $225,000 per migrant), and the profound social impacts, including wage suppression for native working classes and the erosion of social trust. It covers the record-breaking surges of the early 2020s (US encounters exceeding 2.5 million/year) and the dramatic 2025 reversal driven by intensified enforcement. The analysis extends to the EU and UK, highlighting parallel crises in border control and integration.
+
+Source: https://grokipedia.com/page/Illegal_immigration
+
+---
+
+### **1. Definitions & Legal Framework**
+*   **The Core Distinction:**
+    *   **Legal Migration:** A structured process requiring prior authorization, health vetting, security screening, and economic eligibility. It is typically subject to strict numerical caps to manage assimilation and labor market impact.
+    *   **Illegal Immigration:** Entry without inspection (EWI) or overstaying a legal visa. It bypasses all security and health protocols.
+    *   **The "Asylum Loophole":** Asylum is legally designed for victims of persecution (race, religion, politics). However, it is widely used as a backdoor for economic migration.
+        *   *US Data:* In FY2023, while hundreds of thousands filed claims, the final asylum grant rate was only **14%**.
+        *   *EU Data:* Recognition rates are <20% for most nationalities, confirming that the vast majority of applicants are economic migrants exploiting processing delays.
+*   **Terminology & Semantics:**
+    *   **"Illegal Immigrant":** The accurate legal term denoting a non-citizen present in violation of statutes (e.g., 8 U.S.C. § 1325 in the US).
+    *   **"Undocumented":** A euphemism criticized for softening the nature of the violation, implying a mere administrative oversight (missing papers) rather than a deliberate breach of sovereignty.
+    *   **"Irregular Migration":** A term often used in international diplomacy to describe unauthorized flows without emphasizing criminality.
+*   **International Law vs. Sovereignty:**
+    *   **Right to Leave vs. Enter:** The Universal Declaration of Human Rights guarantees the right to *leave* any country, but grants **no right** to enter another country without permission.
+    *   **Non-Refoulement:** The 1951 Refugee Convention protects against return to *persecution*, not return to *poverty* or general violence. It permits states to penalize illegal entry outside of specific asylum procedures.
+
+### **2. Historical Trajectory**
+*   **Pre-Regulation (19th Century):**
+    *   Borders were largely open until the rise of the welfare state necessitated boundaries.
+    *   **US Restrictions:** The *Page Act of 1875* and *Chinese Exclusion Act of 1882* were the first federal restrictions, based on labor competition and "public charge" risks.
+    *   **UK Restrictions:** The *Aliens Act of 1905* was the first modern European border control, targeting impoverished Jewish refugees from Eastern Europe.
+*   **Post-WWII & The Guest Worker Legacy:**
+    *   **Operation Wetback (1954):** Facing a surge in illegal Mexican labor, the Eisenhower administration coordinated the repatriation of **1.1 million** individuals to restore the rule of law.
+    *   **Program Failures:** The end of the *Bracero Program* (US) and *Gastarbeiter* schemes (Germany) in the 1960s/70s transitioned temporary legal flows into permanent illegal populations, as workers chose to overstay rather than return.
+*   **The Modern Surge (1980s–Present):**
+    *   **US Escalation:** Border apprehensions rose from ~630k (1980) to **1.6 million** (2000), driven by the 1986 Amnesty which critics argue incentivized further flows.
+    *   **2015 EU Crisis:** Frontex detected **1.8 million** illegal border crossings in a single year, primarily from Syria, Afghanistan, and Iraq, overwhelming the Schengen system.
+    *   **2021–2024 US Crisis:** A historic collapse in border security led to encounters exceeding **2.5 million** annually in FY2022 and FY2023.
+
+### **3. Drivers & Incentives (The "Pull" Factors)**
+*   **Wage Arbitrage (The Economic Engine):**
+    *   The wage differential is staggering: A low-skilled worker earns **$15–$20/hour** in US construction vs. **$2–$4/day** in rural Mexico. This 10x multiplier makes the risk of apprehension economically rational.
+    *   **Labor Shortages:** Wealthy nations have "3D" jobs (Dirty, Dangerous, Difficult) that natives avoid, creating a vacuum filled by unauthorized labor in agriculture and hospitality.
+*   **Policy Laxity:**
+    *   **"Catch and Release":** Between 2021 and 2023, the US released over **3 million** illegal entrants into the interior pending trial. With court backlogs of 5+ years, this functions as a de facto residency permit.
+    *   **Sanctuary Jurisdictions:** Approximately **650,000** criminal aliens in the US are shielded from deportation by local "sanctuary" policies that forbid cooperation with ICE.
+*   **Remittances & Welfare:**
+    *   **Capital Flight:** Remittances from the US totaled **$200 billion** in 2024. These funds often finance the smuggling fees for the next wave of migrants ("Chain Migration").
+    *   **Welfare Access:** While barred from direct federal cash, illegal households access the welfare state via US-born children. **59%** of illegal immigrant-headed households use at least one major welfare program (SNAP, Medicaid), a rate higher than native households.
+*   **Demographics:**
+    *   **"Youth Bulge":** Sub-Saharan Africa is adding 15 million workers annually to its labor force with no corresponding job growth, creating massive structural pressure for emigration.
+
+### **4. Methods of Entry & Loopholes**
+*   **Clandestine Crossing:**
+    *   **US Southwest Border:** A 2,000-mile frontier. "Gotaways" (successful undetected crossers) numbered in the hundreds of thousands annually before 2025 enforcement shifts.
+    *   **EU External Borders:** Routes shift dynamically between the Central Mediterranean (boats to Italy) and the Western Balkans (land routes to Hungary/Austria).
+*   **Visa Overstays (The Silent Majority):**
+    *   **Volume:** DHS estimates **650,000–850,000** overstays annually.
+    *   **Share:** Overstays account for **40–50%** of the total undocumented population in the US.
+    *   **Enforcement Gap:** The US lacks a comprehensive biometric exit system, making overstayers nearly impossible to locate once they blend into the interior.
+*   **Legal Loopholes:**
+    *   **Credible Fear:** 89% of migrants pass the initial "credible fear" screening at the border, but only **12%** are ultimately granted asylum. The gap allows years of residency for meritless claims.
+    *   **Flores Settlement:** Prevents the detention of minors for more than 20 days, incentivizing migrants to bring children to ensure release into the US.
+    *   **Parole Abuse:** The Biden administration used "Humanitarian Parole" (CHNV program) to admit **400,000** inadmissible aliens without visas, bypassing Congressional caps.
+
+### **5. Demographics & Scale**
+*   **Population Estimates:**
+    *   **USA:** Estimates range from **14 million** (Pew, 2023) to **16.8 million** (FAIR).
+    *   **EU:** Aggregate stocks estimated at 2.6–3.2 million (excluding recent asylum waves).
+    *   **UK:** Estimates range from 800,000 to 1.2 million unauthorized residents.
+*   **The 2025 Reversal:**
+    *   Following a massive intensification of enforcement (end of Catch and Release, renewed deportations), US southwest border encounters dropped to **238,000** in FY2025—the lowest level since 1970.
+    *   This proves that migration flows are highly responsive to enforcement signals.
+
+### **6. Economic Impact: Fiscal & Labor**
+*   **Net Fiscal Cost (Taxpayer Burden):**
+    *   **Annual Deficit:** Illegal immigration costs US taxpayers **$150.7 billion** net per year (total services used minus total taxes paid).
+    *   **Breakdown:** Costs are driven by Education ($78B), Medical/Medicaid ($42B), and Law Enforcement ($26B).
+    *   **Lifetime Deficit:** A typical new low-skilled illegal immigrant creates a lifetime fiscal deficit of **$80,000** (present value). For existing migrants with families, the deficit is **$225,000**.
+*   **Labor Market Displacement:**
+    *   **Wage Suppression:** Harvard economist George Borjas found that a 10% increase in the immigrant labor supply reduces the wages of native high school dropouts by **5.2%** (approx. $1,000/year).
+    *   **Minority Impact:** Unauthorized labor competes most directly with low-skilled native Black and Hispanic workers, reducing their employment rates by 2–4 percentage points in high-migration states like California and Texas.
+
+### **7. Crime & National Security**
+*   **Criminality Statistics:**
+    *   **ICE Arrests (FY2024):** Of 113,431 arrests, **71.7%** had prior criminal convictions or pending charges (including homicide, assault, and sexual offenses).
+    *   **Recidivism:** In Texas alone (2011–2024), criminal aliens were booked into local jails for nearly 450,000 offenses, resulting in **316,000 convictions**.
+*   **Transnational Gangs:**
+    *   **MS-13:** A Salvadoran gang that grew in the US due to porous borders; responsible for extreme violence in Long Island and DC suburbs.
+    *   **Tren de Aragua:** A Venezuelan prison gang that infiltrated US cities via the border, linked to human trafficking and organized retail theft.
+*   **Terrorism & Espionage:**
+    *   **Watchlist:** CBP encountered **283** terror watchlisted individuals at US borders in FY2024.
+    *   **Infiltration:** The sheer volume of "gotaways" allows agents of hostile powers to enter undetected. The 2025 Homeland Threat Assessment cites porous borders as a key vector for potential espionage or asymmetric attacks.
+
+### **8. Social Cohesion & Assimilation**
+*   **Assimilation Barriers:**
+    *   Illegal status creates a permanent shadow class unable to fully integrate or build equity.
+    *   **Linguistic Isolation:** High rates of Spanish monolingualism persist into the second generation in dense ethnic enclaves, hindering economic mobility.
+*   **Putnam’s "Constrict Claim":**
+    *   Harvard sociologist Robert Putnam proved that rapid, unvetted diversity **lowers social trust**.
+    *   In diverse neighborhoods with high illegal populations, residents "hunker down," withdrawing from civic life, volunteering less, and trusting neighbors less.
+*   **Parallel Societies:**
+    *   In Europe, mass irregular migration created "no-go zones" (e.g., Malmö, Sweden; Seine-Saint-Denis, France) where state law is secondary to clan or religious norms, leading to riots and social fragmentation.
+
+### **9. Policy Responses & Efficacy**
+*   **Physical Barriers (Walls/Fences):**
+    *   **Hungary Model:** The 2015 border fence reduced illegal entries by **99%** (from 400k/year to <3k).
+    *   **US Wall:** In sectors where the "Smart Wall" (barriers + sensors) was completed, illegal crossings dropped by up to 90%.
+*   **Interior Enforcement (Deportation):**
+    *   **Attrition by Enforcement:** Strict interior enforcement creates a "self-deportation" effect.
+    *   **2025 Surge:** The US ramped up interior deportations to **350,000+** annually, utilizing expedited removal authorities and workplace raids.
+*   **Diplomatic Agreements:**
+    *   **EU-Turkey Deal (2016):** The EU paid Turkey €6 billion to host refugees, effectively shutting down the Aegean route.
+    *   **Remain in Mexico (MPP):** Reduced US border apprehensions by ~60% by denying entry during the asylum adjudication process.
+
+### **10. Political & Media Distortions**
+*   **Census & Political Power:**
+    *   The US Census counts all persons, including illegal aliens, for congressional apportionment.
+    *   **Impact:** A 2024 CIS study found that immigration-driven population shifts transferred **4 House seats** and Electoral College votes from Republican-leaning states to Democrat-leaning states, effectively distorting the democratic process.
+*   **Media Bias:**
+    *   **Language:** Major style guides (AP, NYT) mandated the use of "undocumented" over "illegal," framing the issue as a bureaucratic technicality rather than a crime.
+    *   **Selective Reporting:** Mainstream coverage emphasizes humanitarian "sob stories" while systematically ignoring aggregate data on fiscal costs ($150bn/year) or crime rates.
+    *   **The Narrative War:** The debate is framed as "Humanitarianism" vs. "Racism," ignoring the "Rule of Law" and "National Sovereignty" arguments that underpin the restrictionist position.

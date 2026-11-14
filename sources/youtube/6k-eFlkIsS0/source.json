@@ -1,0 +1,33 @@
+{
+  "video_id": "6k-eFlkIsS0",
+  "url": "https://www.youtube.com/watch?v=6k-eFlkIsS0",
+  "notes": [
+    "Samo Burja - How 1% of People Control Civilization with Auren Hoffman.md"
+  ],
+  "title": "How 1% of People Control Civilization with Auren Hoffman",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.208Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20250124",
+  "duration": "1:18:51",
+  "duration_seconds": 4731,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:11+00:00",
+  "segment_count": 2067,
+  "files": [
+    {
+      "path": "6k-eFlkIsS0/transcript.md",
+      "bytes": 208730,
+      "sha256": "84551f1b80e8558cdb28791fcdc344fb830cb1f32a8a98e45a1b35772f5ef5fd"
+    },
+    {
+      "path": "6k-eFlkIsS0/segments.json",
+      "bytes": 242437,
+      "sha256": "477ddde185e91a34e4e5d5f4e7b107292c8f93cc7eb0653b9d95300d38bcb286"
+    }
+  ]
+}

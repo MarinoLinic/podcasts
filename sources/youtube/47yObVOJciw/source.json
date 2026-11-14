@@ -1,0 +1,33 @@
+{
+  "video_id": "47yObVOJciw",
+  "url": "https://www.youtube.com/watch?v=47yObVOJciw",
+  "notes": [
+    "Curtis Yarvin - The Tyranny of Democracy - The Case for Monarchy.md"
+  ],
+  "title": "The Case for Monarchy | Curtis Yarvin",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.594Z",
+  "uploader": "The Peter McCormack Show",
+  "channel_url": "https://www.youtube.com/channel/UCzrWKkFIRS0kjZf7x24GdGg",
+  "upload_date": "20251014",
+  "duration": "2:06:39",
+  "duration_seconds": 7599,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:03:47+00:00",
+  "segment_count": 3509,
+  "files": [
+    {
+      "path": "47yObVOJciw/transcript.md",
+      "bytes": 348209,
+      "sha256": "82f8ab0bb289b7d21bf7d42c3e2c54ce86d26f53ae1568439002c289040ab3ab"
+    },
+    {
+      "path": "47yObVOJciw/segments.json",
+      "bytes": 402961,
+      "sha256": "ff10f4a5417369e0323929a74987aa17a2ab1a63c064884fc4d940e8440da2a7"
+    }
+  ]
+}

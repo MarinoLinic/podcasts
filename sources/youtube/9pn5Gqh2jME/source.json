@@ -1,0 +1,33 @@
+{
+  "video_id": "9pn5Gqh2jME",
+  "url": "https://www.youtube.com/watch?v=9pn5Gqh2jME",
+  "notes": [
+    "Daniel Hess - We Need a Pronatal Culture.md"
+  ],
+  "title": "Daniel Hess: We need a pro-natal culture",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.625Z",
+  "uploader": "The Macdonald-Laurier Institute",
+  "channel_url": "https://www.youtube.com/channel/UCYIUCRQV5-QU2df5HaOgY_g",
+  "upload_date": "20260115",
+  "duration": "57:28",
+  "duration_seconds": 3448,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:03:55+00:00",
+  "segment_count": 1395,
+  "files": [
+    {
+      "path": "9pn5Gqh2jME/transcript.md",
+      "bytes": 137445,
+      "sha256": "c23507028d547af76117278ba6466b655e79af09b8ec64d599f4b80fe3a19e71"
+    },
+    {
+      "path": "9pn5Gqh2jME/segments.json",
+      "bytes": 160745,
+      "sha256": "6ab42eb710685984c0ed79c0b1d86d7c21d861f57b20df531eb4b9aed1218f6c"
+    }
+  ]
+}

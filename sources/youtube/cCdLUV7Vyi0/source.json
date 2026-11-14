@@ -1,0 +1,33 @@
+{
+  "video_id": "cCdLUV7Vyi0",
+  "url": "https://www.youtube.com/watch?v=cCdLUV7Vyi0",
+  "notes": [
+    "David Betz - Warfare in the Digital Age.md"
+  ],
+  "title": "David Betz: Warfare in the digital age",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.689Z",
+  "uploader": "Alexander von Humboldt Institut for internet and society",
+  "channel_url": "https://www.youtube.com/channel/UC0ABcC5DGx2J7YGkGQtgZEw",
+  "upload_date": "20220905",
+  "duration": "1:54:27",
+  "duration_seconds": 6867,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:07+00:00",
+  "segment_count": 2975,
+  "files": [
+    {
+      "path": "cCdLUV7Vyi0/transcript.md",
+      "bytes": 282313,
+      "sha256": "d44ade22112232d9a02333537646407f13f5db99bca3210550a38d067ef5486e"
+    },
+    {
+      "path": "cCdLUV7Vyi0/segments.json",
+      "bytes": 328828,
+      "sha256": "70a11437af8ac890fcd21f977a82099ba1628558c2d577bcca9afc999d91b5cf"
+    }
+  ]
+}

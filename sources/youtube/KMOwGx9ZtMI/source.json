@@ -1,0 +1,33 @@
+{
+  "video_id": "KMOwGx9ZtMI",
+  "url": "https://www.youtube.com/watch?v=KMOwGx9ZtMI",
+  "notes": [
+    "John Gillam - How Britain Is Losing Control At Home and Abroad with Firas Modad.md"
+  ],
+  "title": "Britain Is Being Hollowed Out — A Geopolitical Analyst Explains Why Nobody In Power Will Say It",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.741Z",
+  "uploader": "Thinking Class",
+  "channel_url": "https://www.youtube.com/channel/UCd-S_3PAZp428pP5-mJB8ng",
+  "upload_date": "20260123",
+  "duration": "1:20:20",
+  "duration_seconds": 4820,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:21+00:00",
+  "segment_count": 2032,
+  "files": [
+    {
+      "path": "KMOwGx9ZtMI/transcript.md",
+      "bytes": 189267,
+      "sha256": "a65c58b9de2afbbd23ff96e0b4fb228b3d04d454c0d6cd01edcb603a5d7bd64c"
+    },
+    {
+      "path": "KMOwGx9ZtMI/segments.json",
+      "bytes": 220737,
+      "sha256": "14a9fe67027a51f7aeea8db60afea690e2c7f9b2652049c4c907a8cc5b628270"
+    }
+  ]
+}

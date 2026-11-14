@@ -1,0 +1,33 @@
+{
+  "video_id": "uMi1v9V7A-o",
+  "url": "https://www.youtube.com/watch?v=uMi1v9V7A-o",
+  "notes": [
+    "Rudyard Lynch - Explaining 17th Century Eastern Europe.md"
+  ],
+  "title": "Explaining 17th Century Eastern Europe",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.994Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20241011",
+  "duration": "1:03:46",
+  "duration_seconds": 3826,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:16+00:00",
+  "segment_count": 1521,
+  "files": [
+    {
+      "path": "uMi1v9V7A-o/transcript.md",
+      "bytes": 149523,
+      "sha256": "0fc0bfc930040cf11de815de07bc2eb9c46eb1581cb6b07125e22c8660a34096"
+    },
+    {
+      "path": "uMi1v9V7A-o/segments.json",
+      "bytes": 174868,
+      "sha256": "988627018db8937a076bf6cde448fb13ca44ccd02dde730f2c8e57ec948d09fe"
+    }
+  ]
+}

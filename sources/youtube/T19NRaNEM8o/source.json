@@ -1,0 +1,33 @@
+{
+  "video_id": "T19NRaNEM8o",
+  "url": "https://www.youtube.com/watch?v=T19NRaNEM8o",
+  "notes": [
+    "Nate Friedman - I Exposed the Islamic Takeover of the UK.md"
+  ],
+  "title": "I Exposed the Islamic Takeover of London",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.858Z",
+  "uploader": "Nate Friedman",
+  "channel_url": "https://www.youtube.com/channel/UCkZPmCUf37R_DZgKYH3duPg",
+  "upload_date": "20251207",
+  "duration": "27:45",
+  "duration_seconds": 1665,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:40+00:00",
+  "segment_count": 861,
+  "files": [
+    {
+      "path": "T19NRaNEM8o/transcript.md",
+      "bytes": 81040,
+      "sha256": "75a58e4bb8edc173fb275ddd2deadd394a1e55ed219628a1d45e8efdb2912603"
+    },
+    {
+      "path": "T19NRaNEM8o/segments.json",
+      "bytes": 95589,
+      "sha256": "fed2b521588654998626f2ff561ea2ab42dc14776219b4240f6608272351ad32"
+    }
+  ]
+}

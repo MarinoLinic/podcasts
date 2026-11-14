@@ -1,0 +1,33 @@
+{
+  "video_id": "5C6qlq1y_HA",
+  "url": "https://www.youtube.com/watch?v=5C6qlq1y_HA",
+  "notes": [
+    "Samo Burja - How to Find the Frontiers of Knowledge.md"
+  ],
+  "title": "How to Find the Frontiers of Knowledge",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.282Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20240525",
+  "duration": "57:00",
+  "duration_seconds": 3420,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:24+00:00",
+  "segment_count": 1436,
+  "files": [
+    {
+      "path": "5C6qlq1y_HA/transcript.md",
+      "bytes": 141828,
+      "sha256": "6b9761c58acb4d5719489ee3ba6ee7e4bf6e616290bd3d06303d968aca1b8d57"
+    },
+    {
+      "path": "5C6qlq1y_HA/segments.json",
+      "bytes": 166123,
+      "sha256": "edf385a1df2e98966f1954497d97ecc24e51c74dd131aa37ccc373276f70a77f"
+    }
+  ]
+}

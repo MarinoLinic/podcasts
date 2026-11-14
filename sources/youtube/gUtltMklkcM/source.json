@@ -1,0 +1,33 @@
+{
+  "video_id": "gUtltMklkcM",
+  "url": "https://www.youtube.com/watch?v=gUtltMklkcM",
+  "notes": [
+    "David Betz - What Britain Will Look And Feel Like When Things Get Nasty.md"
+  ],
+  "title": "What Will Britain Look And Feel Like When Its Deepest Divisions Erupt?",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.698Z",
+  "uploader": "Thinking Class",
+  "channel_url": "https://www.youtube.com/channel/UCd-S_3PAZp428pP5-mJB8ng",
+  "upload_date": "20251114",
+  "duration": "1:18:03",
+  "duration_seconds": 4683,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:12+00:00",
+  "segment_count": 1584,
+  "files": [
+    {
+      "path": "gUtltMklkcM/transcript.md",
+      "bytes": 156979,
+      "sha256": "e084ff48d89d1815795cb068a2e7faee38f79760916fbaa96ec93fbd360f1e7a"
+    },
+    {
+      "path": "gUtltMklkcM/segments.json",
+      "bytes": 182974,
+      "sha256": "aa0573cccb29ca8bbf06addae92406467c1796ed1c6d35746503cc0575352c7a"
+    }
+  ]
+}

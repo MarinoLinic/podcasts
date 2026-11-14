@@ -1,0 +1,33 @@
+{
+  "video_id": "XJctvnB9_Kk",
+  "url": "https://www.youtube.com/watch?v=XJctvnB9_Kk",
+  "notes": [
+    "Noah Smith - Can a Nation Plunder Its Way to Wealth.md"
+  ],
+  "title": "Can a Nation Plunder Its Way to Wealth (with Noah Smith) 1/15/24",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.891Z",
+  "uploader": "EconTalk",
+  "channel_url": "https://www.youtube.com/channel/UCKAu-mTq7iZtKHK6QiBqKPA",
+  "upload_date": "20240115",
+  "duration": "1:09:05",
+  "duration_seconds": 4145,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:56+00:00",
+  "segment_count": 1681,
+  "files": [
+    {
+      "path": "XJctvnB9_Kk/transcript.md",
+      "bytes": 166175,
+      "sha256": "546543fd36b13b09973e672908e1a29616d09472359354c645900453065161b9"
+    },
+    {
+      "path": "XJctvnB9_Kk/segments.json",
+      "bytes": 194024,
+      "sha256": "d337e2c6822e6e2a3816a7feb10185d941b94cd1ed769bbd4c883a4ecae15ff1"
+    }
+  ]
+}

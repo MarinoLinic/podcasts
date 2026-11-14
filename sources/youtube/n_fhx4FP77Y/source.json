@@ -1,0 +1,33 @@
+{
+  "video_id": "n_fhx4FP77Y",
+  "url": "https://www.youtube.com/watch?v=n_fhx4FP77Y",
+  "notes": [
+    "Triggernometry - The Truth about the Migrant Crisis with Patrick Christys.md"
+  ],
+  "title": "The Truth about the Migrant Crisis - Patrick Christys",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.485Z",
+  "uploader": "Triggernometry",
+  "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+  "upload_date": "20250706",
+  "duration": "1:23:51",
+  "duration_seconds": 5031,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:07:01+00:00",
+  "segment_count": 2429,
+  "files": [
+    {
+      "path": "n_fhx4FP77Y/transcript.md",
+      "bytes": 244641,
+      "sha256": "c2bdcb9817a2525808efee48979b05058dfc9ff6504169d98261ef89c0cbaeaf"
+    },
+    {
+      "path": "n_fhx4FP77Y/segments.json",
+      "bytes": 283746,
+      "sha256": "3ed4ddc99dac359428aea33cccfb5001e98a736da8e0cc4dc1c647e4fbed7501"
+    }
+  ]
+}

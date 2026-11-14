@@ -1,0 +1,33 @@
+{
+  "video_id": "Y64jGdPHDmM",
+  "url": "https://www.youtube.com/watch?v=Y64jGdPHDmM",
+  "notes": [
+    "Raymond Ibrahim - The Real History of Islam.md"
+  ],
+  "title": "The Real History of Islam with Raymond Ibrahim",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.936Z",
+  "uploader": "Triggernometry",
+  "channel_url": "https://www.youtube.com/channel/UC7oPkqeHTwuOZ5CZ-R9f-6w",
+  "upload_date": "20251214",
+  "duration": "2:02:06",
+  "duration_seconds": 7326,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:04+00:00",
+  "segment_count": 3476,
+  "files": [
+    {
+      "path": "Y64jGdPHDmM/transcript.md",
+      "bytes": 347992,
+      "sha256": "79b1030649667ace900da8ef7702caa8456bfcd98886388e6ae317ff27faab5e"
+    },
+    {
+      "path": "Y64jGdPHDmM/segments.json",
+      "bytes": 402009,
+      "sha256": "27570ee0ae0bf20d718314d4e4a1b06d4bd66e999beb821416a27bf55c582c21"
+    }
+  ]
+}

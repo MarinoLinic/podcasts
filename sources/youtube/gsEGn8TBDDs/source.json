@@ -1,0 +1,33 @@
+{
+  "video_id": "gsEGn8TBDDs",
+  "url": "https://www.youtube.com/watch?v=gsEGn8TBDDs",
+  "notes": [
+    "Rudyard Lynch - Explaining the Rise of Christianity.md"
+  ],
+  "title": "Explaining the Rise of Christianity",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.101Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20240718",
+  "duration": "55:26",
+  "duration_seconds": 3326,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:46+00:00",
+  "segment_count": 1354,
+  "files": [
+    {
+      "path": "gsEGn8TBDDs/transcript.md",
+      "bytes": 133729,
+      "sha256": "e14b8e9913b9f3e96fad31a54fc06fe933a3c8cb0762d10c4ea1e460ddb6687f"
+    },
+    {
+      "path": "gsEGn8TBDDs/segments.json",
+      "bytes": 156588,
+      "sha256": "220af6454d72a5e204404ea4ebbaec985bbe3895b61e60f8ae40c98246bd0aab"
+    }
+  ]
+}

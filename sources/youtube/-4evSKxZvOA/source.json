@@ -1,0 +1,33 @@
+{
+  "video_id": "-4evSKxZvOA",
+  "url": "https://www.youtube.com/watch?v=-4evSKxZvOA",
+  "notes": [
+    "Curtis Yarvin - Plan for Britain.md"
+  ],
+  "title": "Curtis Yarvin's Plan for Britain",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.586Z",
+  "uploader": "Anglofuturism",
+  "channel_url": "https://www.youtube.com/channel/UCy62u5-djfViOzFZ4UzLrnw",
+  "upload_date": "20250929",
+  "duration": "1:54:38",
+  "duration_seconds": 6878,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:03:45+00:00",
+  "segment_count": 2936,
+  "files": [
+    {
+      "path": "-4evSKxZvOA/transcript.md",
+      "bytes": 288237,
+      "sha256": "8bc6507780b76051e68954da1f40a56ce5635b8ad0223f438a984e044e5be9b5"
+    },
+    {
+      "path": "-4evSKxZvOA/segments.json",
+      "bytes": 334599,
+      "sha256": "8485a90a47a15f01b222b0d2c9884291e2d700d8e4301ab7cb782f477fee48a3"
+    }
+  ]
+}

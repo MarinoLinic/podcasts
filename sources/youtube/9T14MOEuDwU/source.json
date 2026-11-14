@@ -1,0 +1,33 @@
+{
+  "video_id": "9T14MOEuDwU",
+  "url": "https://www.youtube.com/watch?v=9T14MOEuDwU",
+  "notes": [
+    "David Betz - War and Stupid War.md"
+  ],
+  "title": "Dr  David Betz Lecture, “War and Stupid War”",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.680Z",
+  "uploader": "Danube Institute",
+  "channel_url": "https://www.youtube.com/channel/UCqaco3WuAaf6wlhaeh0CsbQ",
+  "upload_date": "20240221",
+  "duration": "1:36:12",
+  "duration_seconds": 5772,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:05+00:00",
+  "segment_count": 1939,
+  "files": [
+    {
+      "path": "9T14MOEuDwU/transcript.md",
+      "bytes": 189272,
+      "sha256": "aea36c380f93446b51426cf27055428f5d22012a16a1f871a0df46d225d7dcdf"
+    },
+    {
+      "path": "9T14MOEuDwU/segments.json",
+      "bytes": 219883,
+      "sha256": "170884ac020e6bba2c27f0b966619d1dc758a4c22f4776fd7a117bacac205cef"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "video_id": "nw7Pt3k6tj4",
+  "url": "https://www.youtube.com/watch?v=nw7Pt3k6tj4",
+  "notes": [
+    "Geoffrey Miller - Broken Dating Markets.md"
+  ],
+  "title": "An Evolutionary Psychologist's Take On Broken Dating Markets (Ft Geoffrey Miller)",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.714Z",
+  "uploader": "Based Camp with Simone & Malcolm Collins",
+  "channel_url": "https://www.youtube.com/channel/UCKl1rNF6tE8waTadKDiYKmg",
+  "upload_date": "20250801",
+  "duration": "58:41",
+  "duration_seconds": 3521,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:04:17+00:00",
+  "segment_count": 1605,
+  "files": [
+    {
+      "path": "nw7Pt3k6tj4/transcript.md",
+      "bytes": 156990,
+      "sha256": "689c989a3f8ea6961baea7e5533d319115f37187d2b72172f473b126a30c4cfc"
+    },
+    {
+      "path": "nw7Pt3k6tj4/segments.json",
+      "bytes": 184063,
+      "sha256": "f04659d50553c921bb4575b412e932c28df357908682dd9b7fc8226aec289c60"
+    }
+  ]
+}

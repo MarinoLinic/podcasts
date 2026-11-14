@@ -1,0 +1,33 @@
+{
+  "video_id": "1zDATt_4dVk",
+  "url": "https://www.youtube.com/watch?v=1zDATt_4dVk",
+  "notes": [
+    "Samo Burja - Mass Immigration Won't Save Europe.md"
+  ],
+  "title": "Live Players   Mass Immigration Won't Save Europe",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.336Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20240821",
+  "duration": "49:17",
+  "duration_seconds": 2957,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:36+00:00",
+  "segment_count": 1183,
+  "files": [
+    {
+      "path": "1zDATt_4dVk/transcript.md",
+      "bytes": 118537,
+      "sha256": "cfa020354693fbf9549014a98388c7dc4461580ea1d320d792d605a9ad01c35c"
+    },
+    {
+      "path": "1zDATt_4dVk/segments.json",
+      "bytes": 138509,
+      "sha256": "9ef7b9d8a61230f1109975bc1536114f157d03db99a1377343d573ed731f80db"
+    }
+  ]
+}

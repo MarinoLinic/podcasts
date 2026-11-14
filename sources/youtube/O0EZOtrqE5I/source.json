@@ -1,0 +1,33 @@
+{
+  "video_id": "O0EZOtrqE5I",
+  "url": "https://www.youtube.com/watch?v=O0EZOtrqE5I",
+  "notes": [
+    "Rudyard Lynch - Explaining the Mongol Empire.md"
+  ],
+  "title": "Explaining the Mongol Empire",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.087Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20250808",
+  "duration": "2:13:16",
+  "duration_seconds": 7996,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:43+00:00",
+  "segment_count": 3280,
+  "files": [
+    {
+      "path": "O0EZOtrqE5I/transcript.md",
+      "bytes": 323013,
+      "sha256": "684fe0a20ed5816b04ff677c33244382d9efdb2c2d508f870937ef29a31beb17"
+    },
+    {
+      "path": "O0EZOtrqE5I/segments.json",
+      "bytes": 374283,
+      "sha256": "ac07c181979fa8c639a4cbbe65b53b6bd17356b6252893deec8ec0465e99aaaf"
+    }
+  ]
+}

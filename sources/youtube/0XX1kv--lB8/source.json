@@ -1,0 +1,33 @@
+{
+  "video_id": "0XX1kv--lB8",
+  "url": "https://www.youtube.com/watch?v=0XX1kv--lB8",
+  "notes": [
+    "Samo Burja - The Politicization of History.md"
+  ],
+  "title": "The Politicization of History",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.378Z",
+  "uploader": "Live Players with Samo Burja",
+  "channel_url": "https://www.youtube.com/channel/UCfeXnCXKrCPMvoPla0j7TYQ",
+  "upload_date": "20231227",
+  "duration": "1:01:33",
+  "duration_seconds": 3693,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:06:43+00:00",
+  "segment_count": 1475,
+  "files": [
+    {
+      "path": "0XX1kv--lB8/transcript.md",
+      "bytes": 148643,
+      "sha256": "1dfe9e7c9f405aa0f44a2c4a799844c9704c0849253535bd83e591a593a4d44e"
+    },
+    {
+      "path": "0XX1kv--lB8/segments.json",
+      "bytes": 173674,
+      "sha256": "d32796e57de55c212d9deb380469905ad031f7e6f41a99be7fc4b899532bd6ae"
+    }
+  ]
+}

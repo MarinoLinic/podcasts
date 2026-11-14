@@ -1,0 +1,33 @@
+{
+  "video_id": "LdWxBdgWtrs",
+  "url": "https://www.youtube.com/watch?v=LdWxBdgWtrs",
+  "notes": [
+    "Curtis Yarvin - Empire of Love.md"
+  ],
+  "title": "Curtis Yarvin (Part 2): The Empire of Love",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:27.554Z",
+  "uploader": "Stimson Center",
+  "channel_url": "https://www.youtube.com/channel/UCMzl-NrhN_SuBYJho4UEx9Q",
+  "upload_date": "20250802",
+  "duration": "39:09",
+  "duration_seconds": 2349,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:03:43+00:00",
+  "segment_count": 972,
+  "files": [
+    {
+      "path": "LdWxBdgWtrs/transcript.md",
+      "bytes": 97056,
+      "sha256": "457430b506846284f8c77393cbcce962e2e06bf761e6790e4f230ccdb8fd2008"
+    },
+    {
+      "path": "LdWxBdgWtrs/segments.json",
+      "bytes": 113564,
+      "sha256": "62db121ef3b8db4ac928424298febdfa35be0a525ff564a2c8c5ada6aaf5492f"
+    }
+  ]
+}

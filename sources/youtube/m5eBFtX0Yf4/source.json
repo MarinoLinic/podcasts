@@ -1,0 +1,33 @@
+{
+  "video_id": "m5eBFtX0Yf4",
+  "url": "https://www.youtube.com/watch?v=m5eBFtX0Yf4",
+  "notes": [
+    "Rudyard Lynch - Explaining the Rise of Rome.md"
+  ],
+  "title": "Explaining the Rise of Rome",
+  "acquisition_status": "saved",
+  "status": "available",
+  "error": "",
+  "acquired_at": "2026-11-14T11:13:28.137Z",
+  "uploader": "History102",
+  "channel_url": "https://www.youtube.com/channel/UC0NCSdGglnmdWg-qHALhu1w",
+  "upload_date": "20240425",
+  "duration": "56:47",
+  "duration_seconds": 3407,
+  "language": "en",
+  "transcript_source": "auto-generated",
+  "downloaded_at": "2026-11-14T11:05:56+00:00",
+  "segment_count": 1365,
+  "files": [
+    {
+      "path": "m5eBFtX0Yf4/transcript.md",
+      "bytes": 134884,
+      "sha256": "3ba8f53008b9ccf285521ce35a1426c690f21cc4b55b740285a4c05dcd5cad27"
+    },
+    {
+      "path": "m5eBFtX0Yf4/segments.json",
+      "bytes": 158098,
+      "sha256": "ed2b31a0dc75fccc01ac3a0f375c45b7b9a649c0725a3daecdc88570371168a0"
+    }
+  ]
+}
