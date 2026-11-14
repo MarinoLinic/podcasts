@@ -8,7 +8,7 @@ The user requested original Markdown authoring, intuitive files, scalable naviga
 
 `notes/` contains 113 original files, moved without byte changes. No note wording was rewritten. `scripts/content.mjs` reads existing metadata and derives stable slugs using the previous filename rule. `scripts/build.mjs` uses pinned Marked plus sanitize-html for complete static pages. Browser JavaScript only handles library controls, copying and responsive behavior. `site.config.json` owns origin/base path.
 
-`sources/youtube/catalog.json` connects each video ID to notes, caption metadata and hashes. The installed yt CLI retrieved all 64 linked videos successfully: five manual tracks and59 automatically generated tracks, with zero unavailable/failed requests. Imported Markdown and normalized segment JSON remain unchanged. Display paragraphs group consecutive cues while retaining every cue in order and linking the original start time. No paid transcription, audio/video download, cookies, or account changes were used. Eight older TXT transcripts remain in legacy.
+`sources/youtube/catalog.json` connects each video ID to notes, caption metadata and hashes. The installed yt CLI retrieved all 64 linked videos successfully: five manual tracks and 59 automatically generated tracks, with zero unavailable/failed requests. Imported Markdown and normalized segment JSON remain unchanged. Display paragraphs group consecutive cues while retaining every cue in order and linking the original start time. No paid transcription, audio/video download, cookies, or account changes were used. Eight older TXT transcripts remain in legacy.
 
 ## Preservation
 
@@ -40,6 +40,8 @@ T3 preview opened the page but snapshot timed out twice; isolated Chrome supplie
 ## Publishing and next steps
 
 Initial Pages was public legacy mode from main/root at https://marinolinic.github.io/podcasts/. The new workflow uploads only dist through GitHub's Pages actions. Keep legacy content untouched. Before publishing, inspect changes, run relevant checks, push only intended source files, and verify the actual workflow and live routes/assets. A push alone is not deployment verification.
+
+Publication was verified on November 14, 2026: Publish Notes run43590602153 built and deployed commit ac31b772d25bfca2c74e2274bad3a776e2f782f4 successfully. The actual public site then passed the complete desktop and phone browser review, including source downloads and both copy formats, caption links, direct note routes, filters and pagination. All 113 earlier note URLs were checked against their preserved Jekyll permalinks. Seven Node tests, 181 generated HTML pages and 2,399 local references/assets passed. Published evidence is under agent-files/trash/project-reviews/podcasts/20261114-redesign/published-review/; the handoff bundle is ../20261114T113539-6dd5d5f0/ within that project's review root. No owned browser or local preview process remains running.
 
 For new captions, use installed youtube-tools, save acquisition under trash with a report, then import with `node scripts/youtube-sources.mjs import REPORT.json`. The importer checks IDs/nonempty segments and refuses to replace different retained bytes. Missing captions and retrieval failures stay distinct; no invented fallback speech.
 
