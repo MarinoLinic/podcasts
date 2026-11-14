@@ -4,6 +4,14 @@ A Jekyll collection of notes on podcasts, articles and books, with an optional P
 
 ![Notes publication workflow diagram](docs/workflow.svg)
 
+## Screenshots
+
+Captured from the existing [published site](https://marinolinic.github.io/podcasts/) on November 14, 2026. These show the home and note views; no local Jekyll build was performed.
+
+![Podcast Notes home](docs/screenshots/home.png)
+
+![Podcast Notes article](docs/screenshots/article.png)
+
 ## Read the collection
 
 The existing configuration targets [Marino's Podcast Notes](https://marinolinic.github.io/podcasts/). Repository notes can also be read directly in a Markdown editor. `index.html` and the layouts use Jekyll frontmatter and Liquid, so opening the source HTML directly does not build the site.
